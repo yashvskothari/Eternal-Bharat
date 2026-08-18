@@ -33,10 +33,10 @@ function renderCards(list) {
 
                 <a
                     class="card-btn"
-                    href="${warrior.wiki}"
+                    href="./data/warrior/pages/${warrior.page}"
                     target="_blank">
 
-                    Read on Wikipedia →
+                    Know More →
 
                 </a>
 

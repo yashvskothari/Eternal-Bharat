@@ -807,7 +807,7 @@ nav{
     pointer-events:none;
 
     background:radial-gradient(circle,
-    rgba(212,175,55,.18),
+    rgba(255, 255, 255, 0.18),
     transparent 70%);
 
     transform:translate(-50%,-50%);
@@ -842,47 +842,5 @@ nav{
     #D4AF37);
 
     z-index:9999;
-
-}
-
-/* ===========================================
-            SEARCH BOX
-=========================================== */
-
-.search-box{
-
-    display:flex;
-
-    justify-content:center;
-
-    margin-bottom:50px;
-
-}
-
-.search-box input{
-
-    width:500px;
-
-    max-width:90%;
-
-    padding:18px 25px;
-
-    border-radius:50px;
-
-    border:2px solid rgba(212,175,55,.2);
-
-    background:#151515;
-
-    color:white;
-
-    outline:none;
-
-    font-size:16px;
-
-}
-
-.search-box input:focus{
-
-    border-color:var(--gold);
 
 }
