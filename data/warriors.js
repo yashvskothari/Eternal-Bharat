@@ -4,7 +4,7 @@ const warriors = [
     years: "1540 – 1597",
     image: "assets/images/warriors/maharana-pratap.jpg",
     description:
-      "The fearless ruler of Mewar who resisted the Mughal Empire and became a timeless symbol of courage and independence.",
+      "The legendary ruler of Mewar, celebrated for his unwavering resistance against the Mughal Empire. His courage, self-respect, and determination continue to inspire generations.",
     wiki: "https://en.wikipedia.org/wiki/Maharana_Pratap",
   },
 
@@ -13,7 +13,7 @@ const warriors = [
     years: "1630 – 1680",
     image: "assets/images/warriors/shivaji-maharaj.jpg",
     description:
-      "Founder of the Maratha Empire, renowned for guerrilla warfare, visionary leadership, and efficient administration.",
+      "Founder of the Maratha Empire, renowned for his military brilliance, guerrilla warfare tactics, and visionary leadership. He established a strong and efficient administration.",
     wiki: "https://en.wikipedia.org/wiki/Shivaji",
   },
 
@@ -22,7 +22,7 @@ const warriors = [
     years: "1780 – 1839",
     image: "assets/images/warriors/ranjit-singh.jpg",
     description:
-      "Founder of the Sikh Empire who united Punjab into one of the strongest kingdoms of the 19th century.",
+      "Founder of the Sikh Empire who united Punjab into a powerful kingdom. Remembered for his military strength, religious tolerance, and modern reforms.",
     wiki: "https://en.wikipedia.org/wiki/Ranjit_Singh",
   },
 
@@ -31,7 +31,7 @@ const warriors = [
     years: "947 – 1014",
     image: "assets/images/warriors/raja-raja-chola.jpg",
     description:
-      "The greatest emperor of the Chola dynasty who expanded India's naval power across the Indian Ocean.",
+      "One of the greatest emperors of the Chola dynasty, who expanded his empire across South India and Southeast Asia through a formidable navy and efficient governance.",
     wiki: "https://en.wikipedia.org/wiki/Rajaraja_I",
   },
 
@@ -40,7 +40,7 @@ const warriors = [
     years: "340 – 297 BCE",
     image: "assets/images/warriors/chandragupta-maurya.jpg",
     description:
-      "Founder of the Maurya Empire who unified much of the Indian subcontinent under a single administration.",
+      "Founder of the Maurya Empire who unified much of the Indian subcontinent. Guided by Chanakya, he laid the foundation for one of India's greatest empires.",
     wiki: "https://en.wikipedia.org/wiki/Chandragupta_Maurya",
   },
 
@@ -49,7 +49,7 @@ const warriors = [
     years: "335 – 380 CE",
     image: "assets/images/warriors/samudragupta.jpg",
     description:
-      "One of the greatest military conquerors of ancient India, often called the Napoleon of India.",
+      "A celebrated Gupta emperor known for his remarkable military campaigns and strategic leadership. His achievements earned him the title 'Napoleon of India' from some historians.",
     wiki: "https://en.wikipedia.org/wiki/Samudragupta",
   },
 
@@ -58,16 +58,16 @@ const warriors = [
     years: "1622 – 1672",
     image: "assets/images/warriors/lachit-borphukan.jpg",
     description:
-      "The Ahom commander who defeated the Mughal forces in the historic Battle of Saraighat.",
+      "The Ahom commander who successfully defended Assam against the Mughal Empire in the Battle of Saraighat. He is remembered as a symbol of bravery and patriotism.",
     wiki: "https://en.wikipedia.org/wiki/Lachit_Borphukan",
   },
 
   {
     name: "Krishnadevaraya",
     years: "1471 – 1529",
-    image: "assets/images/warriors/krishnadevaraya.jpg",
+    image: "assets/images/warriors/kdr.jpg",
     description:
-      "The most celebrated ruler of the Vijayanagara Empire, remembered for military victories and patronage of arts.",
+      "The greatest ruler of the Vijayanagara Empire, known for military victories, administrative excellence, and patronage of literature, architecture, and the arts.",
     wiki: "https://en.wikipedia.org/wiki/Krishnadevaraya",
   },
 
@@ -76,7 +76,7 @@ const warriors = [
     years: "1700 – 1740",
     image: "assets/images/warriors/baji-rao.jpg",
     description:
-      "Legendary Maratha Peshwa who never lost a battle and greatly expanded the Maratha influence.",
+      "The legendary Peshwa of the Maratha Empire who remained undefeated in every major battle he fought. His campaigns greatly expanded Maratha influence across India.",
     wiki: "https://en.wikipedia.org/wiki/Baji_Rao_I",
   },
 
@@ -85,7 +85,7 @@ const warriors = [
     years: "1166 – 1192",
     image: "assets/images/warriors/prithviraj-chauhan.jpg",
     description:
-      "The Rajput king remembered for his bravery and resistance against Muhammad Ghori.",
+      "A renowned Rajput king celebrated for his courage, chivalry, and resistance against Muhmmad Ghori. His legacy lives on in Indian folklore and literature.",
     wiki: "https://en.wikipedia.org/wiki/Prithviraj_Chauhan",
   },
 
@@ -94,7 +94,7 @@ const warriors = [
     years: "610 – 642",
     image: "assets/images/warriors/pulakeshin.jpg",
     description:
-      "The greatest ruler of the Chalukya dynasty who successfully resisted Emperor Harsha.",
+      "The most powerful ruler of the Chalukya dynasty, remembered for successfully resisting Emperor Harsha and strengthening the Deccan kingdom.",
     wiki: "https://en.wikipedia.org/wiki/Pulakeshin_II",
   },
 
@@ -103,7 +103,34 @@ const warriors = [
     years: "1501 – 1556",
     image: "assets/images/warriors/hemu.jpg",
     description:
-      "A brilliant general and emperor who won numerous battles before the Second Battle of Panipat.",
+      "A gifted military commander and emperor who won numerous battles before the Second Battle of Panipat. His rise from humble beginnings remains a remarkable chapter in Indian history.",
+    wiki: "https://en.wikipedia.org/wiki/Hemu",
+  },
+
+  {
+    name: "Rana Sanga",
+    years: "1482 – 1528",
+    image: "assets/images/warriors/hemu.jpg",
+    description:
+      "The ruler of Mewar who united many Rajput kingdoms against external invasions. Despite suffering numerous battle wounds, he remained one of the most respected warrior-kings of his era.",
+    wiki: "https://en.wikipedia.org/wiki/Hemu",
+  },
+
+  {
+    name: "Rani Laxmibai",
+    years: "1828 – 1858",
+    image: "assets/images/warriors/hemu.jpg",
+    description:
+      "The Queen of Jhansi and one of the most iconic leaders of the Indian Rebellion of 1857. Her courage and determination made her a lasting symbol of resistance and patriotism.",
+    wiki: "https://en.wikipedia.org/wiki/Hemu",
+  },
+
+  {
+    name: "Chhatrapati Sambhaji Maharaj",
+    years: "1657 – 1689",
+    image: "assets/images/warriors/hemu.jpg",
+    description:
+      "The second ruler of the Maratha Empire, who fiercely defended the kingdom against prolonged Mughal campaigns. Remembered for his resilience, leadership, and refusal to abandon his principles even under extreme adversity.",
     wiki: "https://en.wikipedia.org/wiki/Hemu",
   }
 ];

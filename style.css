@@ -201,9 +201,9 @@ nav a:hover::after{
     inset:0;
 
     background:
-    linear-gradient(rgba(0,0,0,.75),
-    rgba(0,0,0,.88)),
-    url("assets/images/hero/hero.jpg");
+    linear-gradient(rgba(0,0,0,0.50),
+    rgba(0,0,0,0.5)),
+    url("assets/images/hero/hero.png");
 
     background-size:cover;
 
@@ -417,6 +417,7 @@ nav a:hover::after{
     height:330px;
 
     overflow:hidden;
+    aspect-ratio: 4 / 5;
 
 }
 
@@ -424,7 +425,7 @@ nav a:hover::after{
 
     width:100%;
 
-    height:100%;
+    height: 130%;
 
     object-fit:cover;
 
