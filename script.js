@@ -34,7 +34,7 @@ function renderCards(list) {
                 <a
                     class="card-btn"
                     href="./data/warrior/pages/${warrior.page}"
-                    target="_blank">
+                    target="_self">
 
                     Know More →
 

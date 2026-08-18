@@ -130,18 +130,8 @@ const warriors = [
     image: "assets/images/warriors/pulakeshin.jpg",
     description:
       "The most powerful ruler of the <a href='https://en.wikipedia.org/wiki/Chalukya_dynasty' target='_blank'>Chalukya Dynasty</a>, remembered for successfully resisting Emperor Harsha and strengthening the Deccan kingdom.",
-    page: "pulakeshin.html",
+    page: "chalukya.html",
   },
-
-  {
-    name: "Hem Chandra Vikramaditya (Hemu)",
-    years: "1501 – 1556",
-    image: "assets/images/warriors/hemu.jpg",
-    description:
-      "A gifted military commander and emperor who won numerous battles before the <a href='https://en.wikipedia.org/wiki/Second_Battle_of_Panipat' target='_blank'>Second Battle of Panipat</a>. His rise from humble beginnings remains a remarkable chapter in Indian history.",
-    page: "hemu.html",
-  },
-
 ];
 
 // 

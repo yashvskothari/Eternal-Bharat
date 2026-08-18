@@ -225,7 +225,7 @@ nav a:hover, nav a.active {
 }
 
 /* Back to Top Button (Bottom Right) */
-#back-to-top-btn {
+#top-btn {
   position: fixed;
   bottom: 25px;
   right: 25px;
@@ -245,12 +245,12 @@ nav a:hover, nav a.active {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
 }
 
-#back-to-top-btn.visible {
+#top-btn.visible {
   opacity: 1;
   visibility: visible;
 }
 
-#back-to-top-btn:hover {
+#top-btn:hover {
   background-color: var(--gold-hover);
   transform: translateY(-3px);
 }

@@ -5,13 +5,13 @@ document.addEventListener("DOMContentLoaded", () => {
       <div id="scroll-progress-bar"></div>
     </div>
     <button id="back-home-btn" title="Back to Home">← Home</button>
-    <button id="back-to-top-btn" title="Back to Top">↑</button>
+    <button id="top-btn" title="Back to Top">↑</button>
   `;
   document.body.insertAdjacentHTML("beforeend", uiElements);
 
   // 2. Select Elements
   const progressBar = document.getElementById("scroll-progress-bar");
-  const backToTopBtn = document.getElementById("back-to-top-btn");
+  const backToTopBtn = document.getElementById("top-btn");
   const backHomeBtn = document.getElementById("back-home-btn");
 
   // 3. Scroll Indicator & Back-to-Top Visibility
