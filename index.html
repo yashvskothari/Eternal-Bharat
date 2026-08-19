@@ -4,133 +4,374 @@
 <head>
 
     <meta charset="UTF-8">
-
     <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
+          content="width=device-width, initial-scale=1.0">
 
     <title>Eternal Bharat</title>
 
-    <link rel="preconnect"
-        href="https://fonts.googleapis.com">
+    <meta name="description"
+          content="Discover the legacy of India's greatest warriors, kingdoms, battles and history.">
 
-    <link rel="preconnect"
-        href="https://fonts.gstatic.com"
-        crossorigin>
+    <link rel="icon"
+          href="https://cdn.jsdelivr.net/gh/yashvskothari/eternal-bharat-assets@main/images/ui/favicon.ico">
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Poppins:wght@300;400;500;600&display=swap"
-        rel="stylesheet">
+    <!-- CSS -->
 
-    <link rel="stylesheet"
-        href="style.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/timeline.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
 </head>
 
 <body>
-    <!-- ================= LOADER ================= -->
 
-<div id="loader">
+    <!-- Loader -->
 
-    <div class="loader-circle"></div>
+    <div id="loader">
 
-    <h1>Eternal Bharat</h1>
+        <h2>Eternal Bharat</h2>
 
-</div>
-<div id="progress-bar"></div>
+    </div>
 
-    <!-- ================= NAVBAR ================= -->
+    <!-- Navbar -->
 
-    <header class="navbar">
+    <header>
 
-        <div class="logo">
+        <nav class="navbar">
 
-            Eternal Bharat
+            <a href="index.html"
+               class="logo">
 
-        </div>
+                Eternal Bharat
 
-        <nav>
+            </a>
 
-            <a href="#home">Home</a>
+            <ul class="nav-links">
 
-            <a href="#warriors">Warriors</a>
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="warrior.html">Warriors</a></li>
+
+                <li><a href="kingdoms.html">Kingdoms</a></li>
+
+                <li><a href="battles.html">Battles</a></li>
+
+                <li><a href="timeline.html">Timeline</a></li>
+
+                <li><a href="about.html">About</a></li>
+
+            </ul>
 
         </nav>
 
     </header>
 
-    <!-- ================= HERO ================= -->
+    <!-- Hero -->
 
-    <section
-        class="hero"
-        id="home">
+    <section class="hero">
 
         <div class="hero-content">
 
-            <h1>
+            <p class="hero-tag">
 
-                Eternal Bharat
-
-            </h1>
-
-            <p>
-
-                The Legacy of Courage Lives Forever
+                The Golden Legacy of Bharat
 
             </p>
 
-            <a
-                href="#warriors"
-                class="btn">
+            <h1>
 
-                Explore Warriors
+                Warriors Who Forged History
 
-            </a>
+            </h1>
+
+            <p class="hero-description">
+
+                Explore the lives, kingdoms,
+                victories and legacy of India's
+                greatest rulers who defended
+                civilization through courage,
+                sacrifice and vision.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#warriors"
+                   class="primary-btn">
+
+                    Explore Warriors
+
+                </a>
+
+                <a href="timeline.html"
+                   class="secondary-btn">
+
+                    View Timeline
+
+                </a>
+
+            </div>
 
         </div>
 
     </section>
 
-    <!-- ================= WARRIORS ================= -->
+    <!-- Search -->
 
-<section class="warriors" id="warriors">
+    <section class="search-section">
 
-    <h2>Greatest Warriors of Bharat</h2>
+        <h2>
 
-    <p class="section-text">
-        Explore the lives of legendary rulers and warriors whose courage,
-        leadership, and sacrifice shaped the history of the Indian subcontinent.
-    </p>
+            Find Your Warrior
 
+        </h2>
 
-    <div class="cards" id="cards"></div>
+        <input
 
-</section>
+            id="search"
 
-    <!-- ================= FOOTER ================= -->
+            type="text"
 
-<footer>
+            placeholder="Search Maharana Pratap, Shivaji Maharaj..."
 
-    <h3>Eternal Bharat</h3>
+        >
 
-    <p>
-        A tribute to the warriors, kings and visionaries whose legacy continues
-        to inspire generations.
-    </p>
+    </section>
 
-    <small>
-        © 2026 Eternal Bharat • Educational Project
-    </small>
+    <!-- Warriors -->
 
-</footer>
+    <section
+        id="warriors"
+        class="featured-warriors">
 
-<button class="top-btn" id="topBtn">
-    ↑
-</button>
-<div class="cursor-glow"></div>
+        <div class="section-heading">
+
+            <h2>
+
+                Greatest Warriors
+
+            </h2>
+
+            <p>
+
+                Explore legendary rulers,
+                commanders and defenders
+                who shaped Bharat.
+
+            </p>
+
+        </div>
+
+        <div
+
+            id="cards"
+
+            class="cards-grid">
+
+        </div>
+
+    </section>
+
+    <!-- Kingdom Preview -->
+
+    <section class="kingdom-preview">
+
+        <div class="section-heading">
+
+            <h2>
+
+                Powerful Kingdoms
+
+            </h2>
+
+            <p>
+
+                Learn about the empires
+                ruled by these legendary
+                kings and queens.
+
+            </p>
+
+        </div>
+
+        <div class="kingdom-grid">
+
+            <div class="kingdom-card">
+
+                <h3>Mewar</h3>
+
+            </div>
+
+            <div class="kingdom-card">
+
+                <h3>Maratha Empire</h3>
+
+            </div>
+
+            <div class="kingdom-card">
+
+                <h3>Chola Empire</h3>
+
+            </div>
+
+            <div class="kingdom-card">
+
+                <h3>Maurya Empire</h3>
+
+            </div>
+
+            <div class="kingdom-card">
+
+                <h3>Sikh Empire</h3>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Timeline Preview -->
+
+    <section class="timeline-preview">
+
+        <div class="section-heading">
+
+            <h2>
+
+                Journey Through Time
+
+            </h2>
+
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <span>322 BCE</span>
+
+                <p>
+
+                    Chandragupta Maurya establishes
+                    the Maurya Empire.
+
+                </p>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <span>985 CE</span>
+
+                <p>
+
+                    Raja Raja Chola ascends
+                    the throne.
+
+                </p>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <span>1576</span>
+
+                <p>
+
+                    Battle of Haldighati.
+
+                </p>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <span>1674</span>
+
+                <p>
+
+                    Coronation of
+                    Chhatrapati Shivaji Maharaj.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Quote -->
+
+    <section class="quote-section">
+
+        <blockquote>
+
+            "The legacy of great warriors
+            lives not in monuments,
+            but in the courage they inspire."
+
+        </blockquote>
+
+    </section>
+
+    <!-- About -->
+
+    <section class="about-preview">
+
+        <div class="section-heading">
+
+            <h2>
+
+                Why Eternal Bharat?
+
+            </h2>
+
+        </div>
+
+        <p>
+
+            Eternal Bharat is an educational
+            initiative dedicated to preserving
+            the history of India's greatest
+            warriors, kingdoms and battles
+            through an elegant and interactive
+            digital experience.
+
+        </p>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+
+            © 2026 Eternal Bharat
+
+        </p>
+
+    </footer>
+
+    <!-- Scripts -->
 
     <script src="data/warriors.js"></script>
 
-    <script src="script.js"></script>
+    <script src="js/cards.js"></script>
+
+    <script src="js/search.js"></script>
+
+    <script src="js/scroll.js"></script>
+
+    <script src="js/cursor.js"></script>
+
+    <script src="js/loader.js"></script>
+
+    <script src="js/main.js"></script>
 
 </body>
 
