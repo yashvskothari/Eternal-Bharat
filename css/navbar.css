@@ -1,283 +1,372 @@
-/* =========================================
+/* =========================================================
    NAVBAR
-========================================= */
+========================================================= */
 
 header {
-
     position: fixed;
 
     top: 0;
-
     left: 0;
 
     width: 100%;
 
     z-index: 1000;
-
 }
 
-/* =========================================
+
+/* =========================================================
    NAVBAR CONTAINER
-========================================= */
+========================================================= */
 
 .navbar {
+    position: relative;
 
     width: min(92%, 1300px);
 
     margin: 18px auto;
-
     padding: 16px 34px;
 
     display: flex;
-
-    justify-content: space-between;
-
     align-items: center;
+    justify-content: space-between;
 
     background: rgba(15, 15, 15, 0.75);
 
-    backdrop-filter: blur(14px);
+    border: 1px solid rgba(212, 175, 55, 0.18);
+    border-radius: var(--radius);
 
+    backdrop-filter: blur(14px);
     -webkit-backdrop-filter: blur(14px);
 
-    border: 1px solid rgba(212, 175, 55, .18);
-
-    border-radius: 18px;
-
-    transition: .35s ease;
-
+    transition:
+        margin 0.35s ease,
+        background 0.35s ease,
+        box-shadow 0.35s ease,
+        border-color 0.35s ease;
 }
 
-/* =========================================
+
+/* =========================================================
    LOGO
-========================================= */
+========================================================= */
 
 .logo {
-
     font-family: "Cinzel", serif;
 
     font-size: 1.8rem;
-
     font-weight: 700;
-
-    color: var(--gold);
 
     letter-spacing: 1px;
 
-    transition: .3s ease;
+    color: var(--gold);
 
+    transition:
+        color 0.3s ease,
+        text-shadow 0.3s ease,
+        transform 0.3s ease;
 }
 
 .logo:hover {
-
     color: var(--gold-light);
 
-    text-shadow: 0 0 18px rgba(212,175,55,.35);
+    text-shadow:
+        0 0 18px rgba(212, 175, 55, 0.35);
 
+    transform: translateY(-1px);
 }
 
-/* =========================================
-   NAV LINKS
-========================================= */
+
+/* =========================================================
+   NAVIGATION LINKS
+========================================================= */
 
 .nav-links {
-
     display: flex;
 
     align-items: center;
 
     gap: 36px;
-
 }
 
 .nav-links li {
-
     list-style: none;
-
 }
 
 .nav-links a {
-
     position: relative;
 
-    color: white;
+    display: inline-block;
 
-    font-size: .97rem;
+    color: var(--white);
 
+    font-size: 0.97rem;
     font-weight: 500;
 
-    transition: .3s ease;
-
+    transition:
+        color 0.3s ease,
+        transform 0.3s ease;
 }
 
-/* Hover */
+
+/* ---------- Link Hover ---------- */
 
 .nav-links a:hover {
-
     color: var(--gold);
-
 }
 
-/* Underline Animation */
+
+/* =========================================================
+   NAV LINK UNDERLINE
+========================================================= */
 
 .nav-links a::after {
-
     content: "";
 
     position: absolute;
 
     left: 50%;
-
     bottom: -8px;
 
     width: 0;
-
     height: 2px;
 
     background: var(--gold);
 
-    transition: .3s ease;
+    border-radius: 20px;
 
     transform: translateX(-50%);
 
+    transition:
+        width 0.3s ease;
 }
 
 .nav-links a:hover::after {
-
     width: 100%;
-
 }
 
-/* =========================================
+
+/* =========================================================
    ACTIVE PAGE
-========================================= */
+========================================================= */
 
 .nav-links a.active {
-
     color: var(--gold);
-
 }
 
 .nav-links a.active::after {
-
     width: 100%;
-
 }
 
-/* =========================================
+
+/* =========================================================
    NAVBAR ON SCROLL
-========================================= */
+========================================================= */
 
 .navbar.scrolled {
-
     margin-top: 8px;
 
-    background: rgba(8,8,8,.95);
+    background: rgba(8, 8, 8, 0.95);
+
+    border-color: rgba(212, 175, 55, 0.28);
 
     box-shadow:
-
-        0 8px 30px rgba(0,0,0,.35);
-
+        0 8px 30px rgba(0, 0, 0, 0.35);
 }
 
-/* =========================================
-   MOBILE MENU ICON
-========================================= */
+
+/* =========================================================
+   MOBILE MENU TOGGLE
+========================================================= */
 
 .menu-toggle {
-
     display: none;
 
     flex-direction: column;
 
+    justify-content: center;
+
     gap: 5px;
 
-    cursor: pointer;
+    width: 32px;
+    height: 32px;
 
+    cursor: pointer;
 }
 
 .menu-toggle span {
+    display: block;
 
     width: 26px;
-
     height: 3px;
-
-    border-radius: 20px;
 
     background: var(--gold);
 
-    transition: .3s ease;
+    border-radius: 20px;
 
+    transition:
+        transform 0.3s ease,
+        opacity 0.3s ease,
+        background 0.3s ease;
 }
 
-/* =========================================
+
+/* ---------- Toggle Hover ---------- */
+
+.menu-toggle:hover span {
+    background: var(--gold-light);
+}
+
+
+/* =========================================================
    MOBILE MENU
-========================================= */
+========================================================= */
 
-@media(max-width:900px){
+@media (max-width: 900px) {
 
-.navbar{
+    /* ---------- Navbar ---------- */
 
-padding:16px 22px;
+    .navbar {
+        padding: 16px 22px;
+    }
 
+
+    /* ---------- Toggle ---------- */
+
+    .menu-toggle {
+        display: flex;
+    }
+
+
+    /* ---------- Navigation ---------- */
+
+    .nav-links {
+        position: absolute;
+
+        top: calc(100% + 10px);
+        left: 0;
+
+        width: 100%;
+
+        display: none;
+
+        flex-direction: column;
+        align-items: center;
+
+        gap: 28px;
+
+        padding: 35px 20px;
+
+        background: rgba(12, 12, 12, 0.97);
+
+        border: 1px solid rgba(212, 175, 55, 0.18);
+        border-radius: var(--radius);
+
+        box-shadow:
+            0 15px 40px rgba(0, 0, 0, 0.35);
+
+        backdrop-filter: blur(14px);
+        -webkit-backdrop-filter: blur(14px);
+    }
+
+
+    /* ---------- Open Menu ---------- */
+
+    .nav-links.active {
+        display: flex;
+    }
+
+
+    /* ---------- Mobile Links ---------- */
+
+    .nav-links a {
+        font-size: 1rem;
+    }
 }
 
-.menu-toggle{
 
-display:flex;
-
-}
-
-.nav-links{
-
-position:absolute;
-
-top:95px;
-
-left:0;
-
-width:100%;
-
-background:#111;
-
-flex-direction:column;
-
-padding:35px 0;
-
-gap:28px;
-
-display:none;
-
-border-top:1px solid rgba(212,175,55,.2);
-
-}
-
-.nav-links.active{
-
-display:flex;
-
-}
-
-}
-
-/* =========================================
+/* =========================================================
    SMALL DEVICES
-========================================= */
+========================================================= */
 
-@media(max-width:500px){
+@media (max-width: 500px) {
 
-.logo{
+    .navbar {
+        width: calc(100% - 20px);
 
-font-size:1.45rem;
+        margin: 10px;
 
+        padding: 14px 18px;
+
+        border-radius: 14px;
+    }
+
+
+    .logo {
+        font-size: 1.45rem;
+    }
+
+
+    .nav-links {
+        top: calc(100% + 8px);
+
+        padding: 30px 20px;
+
+        gap: 24px;
+
+        border-radius: 14px;
+    }
 }
 
-.navbar{
 
-margin:10px;
+/* =========================================================
+   EXTRA SMALL DEVICES
+========================================================= */
 
-border-radius:14px;
+@media (max-width: 360px) {
 
+    .logo {
+        font-size: 1.25rem;
+    }
+
+    .navbar {
+        padding: 13px 15px;
+    }
+
+    .menu-toggle {
+        width: 30px;
+    }
+
+    .menu-toggle span {
+        width: 24px;
+    }
 }
 
+
+/* =========================================================
+   ACCESSIBILITY
+========================================================= */
+
+.nav-links a:focus-visible,
+.logo:focus-visible,
+.menu-toggle:focus-visible {
+    outline: 2px solid var(--gold-light);
+    outline-offset: 5px;
+
+    border-radius: 4px;
+}
+
+
+/* =========================================================
+   REDUCED MOTION
+========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .navbar,
+    .logo,
+    .nav-links a,
+    .nav-links a::after,
+    .menu-toggle span {
+        transition: none;
+    }
 }

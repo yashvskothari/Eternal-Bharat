@@ -1,9 +1,12 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+    <!-- ==================== META ==================== -->
 
     <meta charset="UTF-8">
+
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
 
@@ -12,10 +15,14 @@
     <meta name="description"
           content="Discover the legacy of India's greatest warriors, kingdoms, battles and history.">
 
+
+    <!-- ==================== FAVICON ==================== -->
+
     <link rel="icon"
           href="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/ui/favicon.png">
 
-    <!-- CSS -->
+
+    <!-- ==================== STYLESHEETS ==================== -->
 
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/navbar.css">
@@ -26,100 +33,103 @@
 
 </head>
 
+
 <body>
 
-    <!-- Loader -->
+    <!-- ==================================================
+         LOADER
+    ================================================== -->
 
     <div id="loader">
-
         <h2>Eternal Bharat</h2>
-
     </div>
 
-    <!-- Navbar -->
+
+    <!-- ==================================================
+         NAVBAR
+    ================================================== -->
 
     <header>
-
         <nav class="navbar">
 
-            <a href="index.html"
-               class="logo">
-
+            <!-- Logo -->
+            <a href="index.html" class="logo">
                 Eternal Bharat
-
             </a>
 
+            <!-- Navigation Links -->
             <ul class="nav-links">
 
-                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
 
-                <li><a href="warrior.html">Warriors</a></li>
+                <li>
+                    <a href="warrior.html">Warriors</a>
+                </li>
 
-                <li><a href="kingdoms.html">Kingdoms</a></li>
+                <li>
+                    <a href="kingdoms.html">Kingdoms</a>
+                </li>
 
-                <li><a href="battles.html">Battles</a></li>
+                <li>
+                    <a href="battles.html">Battles</a>
+                </li>
 
-                <li><a href="timeline.html">Timeline</a></li>
+                <li>
+                    <a href="timeline.html">Timeline</a>
+                </li>
 
-                <li><a href="about.html">About</a></li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
 
             </ul>
+
+            <!-- Mobile Menu Button -->
             <div class="menu-toggle">
 
-    <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
 
-    <span></span>
-
-    <span></span>
-
-</div>
+            </div>
 
         </nav>
-
     </header>
 
-    <!-- Hero -->
+
+    <!-- ==================================================
+         HERO SECTION
+    ================================================== -->
 
     <section class="hero">
 
         <div class="hero-content">
 
             <p class="hero-tag">
-
                 The Golden Legacy of Bharat
-
             </p>
 
             <h1>
-
                 Warriors Who Forged History
-
             </h1>
 
             <p class="hero-description">
-
-                Explore the lives, kingdoms,
-                victories and legacy of India's
-                greatest rulers who defended
-                civilization through courage,
-                sacrifice and vision.
-
+                Explore the lives, kingdoms, victories and
+                legacy of India's greatest rulers who defended
+                civilization through courage, sacrifice and vision.
             </p>
 
+            <!-- Hero Buttons -->
             <div class="hero-buttons">
 
-                <a href="#warriors"
-                   class="primary-btn">
-
+                <a href="#warriors" class="primary-btn">
                     Explore Warriors
-
                 </a>
 
-                <a href="timeline.html"
-                   class="secondary-btn">
-
+                <a href="timeline.html" class="secondary-btn">
                     View Timeline
-
                 </a>
 
             </div>
@@ -128,183 +138,166 @@
 
     </section>
 
-    <!-- Search -->
+
+    <!-- ==================================================
+         SEARCH SECTION
+    ================================================== -->
 
     <section class="search-section">
 
         <h2>
-
             Find Your Warrior
-
         </h2>
 
         <input
-
             id="search"
-
             type="text"
-
             placeholder="Search Maharana Pratap, Shivaji Maharaj..."
-
         >
 
     </section>
 
-    <!-- Warriors -->
 
-    <section
-        id="warriors"
-        class="featured-warriors">
+    <!-- ==================================================
+         FEATURED WARRIORS
+    ================================================== -->
+
+    <section id="warriors" class="featured-warriors">
 
         <div class="section-heading">
 
             <h2>
-
                 Greatest Warriors
-
             </h2>
 
             <p>
-
-                Explore legendary rulers,
-                commanders and defenders
-                who shaped Bharat.
-
+                Explore legendary rulers, commanders and
+                defenders who shaped Bharat.
             </p>
 
         </div>
 
-        <div
 
-            id="cards"
+        <!-- Warrior Cards
+             Cards are generated dynamically using JavaScript -->
 
-            class="cards-grid">
-
-        </div>
+        <div id="cards" class="cards-grid"></div>
 
     </section>
 
-    <!-- Kingdom Preview -->
+
+    <!-- ==================================================
+         KINGDOM PREVIEW
+    ================================================== -->
 
     <section class="kingdom-preview">
 
         <div class="section-heading">
 
             <h2>
-
                 Powerful Kingdoms
-
             </h2>
 
             <p>
-
-                Learn about the empires
-                ruled by these legendary
-                kings and queens.
-
+                Learn about the empires ruled by these
+                legendary kings and queens.
             </p>
 
         </div>
 
+
+        <!-- Kingdom Cards -->
+
         <div class="kingdom-grid">
 
             <div class="kingdom-card">
-
                 <h3>Mewar</h3>
-
             </div>
 
             <div class="kingdom-card">
-
                 <h3>Maratha Empire</h3>
-
             </div>
 
             <div class="kingdom-card">
-
                 <h3>Chola Empire</h3>
-
             </div>
 
             <div class="kingdom-card">
-
                 <h3>Maurya Empire</h3>
-
             </div>
 
             <div class="kingdom-card">
-
                 <h3>Sikh Empire</h3>
-
             </div>
 
         </div>
 
     </section>
 
-    <!-- Timeline Preview -->
+
+    <!-- ==================================================
+         TIMELINE PREVIEW
+    ================================================== -->
 
     <section class="timeline-preview">
 
         <div class="section-heading">
 
             <h2>
-
                 Journey Through Time
-
             </h2>
 
         </div>
 
+
         <div class="timeline">
 
+            <!-- 322 BCE -->
             <div class="timeline-item">
 
                 <span>322 BCE</span>
 
                 <p>
-
                     Chandragupta Maurya establishes
                     the Maurya Empire.
-
                 </p>
 
             </div>
 
+
+            <!-- 985 CE -->
             <div class="timeline-item">
 
                 <span>985 CE</span>
 
                 <p>
-
                     Raja Raja Chola ascends
                     the throne.
-
                 </p>
 
             </div>
 
+
+            <!-- 1576 -->
             <div class="timeline-item">
 
                 <span>1576</span>
 
                 <p>
-
                     Battle of Haldighati.
-
                 </p>
 
             </div>
 
+
+            <!-- 1674 -->
             <div class="timeline-item">
 
                 <span>1674</span>
 
                 <p>
-
                     Coronation of
                     Chhatrapati Shivaji Maharaj.
-
                 </p>
 
             </div>
@@ -313,75 +306,76 @@
 
     </section>
 
-    <!-- Quote -->
+
+    <!-- ==================================================
+         QUOTE SECTION
+    ================================================== -->
 
     <section class="quote-section">
 
         <blockquote>
-
-            "The legacy of great warriors
-            lives not in monuments,
-            but in the courage they inspire."
-
+            "The legacy of great warriors lives not in
+            monuments, but in the courage they inspire."
         </blockquote>
 
     </section>
 
-    <!-- About -->
+
+    <!-- ==================================================
+         ABOUT PREVIEW
+    ================================================== -->
 
     <section class="about-preview">
 
         <div class="section-heading">
 
             <h2>
-
                 Why Eternal Bharat?
-
             </h2>
 
         </div>
 
         <p>
-
-            Eternal Bharat is an educational
-            initiative dedicated to preserving
-            the history of India's greatest
-            warriors, kingdoms and battles
-            through an elegant and interactive
-            digital experience.
-
+            Eternal Bharat is an educational initiative
+            dedicated to preserving the history of India's
+            greatest warriors, kingdoms and battles through
+            an elegant and interactive digital experience.
         </p>
 
     </section>
 
-    <!-- Footer -->
+
+    <!-- ==================================================
+         FOOTER
+    ================================================== -->
 
     <footer>
 
         <p>
-
             © 2026 Eternal Bharat
-
         </p>
 
     </footer>
 
-    <!-- Scripts -->
 
+    <!-- ==================================================
+         JAVASCRIPT
+    ================================================== -->
+
+    <!-- Data -->
     <script src="data/warriors.js"></script>
 
+    <!-- Components -->
     <script src="js/cards.js"></script>
 
+    <!-- Functionality -->
     <script src="js/search.js"></script>
-
     <script src="js/scroll.js"></script>
-
     <script src="js/cursor.js"></script>
-
     <script src="js/loader.js"></script>
-
     <script src="js/main.js"></script>
 
 </body>
 
 </html>
+```

@@ -1,21 +1,23 @@
-/* =========================================
+/* =========================================================
    GOOGLE FONTS
-========================================= */
+========================================================= */
 
-@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url(
+    "https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+);
 
 
-/* =========================================
+/* =========================================================
    CSS VARIABLES
-========================================= */
+========================================================= */
 
 :root {
 
-    /* Colors */
+    /* ---------- Colors ---------- */
 
     --bg-primary: #0b0b0b;
     --bg-secondary: #151515;
-    --bg-card: rgba(255,255,255,0.04);
+    --bg-card: rgba(255, 255, 255, 0.04);
 
     --gold: #d4af37;
     --gold-light: #f6d365;
@@ -25,452 +27,430 @@
     --text-light: #d9d9d9;
     --text-muted: #9f9f9f;
 
-    --border: rgba(212,175,55,.25);
+    --border: rgba(212, 175, 55, 0.25);
 
     --success: #4caf50;
     --danger: #ff4d4d;
 
-    /* Shadows */
+
+    /* ---------- Shadows ---------- */
 
     --shadow:
-
-        0 15px 40px rgba(0,0,0,.35);
+        0 15px 40px rgba(0, 0, 0, 0.35);
 
     --shadow-gold:
+        0 0 30px rgba(212, 175, 55, 0.18);
 
-        0 0 30px rgba(212,175,55,.18);
 
-    /* Radius */
+    /* ---------- Border Radius ---------- */
 
-    --radius-small:10px;
+    --radius-small: 10px;
+    --radius: 18px;
+    --radius-large: 30px;
 
-    --radius:18px;
 
-    --radius-large:30px;
+    /* ---------- Transitions ---------- */
 
-    /* Transition */
+    --transition: 0.35s ease;
 
-    --transition:.35s ease;
 
-    /* Width */
+    /* ---------- Layout ---------- */
 
-    --container:1300px;
-
+    --container: 1300px;
 }
 
 
-/* =========================================
+/* =========================================================
    RESET
-========================================= */
+========================================================= */
 
-*{
-
-    margin:0;
-
-    padding:0;
-
-    box-sizing:border-box;
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-
-html{
-
-    scroll-behavior:smooth;
-
+html {
+    scroll-behavior: smooth;
 }
 
-
-body{
+body {
+    min-height: 100vh;
 
     background:
+        linear-gradient(
+            to bottom,
+            #090909,
+            #121212,
+            #0c0c0c
+        );
 
-        linear-gradient(to bottom,
-        #090909,
-        #121212,
-        #0c0c0c);
+    color: var(--white);
+    font-family: "Poppins", sans-serif;
 
-    color:var(--white);
+    line-height: 1.7;
 
-    font-family:"Poppins",sans-serif;
-
-    overflow-x:hidden;
-
-    line-height:1.7;
-
+    overflow-x: hidden;
 }
 
 
-/* =========================================
+/* =========================================================
    TYPOGRAPHY
-========================================= */
+========================================================= */
 
-h1,h2,h3,h4,h5{
-
-    font-family:"Cinzel",serif;
-
-    font-weight:700;
-
-    color:var(--gold);
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Cinzel", serif;
+    font-weight: 700;
+    color: var(--gold);
+    line-height: 1.25;
 }
 
-h1{
-
-    font-size:4rem;
-
+h1 {
+    font-size: 4rem;
 }
 
-h2{
-
-    font-size:2.5rem;
-
+h2 {
+    font-size: 2.5rem;
 }
 
-h3{
-
-    font-size:1.4rem;
-
+h3 {
+    font-size: 1.4rem;
 }
 
-p{
-
-    color:var(--text-light);
-
+p {
+    color: var(--text-light);
 }
 
-a{
-
-    text-decoration:none;
-
-    color:inherit;
-
+a {
+    color: inherit;
+    text-decoration: none;
 }
 
-img{
-
-    width:100%;
-
-    display:block;
-
+img {
+    width: 100%;
+    display: block;
 }
 
 
-/* =========================================
+/* =========================================================
    CONTAINER
-========================================= */
+========================================================= */
 
-.container{
-
-    width:min(92%,var(--container));
-
-    margin:auto;
-
+.container {
+    width: min(92%, var(--container));
+    margin-inline: auto;
 }
 
 
-/* =========================================
-   SECTION
-========================================= */
+/* =========================================================
+   SECTIONS
+========================================================= */
 
-section{
-
-    padding:90px 0;
-
-}
-
-.section-title{
-
-    text-align:center;
-
-    margin-bottom:60px;
-
-}
-
-.section-title::after{
-
-    content:"";
-
-    display:block;
-
-    width:90px;
-
-    height:4px;
-
-    margin:18px auto;
-
-    background:var(--gold);
-
-    border-radius:20px;
-
+section {
+    padding: 90px 0;
 }
 
 
-/* =========================================
+/* ---------- Section Heading ---------- */
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-heading h2 {
+    margin-bottom: 15px;
+}
+
+.section-heading p {
+    max-width: 700px;
+    margin-inline: auto;
+}
+
+.section-heading::after {
+    content: "";
+
+    display: block;
+
+    width: 90px;
+    height: 4px;
+
+    margin: 18px auto 0;
+
+    background: var(--gold);
+    border-radius: 20px;
+}
+
+
+/* =========================================================
    BUTTONS
-========================================= */
+========================================================= */
 
 .primary-btn,
+.secondary-btn {
+    display: inline-flex;
 
-.secondary-btn{
+    align-items: center;
+    justify-content: center;
 
-    display:inline-flex;
+    padding: 15px 34px;
 
-    align-items:center;
+    border-radius: 999px;
 
-    justify-content:center;
+    font-weight: 600;
 
-    padding:15px 34px;
-
-    border-radius:999px;
-
-    transition:var(--transition);
-
-    font-weight:600;
-
-}
-
-.primary-btn{
-
-    background:var(--gold);
-
-    color:black;
-
-}
-
-.primary-btn:hover{
-
-    transform:translateY(-4px);
-
-    box-shadow:var(--shadow-gold);
-
-}
-
-.secondary-btn{
-
-    border:2px solid var(--gold);
-
-    color:var(--gold);
-
-}
-
-.secondary-btn:hover{
-
-    background:var(--gold);
-
-    color:black;
-
+    transition: var(--transition);
 }
 
 
-/* =========================================
-   CARD
-========================================= */
+/* ---------- Primary Button ---------- */
 
-.card{
-
-    background:var(--bg-card);
-
-    border:1px solid var(--border);
-
-    border-radius:var(--radius);
-
-    overflow:hidden;
-
-    transition:var(--transition);
-
-    backdrop-filter:blur(12px);
-
+.primary-btn {
+    background: var(--gold);
+    color: #000;
 }
 
-.card:hover{
-
-    transform:translateY(-10px);
-
-    box-shadow:var(--shadow);
-
-    border-color:var(--gold);
-
+.primary-btn:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-gold);
 }
 
 
-/* =========================================
+/* ---------- Secondary Button ---------- */
+
+.secondary-btn {
+    border: 2px solid var(--gold);
+    color: var(--gold);
+}
+
+.secondary-btn:hover {
+    background: var(--gold);
+    color: #000;
+
+    transform: translateY(-4px);
+}
+
+
+/* =========================================================
+   FOCUS STATES
+========================================================= */
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+    outline: 2px solid var(--gold-light);
+    outline-offset: 4px;
+}
+
+
+/* =========================================================
+   CARDS
+========================================================= */
+
+.card {
+    background: var(--bg-card);
+
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+
+    overflow: hidden;
+
+    backdrop-filter: blur(12px);
+
+    transition: var(--transition);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+
+    border-color: var(--gold);
+
+    box-shadow: var(--shadow);
+}
+
+
+/* =========================================================
    GRID
-========================================= */
+========================================================= */
 
-.cards-grid{
-
-    display:grid;
+.cards-grid {
+    display: grid;
 
     grid-template-columns:
+        repeat(auto-fit, minmax(280px, 1fr));
 
-        repeat(auto-fit,minmax(280px,1fr));
-
-    gap:30px;
-
+    gap: 30px;
 }
 
 
-/* =========================================
+/* =========================================================
    SEARCH
-========================================= */
+========================================================= */
 
-.search-box{
+/* Matches the search section in index.html */
 
-    max-width:700px;
-
-    margin:0 auto 60px;
-
+.search-section {
+    text-align: center;
 }
 
-.search-box input{
-
-    width:100%;
-
-    padding:18px 22px;
-
-    border:none;
-
-    outline:none;
-
-    border-radius:999px;
-
-    background:#181818;
-
-    color:white;
-
-    border:1px solid var(--border);
-
-    transition:var(--transition);
-
+.search-section h2 {
+    margin-bottom: 25px;
 }
 
-.search-box input:focus{
+.search-section input {
+    display: block;
 
-    border-color:var(--gold);
+    width: min(90%, 700px);
+
+    margin: 0 auto;
+
+    padding: 18px 22px;
+
+    border: 1px solid var(--border);
+    border-radius: 999px;
+
+    outline: none;
+
+    background: #181818;
+    color: var(--white);
+
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+
+    transition: var(--transition);
+}
+
+.search-section input::placeholder {
+    color: var(--text-muted);
+}
+
+.search-section input:focus {
+    border-color: var(--gold);
 
     box-shadow:
-
-        0 0 20px rgba(212,175,55,.15);
-
+        0 0 20px rgba(212, 175, 55, 0.15);
 }
 
 
-/* =========================================
-   LIST
-========================================= */
+/* =========================================================
+   LISTS
+========================================================= */
 
-ul{
-
-    list-style:none;
-
+ul {
+    list-style: none;
 }
 
 
-/* =========================================
+/* =========================================================
    FOOTER
-========================================= */
+========================================================= */
 
-footer{
+footer {
+    padding: 40px;
 
-    padding:40px;
+    border-top: 1px solid var(--border);
 
-    border-top:1px solid var(--border);
+    text-align: center;
 
-    text-align:center;
+    color: var(--text-muted);
+}
 
-    color:var(--text-muted);
-
+footer p {
+    color: var(--text-muted);
 }
 
 
-/* =========================================
+/* =========================================================
    SCROLLBAR
-========================================= */
+========================================================= */
 
-::-webkit-scrollbar{
-
-    width:10px;
-
+::-webkit-scrollbar {
+    width: 10px;
 }
 
-::-webkit-scrollbar-track{
-
-    background:#111;
-
+::-webkit-scrollbar-track {
+    background: #111;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
+    background: var(--gold);
+    border-radius: 20px;
+}
 
-    background:var(--gold);
-
-    border-radius:20px;
-
+::-webkit-scrollbar-thumb:hover {
+    background: var(--gold-light);
 }
 
 
-/* =========================================
-   SELECTION
-========================================= */
+/* =========================================================
+   TEXT SELECTION
+========================================================= */
 
-::selection{
-
-    background:var(--gold);
-
-    color:black;
-
+::selection {
+    background: var(--gold);
+    color: #000;
 }
 
 
-/* =========================================
+/* =========================================================
    ANIMATIONS
-========================================= */
+========================================================= */
 
-@keyframes fadeUp{
+@keyframes fadeUp {
 
-    from{
-
-        opacity:0;
-
-        transform:translateY(40px);
-
+    from {
+        opacity: 0;
+        transform: translateY(40px);
     }
 
-    to{
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
-        opacity:1;
+.fade-up {
+    animation: fadeUp 0.8s ease forwards;
+}
 
-        transform:translateY(0);
 
+/* =========================================================
+   UTILITY CLASSES
+========================================================= */
+
+.text-center {
+    text-align: center;
+}
+
+.gold {
+    color: var(--gold);
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* =========================================================
+   REDUCED MOTION
+========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+    html {
+        scroll-behavior: auto;
     }
 
-}
-
-.fade-up{
-
-    animation:fadeUp .8s ease forwards;
-
-}
-
-
-/* =========================================
-   UTILITIES
-========================================= */
-
-.text-center{
-
-    text-align:center;
-
-}
-
-.gold{
-
-    color:var(--gold);
-
-}
-
-.hidden{
-
-    display:none;
-
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
 }
