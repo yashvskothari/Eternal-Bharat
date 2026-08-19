@@ -1,183 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon"
-          href="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/ui/favicon.png">
-<title>Kingdoms | Eternal Bharat</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/ui/favicon.png">
+    <title>Kingdoms | Eternal Bharat</title>
 
-<link rel="stylesheet" href="css/global.css">
-<link rel="stylesheet" href="css/navbar.css">
-<link rel="stylesheet" href="css/cards.css">
-<link rel="stylesheet" href="css/timeline.css">
-<link rel="stylesheet" href="css/responsive.css">
-<link rel="stylesheet" href="css/kingdom.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/timeline.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/kingdom.css">
 </head>
 <body>
 
-<header>
-<nav class="navbar">
-    <a href="index.html" class="logo">Eternal Bharat</a>
-
-    <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="warriors.html">Warriors</a></li>
-        <li><a href="kingdoms.html" class="active">Kingdoms</a></li>
-        <li><a href="battles.html">Battles</a></li>
-        <li><a href="timeline.html">Timeline</a></li>
-        <li><a href="about.html">About</a></li>
-    </ul>
-    <div class="menu-toggle">
-
-    <span></span>
-
-    <span></span>
-
-    <span></span>
-
-</div>
-</nav>
-</header>
-
-<main>
-
-<section class="hero small-hero">
-    <div class="hero-content">
-        <span class="hero-tag">Historic Kingdoms</span>
-        <h1>Empires That Shaped Bharat</h1>
-        <p>
-            Explore the kingdoms that nurtured great rulers,
-            remarkable architecture, military brilliance and
-            centuries of cultural heritage.
-        </p>
+    <div id="page-loader">
+        <div class="loader-circle"></div>
+        <h2>Eternal Bharat</h2>
     </div>
-</section>
+    <div id="progress-bar"></div>
+    <div class="cursor-glow"></div>
+    <button id="top-btn" aria-label="Back to top">↑</button>
 
-<section class="container">
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Eternal Bharat</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="warriors.html">Warriors</a></li>
+                <li><a href="kingdoms.html">Kingdoms</a></li>
+                <li><a href="battles.html">Battles</a></li>
+                <li><a href="timeline.html">Timeline</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <div class="menu-toggle" aria-label="Open navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
 
-    <div class="search-box">
-        <input id="kingdom-search"
-               type="text"
-               placeholder="Search Mewar, Chola, Maratha Empire...">
-    </div>
+    <main>
 
-</section>
+        <section class="hero small-hero">
+            <div class="hero-content">
+                <span class="hero-tag">Historic Kingdoms</span>
+                <h1>Empires That Shaped Bharat</h1>
+                <p>
+                    Explore the kingdoms that nurtured great rulers,
+                    remarkable architecture, military brilliance and
+                    centuries of cultural heritage.
+                </p>
+            </div>
+        </section>
 
-<section class="container">
+        <section class="container">
+            <div class="search-box">
+                <input id="kingdom-search" type="text" placeholder="Search Mewar, Chola, Maratha Empire...">
+            </div>
+        </section>
 
-<h2 class="section-title">Explore Kingdoms</h2>
+        <section class="container">
+            <h2 class="section-title">Explore Kingdoms</h2>
+            <div id="kingdom-grid" class="cards-grid"></div>
+        </section>
 
-<div id="kingdom-grid" class="cards-grid">
+        <section class="container">
+            <h2 class="section-title">Empire Timeline</h2>
+            <div id="kingdom-era-timeline" class="timeline"></div>
+        </section>
 
-    <article class="card">
-        <img src="" alt="Mewar">
-        <div class="card-content">
-            <h3>Mewar</h3>
-            <p>Capital : Chittorgarh / Udaipur</p>
-            <p>Dynasty : Sisodia</p>
-            <p>Period : 8th–20th Century</p>
-            <a href="#">Explore →</a>
+        <section class="container">
+            <h2 class="section-title">Architecture & Culture</h2>
+            <div class="cards-grid">
+                <div class="card"><div class="card-content"><h3>Forts</h3><p>Legendary hill forts and defensive architecture.</p></div></div>
+                <div class="card"><div class="card-content"><h3>Temples</h3><p>Magnificent temples representing artistic excellence.</p></div></div>
+                <div class="card"><div class="card-content"><h3>Literature</h3><p>Growth of regional languages and classical texts.</p></div></div>
+                <div class="card"><div class="card-content"><h3>Trade</h3><p>Maritime routes and prosperous commerce.</p></div></div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="index.html" class="footer-logo">Eternal Bharat</a>
+                <p>Preserving the stories of Bharat, one legacy at a time.</p>
+            </div>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="warriors.html">Warriors</a>
+                <a href="kingdoms.html">Kingdoms</a>
+                <a href="battles.html">Battles</a>
+                <a href="timeline.html">Timeline</a>
+                <a href="about.html">About</a>
+            </div>
         </div>
-    </article>
-
-    <article class="card">
-        <img src="" alt="Maratha Empire">
-        <div class="card-content">
-            <h3>Maratha Empire</h3>
-            <p>Capital : Raigad</p>
-            <p>Dynasty : Bhonsle</p>
-            <p>Period : 1674–1818</p>
-            <a href="#">Explore →</a>
+        <div class="footer-bottom">
+            <p>© 2026 Eternal Bharat</p>
+            <p>Built to remember. Designed to inspire.</p>
         </div>
-    </article>
+    </footer>
 
-    <article class="card">
-        <img src="" alt="Chola Empire">
-        <div class="card-content">
-            <h3>Chola Empire</h3>
-            <p>Capital : Thanjavur</p>
-            <p>Dynasty : Chola</p>
-            <p>Period : 848–1279</p>
-            <a href="#">Explore →</a>
-        </div>
-    </article>
+    <script src="js/utils.js"></script>
+    <script src="js/kingdoms.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/cursor.js"></script>
+    <script src="js/loader.js"></script>
+    <script src="js/main.js"></script>
 
-    <article class="card">
-        <img src="" alt="Maurya Empire">
-        <div class="card-content">
-            <h3>Maurya Empire</h3>
-            <p>Capital : Pataliputra</p>
-            <p>Dynasty : Maurya</p>
-            <p>Period : 322–185 BCE</p>
-            <a href="#">Explore →</a>
-        </div>
-    </article>
-
-</div>
-
-</section>
-
-<section class="container">
-
-<h2 class="section-title">Empire Timeline</h2>
-
-<div class="timeline">
-
-<div class="timeline-item">
-<strong>322 BCE</strong>
-<p>Maurya Empire Founded</p>
-</div>
-
-<div class="timeline-item">
-<strong>320 CE</strong>
-<p>Gupta Empire</p>
-</div>
-
-<div class="timeline-item">
-<strong>848 CE</strong>
-<p>Rise of Chola Empire</p>
-</div>
-
-<div class="timeline-item">
-<strong>1674 CE</strong>
-<p>Maratha Empire Established</p>
-</div>
-
-<div class="timeline-item">
-<strong>1801 CE</strong>
-<p>Sikh Empire</p>
-</div>
-
-</div>
-
-</section>
-
-<section class="container">
-
-<h2 class="section-title">Architecture & Culture</h2>
-
-<div class="cards-grid">
-
-<div class="card"><div class="card-content"><h3>Forts</h3><p>Legendary hill forts and defensive architecture.</p></div></div>
-
-<div class="card"><div class="card-content"><h3>Temples</h3><p>Magnificent temples representing artistic excellence.</p></div></div>
-
-<div class="card"><div class="card-content"><h3>Literature</h3><p>Growth of regional languages and classical texts.</p></div></div>
-
-<div class="card"><div class="card-content"><h3>Trade</h3><p>Maritime routes and prosperous commerce.</p></div></div>
-
-</div>
-
-</section>
-
-<footer>
-<p>© 2026 Eternal Bharat</p>
-</footer>
-
-<script src="data/kingdoms.js"></script>
-<script src="js/kingdoms.js"></script>
-
-</main>
 </body>
 </html>

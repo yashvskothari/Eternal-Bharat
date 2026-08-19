@@ -501,6 +501,104 @@
    REDUCED MOTION
 ========================================================= */
 
+/* =========================================================
+   WARRIOR GALLERY CARDS (dynamic grid)
+========================================================= */
+
+.warriors-grid-section {
+    padding: 80px 0 100px;
+}
+
+.warriors-grid-section .cards-grid {
+    width: min(92%, 1300px);
+    margin: 0 auto;
+}
+
+.cards-grid .card {
+    opacity: 0;
+    transform: translateY(40px);
+    transition:
+        transform 0.45s ease,
+        box-shadow 0.45s ease,
+        opacity 0.8s ease,
+        border-color 0.35s ease;
+}
+
+.cards-grid .card.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card-image {
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+    background: linear-gradient(135deg, #181818, #0d0d0d);
+    border-bottom: 1px solid var(--border);
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.45s ease;
+}
+
+.cards-grid .card:hover .card-image img {
+    transform: scale(1.06);
+}
+
+.cards-grid .card-content {
+    padding: 24px;
+}
+
+.cards-grid .card-content h3 {
+    margin-bottom: 8px;
+    font-size: 1.25rem;
+}
+
+.cards-grid .card-content .years {
+    display: block;
+    margin-bottom: 12px;
+    color: var(--gold-light);
+    font-family: "Cinzel", serif;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+}
+
+.cards-grid .card-content .description {
+    margin-bottom: 18px;
+    color: var(--text-muted);
+    font-size: 0.88rem;
+    line-height: 1.75;
+}
+
+.card-btn {
+    display: inline-block;
+    padding: 10px 22px;
+    border-radius: 999px;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.card-btn:hover {
+    background: var(--gold);
+    color: #000;
+}
+
+.no-results {
+    grid-column: 1 / -1;
+    padding: 50px;
+    text-align: center;
+    color: var(--text-muted);
+    border: 1px dashed var(--border);
+    border-radius: var(--radius);
+}
+
+
 @media (prefers-reduced-motion: reduce) {
 
     .king-card,

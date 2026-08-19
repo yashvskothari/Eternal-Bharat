@@ -963,6 +963,8 @@ section.container > h2::after,
 }
 
 
+
+
 /* =========================================================
    TABLET
    <= 1000px
@@ -1239,4 +1241,16 @@ section.container > h2::after,
     .warrior-navigation a {
         transition: none;
     }
+}
+
+.fact-card a,
+.battle-grid a,
+.fort-grid a {
+    color: var(--gold-light);
+    text-decoration: none;
+}
+
+.fact-card a:hover,
+.battle-grid a:hover {
+    color: var(--gold);
 }

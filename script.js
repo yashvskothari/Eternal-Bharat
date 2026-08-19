@@ -210,3 +210,4 @@ search.addEventListener("input", () => {
     renderCards(filtered);
 
 });
+

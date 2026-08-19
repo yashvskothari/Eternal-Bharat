@@ -38,6 +38,15 @@
 
 <body>
 
+    <!-- Page UI -->
+    <div id="page-loader">
+        <div class="loader-circle"></div>
+        <h2>Eternal Bharat</h2>
+    </div>
+    <div id="progress-bar"></div>
+    <div class="cursor-glow"></div>
+    <button id="top-btn" aria-label="Back to top">↑</button>
+
     <!-- ==================================================
          NAVBAR
     ================================================== -->
@@ -58,7 +67,7 @@
                 </li>
 
                 <li>
-                    <a href="warrior.html">Warriors</a>
+                    <a href="warriors.html">Warriors</a>
                 </li>
 
                 <li>
@@ -155,7 +164,7 @@
          FEATURED WARRIORS
     ================================================== -->
 
-        <section class="kings-preview">
+        <section id="warriors" class="kings-preview">
 
     <div class="section-heading">
 
@@ -171,110 +180,27 @@
     </div>
 
 
-    <div class="kings-grid">
-
-        <div class="king-card">
-            <div class="king-card-content">
-                <span class="king-era">1540 – 1597</span>
-
-                <h3>
-                    Maharana Pratap
-                </h3>
-
-                <p>
-                    The legendary ruler of Mewar who
-                    became a symbol of courage and resistance.
-                </p>
-
-                <a href="warrior.html" class="king-link">
-                    Explore Legacy →
-                </a>
-            </div>
-        </div>
-
-
-        <div class="king-card">
-            <div class="king-card-content">
-                <span class="king-era">1630 – 1680</span>
-
-                <h3>
-                    Chhatrapati Shivaji Maharaj
-                </h3>
-
-                <p>
-                    Founder of the Maratha Empire and
-                    pioneer of a powerful self-governed kingdom.
-                </p>
-
-                <a href="warrior.html" class="king-link">
-                    Explore Legacy →
-                </a>
-            </div>
-        </div>
-
-
-        <div class="king-card">
-            <div class="king-card-content">
-                <span class="king-era">268 – 232 BCE</span>
-
-                <h3>
-                    Emperor Ashoka
-                </h3>
-
-                <p>
-                    One of India's greatest emperors who
-                    transformed the Mauryan Empire.
-                </p>
-
-                <a href="warrior.html" class="king-link">
-                    Explore Legacy →
-                </a>
-            </div>
-        </div>
-
-
-        <div class="king-card">
-            <div class="king-card-content">
-                <span class="king-era">985 – 1014 CE</span>
-
-                <h3>
-                    Raja Raja Chola I
-                </h3>
-
-                <p>
-                    The mighty Chola ruler who expanded
-                    the empire and built the Brihadisvara Temple.
-                </p>
-
-                <a href="warrior.html" class="king-link">
-                    Explore Legacy →
-                </a>
-            </div>
-        </div>
-
-
-        <div class="king-card">
-            <div class="king-card-content">
-                <span class="king-era">1780 – 1839</span>
-
-                <h3>
-                    Maharaja Ranjit Singh
-                </h3>
-
-                <p>
-                    The founder of the Sikh Empire and
-                    one of the most influential rulers of Punjab.
-                </p>
-
-                <a href="warrior.html" class="king-link">
-                    Explore Legacy →
-                </a>
-            </div>
-        </div>
-
-    </div>
+    <div class="kings-grid"></div>
 
 </section>
+
+
+    <!-- ==================================================
+         ALL WARRIORS GRID
+    ================================================== -->
+
+    <section class="warriors-grid-section">
+
+        <div class="section-heading">
+
+            <h2>Explore All Warriors</h2>
+
+            <p>
+                Browse the gallery of legendary rulers and
+                commanders from across Bharat's history.
+            </p>
+
+        </div>
 
         <div id="cards" class="cards-grid"></div>
 
@@ -303,29 +229,7 @@
 
         <!-- Kingdom Cards -->
 
-        <div class="kingdom-grid">
-
-            <div class="kingdom-card">
-                <h3>Mewar</h3>
-            </div>
-
-            <div class="kingdom-card">
-                <h3>Maratha Empire</h3>
-            </div>
-
-            <div class="kingdom-card">
-                <h3>Chola Empire</h3>
-            </div>
-
-            <div class="kingdom-card">
-                <h3>Maurya Empire</h3>
-            </div>
-
-            <div class="kingdom-card">
-                <h3>Sikh Empire</h3>
-            </div>
-
-        </div>
+        <div class="kingdom-grid"></div>
 
     </section>
 
@@ -345,59 +249,7 @@
         </div>
 
 
-        <div class="timeline">
-
-            <!-- 322 BCE -->
-            <div class="timeline-item">
-
-                <span>322 BCE</span>
-
-                <p>
-                    Chandragupta Maurya establishes
-                    the Maurya Empire.
-                </p>
-
-            </div>
-
-
-            <!-- 985 CE -->
-            <div class="timeline-item">
-
-                <span>985 CE</span>
-
-                <p>
-                    Raja Raja Chola ascends
-                    the throne.
-                </p>
-
-            </div>
-
-
-            <!-- 1576 -->
-            <div class="timeline-item">
-
-                <span>1576</span>
-
-                <p>
-                    Battle of Haldighati.
-                </p>
-
-            </div>
-
-
-            <!-- 1674 -->
-            <div class="timeline-item">
-
-                <span>1674</span>
-
-                <p>
-                    Coronation of
-                    Chhatrapati Shivaji Maharaj.
-                </p>
-
-            </div>
-
-        </div>
+        <div class="timeline"></div>
 
     </section>
 
@@ -583,14 +435,11 @@
          JAVASCRIPT
     ================================================== -->
 
-    <!-- Data -->
-    <script src="data/warriors.js"></script>
-
-    <!-- Components -->
+    <!-- Scripts -->
+    <script src="js/utils.js"></script>
     <script src="js/cards.js"></script>
-
-    <!-- Functionality -->
     <script src="js/search.js"></script>
+    <script src="js/home.js"></script>
     <script src="js/scroll.js"></script>
     <script src="js/cursor.js"></script>
     <script src="js/loader.js"></script>

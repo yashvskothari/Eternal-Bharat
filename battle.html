@@ -3,15 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Travel across centuries and explore the rulers, empires and defining events that shaped Indian history.">
     <link rel="icon" href="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/ui/favicon.png">
-    <title>Timeline | Eternal Bharat</title>
+    <title>Battle | Eternal Bharat</title>
 
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/warrior.css">
     <link rel="stylesheet" href="css/timeline.css">
-    <link rel="stylesheet" href="css/cards.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
@@ -45,44 +43,55 @@
 
     <main>
 
-        <section class="hero small-hero">
+        <section class="warrior-hero">
+            <div class="overlay"></div>
             <div class="hero-content">
-                <span class="hero-tag">Historical Timeline</span>
-                <h1>The Journey of Bharat Through Time</h1>
-                <p>
-                    Travel across centuries and explore the rulers,
-                    empires and defining events that shaped Indian history.
-                </p>
+                <div class="hero-left">
+                    <span class="badge">Historic Battle</span>
+                    <h1 id="warrior-name">Loading...</h1>
+                    <p id="warrior-title"></p>
+                    <p id="warrior-years"></p>
+                    <p id="warrior-description"></p>
+                    <div class="hero-buttons">
+                        <a href="battles.html" class="primary-btn">All Battles</a>
+                        <a href="#references" class="secondary-btn">References</a>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <img id="warrior-portrait" src="" alt="Battle">
+                </div>
             </div>
         </section>
 
-        <section class="container">
-            <div class="search-box">
-                <input id="timeline-search" type="text" placeholder="Search year, ruler or event...">
+        <section class="quick-facts container">
+            <h2>Quick Facts</h2>
+            <div class="facts-grid">
+                <div class="fact-card"><h3>Year</h3><p id="year"></p></div>
+                <div class="fact-card"><h3>Location</h3><p id="location"></p></div>
+                <div class="fact-card"><h3>Result</h3><p id="result"></p></div>
+                <div class="fact-card"><h3>Kingdom</h3><p id="kingdom"></p></div>
+                <div class="fact-card"><h3>Commanders</h3><p id="commanders"></p></div>
             </div>
         </section>
 
-        <section class="container">
-            <h2 class="section-title">Chronological Timeline</h2>
-            <div id="timeline-container" class="timeline"></div>
+        <section class="container biography">
+            <h2>Historical Significance</h2>
+            <p id="significance"></p>
         </section>
 
         <section class="container">
-            <h2 class="section-title">Timeline Categories</h2>
-            <div class="cards-grid" id="timeline-categories">
-                <button type="button" class="card category-card is-active" data-category="all">
-                    <div class="card-content"><h3>All Events</h3><p>The full chronological journey.</p></div>
-                </button>
-                <button type="button" class="card category-card" data-category="rulers">
-                    <div class="card-content"><h3>Rulers</h3><p>Important births, reigns and successions.</p></div>
-                </button>
-                <button type="button" class="card category-card" data-category="battles">
-                    <div class="card-content"><h3>Battles</h3><p>Major military campaigns and victories.</p></div>
-                </button>
-                <button type="button" class="card category-card" data-category="kingdoms">
-                    <div class="card-content"><h3>Kingdoms</h3><p>Rise and expansion of powerful empires.</p></div>
-                </button>
-            </div>
+            <h2>Linked Warriors</h2>
+            <div id="commander-grid" class="battle-grid"></div>
+        </section>
+
+        <section class="container" id="references">
+            <h2>Sources & References</h2>
+            <ul id="reference-list"></ul>
+        </section>
+
+        <section class="warrior-navigation container">
+            <a id="previous-warrior" href="#">← Previous Battle</a>
+            <a id="next-warrior" href="#">Next Battle →</a>
         </section>
 
     </main>
@@ -109,7 +118,7 @@
     </footer>
 
     <script src="js/utils.js"></script>
-    <script src="js/timeline.js"></script>
+    <script src="js/battle.js"></script>
     <script src="js/scroll.js"></script>
     <script src="js/cursor.js"></script>
     <script src="js/loader.js"></script>

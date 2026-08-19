@@ -1,142 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon"
-          href="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/ui/favicon.png">
-<title>Battles | Eternal Bharat</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore decisive battles that shaped kingdoms, protected civilizations and changed the course of Indian history.">
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/ui/favicon.png">
+    <title>Battles | Eternal Bharat</title>
 
-<link rel="stylesheet" href="css/global.css">
-<link rel="stylesheet" href="css/navbar.css">
-<link rel="stylesheet" href="css/cards.css">
-<link rel="stylesheet" href="css/timeline.css">
-<link rel="stylesheet" href="css/responsive.css">
-<link rel="stylesheet" href="css/battles.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/timeline.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/battles.css">
 </head>
 <body>
 
-<header>
-<nav class="navbar">
-<a href="index.html" class="logo">Eternal Bharat</a>
+    <div id="page-loader">
+        <div class="loader-circle"></div>
+        <h2>Eternal Bharat</h2>
+    </div>
+    <div id="progress-bar"></div>
+    <div class="cursor-glow"></div>
+    <button id="top-btn" aria-label="Back to top">↑</button>
 
-<ul class="nav-links">
-<li><a href="index.html">Home</a></li>
-<li><a href="warriors.html">Warriors</a></li>
-<li><a href="kingdoms.html">Kingdoms</a></li>
-<li><a href="battles.html" class="active">Battles</a></li>
-<li><a href="timeline.html">Timeline</a></li>
-<li><a href="about.html">About</a></li>
-</ul>
-<div class="menu-toggle">
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Eternal Bharat</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="warriors.html">Warriors</a></li>
+                <li><a href="kingdoms.html">Kingdoms</a></li>
+                <li><a href="battles.html">Battles</a></li>
+                <li><a href="timeline.html">Timeline</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <div class="menu-toggle" aria-label="Open navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
 
-    <span></span>
+    <main>
 
-    <span></span>
+        <section class="hero small-hero">
+            <div class="hero-content">
+                <span class="hero-tag">Historic Battles</span>
+                <h1>Defining Battles of Bharat</h1>
+                <p>
+                    Explore decisive battles that shaped kingdoms,
+                    protected civilizations and changed the course of Indian history.
+                </p>
+            </div>
+        </section>
 
-    <span></span>
+        <section class="container">
+            <div class="search-box">
+                <input id="battle-search" type="text" placeholder="Search Battle of Haldighati, Panipat...">
+            </div>
+        </section>
 
-</div>
-</nav>
-</header>
+        <section class="container">
+            <h2 class="section-title">Major Battles</h2>
+            <div id="battle-grid" class="cards-grid"></div>
+        </section>
 
-<main>
+        <section class="container">
+            <h2 class="section-title">Battle Timeline</h2>
+            <div id="battle-timeline" class="timeline"></div>
+        </section>
 
-<section class="hero small-hero">
-<div class="hero-content">
-<span class="hero-tag">Historic Battles</span>
-<h1>Defining Battles of Bharat</h1>
-<p>Explore decisive battles that shaped kingdoms, protected civilizations and changed the course of Indian history.</p>
-</div>
-</section>
+        <section class="container">
+            <h2 class="section-title">Military Strategies</h2>
+            <div class="cards-grid">
+                <div class="card"><div class="card-content"><h3>Guerrilla Warfare</h3><p>Fast, mobile tactics perfected by the Marathas.</p></div></div>
+                <div class="card"><div class="card-content"><h3>Fort Defense</h3><p>Strategic use of hill forts and terrain.</p></div></div>
+                <div class="card"><div class="card-content"><h3>Cavalry Charges</h3><p>Rapid assaults by elite horsemen.</p></div></div>
+                <div class="card"><div class="card-content"><h3>Naval Warfare</h3><p>Control of seas through organized fleets.</p></div></div>
+            </div>
+        </section>
 
-<section class="container">
-<div class="search-box">
-<input id="battle-search" type="text" placeholder="Search Battle of Haldighati, Panipat...">
-</div>
-</section>
+    </main>
 
-<section class="container">
-<h2 class="section-title">Major Battles</h2>
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="index.html" class="footer-logo">Eternal Bharat</a>
+                <p>Preserving the stories of Bharat, one legacy at a time.</p>
+            </div>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="warriors.html">Warriors</a>
+                <a href="kingdoms.html">Kingdoms</a>
+                <a href="battles.html">Battles</a>
+                <a href="timeline.html">Timeline</a>
+                <a href="about.html">About</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Eternal Bharat</p>
+            <p>Built to remember. Designed to inspire.</p>
+        </div>
+    </footer>
 
-<div id="battle-grid" class="cards-grid">
+    <script src="js/utils.js"></script>
+    <script src="js/battles.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/cursor.js"></script>
+    <script src="js/loader.js"></script>
+    <script src="js/main.js"></script>
 
-<article class="card">
-<img src="" alt="Battle of Haldighati">
-<div class="card-content">
-<h3>Battle of Haldighati</h3>
-<p><strong>Year:</strong> 1576</p>
-<p><strong>Location:</strong> Mewar</p>
-<p><strong>Commanders:</strong> Maharana Pratap • Man Singh I</p>
-<a href="#">Explore →</a>
-</div>
-</article>
-
-<article class="card">
-<img src="" alt="Battle of Saraighat">
-<div class="card-content">
-<h3>Battle of Saraighat</h3>
-<p><strong>Year:</strong> 1671</p>
-<p><strong>Location:</strong> Assam</p>
-<p><strong>Commanders:</strong> Lachit Borphukan</p>
-<a href="#">Explore →</a>
-</div>
-</article>
-
-<article class="card">
-<img src="" alt="Battle of Khanwa">
-<div class="card-content">
-<h3>Battle of Khanwa</h3>
-<p><strong>Year:</strong> 1527</p>
-<p><strong>Location:</strong> Rajasthan</p>
-<p><strong>Commanders:</strong> Rana Sanga • Babur</p>
-<a href="#">Explore →</a>
-</div>
-</article>
-
-<article class="card">
-<img src="" alt="Second Battle of Panipat">
-<div class="card-content">
-<h3>Second Battle of Panipat</h3>
-<p><strong>Year:</strong> 1556</p>
-<p><strong>Location:</strong> Panipat</p>
-<p><strong>Commanders:</strong> Hemu • Akbar's Forces</p>
-<a href="#">Explore →</a>
-</div>
-</article>
-
-</div>
-</section>
-
-<section class="container">
-<h2 class="section-title">Battle Timeline</h2>
-
-<div class="timeline">
-<div class="timeline-item"><strong>1527</strong><p>Battle of Khanwa</p></div>
-<div class="timeline-item"><strong>1556</strong><p>Second Battle of Panipat</p></div>
-<div class="timeline-item"><strong>1576</strong><p>Battle of Haldighati</p></div>
-<div class="timeline-item"><strong>1671</strong><p>Battle of Saraighat</p></div>
-</div>
-</section>
-
-<section class="container">
-<h2 class="section-title">Military Strategies</h2>
-
-<div class="cards-grid">
-<div class="card"><div class="card-content"><h3>Guerrilla Warfare</h3><p>Fast, mobile tactics perfected by the Marathas.</p></div></div>
-<div class="card"><div class="card-content"><h3>Fort Defense</h3><p>Strategic use of hill forts and terrain.</p></div></div>
-<div class="card"><div class="card-content"><h3>Cavalry Charges</h3><p>Rapid assaults by elite horsemen.</p></div></div>
-<div class="card"><div class="card-content"><h3>Naval Warfare</h3><p>Control of seas through organized fleets.</p></div></div>
-</div>
-</section>
-
-<footer>
-<p>© 2026 Eternal Bharat</p>
-</footer>
-
-<script src="data/battles.js"></script>
-<script src="js/battles.js"></script>
-
-</main>
 </body>
 </html>

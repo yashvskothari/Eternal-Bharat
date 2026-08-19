@@ -441,6 +441,231 @@ footer p {
 
 
 /* =========================================================
+   SEARCH BOX (shared sub-pages)
+========================================================= */
+
+.search-box {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 18px 25px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    outline: none;
+    background: #181818;
+    color: var(--white);
+    font-family: "Poppins", sans-serif;
+    font-size: 0.95rem;
+    transition: var(--transition);
+}
+
+.search-box input::placeholder {
+    color: var(--text-muted);
+}
+
+.search-box input:focus {
+    border-color: var(--gold);
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.15);
+}
+
+
+/* =========================================================
+   SITE FOOTER
+========================================================= */
+
+.site-footer {
+    background: #050505;
+    border-top: 1px solid rgba(212, 175, 55, 0.15);
+    padding: 60px 0 0;
+}
+
+.footer-container {
+    width: min(92%, var(--container));
+    margin: 0 auto;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.footer-brand {
+    max-width: 320px;
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 12px;
+    font-family: "Cinzel", serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--gold);
+}
+
+.footer-brand p {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    line-height: 1.7;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: center;
+}
+
+.footer-links a {
+    color: var(--text-light);
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: var(--gold);
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(212, 175, 55, 0.1);
+    padding: 22px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+    width: min(92%, var(--container));
+    margin: 0 auto;
+}
+
+.footer-bottom p {
+    color: var(--text-muted);
+    font-size: 0.82rem;
+}
+
+
+/* =========================================================
+   PAGE LOADER
+========================================================= */
+
+#page-loader {
+    position: fixed;
+    inset: 0;
+    background: #090909;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+    transition: opacity 0.8s ease, visibility 0.8s ease;
+}
+
+#page-loader.hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.loader-circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 4px solid rgba(212, 175, 55, 0.2);
+    border-top-color: var(--gold);
+    animation: spin 0.7s linear infinite;
+}
+
+#page-loader h2 {
+    margin-top: 22px;
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+    color: var(--gold);
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+
+/* =========================================================
+   SCROLL PROGRESS
+========================================================= */
+
+#progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--gold-light), var(--gold));
+    z-index: 10001;
+    transition: width 0.1s linear;
+}
+
+
+/* =========================================================
+   BACK TO TOP
+========================================================= */
+
+#top-btn {
+    position: fixed;
+    right: 28px;
+    bottom: 28px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background: var(--gold);
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: var(--transition);
+    z-index: 999;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+#top-btn.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#top-btn:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-gold);
+}
+
+
+/* =========================================================
+   CURSOR GLOW
+========================================================= */
+
+.cursor-glow {
+    position: fixed;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    pointer-events: none;
+    background: radial-gradient(circle, rgba(212, 175, 55, 0.06), transparent 70%);
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    transition: left 0.08s linear, top 0.08s linear;
+}
+
+@media (max-width: 900px) {
+    .cursor-glow { display: none; }
+}
+
+
+/* =========================================================
    REDUCED MOTION
 ========================================================= */
 

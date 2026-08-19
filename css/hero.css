@@ -34,7 +34,7 @@
             rgba(5, 5, 5, 0.15) 55%,
             rgba(5, 5, 5, 0.85) 100%
         ),
-        url("../assets/images/hero/hero-bg.jpg");
+        url("https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/hero/hero-home.png");
 
     background-size: cover;
     background-position: center;
@@ -421,7 +421,7 @@
                 rgba(5, 5, 5, 0.2),
                 rgba(5, 5, 5, 0.9)
             ),
-            url("../assets/images/hero/hero-bg.jpg");
+            url("https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/hero/hero-home.png");
     }
 
     .hero-content {

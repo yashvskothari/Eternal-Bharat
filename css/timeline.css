@@ -7,7 +7,7 @@
    TIMELINE HERO
 ========================================================= */
 
-body:has(#timeline-container) .small-hero {
+body.timeline-page .small-hero {
     position: relative;
 
     min-height: 65vh;
@@ -39,7 +39,7 @@ body:has(#timeline-container) .small-hero {
 
 /* Decorative golden glow */
 
-body:has(#timeline-container) .small-hero::before {
+body.timeline-page .small-hero::before {
     content: "";
 
     position: absolute;
@@ -65,7 +65,7 @@ body:has(#timeline-container) .small-hero::before {
 
 /* Bottom separator */
 
-body:has(#timeline-container) .small-hero::after {
+body.timeline-page .small-hero::after {
     content: "";
 
     position: absolute;
@@ -92,7 +92,7 @@ body:has(#timeline-container) .small-hero::after {
    HERO CONTENT
 ========================================================= */
 
-body:has(#timeline-container) .small-hero .hero-content {
+body.timeline-page .small-hero .hero-content {
     position: relative;
 
     z-index: 2;
@@ -107,7 +107,7 @@ body:has(#timeline-container) .small-hero .hero-content {
    HERO TAG
 ========================================================= */
 
-body:has(#timeline-container) .small-hero .hero-tag {
+body.timeline-page .small-hero .hero-tag {
     display: inline-block;
 
     margin-bottom: 18px;
@@ -130,7 +130,7 @@ body:has(#timeline-container) .small-hero .hero-tag {
    HERO TITLE
 ========================================================= */
 
-body:has(#timeline-container) .small-hero h1 {
+body.timeline-page .small-hero h1 {
     margin-bottom: 22px;
 
     font-size:
@@ -149,7 +149,7 @@ body:has(#timeline-container) .small-hero h1 {
    HERO DESCRIPTION
 ========================================================= */
 
-body:has(#timeline-container) .small-hero .hero-content p {
+body.timeline-page .small-hero .hero-content p {
     max-width: 750px;
 
     margin: 0 auto;
@@ -166,7 +166,7 @@ body:has(#timeline-container) .small-hero .hero-content p {
    SEARCH
 ========================================================= */
 
-body:has(#timeline-container) .search-box {
+body.timeline-page .search-box {
     max-width: 750px;
 
     margin:
@@ -234,7 +234,7 @@ body:has(#timeline-container) .search-box {
    MAIN TIMELINE
 ========================================================= */
 
-#timeline-container {
+.chronicle {
     position: relative;
 
     max-width: 1000px;
@@ -253,7 +253,7 @@ body:has(#timeline-container) .search-box {
    CENTRAL TIMELINE LINE
 ========================================================= */
 
-#timeline-container::before {
+.chronicle::before {
     content: "";
 
     position: absolute;
@@ -285,7 +285,7 @@ body:has(#timeline-container) .search-box {
    TIMELINE ITEM
 ========================================================= */
 
-#timeline-container .timeline-item {
+.chronicle .timeline-item {
     position: relative;
 
     width: 46%;
@@ -320,7 +320,7 @@ body:has(#timeline-container) .search-box {
    LEFT / RIGHT POSITIONING
 ========================================================= */
 
-#timeline-container .timeline-item:nth-child(odd) {
+.chronicle .timeline-item.is-left {
     left: 0;
 
 
@@ -332,7 +332,7 @@ body:has(#timeline-container) .search-box {
 }
 
 
-#timeline-container .timeline-item:nth-child(even) {
+.chronicle .timeline-item.is-right {
     left: 54%;
 
     padding-left: 30px;
@@ -345,7 +345,7 @@ body:has(#timeline-container) .search-box {
    TIMELINE DOT
 ========================================================= */
 
-#timeline-container .timeline-item::before {
+.chronicle .timeline-item::before {
     content: "";
 
     position: absolute;
@@ -372,12 +372,12 @@ body:has(#timeline-container) .search-box {
 }
 
 
-#timeline-container .timeline-item:nth-child(odd)::before {
+.chronicle .timeline-item.is-left::before {
     right: -35px;
 }
 
 
-#timeline-container .timeline-item:nth-child(even)::before {
+.chronicle .timeline-item.is-right::before {
     left: -35px;
 }
 
@@ -386,7 +386,7 @@ body:has(#timeline-container) .search-box {
    TIMELINE CONNECTOR
 ========================================================= */
 
-#timeline-container .timeline-item::after {
+.chronicle .timeline-item::after {
     content: "";
 
     position: absolute;
@@ -403,13 +403,13 @@ body:has(#timeline-container) .search-box {
 }
 
 
-#timeline-container .timeline-item:nth-child(odd)::after {
+.chronicle .timeline-item.is-left::after {
     right: -40px;
     top: 44px;
 }
 
 
-#timeline-container .timeline-item:nth-child(even)::after {
+.chronicle .timeline-item.is-right::after {
     left: -40px;
     top:44px;
 }
@@ -419,7 +419,7 @@ body:has(#timeline-container) .search-box {
    TIMELINE YEAR
 ========================================================= */
 
-#timeline-container .timeline-item h3 {
+.chronicle .timeline-item h3 {
     margin-bottom: 8px;
 
     color: var(--gold-light);
@@ -436,7 +436,7 @@ body:has(#timeline-container) .search-box {
    TIMELINE EVENT TITLE
 ========================================================= */
 
-#timeline-container .timeline-item h4 {
+.chronicle .timeline-item h4 {
     margin-bottom: 10px;
 
     color: var(--white);
@@ -453,7 +453,7 @@ body:has(#timeline-container) .search-box {
    TIMELINE DESCRIPTION
 ========================================================= */
 
-#timeline-container .timeline-item p {
+.chronicle .timeline-item p {
     color: var(--text-muted);
 
     font-size: 0.84rem;
@@ -466,7 +466,7 @@ body:has(#timeline-container) .search-box {
    TIMELINE HOVER
 ========================================================= */
 
-#timeline-container .timeline-item:hover {
+.chronicle .timeline-item:hover {
     transform: translateY(-7px);
 
     border-color: var(--gold);
@@ -486,10 +486,10 @@ body:has(#timeline-container) .search-box {
    from cards.css.
 
    We only scope modifications to the timeline page
-   using #timeline-container as the page identifier.
+   using .chronicle as the page identifier.
 */
 
-body:has(#timeline-container) .cards-grid .card {
+body.timeline-page .cards-grid .card {
     min-height: 190px;
 
     display: flex;
@@ -502,7 +502,7 @@ body:has(#timeline-container) .cards-grid .card {
    CATEGORY CARD CONTENT
 ========================================================= */
 
-body:has(#timeline-container) .cards-grid .card-content {
+body.timeline-page .cards-grid .card-content {
     width: 100%;
 
     display: flex;
@@ -519,7 +519,7 @@ body:has(#timeline-container) .cards-grid .card-content {
    CATEGORY TITLE
 ========================================================= */
 
-body:has(#timeline-container) .cards-grid .card-content h3 {
+body.timeline-page .cards-grid .card-content h3 {
     margin-bottom: 12px;
 
     color: var(--gold);
@@ -535,7 +535,7 @@ body:has(#timeline-container) .cards-grid .card-content h3 {
    CATEGORY DESCRIPTION
 ========================================================= */
 
-body:has(#timeline-container) .cards-grid .card-content p {
+body.timeline-page .cards-grid .card-content p {
     color: var(--text-muted);
 
     font-size: 0.85rem;
@@ -548,7 +548,7 @@ body:has(#timeline-container) .cards-grid .card-content p {
    CATEGORY CARD HOVER
 ========================================================= */
 
-body:has(#timeline-container) .cards-grid .card:hover {
+body.timeline-page .cards-grid .card:hover {
     transform: translateY(-8px);
 
     border-color: var(--gold);
@@ -559,7 +559,7 @@ body:has(#timeline-container) .cards-grid .card:hover {
 }
 
 
-body:has(#timeline-container) .cards-grid .card:hover h3 {
+body.timeline-page .cards-grid .card:hover h3 {
     color: var(--gold-light);
 }
 
@@ -571,27 +571,27 @@ body:has(#timeline-container) .cards-grid .card:hover h3 {
 
 @media (max-width: 1000px) {
 
-    body:has(#timeline-container) .small-hero {
+    body.timeline-page .small-hero {
         min-height: 55vh;
 
         padding-top: 140px;
     }
 
 
-    body:has(#timeline-container) .small-hero h1 {
+    body.timeline-page .small-hero h1 {
         font-size:
             clamp(2.5rem, 6vw, 4rem);
     }
 
 
-    #timeline-container {
+    .chronicle {
         width: 90%;
 
         max-width: 850px;
     }
 
 
-    body:has(#timeline-container) .cards-grid {
+    body.timeline-page .cards-grid {
         grid-template-columns:
             repeat(2, minmax(0, 1fr));
     }
@@ -605,7 +605,7 @@ body:has(#timeline-container) .cards-grid .card:hover h3 {
 
 @media (max-width: 700px) {
 
-    body:has(#timeline-container) .small-hero {
+    body.timeline-page .small-hero {
         min-height: 55vh;
 
         padding:
@@ -614,20 +614,20 @@ body:has(#timeline-container) .cards-grid .card:hover h3 {
     }
 
 
-    body:has(#timeline-container) .small-hero .hero-tag {
+    body.timeline-page .small-hero .hero-tag {
         font-size: 0.68rem;
 
         letter-spacing: 2px;
     }
 
 
-    body:has(#timeline-container) .small-hero h1 {
+    body.timeline-page .small-hero h1 {
         font-size:
             clamp(2.2rem, 10vw, 3.2rem);
     }
 
 
-    body:has(#timeline-container) .small-hero .hero-content p {
+    body.timeline-page .small-hero .hero-content p {
         font-size: 0.85rem;
 
         line-height: 1.75;
@@ -636,7 +636,7 @@ body:has(#timeline-container) .cards-grid .card:hover h3 {
 
     /* Search */
 
-    body:has(#timeline-container) .search-box {
+    body.timeline-page .search-box {
         width: 92%;
 
         margin:
@@ -658,7 +658,7 @@ body:has(#timeline-container) .cards-grid .card:hover h3 {
        MOBILE TIMELINE
     ===================================================== */
 
-    #timeline-container {
+    .chronicle {
         width: 92%;
 
         margin-top: 45px;
@@ -669,7 +669,7 @@ body:has(#timeline-container) .cards-grid .card:hover h3 {
 
     /* Move line to left */
 
-    #timeline-container::before {
+    .chronicle::before {
         left: 8px;
 
         transform: none;
@@ -678,9 +678,9 @@ body:has(#timeline-container) .cards-grid .card:hover h3 {
 
     /* Every item becomes full width */
 
-    #timeline-container .timeline-item,
-    #timeline-container .timeline-item:nth-child(odd),
-    #timeline-container .timeline-item:nth-child(even) {
+    .chronicle .timeline-item,
+    .chronicle .timeline-item.is-left,
+    .chronicle .timeline-item.is-right {
         left: 0;
 
         width: 100%;
@@ -699,9 +699,9 @@ body:has(#timeline-container) .cards-grid .card:hover h3 {
 
     /* Mobile dot */
 
-    #timeline-container .timeline-item::before,
-    #timeline-container .timeline-item:nth-child(odd)::before,
-    #timeline-container .timeline-item:nth-child(even)::before {
+    .chronicle .timeline-item::before,
+    .chronicle .timeline-item.is-left::before,
+    .chronicle .timeline-item.is-right::before {
         left: -24px;
 
         right: auto;
@@ -715,9 +715,9 @@ body:has(#timeline-container) .cards-grid .card:hover h3 {
 
     /* Mobile connector */
 
-    #timeline-container .timeline-item::after,
-    #timeline-container .timeline-item:nth-child(odd)::after,
-    #timeline-container .timeline-item:nth-child(even)::after {
+    .chronicle .timeline-item::after,
+    .chronicle .timeline-item.is-left::after,
+    .chronicle .timeline-item.is-right::after {
         left: -25px;
 
         right: auto;
@@ -730,7 +730,7 @@ body:has(#timeline-container) .cards-grid .card:hover h3 {
 
     /* Category cards */
 
-    body:has(#timeline-container) .cards-grid {
+    body.timeline-page .cards-grid {
         grid-template-columns: 1fr;
 
         gap: 18px;
@@ -745,33 +745,33 @@ body:has(#timeline-container) .cards-grid .card:hover h3 {
 
 @media (max-width: 450px) {
 
-    body:has(#timeline-container) .small-hero {
+    body.timeline-page .small-hero {
         padding:
             115px 18px
             60px;
     }
 
 
-    body:has(#timeline-container) .small-hero h1 {
+    body.timeline-page .small-hero h1 {
         font-size: 2.1rem;
     }
 
 
-    body:has(#timeline-container) .small-hero .hero-content p {
+    body.timeline-page .small-hero .hero-content p {
         font-size: 0.8rem;
     }
 
 
-    #timeline-container {
+    .chronicle {
         width: 90%;
 
         padding-left: 22px;
     }
 
 
-    #timeline-container .timeline-item,
-    #timeline-container .timeline-item:nth-child(odd),
-    #timeline-container .timeline-item:nth-child(even) {
+    .chronicle .timeline-item,
+    .chronicle .timeline-item.is-left,
+    .chronicle .timeline-item.is-right {
         padding:
             21px
             18px
@@ -780,22 +780,22 @@ body:has(#timeline-container) .cards-grid .card:hover h3 {
     }
 
 
-    #timeline-container .timeline-item h3 {
+    .chronicle .timeline-item h3 {
         font-size: 1rem;
     }
 
 
-    #timeline-container .timeline-item h4 {
+    .chronicle .timeline-item h4 {
         font-size: 1rem;
     }
 
 
-    #timeline-container .timeline-item p {
+    .chronicle .timeline-item p {
         font-size: 0.78rem;
     }
 
 
-    body:has(#timeline-container) .cards-grid .card-content {
+    body.timeline-page .cards-grid .card-content {
         padding: 24px 20px;
     }
 }
@@ -807,8 +807,8 @@ body:has(#timeline-container) .cards-grid .card:hover h3 {
 
 @media (prefers-reduced-motion: reduce) {
 
-    #timeline-container .timeline-item,
-    body:has(#timeline-container) .cards-grid .card {
+    .chronicle .timeline-item,
+    body.timeline-page .cards-grid .card {
         transition: none;
     }
 }
@@ -999,4 +999,22 @@ body:has(#timeline-container) .cards-grid .card:hover h3 {
 
 .home-timeline .timeline-item:nth-child(even)::after {
     left: -50px;
+}
+
+#timeline-categories .category-card {
+    appearance: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    font: inherit;
+    color: inherit;
+    background: inherit;
+}
+
+#timeline-categories .category-card.is-active {
+    border-color: rgba(212, 175, 55, 0.65);
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.05),
+        0 0 0 1px rgba(212, 175, 55, 0.25),
+        0 12px 30px rgba(0, 0, 0, 0.22);
 }

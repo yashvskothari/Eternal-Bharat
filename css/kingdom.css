@@ -488,8 +488,12 @@
 
 .container > .timeline .timeline-item p {
     color: var(--text-light);
-
     font-size: 0.82rem;
+}
+
+.container > .timeline .timeline-item p a {
+    color: var(--gold-light);
+    text-decoration: none;
 }
 
 
