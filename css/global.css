@@ -1,0 +1,476 @@
+/* =========================================
+   GOOGLE FONTS
+========================================= */
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+
+/* =========================================
+   CSS VARIABLES
+========================================= */
+
+:root {
+
+    /* Colors */
+
+    --bg-primary: #0b0b0b;
+    --bg-secondary: #151515;
+    --bg-card: rgba(255,255,255,0.04);
+
+    --gold: #d4af37;
+    --gold-light: #f6d365;
+    --gold-dark: #8f6b00;
+
+    --white: #ffffff;
+    --text-light: #d9d9d9;
+    --text-muted: #9f9f9f;
+
+    --border: rgba(212,175,55,.25);
+
+    --success: #4caf50;
+    --danger: #ff4d4d;
+
+    /* Shadows */
+
+    --shadow:
+
+        0 15px 40px rgba(0,0,0,.35);
+
+    --shadow-gold:
+
+        0 0 30px rgba(212,175,55,.18);
+
+    /* Radius */
+
+    --radius-small:10px;
+
+    --radius:18px;
+
+    --radius-large:30px;
+
+    /* Transition */
+
+    --transition:.35s ease;
+
+    /* Width */
+
+    --container:1300px;
+
+}
+
+
+/* =========================================
+   RESET
+========================================= */
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+
+body{
+
+    background:
+
+        linear-gradient(to bottom,
+        #090909,
+        #121212,
+        #0c0c0c);
+
+    color:var(--white);
+
+    font-family:"Poppins",sans-serif;
+
+    overflow-x:hidden;
+
+    line-height:1.7;
+
+}
+
+
+/* =========================================
+   TYPOGRAPHY
+========================================= */
+
+h1,h2,h3,h4,h5{
+
+    font-family:"Cinzel",serif;
+
+    font-weight:700;
+
+    color:var(--gold);
+
+}
+
+h1{
+
+    font-size:4rem;
+
+}
+
+h2{
+
+    font-size:2.5rem;
+
+}
+
+h3{
+
+    font-size:1.4rem;
+
+}
+
+p{
+
+    color:var(--text-light);
+
+}
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+img{
+
+    width:100%;
+
+    display:block;
+
+}
+
+
+/* =========================================
+   CONTAINER
+========================================= */
+
+.container{
+
+    width:min(92%,var(--container));
+
+    margin:auto;
+
+}
+
+
+/* =========================================
+   SECTION
+========================================= */
+
+section{
+
+    padding:90px 0;
+
+}
+
+.section-title{
+
+    text-align:center;
+
+    margin-bottom:60px;
+
+}
+
+.section-title::after{
+
+    content:"";
+
+    display:block;
+
+    width:90px;
+
+    height:4px;
+
+    margin:18px auto;
+
+    background:var(--gold);
+
+    border-radius:20px;
+
+}
+
+
+/* =========================================
+   BUTTONS
+========================================= */
+
+.primary-btn,
+
+.secondary-btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:15px 34px;
+
+    border-radius:999px;
+
+    transition:var(--transition);
+
+    font-weight:600;
+
+}
+
+.primary-btn{
+
+    background:var(--gold);
+
+    color:black;
+
+}
+
+.primary-btn:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:var(--shadow-gold);
+
+}
+
+.secondary-btn{
+
+    border:2px solid var(--gold);
+
+    color:var(--gold);
+
+}
+
+.secondary-btn:hover{
+
+    background:var(--gold);
+
+    color:black;
+
+}
+
+
+/* =========================================
+   CARD
+========================================= */
+
+.card{
+
+    background:var(--bg-card);
+
+    border:1px solid var(--border);
+
+    border-radius:var(--radius);
+
+    overflow:hidden;
+
+    transition:var(--transition);
+
+    backdrop-filter:blur(12px);
+
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:var(--shadow);
+
+    border-color:var(--gold);
+
+}
+
+
+/* =========================================
+   GRID
+========================================= */
+
+.cards-grid{
+
+    display:grid;
+
+    grid-template-columns:
+
+        repeat(auto-fit,minmax(280px,1fr));
+
+    gap:30px;
+
+}
+
+
+/* =========================================
+   SEARCH
+========================================= */
+
+.search-box{
+
+    max-width:700px;
+
+    margin:0 auto 60px;
+
+}
+
+.search-box input{
+
+    width:100%;
+
+    padding:18px 22px;
+
+    border:none;
+
+    outline:none;
+
+    border-radius:999px;
+
+    background:#181818;
+
+    color:white;
+
+    border:1px solid var(--border);
+
+    transition:var(--transition);
+
+}
+
+.search-box input:focus{
+
+    border-color:var(--gold);
+
+    box-shadow:
+
+        0 0 20px rgba(212,175,55,.15);
+
+}
+
+
+/* =========================================
+   LIST
+========================================= */
+
+ul{
+
+    list-style:none;
+
+}
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+footer{
+
+    padding:40px;
+
+    border-top:1px solid var(--border);
+
+    text-align:center;
+
+    color:var(--text-muted);
+
+}
+
+
+/* =========================================
+   SCROLLBAR
+========================================= */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#111;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:var(--gold);
+
+    border-radius:20px;
+
+}
+
+
+/* =========================================
+   SELECTION
+========================================= */
+
+::selection{
+
+    background:var(--gold);
+
+    color:black;
+
+}
+
+
+/* =========================================
+   ANIMATIONS
+========================================= */
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(40px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+.fade-up{
+
+    animation:fadeUp .8s ease forwards;
+
+}
+
+
+/* =========================================
+   UTILITIES
+========================================= */
+
+.text-center{
+
+    text-align:center;
+
+}
+
+.gold{
+
+    color:var(--gold);
+
+}
+
+.hidden{
+
+    display:none;
+
+}

@@ -1,0 +1,283 @@
+/* =========================================
+   NAVBAR
+========================================= */
+
+header {
+
+    position: fixed;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    z-index: 1000;
+
+}
+
+/* =========================================
+   NAVBAR CONTAINER
+========================================= */
+
+.navbar {
+
+    width: min(92%, 1300px);
+
+    margin: 18px auto;
+
+    padding: 16px 34px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    background: rgba(15, 15, 15, 0.75);
+
+    backdrop-filter: blur(14px);
+
+    -webkit-backdrop-filter: blur(14px);
+
+    border: 1px solid rgba(212, 175, 55, .18);
+
+    border-radius: 18px;
+
+    transition: .35s ease;
+
+}
+
+/* =========================================
+   LOGO
+========================================= */
+
+.logo {
+
+    font-family: "Cinzel", serif;
+
+    font-size: 1.8rem;
+
+    font-weight: 700;
+
+    color: var(--gold);
+
+    letter-spacing: 1px;
+
+    transition: .3s ease;
+
+}
+
+.logo:hover {
+
+    color: var(--gold-light);
+
+    text-shadow: 0 0 18px rgba(212,175,55,.35);
+
+}
+
+/* =========================================
+   NAV LINKS
+========================================= */
+
+.nav-links {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 36px;
+
+}
+
+.nav-links li {
+
+    list-style: none;
+
+}
+
+.nav-links a {
+
+    position: relative;
+
+    color: white;
+
+    font-size: .97rem;
+
+    font-weight: 500;
+
+    transition: .3s ease;
+
+}
+
+/* Hover */
+
+.nav-links a:hover {
+
+    color: var(--gold);
+
+}
+
+/* Underline Animation */
+
+.nav-links a::after {
+
+    content: "";
+
+    position: absolute;
+
+    left: 50%;
+
+    bottom: -8px;
+
+    width: 0;
+
+    height: 2px;
+
+    background: var(--gold);
+
+    transition: .3s ease;
+
+    transform: translateX(-50%);
+
+}
+
+.nav-links a:hover::after {
+
+    width: 100%;
+
+}
+
+/* =========================================
+   ACTIVE PAGE
+========================================= */
+
+.nav-links a.active {
+
+    color: var(--gold);
+
+}
+
+.nav-links a.active::after {
+
+    width: 100%;
+
+}
+
+/* =========================================
+   NAVBAR ON SCROLL
+========================================= */
+
+.navbar.scrolled {
+
+    margin-top: 8px;
+
+    background: rgba(8,8,8,.95);
+
+    box-shadow:
+
+        0 8px 30px rgba(0,0,0,.35);
+
+}
+
+/* =========================================
+   MOBILE MENU ICON
+========================================= */
+
+.menu-toggle {
+
+    display: none;
+
+    flex-direction: column;
+
+    gap: 5px;
+
+    cursor: pointer;
+
+}
+
+.menu-toggle span {
+
+    width: 26px;
+
+    height: 3px;
+
+    border-radius: 20px;
+
+    background: var(--gold);
+
+    transition: .3s ease;
+
+}
+
+/* =========================================
+   MOBILE MENU
+========================================= */
+
+@media(max-width:900px){
+
+.navbar{
+
+padding:16px 22px;
+
+}
+
+.menu-toggle{
+
+display:flex;
+
+}
+
+.nav-links{
+
+position:absolute;
+
+top:95px;
+
+left:0;
+
+width:100%;
+
+background:#111;
+
+flex-direction:column;
+
+padding:35px 0;
+
+gap:28px;
+
+display:none;
+
+border-top:1px solid rgba(212,175,55,.2);
+
+}
+
+.nav-links.active{
+
+display:flex;
+
+}
+
+}
+
+/* =========================================
+   SMALL DEVICES
+========================================= */
+
+@media(max-width:500px){
+
+.logo{
+
+font-size:1.45rem;
+
+}
+
+.navbar{
+
+margin:10px;
+
+border-radius:14px;
+
+}
+
+}
