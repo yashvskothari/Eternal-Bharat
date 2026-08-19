@@ -1274,3 +1274,80 @@ body.timeline-page .cards-grid .card:hover h3 {
         0 0 0 1px rgba(212, 175, 55, 0.25),
         0 12px 30px rgba(0, 0, 0, 0.22);
 }
+
+
+.timeline-card{
+
+display:flex;
+
+flex-direction:column;
+
+height:100%;
+
+min-height:250px;
+
+}
+
+.timeline-item{
+
+display:flex;
+
+}
+
+.timeline-item>div{
+
+width:100%;
+
+}
+
+.timeline-card p{
+
+flex:1;
+
+line-height:1.8;
+
+margin:18px 0;
+
+}
+
+.tl-bottom{
+
+margin-top:auto;
+
+display:flex;
+
+justify-content:flex-end;
+
+}
+
+.tl-links{
+
+display:flex;
+
+gap:10px;
+
+flex-wrap:wrap;
+
+}
+
+.tl-links a{
+
+padding:8px 18px;
+
+border-radius:30px;
+
+background:rgba(212,175,55,.12);
+
+border:1px solid rgba(212,175,55,.3);
+
+transition:.3s;
+
+}
+
+.tl-links a:hover{
+
+background:var(--gold);
+
+color:#111;
+
+}

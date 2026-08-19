@@ -10,7 +10,7 @@ window.EB_DATA.kingdoms = [
     "founded": "322 BCE",
     "region": "Magadha and the wider subcontinent",
     "description": "One of ancient India's largest empires, spanning much of the subcontinent under Chandragupta and Ashoka.",
-    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/maurya/map.png",
     "overview": "Founded by Chandragupta Maurya with the counsel of Chanakya, the Maurya state built a centralized administration, a standing army, and far-reaching diplomacy. Under Ashoka it also became associated with dhamma and Buddhist patronage.",
     "rulers": [
       "chandragupt"
@@ -60,7 +60,7 @@ window.EB_DATA.kingdoms = [
     "founded": "320 CE",
     "region": "Northern and central India",
     "description": "A classical empire associated with Sanskrit literature, science, and a flowering of temple culture.",
-    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/samudragupt/portrait.jpg",
+    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/gupta/map.png",
     "overview": "From a Magadhan base the Guptas expanded through conquest and marriage alliances. Their age is remembered for Kalidasa, advances in mathematics and astronomy, and refined coinage.",
     "rulers": [
       "samudragupt"
@@ -109,7 +109,7 @@ window.EB_DATA.kingdoms = [
     "founded": "543 CE",
     "region": "Western Deccan",
     "description": "A Deccan imperial house famed for checking northern expansion and pioneering temple architecture in stone.",
-    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chalukya/portrait.jpg",
+    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/chalukya/map.png",
     "overview": "The Badami Chalukyas made Vatapi a royal centre and left an architectural trail at Aihole, Badami, and Pattadakal. Pulakeshin II brought the dynasty to its military peak.",
     "rulers": [
       "chalukya"
@@ -157,7 +157,7 @@ window.EB_DATA.kingdoms = [
     "founded": "848 CE",
     "region": "Tamil country and the Indian Ocean",
     "description": "A South Indian maritime empire celebrated for temple architecture, trade, and naval power.",
-    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chola/portrait.jpg",
+    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/chola/map.png",
     "overview": "From the Kaveri delta the Cholas built a navy, a land-revenue state, and monumental temples. Raja Raja I and Rajendra I carried Chola arms to Sri Lanka and across the Bay of Bengal.",
     "rulers": [
       "chola"
@@ -206,7 +206,7 @@ window.EB_DATA.kingdoms = [
     "founded": "7th century",
     "region": "Rajasthan and the Delhi region",
     "description": "A major Rajput power of Ajmer and Delhi, ending with Prithviraj Chauhan's fall at Tarain.",
-    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/prithviraj-chauhan/portrait.jpg",
+    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/chauhan/map.jpg",
     "overview": "The Chahamanas of Shakambhari rose around Ajmer and, under Prithviraj, held Delhi. Their defeat in 1192 marked a political turning point in North India.",
     "rulers": [
       "prithviraj-chauhan"
@@ -256,7 +256,7 @@ window.EB_DATA.kingdoms = [
     "founded": "1336 CE",
     "region": "Southern Deccan and the peninsula",
     "description": "The great southern empire whose capital at Hampi became one of the most magnificent cities of its age.",
-    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/kdr/portrait.jpg",
+    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/vijaynagar/map.png",
     "overview": "Founded in the 14th century, Vijayanagara gathered southern kingdoms into a single imperial frame. Under Krishnadevaraya it reached a height of wealth, literature, and military success.",
     "rulers": [
       "kdr"
@@ -305,7 +305,7 @@ window.EB_DATA.kingdoms = [
     "founded": "8th century",
     "region": "Southern Rajasthan",
     "description": "One of the oldest and most respected Rajput kingdoms, known for its forts, lakes, and unbroken spirit of independence.",
-    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/maharana-pratap/portrait.jpg",
+    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/mewar/map.png",
     "overview": "Mewar, ruled by the Guhilas and later Sisodias, made resistance a political identity. From Chittorgarh to Kumbhalgarh and Udaipur, its forts and rulers — including Rana Sanga and Maharana Pratap — defined Rajput honour.",
     "rulers": [
       "rana-sanga",
@@ -367,7 +367,7 @@ window.EB_DATA.kingdoms = [
     "founded": "1228 CE",
     "region": "Brahmaputra valley (Assam)",
     "description": "A long-lived kingdom of Assam that defended the northeast through adaptive warfare and a distinct administrative system.",
-    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/lachit-borphukan/portrait.jpg",
+    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/ahom/map.jpg",
     "overview": "Founded by Sukaphaa, the Ahom state absorbed local cultures and resisted repeated invasions. Lachit Borphukan's victory at Saraighat is the most famous chapter of that defense.",
     "rulers": [
       "lachit-borphukan"
@@ -416,7 +416,7 @@ window.EB_DATA.kingdoms = [
     "founded": "1674 CE",
     "region": "Deccan, then much of India",
     "description": "A Deccan-based empire that grew into a major power, built on swarajya and innovative military tactics.",
-    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/shivaji/portrait.jpg",
+    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/maratha/map.png",
     "overview": "Shivaji's coronation in 1674 gave institutional form to Maratha swarajya. Under later Chhatrapatis and Peshwas — including Sambhaji and Bajirao I — Maratha power reached from the Sahyadris to the north Indian plains.",
     "rulers": [
       "shivaji",
@@ -475,7 +475,7 @@ window.EB_DATA.kingdoms = [
     "founded": "1801 CE",
     "region": "Punjab and the northwest",
     "description": "A powerful Punjabi empire founded by Maharaja Ranjit Singh, known for military modernization and inclusive rule.",
-    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/ranjit-singh/portrait.jpg",
+    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/sikh/map.png",
     "overview": "Ranjit Singh unified the Sikh misls into a kingdom with a modern army, a composite court, and control of the Punjab heartland, Kashmir, and the northwest approaches.",
     "rulers": [
       "ranjit-singh"
@@ -525,7 +525,7 @@ window.EB_DATA.kingdoms = [
     "founded": "18th century",
     "region": "Bundelkhand",
     "description": "A Bundelkhand princely state whose defense in 1857–58 made Rani Lakshmibai a national symbol of resistance.",
-    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/laxmibai/portrait.jpg",
+    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/jhansi/map.jpeg",
     "overview": "Jhansi stood at a crossroads of central India. After the doctrine of lapse threatened its autonomy, the 1857 revolt turned the fort and its queen into a lasting emblem of courage.",
     "rulers": [
       "laxmibai"

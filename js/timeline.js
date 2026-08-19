@@ -126,6 +126,7 @@ function renderChronicle(container, events, countEl) {
 }
 
 function timelineCardHTML(event) {
+
     const placeholder = event.placeholder
         ? '<span class="tl-placeholder">Placeholder</span>'
         : "";
@@ -133,24 +134,48 @@ function timelineCardHTML(event) {
     const category = CATEGORY_LABELS[event.category] || event.category;
 
     const links = [];
+
     if (event.warriorId) {
-        links.push(`<a href="warrior.html?id=${event.warriorId}">Warrior</a>`);
+        links.push(`<a href="warrior.html?id=${event.warriorId}">View Warrior →</a>`);
     }
+
     if (event.kingdomId) {
-        links.push(`<a href="kingdom.html?id=${event.kingdomId}">Kingdom</a>`);
+        links.push(`<a href="kingdom.html?id=${event.kingdomId}">View Kingdom →</a>`);
     }
+
     if (event.battleId) {
-        links.push(`<a href="battle.html?id=${event.battleId}">Battle</a>`);
+        links.push(`<a href="battle.html?id=${event.battleId}">View Battle →</a>`);
     }
 
     return `
-        <div class="tl-meta">
-            <span class="tl-cat tl-cat-${event.category}">${category}</span>
-            ${placeholder}
+
+        <div class="timeline-card">
+
+            <div class="tl-meta">
+
+                <span class="tl-cat tl-cat-${event.category}">
+                    ${category}
+                </span>
+
+                ${placeholder}
+
+            </div>
+
+            <h3>${event.year}</h3>
+
+            <h4>${event.title}</h4>
+
+            <p>${event.description}</p>
+
+            <div class="tl-bottom">
+
+                ${links.length
+                    ? `<div class="tl-links">${links.join("")}</div>`
+                    : "<span></span>"}
+
+            </div>
+
         </div>
-        <h3>${event.year}</h3>
-        <h4>${event.title}</h4>
-        <p>${event.description}</p>
-        ${links.length ? `<div class="tl-links">${links.join("")}</div>` : ""}
+
     `;
 }
