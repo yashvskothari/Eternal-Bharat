@@ -351,6 +351,7 @@ body:has(#timeline-container) .search-box {
     position: absolute;
 
     top: 35px;
+    
 
     width: 14px;
     height: 14px;
@@ -372,12 +373,12 @@ body:has(#timeline-container) .search-box {
 
 
 #timeline-container .timeline-item:nth-child(odd)::before {
-    right: -43px;
+    right: -35px;
 }
 
 
 #timeline-container .timeline-item:nth-child(even)::before {
-    left: -43px;
+    left: -35px;
 }
 
 
@@ -942,7 +943,7 @@ body:has(#timeline-container) .cards-grid .card:hover h3 {
 
     position: absolute;
 
-    top: 28px;
+    top: 26px;
 
     width: 13px;
     height: 13px;
@@ -961,13 +962,13 @@ body:has(#timeline-container) .cards-grid .card:hover h3 {
 /* Left Card Dot */
 
 .home-timeline .timeline-item:nth-child(odd)::before {
-    right: -65px;
+    right: -47px;
 }
 
 /* Right Card Dot */
 
 .home-timeline .timeline-item:nth-child(even)::before {
-    left: -65px;
+    left: -47px;
 }
 
 /* Horizontal Connector */
