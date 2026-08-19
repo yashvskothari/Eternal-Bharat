@@ -747,3 +747,90 @@ body {
     }
 
 }
+
+
+@media (max-width: 900px) {
+
+    .manifesto {
+        grid-template-columns: 1fr;
+
+        gap: 45px;
+    }
+
+    .about-heading {
+        margin-bottom: 40px;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .about-section {
+        width: 90%;
+        padding: 75px 0;
+    }
+
+    .manifesto-copy::before {
+        left: -10px;
+        top: -55px;
+
+        font-size: 6rem;
+    }
+
+    .manifesto-quote {
+        padding: 28px;
+    }
+
+    .manifesto-quote strong {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .golden-manifesto {
+        grid-template-columns: 1fr;
+
+        text-align: center;
+
+        padding: 40px;
+    }
+
+    .golden-emblem {
+        width: 170px;
+        height: 170px;
+    }
+
+    .about-section {
+        padding: 75px 0;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .about-hero {
+        min-height: 65vh;
+
+        padding:
+            110px 20px
+            80px;
+    }
+
+    .heritage-label {
+        letter-spacing: 3px;
+    }
+
+    .heritage-label::before,
+    .heritage-label::after {
+        width: 25px;
+    }
+
+    .golden-manifesto {
+        padding: 30px 20px;
+    }
+
+    .tech-list {
+        grid-template-columns: 1fr;
+    }
+}
