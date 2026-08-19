@@ -1,145 +1,166 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/ui/favicon.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/ui/favicon.png"
+    />
     <title>Kingdom | Eternal Bharat</title>
 
-    <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/warrior.css">
-    <link rel="stylesheet" href="css/timeline.css">
-    <link rel="stylesheet" href="css/responsive.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/warrior.css" />
+    <link rel="stylesheet" href="css/timeline.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
     <div id="page-loader">
-        <div class="loader-circle"></div>
-        <h2>Eternal Bharat</h2>
+      <div class="loader-circle"></div>
+      <h2>Eternal Bharat</h2>
     </div>
     <div id="progress-bar"></div>
     <div class="cursor-glow"></div>
     <button id="top-btn" aria-label="Back to top">↑</button>
 
     <header>
-        <nav class="navbar">
-            <a href="index.html" class="logo">Eternal Bharat</a>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="warriors.html">Warriors</a></li>
-                <li><a href="kingdoms.html">Kingdoms</a></li>
-                <li><a href="battles.html">Battles</a></li>
-                <li><a href="timeline.html">Timeline</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-            <div class="menu-toggle" aria-label="Open navigation menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </nav>
+      <nav class="navbar">
+        <a href="index.html" class="logo">Eternal Bharat</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="warriors.html">Warriors</a></li>
+          <li><a href="kingdoms.html">Kingdoms</a></li>
+          <li><a href="battles.html">Battles</a></li>
+          <li><a href="timeline.html">Timeline</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+        <div class="menu-toggle" aria-label="Open navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
     </header>
 
     <main>
-
-        <section class="warrior-hero">
-            <div class="overlay"></div>
-            <div class="hero-content">
-                <div class="hero-left">
-                    <span class="badge">Historic Kingdom</span>
-                    <h1 id="warrior-name">Loading...</h1>
-                    <p id="warrior-title"></p>
-                    <p id="warrior-years"></p>
-                    <p id="warrior-description"></p>
-                    <div class="hero-buttons">
-                        <a href="#timeline" class="primary-btn">View Timeline</a>
-                        <a href="kingdoms.html" class="secondary-btn">All Kingdoms</a>
-                    </div>
-                </div>
-                <div class="hero-right">
-                    <img id="warrior-portrait" src="" alt="Kingdom">
-                </div>
+      <section class="warrior-hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+          <div class="hero-left">
+            <span class="badge">Historic Kingdom</span>
+            <h1 id="warrior-name">Loading...</h1>
+            <p id="warrior-title"></p>
+            <p id="warrior-years"></p>
+            <p id="warrior-description"></p>
+            <div class="hero-buttons">
+              <a href="#timeline" class="primary-btn">View Timeline</a>
+              <a href="kingdoms.html" class="secondary-btn">All Kingdoms</a>
             </div>
-        </section>
+          </div>
+          <div class="hero-right">
+            <img id="warrior-portrait" src="" alt="Kingdom" />
+          </div>
+        </div>
+      </section>
 
-        <section class="quick-facts container">
-            <h2>Quick Facts</h2>
-            <div class="facts-grid">
-                <div class="fact-card"><h3>Capital</h3><p id="capital"></p></div>
-                <div class="fact-card"><h3>Dynasty</h3><p id="dynasty"></p></div>
-                <div class="fact-card"><h3>Period</h3><p id="period"></p></div>
-                <div class="fact-card"><h3>Region</h3><p id="region"></p></div>
-                <div class="fact-card"><h3>Founded</h3><p id="founded"></p></div>
-            </div>
-        </section>
+      <section class="quick-facts container">
+        <h2>Quick Facts</h2>
+        <div class="facts-grid">
+          <div class="fact-card">
+            <h3>Capital</h3>
+            <p id="capital"></p>
+          </div>
+          <div class="fact-card">
+            <h3>Dynasty</h3>
+            <p id="dynasty"></p>
+          </div>
+          <div class="fact-card">
+            <h3>Period</h3>
+            <p id="period"></p>
+          </div>
+          <div class="fact-card">
+            <h3>Region</h3>
+            <p id="region"></p>
+          </div>
+          <div class="fact-card">
+            <h3>Founded</h3>
+            <p id="founded"></p>
+          </div>
+        </div>
+      </section>
 
-        <section class="container biography">
-            <h2>Overview</h2>
-            <p id="overview"></p>
-        </section>
+      <section class="container biography">
+        <h2>Overview</h2>
+        <p id="overview"></p>
+      </section>
 
-        <section class="container">
-            <h2>Rulers</h2>
-            <div id="ruler-grid" class="battle-grid"></div>
-        </section>
+      <section class="container">
+        <h2>Rulers</h2>
+        <div id="ruler-grid" class="battle-grid"></div>
+      </section>
 
-        <section class="container">
-            <h2>Major Battles</h2>
-            <div id="battle-grid" class="battle-grid"></div>
-        </section>
+      <section class="container">
+        <h2>Major Battles</h2>
+        <div id="battle-grid" class="battle-grid"></div>
+      </section>
 
-        <section class="container">
-            <h2>Important Forts</h2>
-            <div id="fort-grid" class="fort-grid"></div>
-        </section>
+      <section class="container">
+        <h2 class="section-title">Famous Forts</h2>
 
-        <section class="container" id="timeline">
-            <h2>Timeline</h2>
-            <div id="timeline-container" class="timeline"></div>
-        </section>
+        <p class="section-subtitle">
+          The strongholds that protected the kingdom and witnessed its greatest
+          moments.
+        </p>
 
-        <section class="container">
-            <h2>Achievements</h2>
-            <ul id="achievements"></ul>
-        </section>
+        <div id="fort-grid" class="fort-gallery"></div>
+      </section>
 
-        <section class="container">
-            <h2>Legacy</h2>
-            <p id="legacy"></p>
-        </section>
+      <section class="container" id="timeline">
+        <h2>Timeline</h2>
+        <div id="timeline-container" class="timeline"></div>
+      </section>
 
-        <section class="container" id="references">
-            <h2>Sources & References</h2>
-            <ul id="reference-list"></ul>
-        </section>
+      <section class="container">
+        <h2>Achievements</h2>
+        <ul id="achievements"></ul>
+      </section>
 
-        <section class="warrior-navigation container">
-            <a id="previous-warrior" href="#">← Previous Kingdom</a>
-            <a id="next-warrior" href="#">Next Kingdom →</a>
-        </section>
+      <section class="container">
+        <h2>Legacy</h2>
+        <p id="legacy"></p>
+      </section>
 
+      <section class="container" id="references">
+        <h2>Sources & References</h2>
+        <ul id="reference-list"></ul>
+      </section>
+
+      <section class="warrior-navigation container">
+        <a id="previous-warrior" href="#">← Previous Kingdom</a>
+        <a id="next-warrior" href="#">Next Kingdom →</a>
+      </section>
     </main>
 
     <footer class="site-footer">
-        <div class="footer-container">
-            <div class="footer-brand">
-                <a href="index.html" class="footer-logo">Eternal Bharat</a>
-                <p>Preserving the stories of Bharat, one legacy at a time.</p>
-            </div>
-            <div class="footer-links">
-                <a href="index.html">Home</a>
-                <a href="warriors.html">Warriors</a>
-                <a href="kingdoms.html">Kingdoms</a>
-                <a href="battles.html">Battles</a>
-                <a href="timeline.html">Timeline</a>
-                <a href="about.html">About</a>
-            </div>
+      <div class="footer-container">
+        <div class="footer-brand">
+          <a href="index.html" class="footer-logo">Eternal Bharat</a>
+          <p>Preserving the stories of Bharat, one legacy at a time.</p>
         </div>
-        <div class="footer-bottom">
-            <p>© 2026 Eternal Bharat</p>
-            <p>Built to remember. Designed to inspire.</p>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="warriors.html">Warriors</a>
+          <a href="kingdoms.html">Kingdoms</a>
+          <a href="battles.html">Battles</a>
+          <a href="timeline.html">Timeline</a>
+          <a href="about.html">About</a>
         </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Eternal Bharat</p>
+        <p>Built to remember. Designed to inspire.</p>
+      </div>
     </footer>
 
     <!-- Preloaded data (lets pages work even when opened via file://,
@@ -155,6 +176,5 @@
     <script src="js/cursor.js"></script>
     <script src="js/loader.js"></script>
     <script src="js/main.js"></script>
-
-</body>
+  </body>
 </html>
