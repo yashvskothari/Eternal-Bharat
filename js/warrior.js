@@ -90,5 +90,31 @@ function renderForts(id, forts) {
     const el = document.getElementById(id);
     if (!el || !forts) return;
 
-    el.innerHTML = forts.map((f) => `<div>${f}</div>`).join("");
+    el.innerHTML = forts
+        .map((f) => {
+            // Support both the older plain-string format and the
+            // richer { name, image, description } object format.
+            if (typeof f === "string") {
+                return `
+                    <article class="fort-card">
+                        <div class="fort-card-body">
+                            <h3>${f}</h3>
+                        </div>
+                    </article>
+                `;
+            }
+
+            return `
+                <article class="fort-card">
+                    <div class="fort-card-image">
+                        <img src="${f.image}" alt="${f.name}" loading="lazy">
+                    </div>
+                    <div class="fort-card-body">
+                        <h3>${f.name}</h3>
+                        ${f.description ? `<p>${f.description}</p>` : ""}
+                    </div>
+                </article>
+            `;
+        })
+        .join("");
 }
