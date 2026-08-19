@@ -32,7 +32,7 @@
     "forts": [
       {
         "name": "Pataliputra",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "The Mauryan capital on the banks of the Ganga and Son rivers, described by the Greek envoy Megasthenes as a vast fortified city ringed by a wooden palisade and a wide moat. It served as the nerve centre of Chandragupta's administration and remained the seat of Mauryan power for generations."
       }
     ],
@@ -96,7 +96,7 @@
     "forts": [
       {
         "name": "Pataliputra",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "The historic Mauryan capital continued as a principal Gupta seat, remaining a fortified political and cultural centre on the Ganga from which Samudragupta's campaigns of expansion were directed."
       }
     ],
@@ -160,12 +160,12 @@
     "forts": [
       {
         "name": "Badami",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "The rock-cut capital (ancient Vatapi) of the Badami Chalukyas, defended by sandstone cliffs and a hilltop fort overlooking an artificial lake, and celebrated for its 6th- and 7th-century cave temples carved directly into the rock face."
       },
       {
         "name": "Aihole",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "Often called the 'cradle of Indian temple architecture', Aihole hosted dozens of experimental early Chalukyan shrines built during Pulakeshin II's reign, testing forms that would mature into the classical Deccan temple style."
       }
     ],
@@ -230,12 +230,12 @@
     "forts": [
       {
         "name": "Chittorgarh",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "Perched on a massive limestone plateau, Chittorgarh became Mewar's first great capital after Bappa Rawal is said to have taken it from its earlier rulers, beginning its centuries-long role as the heart of Guhila and Sisodia power."
       },
       {
         "name": "Nagda",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "An early Guhila stronghold and settlement near present-day Udaipur, Nagda served as one of the dynasty's original power centres before Chittorgarh rose to prominence."
       }
     ],
@@ -303,12 +303,12 @@
     "forts": [
       {
         "name": "Gangaikonda Cholapuram",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "Founded shortly after Raja Raja's reign by his son Rajendra I to commemorate a campaign to the Ganga, this new Chola capital featured its own great temple modelled on Thanjavur's, marking the empire's continued expansion."
       },
       {
         "name": "Thanjavur",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "The Chola capital under Raja Raja I, home to the towering Brihadisvara Temple, whose 60-metre vimana and fortified temple complex announced Chola imperial power to the wider region."
       }
     ],
@@ -333,10 +333,7 @@
       "Laid the groundwork for his son Rajendra I's Southeast Asian campaigns"
     ],
     "legacy": "Raja Raja Chola I represents the golden age of Tamil civilisation — a period of architectural grandeur, administrative sophistication, and imperial reach across the Indian Ocean. The Brihadisvara Temple still stands as a testament to the scale of his ambition.",
-    "references": [
-      "Chola inscriptions",
-      "Tamil historical texts"
-    ]
+    "references": ["Chola inscriptions", "Tamil historical texts"]
   },
   {
     "id": "prithviraj-chauhan",
@@ -372,12 +369,12 @@
     "forts": [
       {
         "name": "Ajmer",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "The Chahamana capital and dynastic stronghold in central Rajasthan, anchored by the hilltop Taragarh fort, from which Prithviraj governed before his conflicts with the Ghurids."
       },
       {
         "name": "Qila Rai Pithora",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "Delhi's first major fortified city, built up around and named after Prithviraj (Rai Pithora) after the Chahamanas absorbed the region, later incorporated into the growing city of Delhi."
       }
     ],
@@ -440,7 +437,7 @@
     "forts": [
       {
         "name": "Chittorgarh",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "The largest fort complex in India, sprawling across a hilltop plateau above the plains of Mewar. Its 1303 siege by Alauddin Khalji, during Rawal Ratan Singh's reign, became one of the most storied episodes in Rajput history."
       }
     ],
@@ -503,17 +500,17 @@
     "forts": [
       {
         "name": "Kumbhalgarh",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "Built by Maharana Kumbha in the 15th century, this hilltop fortress is enclosed by one of the longest continuous fortification walls in the world and served as a secure retreat for Mewar's rulers in times of crisis."
       },
       {
         "name": "Chittorgarh",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/portrait.jpg",
         "description": "Mewar's ancient capital, where Kumbha commissioned the towering Vijay Stambha to commemorate his victory over the Malwa and Gujarat Sultanates at Sarangpur."
       },
       {
         "name": "Achalgarh",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "A hill fort near Mount Abu rebuilt and strengthened by Maharana Kumbha, extending Mewar's defensive network into the Aravalli hills at the kingdom's northwestern edge."
       }
     ],
@@ -581,12 +578,12 @@
     "forts": [
       {
         "name": "Hampi",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "The fortified capital of Vijayanagara on the Tungabhadra river, encircled by concentric walls and studded with royal enclosures, temple complexes, and markets that made it one of the largest and richest cities in the world during Krishnadevaraya's reign."
       },
       {
         "name": "Raichur",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "A strategically vital fort in the contested Raichur Doab between the Krishna and Tungabhadra rivers, captured by Krishnadevaraya from the Bijapur Sultanate in 1520 after a fiercely fought siege."
       }
     ],
@@ -651,12 +648,12 @@
     "forts": [
       {
         "name": "Chittorgarh",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "Rana Sanga's capital and the symbolic centre of Mewar's power, from which he governed a confederacy of Rajput chiefs at the height of his influence."
       },
       {
         "name": "Kumbhalgarh",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "The great fortress built by his ancestor Maharana Kumbha, which continued under Rana Sanga to serve as a secure stronghold within Mewar's defensive network."
       }
     ],
@@ -681,10 +678,7 @@
       "Remembered for personal courage despite severe battle injuries"
     ],
     "legacy": "Rana Sanga symbolises Rajput unity and the fierce resistance to foreign domination in early 16th-century India. Though defeated at Khanwa, his confederacy represented the last major coordinated Rajput challenge to Mughal power for a generation.",
-    "references": [
-      "Rajput chronicles",
-      "Mughal historical accounts"
-    ]
+    "references": ["Rajput chronicles", "Mughal historical accounts"]
   },
   {
     "id": "maharana-udai-singh-ii",
@@ -720,17 +714,17 @@
     "forts": [
       {
         "name": "Chittorgarh",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "The ancestral Mewar capital that Udai Singh withdrew from ahead of Akbar's siege of 1567–68, a decision that preserved the dynasty even as the fort itself fell to the Mughals."
       },
       {
         "name": "Gogunda",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "A hill town and refuge in the Aravalli ranges used by Udai Singh and later by his son Maharana Pratap as a base during periods of Mughal pressure on Mewar."
       },
       {
         "name": "Udaipur",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "The lakeside city founded by Udai Singh II in 1559 on the shores of Lake Pichola, which became Mewar's new fortified capital after the fall of Chittorgarh."
       }
     ],
@@ -805,17 +799,17 @@
     "forts": [
       {
         "name": "Kumbhalgarh",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "Mewar's great mountain fortress, built by Maharana Kumbha, which served as a place of refuge and mustering point for Pratap's forces during his campaign against the Mughals."
       },
       {
         "name": "Chittorgarh",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "The ancestral capital of Mewar, lost to the Mughals before Pratap's reign, whose recovery remained an unfulfilled goal that shaped his lifelong resistance."
       },
       {
         "name": "Chavand",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "The modest hill capital Maharana Pratap established after reclaiming much of Mewar's territory in the 1580s, from which he governed during the final years of his reign."
       }
     ],
@@ -890,22 +884,22 @@
     "forts": [
       {
         "name": "Raigad",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "Shivaji's principal capital, a near-impregnable hill fortress where he was formally crowned Chhatrapati in 1674, and where his samadhi (memorial) stands today."
       },
       {
         "name": "Pratapgad",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "Built on Shivaji's orders in the Sahyadri hills, this fort was the site of his celebrated 1659 encounter with the Bijapuri general Afzal Khan."
       },
       {
         "name": "Sinhagad",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "Originally known as Kondhana, this strategically vital fort near Pune changed hands several times and was the scene of a famous night assault led by Shivaji's general Tanaji Malusare."
       },
       {
         "name": "Rajgad",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "Shivaji's early capital before the shift to Raigad, this sprawling hill fort in the Sahyadris served as his base during the formative decades of Maratha expansion."
       }
     ],
@@ -973,12 +967,12 @@
     "forts": [
       {
         "name": "Raigad",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "The Maratha capital inherited from his father Shivaji, which Sambhaji worked to defend as the symbolic and administrative centre of swarajya during Aurangzeb's invasion."
       },
       {
         "name": "Vishalgad",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "One of several Sahyadri strongholds associated with Sambhaji's Deccan defense, part of the broader network of hill forts that sustained Maratha resistance during the long Mughal war."
       }
     ],
@@ -1003,10 +997,7 @@
       "Remembered as a martyr of the swarajya movement"
     ],
     "legacy": "Sambhaji Maharaj is honoured for unyielding courage in the darkest years of the Maratha struggle. His execution became a rallying point that intensified, rather than ended, Maratha resistance to Mughal rule.",
-    "references": [
-      "Maratha bakhars",
-      "Mughal Deccan records"
-    ]
+    "references": ["Maratha bakhars", "Mughal Deccan records"]
   },
   {
     "id": "lachit-borphukan",
@@ -1042,12 +1033,12 @@
     "forts": [
       {
         "name": "Guwahati defenses",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "The fortified river approaches and defensive works around Guwahati that Lachit Borphukan recaptured and strengthened, restoring Ahom control over this strategic gateway to the Brahmaputra valley."
       },
       {
         "name": "Saraighat river line",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "The stretch of the Brahmaputra near Guwahati where Lachit's fleet of light, manoeuvrable boats decisively defeated a much larger Mughal naval force in 1671, ending the last serious Mughal attempt to conquer Assam."
       }
     ],
@@ -1072,10 +1063,7 @@
       "Became Assam's most honoured military icon"
     ],
     "legacy": "Lachit Borphukan is remembered as the guardian of the East — a commander who placed duty above all else, even at the cost of his own health and family ties. India's National Defence Academy awards a gold medal named in his honour to this day.",
-    "references": [
-      "Ahom buranjis",
-      "Assam historical chronicles"
-    ]
+    "references": ["Ahom buranjis", "Assam historical chronicles"]
   },
   {
     "id": "bajirao",
@@ -1110,12 +1098,12 @@
     "forts": [
       {
         "name": "Shaniwar Wada",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "The fortified palace complex built by Bajirao I in Pune in 1732 as the official residence and seat of the Peshwas, from which Maratha campaigns across India were planned and directed."
       },
       {
         "name": "Deccan hill forts",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragufort.jpg",
         "description": "The wider network of Sahyadri strongholds inherited from Shivaji's era, which continued under the Peshwas to anchor Maratha power in the Deccan even as their campaigns reached far into North India."
       }
     ],
@@ -1140,10 +1128,7 @@
       "Built Shaniwar Wada as the Peshwa's seat of power in Pune"
     ],
     "legacy": "Bajirao I is remembered as one of India's finest cavalry generals — the Peshwa who made the Maratha shadow fall across the subcontinent and set the stage for Maratha dominance over much of India in the decades that followed.",
-    "references": [
-      "Peshwa daftars",
-      "Maratha chronicles"
-    ]
+    "references": ["Peshwa daftars", "Maratha chronicles"]
   },
   {
     "id": "ahilyabai-holkar",
@@ -1172,7 +1157,7 @@
     "forts": [
       {
         "name": "Maheshwar Fort",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "Ahilyabai Holkar's riverside seat of government on the Narmada, combining a fortified palace with ghats and temples, from where she administered the Holkar kingdom and sponsored building projects across India."
       }
     ],
@@ -1241,12 +1226,12 @@
     "forts": [
       {
         "name": "Lahore Fort",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "The historic citadel that became Ranjit Singh's capital seat after its capture in 1799, extensively renovated during his reign and serving as the political heart of the Sikh Empire."
       },
       {
         "name": "Gobindgarh Fort",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chandragupt/fort.jpg",
         "description": "A key military fortress at Amritsar, refortified under Ranjit Singh to guard the treasury and serve as a garrison protecting the empire's holiest city."
       }
     ],
@@ -1271,10 +1256,7 @@
       "Maintained peace with the British through the Treaty of Amritsar, 1809"
     ],
     "legacy": "Maharaja Ranjit Singh is remembered as the Lion of Punjab — a ruler who built a strong, prosperous, and religiously plural empire through vision and valour. The kingdom's fall within a decade of his death is often attributed to the succession struggles that followed his passing.",
-    "references": [
-      "Sikh historical chronicles",
-      "Punjab court records"
-    ]
+    "references": ["Sikh historical chronicles", "Punjab court records"]
   },
   {
     "id": "laxmibai",
@@ -1315,7 +1297,7 @@
     "forts": [
       {
         "name": "Jhansi Fort",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/jhansi/fort.jpg",
         "description": "Built atop a rocky hill, Jhansi Fort became the heart of the kingdom during the Revolt of 1857. Under the leadership of Rani Lakshmibai, its massive walls witnessed one of the fiercest defenses against British forces and remain a lasting symbol of courage and sacrifice."
       }
     ],
@@ -1340,9 +1322,6 @@
       "Remains an enduring inspiration for later Indian freedom movements"
     ],
     "legacy": "Rani Lakshmibai remains one of India's most celebrated freedom fighters — remembered for leading from the front and choosing death over surrender. British officers who fought against her, including Hugh Rose, are recorded as praising her courage and skill as a commander.",
-    "references": [
-      "1857 Revolt historical records",
-      "Jhansi state chronicles"
-    ]
+    "references": ["1857 Revolt historical records", "Jhansi state chronicles"]
   }
 ]

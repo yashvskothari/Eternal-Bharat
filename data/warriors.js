@@ -2,1349 +2,1499 @@
 window.EB_DATA = window.EB_DATA || {};
 window.EB_DATA.warriors = [
   {
-    "id": "chandragupt",
-    "name": "Chandragupta Maurya",
-    "title": "Founder of the Maurya Empire",
-    "years": "c. 340 – 297 BCE",
-    "featured": false,
-    "kingdomId": "maurya",
-    "description": "The founder of the Maurya Empire who united much of the Indian subcontinent after the decline of the Nanda dynasty.",
-    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-    "kingdom": "Maurya Empire",
-    "capital": "Pataliputra",
-    "dynasty": "Maurya",
-    "reign": "c. 322 – 297 BCE",
-    "born": "c. 340 BCE",
-    "died": "c. 297 BCE",
-    "biography": "Born into obscurity around 340 BCE, Chandragupta rose to power under the mentorship of the strategist Chanakya (Kautilya), whose treatise the Arthashastra is traditionally linked to his court. Around 322 BCE he overthrew the unpopular Nanda dynasty of Magadha and, in the years that followed, pushed Greek garrisons left behind by Alexander the Great out of the northwest. His campaigns brought him into conflict with Seleucus I Nicator, Alexander's successor in Asia, and the resulting treaty of c. 305 BCE gave the Mauryas vast territories in the northwest in exchange for war elephants and peace. Ancient sources, including the Greek ambassador Megasthenes, describe a highly organised state with a large standing army, a network of spies, and regulated trade. In his final years Chandragupta is said to have abdicated in favour of his son Bindusara and embraced Jain asceticism, reportedly ending his life at Shravanabelagola in present-day Karnataka.",
-    "kingdomDescription": "The Maurya Empire, with its capital at Pataliputra on the Ganga, became the first state to bring most of the Indian subcontinent under a single administration. Governance was highly centralised, with provinces overseen by royal governors, a codified system of taxation, and an extensive bureaucracy described in the Arthashastra. The empire maintained diplomatic ties as far as the Hellenistic world and later, under Ashoka, became closely associated with the spread of Buddhist ideals of dhamma.",
-    "campaigns": [
+    id: "chandragupt",
+    name: "Chandragupta Maurya",
+    title: "Founder of the Maurya Empire",
+    years: "c. 340 – 297 BCE",
+    featured: false,
+    kingdomId: "maurya",
+    description:
+      "The founder of the Maurya Empire who united much of the Indian subcontinent after the decline of the Nanda dynasty.",
+    image:
+      "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+    kingdom: "Maurya Empire",
+    capital: "Pataliputra",
+    dynasty: "Maurya",
+    reign: "c. 322 – 297 BCE",
+    born: "c. 340 BCE",
+    died: "c. 297 BCE",
+    biography:
+      "Born into obscurity around 340 BCE, Chandragupta rose to power under the mentorship of the strategist Chanakya (Kautilya), whose treatise the Arthashastra is traditionally linked to his court. Around 322 BCE he overthrew the unpopular Nanda dynasty of Magadha and, in the years that followed, pushed Greek garrisons left behind by Alexander the Great out of the northwest. His campaigns brought him into conflict with Seleucus I Nicator, Alexander's successor in Asia, and the resulting treaty of c. 305 BCE gave the Mauryas vast territories in the northwest in exchange for war elephants and peace. Ancient sources, including the Greek ambassador Megasthenes, describe a highly organised state with a large standing army, a network of spies, and regulated trade. In his final years Chandragupta is said to have abdicated in favour of his son Bindusara and embraced Jain asceticism, reportedly ending his life at Shravanabelagola in present-day Karnataka.",
+    kingdomDescription:
+      "The Maurya Empire, with its capital at Pataliputra on the Ganga, became the first state to bring most of the Indian subcontinent under a single administration. Governance was highly centralised, with provinces overseen by royal governors, a codified system of taxation, and an extensive bureaucracy described in the Arthashastra. The empire maintained diplomatic ties as far as the Hellenistic world and later, under Ashoka, became closely associated with the spread of Buddhist ideals of dhamma.",
+    campaigns: [
       "Overthrow of the Nanda dynasty and seizure of Magadha, c. 322 BCE",
       "Unification of Magadha with neighbouring Gangetic kingdoms",
       "Northwest campaigns to expel Greek garrisons after Alexander's retreat",
-      "War and subsequent treaty with Seleucus I Nicator, c. 305 BCE"
+      "War and subsequent treaty with Seleucus I Nicator, c. 305 BCE",
     ],
-    "battles": [
+    battles: [
       {
-        "name": "Conquest of Magadha",
-        "year": "c. 322 BCE",
-        "outcome": "Maurya victory; Nanda rule ended"
-      }
+        name: "Conquest of Magadha",
+        year: "c. 322 BCE",
+        outcome: "Maurya victory; Nanda rule ended",
+      },
     ],
-    "forts": [
+    forts: [
       {
-        "name": "Pataliputra",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "The Mauryan capital on the banks of the Ganga and Son rivers, described by the Greek envoy Megasthenes as a vast fortified city ringed by a wooden palisade and a wide moat. It served as the nerve centre of Chandragupta's administration and remained the seat of Mauryan power for generations."
-      }
+        name: "Pataliputra",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        description:
+          "The Mauryan capital on the banks of the Ganga and Son rivers, described by the Greek envoy Megasthenes as a vast fortified city ringed by a wooden palisade and a wide moat. It served as the nerve centre of Chandragupta's administration and remained the seat of Mauryan power for generations.",
+      },
     ],
-    "timeline": [
+    timeline: [
       {
-        "year": "c. 322 BCE",
-        "event": "Founded the Maurya Empire"
+        year: "c. 322 BCE",
+        event: "Founded the Maurya Empire",
       },
       {
-        "year": "c. 305 BCE",
-        "event": "Treaty with Seleucus Nicator"
+        year: "c. 305 BCE",
+        event: "Treaty with Seleucus Nicator",
       },
       {
-        "year": "c. 297 BCE",
-        "event": "Abdicated and later passed away"
-      }
+        year: "c. 297 BCE",
+        event: "Abdicated and later passed away",
+      },
     ],
-    "achievements": [
+    achievements: [
       "Founded the Maurya Empire, the first pan-Indian imperial state",
       "Unified most of the Indian subcontinent under one administration",
       "Established a centralised bureaucracy later detailed in the Arthashastra",
-      "Secured the northwest frontier through victory over Seleucus Nicator"
+      "Secured the northwest frontier through victory over Seleucus Nicator",
     ],
-    "legacy": "Chandragupta is remembered as the architect of India's first great pan-subcontinental empire, whose administrative model shaped Indian statecraft for centuries. The dynasty he founded would reach even greater heights under his grandson Ashoka.",
-    "references": [
+    legacy:
+      "Chandragupta is remembered as the architect of India's first great pan-subcontinental empire, whose administrative model shaped Indian statecraft for centuries. The dynasty he founded would reach even greater heights under his grandson Ashoka.",
+    references: [
       "Arthashastra tradition",
       "Greek accounts of Megasthenes",
-      "Buddhist and Jain chronicles"
-    ]
+      "Buddhist and Jain chronicles",
+    ],
   },
   {
-    "id": "samudragupt",
-    "name": "Samudragupta",
-    "title": "Emperor of the Gupta Dynasty",
-    "years": "c. 335 – 380 CE",
-    "featured": false,
-    "kingdomId": "gupta",
-    "description": "A Gupta emperor celebrated for military campaigns, patronage of the arts, and the expansion of a classical golden age.",
-    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/samudragupt/portrait.jpg",
-    "kingdom": "Gupta Empire",
-    "capital": "Pataliputra",
-    "dynasty": "Gupta",
-    "reign": "c. 335 – 380 CE",
-    "born": "c. 315 CE",
-    "died": "c. 380 CE",
-    "biography": "Samudragupta succeeded his father Chandragupta I in the mid-4th century CE and, over a long reign, transformed a regional Gupta principality into a dominant North Indian power. The Prayaga Prashasti, an inscription on the Allahabad Pillar composed by his court poet Harishena, lists a long chain of kings he defeated or brought to submission across northern and eastern India, and describes campaigns of subjugation extending into the Deccan and the south. Rather than annexing every southern territory outright, he often restored defeated rulers as tributaries, a policy that extended Gupta influence without overstretching direct control. Coinage from his reign depicts him as an archer, a horseman, and even a lyre-player, reflecting a ruler celebrated as much for cultivation as for conquest.",
-    "kingdomDescription": "The Gupta Empire, ruling from Pataliputra, presided over what is often called a classical age of Indian civilisation. Trade, agriculture, and stable gold currency underpinned a prosperous economy, while royal patronage nurtured Sanskrit literature, astronomy, mathematics, and temple building that flourished further under Samudragupta's successors, including Chandragupta II.",
-    "campaigns": [
+    id: "samudragupt",
+    name: "Samudragupta",
+    title: "Emperor of the Gupta Dynasty",
+    years: "c. 335 – 380 CE",
+    featured: false,
+    kingdomId: "gupta",
+    description:
+      "A Gupta emperor celebrated for military campaigns, patronage of the arts, and the expansion of a classical golden age.",
+    image:
+      "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/samudragupt/portrait.jpg",
+    kingdom: "Gupta Empire",
+    capital: "Pataliputra",
+    dynasty: "Gupta",
+    reign: "c. 335 – 380 CE",
+    born: "c. 315 CE",
+    died: "c. 380 CE",
+    biography:
+      "Samudragupta succeeded his father Chandragupta I in the mid-4th century CE and, over a long reign, transformed a regional Gupta principality into a dominant North Indian power. The Prayaga Prashasti, an inscription on the Allahabad Pillar composed by his court poet Harishena, lists a long chain of kings he defeated or brought to submission across northern and eastern India, and describes campaigns of subjugation extending into the Deccan and the south. Rather than annexing every southern territory outright, he often restored defeated rulers as tributaries, a policy that extended Gupta influence without overstretching direct control. Coinage from his reign depicts him as an archer, a horseman, and even a lyre-player, reflecting a ruler celebrated as much for cultivation as for conquest.",
+    kingdomDescription:
+      "The Gupta Empire, ruling from Pataliputra, presided over what is often called a classical age of Indian civilisation. Trade, agriculture, and stable gold currency underpinned a prosperous economy, while royal patronage nurtured Sanskrit literature, astronomy, mathematics, and temple building that flourished further under Samudragupta's successors, including Chandragupta II.",
+    campaigns: [
       "Campaigns of annexation across the Gangetic north",
       "Subjugation of frontier and forest kingdoms",
       "Southern expedition recorded in the Allahabad Pillar inscription",
-      "Diplomatic submission of frontier states including Kamarupa and the northwest"
+      "Diplomatic submission of frontier states including Kamarupa and the northwest",
     ],
-    "battles": [
+    battles: [
       {
-        "name": "Northern annexation campaigns",
-        "year": "c. 350 CE",
-        "outcome": "Gupta supremacy in the Gangetic plains"
-      }
+        name: "Northern annexation campaigns",
+        year: "c. 350 CE",
+        outcome: "Gupta supremacy in the Gangetic plains",
+      },
     ],
-    "forts": [
+    forts: [
       {
-        "name": "Pataliputra",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "The historic Mauryan capital continued as a principal Gupta seat, remaining a fortified political and cultural centre on the Ganga from which Samudragupta's campaigns of expansion were directed."
-      }
+        name: "Pataliputra",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        description:
+          "The historic Mauryan capital continued as a principal Gupta seat, remaining a fortified political and cultural centre on the Ganga from which Samudragupta's campaigns of expansion were directed.",
+      },
     ],
-    "timeline": [
+    timeline: [
       {
-        "year": "c. 335 CE",
-        "event": "Ascended the Gupta throne"
+        year: "c. 335 CE",
+        event: "Ascended the Gupta throne",
       },
       {
-        "year": "c. 350 CE",
-        "event": "Major expansion recorded in inscriptions"
+        year: "c. 350 CE",
+        event: "Major expansion recorded in inscriptions",
       },
       {
-        "year": "c. 380 CE",
-        "event": "Passed away; Chandragupta II succeeded"
-      }
+        year: "c. 380 CE",
+        event: "Passed away; Chandragupta II succeeded",
+      },
     ],
-    "achievements": [
+    achievements: [
       "Expanded Gupta power across most of North India",
       "Extended tributary influence deep into the Deccan and south",
       "Patron of music, poetry, and classical learning",
-      "Reign extensively documented in the Allahabad Pillar inscription"
+      "Reign extensively documented in the Allahabad Pillar inscription",
     ],
-    "legacy": "Samudragupta stands as a symbol of the Gupta age — martial strength paired with cultural brilliance. Later chroniclers styled him a nearly unrivalled conqueror, and the empire he expanded became the foundation for the golden age realised under Chandragupta II.",
-    "references": [
+    legacy:
+      "Samudragupta stands as a symbol of the Gupta age — martial strength paired with cultural brilliance. Later chroniclers styled him a nearly unrivalled conqueror, and the empire he expanded became the foundation for the golden age realised under Chandragupta II.",
+    references: [
       "Allahabad Pillar inscription",
       "Gupta coinage",
-      "Classical Sanskrit sources"
-    ]
+      "Classical Sanskrit sources",
+    ],
   },
   {
-    "id": "chalukya",
-    "name": "Pulakeshin II",
-    "title": "Chalukya Emperor of Vatapi",
-    "years": "c. 610 – 642 CE",
-    "featured": false,
-    "kingdomId": "chalukya",
-    "description": "The greatest ruler of the Badami Chalukyas, who checked Harsha's southward advance and raised Deccan power to imperial height.",
-    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chalukya/portrait.jpg",
-    "kingdom": "Chalukya Empire",
-    "capital": "Vatapi (Badami)",
-    "dynasty": "Chalukya of Badami",
-    "reign": "c. 610 – 642 CE",
-    "born": "c. 580 CE",
-    "died": "642 CE",
-    "biography": "Pulakeshin II ascended the Chalukya throne around 610 CE after a contested succession and rapidly rebuilt and expanded the kingdom his family had founded in the western Deccan. He subdued neighbouring powers including the Kadambas and the Gangas, extended Chalukya authority into the eastern Deccan, and, most famously, halted the southward advance of the powerful North Indian emperor Harshavardhana on the banks of the Narmada around 618–619 CE — a victory recorded by the travelling Chinese monk Xuanzang. His reign also saw prolonged rivalry with the Pallavas of Kanchipuram to the south, and he installed his brother Vishnuvardhana as ruler of a new Eastern Chalukya branch in the Andhra region. Vatapi (Badami), his capital, eventually fell to a Pallava counter-attack under Narasimhavarman I around 642 CE, in which Pulakeshin is believed to have died defending his kingdom.",
-    "kingdomDescription": "The Badami Chalukyas ruled the western Deccan from their rock-cut capital at Vatapi, presiding over one of early medieval India's most inventive architectural workshops. Their patronage produced the cave temples of Badami and the early stone shrines of Aihole and Pattadakal, experiments that blended northern and southern temple styles and influenced Deccan architecture for centuries afterward.",
-    "campaigns": [
+    id: "chalukya",
+    name: "Pulakeshin II",
+    title: "Chalukya Emperor of Vatapi",
+    years: "c. 610 – 642 CE",
+    featured: false,
+    kingdomId: "chalukya",
+    description:
+      "The greatest ruler of the Badami Chalukyas, who checked Harsha's southward advance and raised Deccan power to imperial height.",
+    image:
+      "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chalukya/portrait.jpg",
+    kingdom: "Chalukya Empire",
+    capital: "Vatapi (Badami)",
+    dynasty: "Chalukya of Badami",
+    reign: "c. 610 – 642 CE",
+    born: "c. 580 CE",
+    died: "642 CE",
+    biography:
+      "Pulakeshin II ascended the Chalukya throne around 610 CE after a contested succession and rapidly rebuilt and expanded the kingdom his family had founded in the western Deccan. He subdued neighbouring powers including the Kadambas and the Gangas, extended Chalukya authority into the eastern Deccan, and, most famously, halted the southward advance of the powerful North Indian emperor Harshavardhana on the banks of the Narmada around 618–619 CE — a victory recorded by the travelling Chinese monk Xuanzang. His reign also saw prolonged rivalry with the Pallavas of Kanchipuram to the south, and he installed his brother Vishnuvardhana as ruler of a new Eastern Chalukya branch in the Andhra region. Vatapi (Badami), his capital, eventually fell to a Pallava counter-attack under Narasimhavarman I around 642 CE, in which Pulakeshin is believed to have died defending his kingdom.",
+    kingdomDescription:
+      "The Badami Chalukyas ruled the western Deccan from their rock-cut capital at Vatapi, presiding over one of early medieval India's most inventive architectural workshops. Their patronage produced the cave temples of Badami and the early stone shrines of Aihole and Pattadakal, experiments that blended northern and southern temple styles and influenced Deccan architecture for centuries afterward.",
+    campaigns: [
       "Consolidation of the western Deccan after a contested succession",
       "Subjugation of the Kadambas, Gangas, and neighbouring chieftaincies",
       "Victory over Harshavardhana of Kannauj on the Narmada, c. 618–619 CE",
-      "Prolonged conflicts with the Pallavas of Kanchipuram"
+      "Prolonged conflicts with the Pallavas of Kanchipuram",
     ],
-    "battles": [
+    battles: [
       {
-        "name": "Battle of the Narmada",
-        "year": "c. 618 CE",
-        "outcome": "Chalukya victory; Harsha halted"
-      }
+        name: "Battle of the Narmada",
+        year: "c. 618 CE",
+        outcome: "Chalukya victory; Harsha halted",
+      },
     ],
-    "forts": [
+    forts: [
       {
-        "name": "Badami",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "The rock-cut capital (ancient Vatapi) of the Badami Chalukyas, defended by sandstone cliffs and a hilltop fort overlooking an artificial lake, and celebrated for its 6th- and 7th-century cave temples carved directly into the rock face."
+        name: "Badami",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        description:
+          "The rock-cut capital (ancient Vatapi) of the Badami Chalukyas, defended by sandstone cliffs and a hilltop fort overlooking an artificial lake, and celebrated for its 6th- and 7th-century cave temples carved directly into the rock face.",
       },
       {
-        "name": "Aihole",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "Often called the 'cradle of Indian temple architecture', Aihole hosted dozens of experimental early Chalukyan shrines built during Pulakeshin II's reign, testing forms that would mature into the classical Deccan temple style."
-      }
+        name: "Aihole",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        description:
+          "Often called the 'cradle of Indian temple architecture', Aihole hosted dozens of experimental early Chalukyan shrines built during Pulakeshin II's reign, testing forms that would mature into the classical Deccan temple style.",
+      },
     ],
-    "timeline": [
+    timeline: [
       {
-        "year": "c. 610 CE",
-        "event": "Became Chalukya emperor"
+        year: "c. 610 CE",
+        event: "Became Chalukya emperor",
       },
       {
-        "year": "c. 618 CE",
-        "event": "Defeated Harsha on the Narmada"
+        year: "c. 618 CE",
+        event: "Defeated Harsha on the Narmada",
       },
       {
-        "year": "642 CE",
-        "event": "Died during Pallava invasion of Vatapi"
-      }
+        year: "642 CE",
+        event: "Died during Pallava invasion of Vatapi",
+      },
     ],
-    "achievements": [
+    achievements: [
       "Checked Harsha's southern expansion at the Narmada",
       "Raised Chalukya prestige across the Deccan and beyond",
       "Established the Eastern Chalukya branch in Andhra under his brother",
-      "Patron of the early rock-cut and structural temples of Badami and Aihole"
+      "Patron of the early rock-cut and structural temples of Badami and Aihole",
     ],
-    "legacy": "Pulakeshin II is remembered as the emperor who proved the Deccan could stand as an equal imperial power to the great kingdoms of the north. His court's architectural experiments at Badami and Aihole laid groundwork later carried forward across South Indian temple building.",
-    "references": [
+    legacy:
+      "Pulakeshin II is remembered as the emperor who proved the Deccan could stand as an equal imperial power to the great kingdoms of the north. His court's architectural experiments at Badami and Aihole laid groundwork later carried forward across South Indian temple building.",
+    references: [
       "Aihole inscription of Ravikirti",
       "Chalukya records",
-      "Pallava chronicles"
-    ]
+      "Pallava chronicles",
+    ],
   },
   {
-    "id": "bappa-rawal",
-    "name": "Bappa Rawal",
-    "title": "Founder of the Guhila Rule in Mewar",
-    "years": "c. 713 – c. 810",
-    "featured": true,
-    "kingdomId": "mewar",
-    "description": "The legendary founder of the Mewar kingdom, remembered for establishing Rajput power in the region and resisting early Arab invasions.",
-    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/bappa-rawal/portrait.jpg",
-    "kingdom": "Mewar",
-    "capital": "Chittorgarh",
-    "dynasty": "Guhila (Guhilot)",
-    "reign": "c. 734 – c. 753",
-    "born": "c. 713, Nagda (traditionally believed)",
-    "died": "c. 810",
-    "biography": "According to Mewari tradition, Bappa Rawal was born a prince of the Guhila line who, after the killing of his father, was raised in hiding before reclaiming his ancestral homeland. He is credited with wresting Chittorgarh from local rulers and making it the seat of Guhila power, an event that later chroniclers date variously across the 8th century. Bardic accounts also connect him with resistance to Arab incursions advancing from Sindh into western India during this period, though the precise historical details are difficult to separate from legend. Regardless of the exact facts, he became the foundational figure from whom later Guhila and Sisodia rulers of Mewar, including Rana Sanga and Maharana Pratap, traced their line.",
-    "kingdomDescription": "Mewar, centred in the hilly terrain of southern Rajasthan, emerged as one of the oldest and most resilient Rajput kingdoms, built around a chain of formidable hill forts. Its rulers cultivated a warrior ethos and a reputation for refusing submission to outside powers, a tradition that would define Mewar's politics for the better part of a thousand years.",
-    "campaigns": [
+    id: "bappa-rawal",
+    name: "Bappa Rawal",
+    title: "Founder of the Guhila Rule in Mewar",
+    years: "c. 713 – c. 810",
+    featured: true,
+    kingdomId: "mewar",
+    description:
+      "The legendary founder of the Mewar kingdom, remembered for establishing Rajput power in the region and resisting early Arab invasions.",
+    image:
+      "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/bappa-rawal/portrait.jpg",
+    kingdom: "Mewar",
+    capital: "Chittorgarh",
+    dynasty: "Guhila (Guhilot)",
+    reign: "c. 734 – c. 753",
+    born: "c. 713, Nagda (traditionally believed)",
+    died: "c. 810",
+    biography:
+      "According to Mewari tradition, Bappa Rawal was born a prince of the Guhila line who, after the killing of his father, was raised in hiding before reclaiming his ancestral homeland. He is credited with wresting Chittorgarh from local rulers and making it the seat of Guhila power, an event that later chroniclers date variously across the 8th century. Bardic accounts also connect him with resistance to Arab incursions advancing from Sindh into western India during this period, though the precise historical details are difficult to separate from legend. Regardless of the exact facts, he became the foundational figure from whom later Guhila and Sisodia rulers of Mewar, including Rana Sanga and Maharana Pratap, traced their line.",
+    kingdomDescription:
+      "Mewar, centred in the hilly terrain of southern Rajasthan, emerged as one of the oldest and most resilient Rajput kingdoms, built around a chain of formidable hill forts. Its rulers cultivated a warrior ethos and a reputation for refusing submission to outside powers, a tradition that would define Mewar's politics for the better part of a thousand years.",
+    campaigns: [
       "Reclamation of ancestral Guhila territory after a period in exile",
       "Capture and fortification of Chittorgarh as the new Mewar capital",
       "Consolidation of Rajput authority across the surrounding region",
-      "Traditional accounts of resistance against Arab incursions from the northwest"
+      "Traditional accounts of resistance against Arab incursions from the northwest",
     ],
-    "battles": [
+    battles: [
       {
-        "id": "arab-rajput-conflicts",
-        "name": "Rajput-Arab Conflicts",
-        "year": "8th Century",
-        "outcome": "Rajput victory"
-      }
+        id: "arab-rajput-conflicts",
+        name: "Rajput-Arab Conflicts",
+        year: "8th Century",
+        outcome: "Rajput victory",
+      },
     ],
-    "forts": [
+    forts: [
       {
-        "name": "Chittorgarh",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "Perched on a massive limestone plateau, Chittorgarh became Mewar's first great capital after Bappa Rawal is said to have taken it from its earlier rulers, beginning its centuries-long role as the heart of Guhila and Sisodia power."
+        name: "Chittorgarh",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chhitorgargh/fort.jpg",
+        description:
+          "Perched on a massive limestone plateau, Chittorgarh became Mewar's first great capital after Bappa Rawal is said to have taken it from its earlier rulers, beginning its centuries-long role as the heart of Guhila and Sisodia power.",
       },
       {
-        "name": "Nagda",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "An early Guhila stronghold and settlement near present-day Udaipur, Nagda served as one of the dynasty's original power centres before Chittorgarh rose to prominence."
-      }
+        name: "Nagda",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        description:
+          "An early Guhila stronghold and settlement near present-day Udaipur, Nagda served as one of the dynasty's original power centres before Chittorgarh rose to prominence.",
+      },
     ],
-    "timeline": [
+    timeline: [
       {
-        "year": "c.713",
-        "event": "Birth of Bappa Rawal"
+        year: "c.713",
+        event: "Birth of Bappa Rawal",
       },
       {
-        "year": "c.734",
-        "event": "Captured Chittorgarh"
+        year: "c.734",
+        event: "Captured Chittorgarh",
       },
       {
-        "year": "c.753",
-        "event": "Established Mewar's dominance"
+        year: "c.753",
+        event: "Established Mewar's dominance",
       },
       {
-        "year": "c.810",
-        "event": "Death of Bappa Rawal"
-      }
+        year: "c.810",
+        event: "Death of Bappa Rawal",
+      },
     ],
-    "achievements": [
+    achievements: [
       "Founder of Mewar's royal legacy and the Guhila line's rise to prominence",
       "Established Rajput rule at Chittorgarh",
       "Associated in tradition with early resistance to Arab invasions",
-      "Progenitor of the dynasty later carried forward by the Sisodias"
+      "Progenitor of the dynasty later carried forward by the Sisodias",
     ],
-    "legacy": "Bappa Rawal is remembered as the founding hero of Mewar and one of the earliest Rajput rulers to establish a lasting kingdom in Rajasthan. His name became a touchstone of legitimacy for the generations of Mewar rulers who followed him.",
-    "references": [
+    legacy:
+      "Bappa Rawal is remembered as the founding hero of Mewar and one of the earliest Rajput rulers to establish a lasting kingdom in Rajasthan. His name became a touchstone of legitimacy for the generations of Mewar rulers who followed him.",
+    references: [
       "Eklinga Mahatmya",
       "Guhila inscriptions",
-      "Rajasthan historical chronicles"
-    ]
+      "Rajasthan historical chronicles",
+    ],
   },
   {
-    "id": "chola",
-    "name": "Raja Raja Chola I",
-    "title": "Emperor of the Chola Dynasty",
-    "years": "985 – 1014 CE",
-    "featured": true,
-    "kingdomId": "chola",
-    "description": "The mighty Chola ruler who expanded the empire and built the magnificent Brihadisvara Temple.",
-    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chola/portrait.jpg",
-    "kingdom": "Chola Empire",
-    "capital": "Thanjavur",
-    "dynasty": "Chola",
-    "reign": "985 – 1014 CE",
-    "born": "c. 947 CE",
-    "died": "1014 CE",
-    "biography": "Raja Raja Chola I came to the throne around 985 CE and, over a reign of nearly three decades, turned a regional Tamil kingdom into the dominant power of South India and the Indian Ocean. He conquered the Chera and Pandya kingdoms, invaded northern Sri Lanka, and extended Chola authority to the Maldive islands, building one of the earliest large-scale navies in Indian history to do so. His administration reorganised the kingdom into revenue districts with detailed land surveys, and he commissioned the towering Brihadisvara Temple at Thanjavur, completed around 1010 CE, as both a religious and political statement of Chola power. He was succeeded by his son Rajendra I, who carried Chola naval campaigns as far as Southeast Asia.",
-    "kingdomDescription": "The Chola Empire, based in the fertile Kaveri river delta of Tamil Nadu, became South India's dominant power for over three centuries, renowned for temple architecture, bronze sculpture, meticulous local administration, and a navy that projected Chola influence across the Bay of Bengal to Sri Lanka and Southeast Asia.",
-    "campaigns": [
+    id: "chola",
+    name: "Raja Raja Chola I",
+    title: "Emperor of the Chola Dynasty",
+    years: "985 – 1014 CE",
+    featured: true,
+    kingdomId: "chola",
+    description:
+      "The mighty Chola ruler who expanded the empire and built the magnificent Brihadisvara Temple.",
+    image:
+      "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chola/portrait.jpg",
+    kingdom: "Chola Empire",
+    capital: "Thanjavur",
+    dynasty: "Chola",
+    reign: "985 – 1014 CE",
+    born: "c. 947 CE",
+    died: "1014 CE",
+    biography:
+      "Raja Raja Chola I came to the throne around 985 CE and, over a reign of nearly three decades, turned a regional Tamil kingdom into the dominant power of South India and the Indian Ocean. He conquered the Chera and Pandya kingdoms, invaded northern Sri Lanka, and extended Chola authority to the Maldive islands, building one of the earliest large-scale navies in Indian history to do so. His administration reorganised the kingdom into revenue districts with detailed land surveys, and he commissioned the towering Brihadisvara Temple at Thanjavur, completed around 1010 CE, as both a religious and political statement of Chola power. He was succeeded by his son Rajendra I, who carried Chola naval campaigns as far as Southeast Asia.",
+    kingdomDescription:
+      "The Chola Empire, based in the fertile Kaveri river delta of Tamil Nadu, became South India's dominant power for over three centuries, renowned for temple architecture, bronze sculpture, meticulous local administration, and a navy that projected Chola influence across the Bay of Bengal to Sri Lanka and Southeast Asia.",
+    campaigns: [
       "Conquest of the Chera and Pandya kingdoms of southern India",
       "Naval invasion and annexation of northern Sri Lanka",
       "Extension of Chola authority to the Maldive Islands",
-      "Reorganisation of the kingdom into surveyed revenue districts"
+      "Reorganisation of the kingdom into surveyed revenue districts",
     ],
-    "battles": [
+    battles: [
       {
-        "name": "Conquest of Sri Lanka",
-        "year": "993 CE",
-        "outcome": "Chola victory"
-      }
+        name: "Conquest of Sri Lanka",
+        year: "993 CE",
+        outcome: "Chola victory",
+      },
     ],
-    "forts": [
+    forts: [
       {
-        "name": "Gangaikonda Cholapuram",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "Founded shortly after Raja Raja's reign by his son Rajendra I to commemorate a campaign to the Ganga, this new Chola capital featured its own great temple modelled on Thanjavur's, marking the empire's continued expansion."
+        name: "Gangaikonda Cholapuram",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        description:
+          "Founded shortly after Raja Raja's reign by his son Rajendra I to commemorate a campaign to the Ganga, this new Chola capital featured its own great temple modelled on Thanjavur's, marking the empire's continued expansion.",
       },
       {
-        "name": "Thanjavur",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "The Chola capital under Raja Raja I, home to the towering Brihadisvara Temple, whose 60-metre vimana and fortified temple complex announced Chola imperial power to the wider region."
-      }
+        name: "Thanjavur",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        description:
+          "The Chola capital under Raja Raja I, home to the towering Brihadisvara Temple, whose 60-metre vimana and fortified temple complex announced Chola imperial power to the wider region.",
+      },
     ],
-    "timeline": [
+    timeline: [
       {
-        "year": "985 CE",
-        "event": "Ascended the Chola throne"
+        year: "985 CE",
+        event: "Ascended the Chola throne",
       },
       {
-        "year": "1010 CE",
-        "event": "Consecrated Brihadisvara Temple"
+        year: "1010 CE",
+        event: "Consecrated Brihadisvara Temple",
       },
       {
-        "year": "1014 CE",
-        "event": "Passed away"
-      }
+        year: "1014 CE",
+        event: "Passed away",
+      },
     ],
-    "achievements": [
+    achievements: [
       "Built the Brihadisvara Temple, a UNESCO World Heritage monument",
       "Established Chola naval dominance across the Bay of Bengal",
       "Reformed revenue administration through detailed land surveys",
-      "Laid the groundwork for his son Rajendra I's Southeast Asian campaigns"
+      "Laid the groundwork for his son Rajendra I's Southeast Asian campaigns",
     ],
-    "legacy": "Raja Raja Chola I represents the golden age of Tamil civilisation — a period of architectural grandeur, administrative sophistication, and imperial reach across the Indian Ocean. The Brihadisvara Temple still stands as a testament to the scale of his ambition.",
-    "references": [
-      "Chola inscriptions",
-      "Tamil historical texts"
-    ]
+    legacy:
+      "Raja Raja Chola I represents the golden age of Tamil civilisation — a period of architectural grandeur, administrative sophistication, and imperial reach across the Indian Ocean. The Brihadisvara Temple still stands as a testament to the scale of his ambition.",
+    references: ["Chola inscriptions", "Tamil historical texts"],
   },
   {
-    "id": "prithviraj-chauhan",
-    "name": "Prithviraj Chauhan",
-    "title": "Chauhan King of Ajmer and Delhi",
-    "years": "c. 1166 – 1192",
-    "featured": false,
-    "kingdomId": "chauhan",
-    "description": "The last great Hindu king of Delhi and Ajmer, remembered for the Battles of Tarain and the end of an era in North India.",
-    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/prithviraj-chauhan/portrait.jpg",
-    "kingdom": "Chauhan Kingdom",
-    "capital": "Ajmer / Delhi",
-    "dynasty": "Chahamana (Chauhan)",
-    "reign": "c. 1178 – 1192",
-    "born": "c. 1166, Gujarat",
-    "died": "1192",
-    "biography": "Prithviraj Chauhan (also known as Prithviraj III) inherited the Chahamana throne of Ajmer as a boy in the 1170s and, on reaching adulthood, extended his authority over Delhi, which the Chahamanas had recently absorbed. He fought off rival Rajput clans and defended his northern frontier against the Ghurid ruler Muhammad of Ghor, defeating him decisively at the First Battle of Tarain in 1191. Muhammad returned the following year with a larger, better-prepared force, and at the Second Battle of Tarain in 1192 the Chahamana army was defeated and Prithviraj was captured; later accounts differ on the manner of his death. His court poet Chand Bardai's epic Prithviraj Raso, though composed and expanded over later centuries, cemented his image in Rajput memory as a valiant and chivalrous king.",
-    "kingdomDescription": "The Chahamanas (Chauhans) of Shakambhari built their power around Ajmer in present-day Rajasthan and, by Prithviraj's time, controlled Delhi as well, making them one of the foremost Rajput kingdoms of 12th-century North India at the very frontier facing invasions from Central Asia.",
-    "campaigns": [
+    id: "prithviraj-chauhan",
+    name: "Prithviraj Chauhan",
+    title: "Chauhan King of Ajmer and Delhi",
+    years: "c. 1166 – 1192",
+    featured: false,
+    kingdomId: "chauhan",
+    description:
+      "The last great Hindu king of Delhi and Ajmer, remembered for the Battles of Tarain and the end of an era in North India.",
+    image:
+      "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/prithviraj-chauhan/portrait.jpg",
+    kingdom: "Chauhan Kingdom",
+    capital: "Ajmer / Delhi",
+    dynasty: "Chahamana (Chauhan)",
+    reign: "c. 1178 – 1192",
+    born: "c. 1166, Gujarat",
+    died: "1192",
+    biography:
+      "Prithviraj Chauhan (also known as Prithviraj III) inherited the Chahamana throne of Ajmer as a boy in the 1170s and, on reaching adulthood, extended his authority over Delhi, which the Chahamanas had recently absorbed. He fought off rival Rajput clans and defended his northern frontier against the Ghurid ruler Muhammad of Ghor, defeating him decisively at the First Battle of Tarain in 1191. Muhammad returned the following year with a larger, better-prepared force, and at the Second Battle of Tarain in 1192 the Chahamana army was defeated and Prithviraj was captured; later accounts differ on the manner of his death. His court poet Chand Bardai's epic Prithviraj Raso, though composed and expanded over later centuries, cemented his image in Rajput memory as a valiant and chivalrous king.",
+    kingdomDescription:
+      "The Chahamanas (Chauhans) of Shakambhari built their power around Ajmer in present-day Rajasthan and, by Prithviraj's time, controlled Delhi as well, making them one of the foremost Rajput kingdoms of 12th-century North India at the very frontier facing invasions from Central Asia.",
+    campaigns: [
       "Suppression of rival claimants and expansion around Ajmer and Delhi",
       "Conflicts with neighbouring Rajput kingdoms including the Chandelas",
       "Victory at the First Battle of Tarain against Muhammad of Ghor, 1191",
-      "Defeat at the Second Battle of Tarain, 1192"
+      "Defeat at the Second Battle of Tarain, 1192",
     ],
-    "battles": [
+    battles: [
       {
-        "id": "tarain-2",
-        "name": "Second Battle of Tarain",
-        "year": "1192",
-        "outcome": "Defeat; Chauhan power collapsed"
-      }
+        id: "tarain-2",
+        name: "Second Battle of Tarain",
+        year: "1192",
+        outcome: "Defeat; Chauhan power collapsed",
+      },
     ],
-    "forts": [
+    forts: [
       {
-        "name": "Ajmer",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "The Chahamana capital and dynastic stronghold in central Rajasthan, anchored by the hilltop Taragarh fort, from which Prithviraj governed before his conflicts with the Ghurids."
+        name: "Ajmer",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        description:
+          "The Chahamana capital and dynastic stronghold in central Rajasthan, anchored by the hilltop Taragarh fort, from which Prithviraj governed before his conflicts with the Ghurids.",
       },
       {
-        "name": "Qila Rai Pithora",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "Delhi's first major fortified city, built up around and named after Prithviraj (Rai Pithora) after the Chahamanas absorbed the region, later incorporated into the growing city of Delhi."
-      }
+        name: "Qila Rai Pithora",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        description:
+          "Delhi's first major fortified city, built up around and named after Prithviraj (Rai Pithora) after the Chahamanas absorbed the region, later incorporated into the growing city of Delhi.",
+      },
     ],
-    "timeline": [
+    timeline: [
       {
-        "year": "c. 1178",
-        "event": "Became Chauhan king"
+        year: "c. 1178",
+        event: "Became Chauhan king",
       },
       {
-        "year": "1191",
-        "event": "Victory in the First Battle of Tarain"
+        year: "1191",
+        event: "Victory in the First Battle of Tarain",
       },
       {
-        "year": "1192",
-        "event": "Defeated in the Second Battle of Tarain"
-      }
+        year: "1192",
+        event: "Defeated in the Second Battle of Tarain",
+      },
     ],
-    "achievements": [
+    achievements: [
       "United Ajmer and Delhi under Chahamana rule",
       "Won the First Battle of Tarain against Ghurid forces",
       "Became a lasting figure of Rajput chivalry and memory",
-      "Subject of the epic Prithviraj Raso composed by his court poet Chand Bardai"
+      "Subject of the epic Prithviraj Raso composed by his court poet Chand Bardai",
     ],
-    "legacy": "Prithviraj Chauhan remains a symbol of Rajput valour at the threshold of a new political age in North India. His defeat at the Second Battle of Tarain is traditionally remembered as opening the path toward the establishment of the Delhi Sultanate.",
-    "references": [
+    legacy:
+      "Prithviraj Chauhan remains a symbol of Rajput valour at the threshold of a new political age in North India. His defeat at the Second Battle of Tarain is traditionally remembered as opening the path toward the establishment of the Delhi Sultanate.",
+    references: [
       "Prithviraj Raso tradition",
       "Persian chronicles of the Ghurids",
-      "Chauhan inscriptions"
-    ]
+      "Chauhan inscriptions",
+    ],
   },
   {
-    "id": "rawal-ratan-singh",
-    "name": "Rawal Ratan Singh",
-    "title": "Last Rawal of Chittor",
-    "years": "13th Century – 1303",
-    "featured": true,
-    "kingdomId": "mewar",
-    "description": "The ruler of Mewar during Alauddin Khalji's siege of Chittorgarh, remembered for his courage and the historic defense of the fort.",
-    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/rawal-ratan-singh/portrait.png",
-    "kingdom": "Mewar",
-    "capital": "Chittorgarh",
-    "dynasty": "Guhila",
-    "reign": "1302 – 1303",
-    "born": "13th Century",
-    "died": "1303, Chittorgarh",
-    "biography": "Rawal Ratan Singh ruled Mewar from Chittorgarh in the early 14th century, a period when the Delhi Sultanate under Alauddin Khalji was aggressively expanding across North India. In 1303, Alauddin laid siege to Chittorgarh; after months of resistance, the fort fell. The Sufi poet Malik Muhammad Jayasi's 16th-century epic Padmavat later wove a romanticised legend around the siege, involving the queen Padmini, though historians caution that many narrative details in that later poetic tradition cannot be treated as reliable history. What is more firmly established is that the fall of Chittorgarh in 1303 marked a major setback for Mewar, which would take decades to recover its former standing.",
-    "kingdomDescription": "Chittorgarh was the political and spiritual heart of Mewar, one of medieval India's most formidable hill fortresses, and its capture or defence repeatedly shaped the fortunes of the Guhila and later Sisodia rulers who held it.",
-    "campaigns": [
+    id: "rawal-ratan-singh",
+    name: "Rawal Ratan Singh",
+    title: "Last Rawal of Chittor",
+    years: "13th Century – 1303",
+    featured: true,
+    kingdomId: "mewar",
+    description:
+      "The ruler of Mewar during Alauddin Khalji's siege of Chittorgarh, remembered for his courage and the historic defense of the fort.",
+    image:
+      "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/rawal-ratan-singh/portrait.png",
+    kingdom: "Mewar",
+    capital: "Chittorgarh",
+    dynasty: "Guhila",
+    reign: "1302 – 1303",
+    born: "13th Century",
+    died: "1303, Chittorgarh",
+    biography:
+      "Rawal Ratan Singh ruled Mewar from Chittorgarh in the early 14th century, a period when the Delhi Sultanate under Alauddin Khalji was aggressively expanding across North India. In 1303, Alauddin laid siege to Chittorgarh; after months of resistance, the fort fell. The Sufi poet Malik Muhammad Jayasi's 16th-century epic Padmavat later wove a romanticised legend around the siege, involving the queen Padmini, though historians caution that many narrative details in that later poetic tradition cannot be treated as reliable history. What is more firmly established is that the fall of Chittorgarh in 1303 marked a major setback for Mewar, which would take decades to recover its former standing.",
+    kingdomDescription:
+      "Chittorgarh was the political and spiritual heart of Mewar, one of medieval India's most formidable hill fortresses, and its capture or defence repeatedly shaped the fortunes of the Guhila and later Sisodia rulers who held it.",
+    campaigns: [
       "Governance of Mewar from the fortress capital of Chittorgarh",
-      "Defense of Chittorgarh during Alauddin Khalji's siege of 1303"
+      "Defense of Chittorgarh during Alauddin Khalji's siege of 1303",
     ],
-    "battles": [
+    battles: [
       {
-        "id": "siege-of-chittor-1303",
-        "name": "Siege of Chittorgarh",
-        "year": "1303",
-        "outcome": "Delhi Sultanate victory after prolonged siege"
-      }
+        id: "siege-of-chittor-1303",
+        name: "Siege of Chittorgarh",
+        year: "1303",
+        outcome: "Delhi Sultanate victory after prolonged siege",
+      },
     ],
-    "forts": [
+    forts: [
       {
-        "name": "Chittorgarh",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "The largest fort complex in India, sprawling across a hilltop plateau above the plains of Mewar. Its 1303 siege by Alauddin Khalji, during Rawal Ratan Singh's reign, became one of the most storied episodes in Rajput history."
-      }
+        name: "Chittorgarh",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        description:
+          "The largest fort complex in India, sprawling across a hilltop plateau above the plains of Mewar. Its 1303 siege by Alauddin Khalji, during Rawal Ratan Singh's reign, became one of the most storied episodes in Rajput history.",
+      },
     ],
-    "timeline": [
+    timeline: [
       {
-        "year": "1302",
-        "event": "Ascended the throne"
+        year: "1302",
+        event: "Ascended the throne",
       },
       {
-        "year": "1303",
-        "event": "Siege of Chittorgarh"
+        year: "1303",
+        event: "Siege of Chittorgarh",
       },
       {
-        "year": "1303",
-        "event": "Death during the defense of Chittorgarh"
-      }
+        year: "1303",
+        event: "Death during the defense of Chittorgarh",
+      },
     ],
-    "achievements": [
+    achievements: [
       "Defended Chittorgarh against the forces of the Delhi Sultanate",
-      "Remembered in Rajput tradition and later poetic legend for valour under siege"
+      "Remembered in Rajput tradition and later poetic legend for valour under siege",
     ],
-    "legacy": "Rawal Ratan Singh symbolises the courage and sacrifice associated with the defence of Chittorgarh. The 1303 siege became one of the most retold episodes in Rajput historical memory, inspiring centuries of poetry and legend.",
-    "references": [
+    legacy:
+      "Rawal Ratan Singh symbolises the courage and sacrifice associated with the defence of Chittorgarh. The 1303 siege became one of the most retold episodes in Rajput historical memory, inspiring centuries of poetry and legend.",
+    references: [
       "Amir Khusrau",
       "Rajput chronicles",
-      "Historical studies on Chittorgarh"
-    ]
+      "Historical studies on Chittorgarh",
+    ],
   },
   {
-    "id": "maharana-kumbha",
-    "name": "Maharana Kumbha",
-    "title": "Great Ruler of Mewar",
-    "years": "1417 – 1468",
-    "featured": true,
-    "kingdomId": "mewar",
-    "description": "A legendary ruler of Mewar renowned for military victories, magnificent forts and patronage of art, music and architecture.",
-    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/maharana-kumbha/portrait.jpg",
-    "kingdom": "Mewar",
-    "capital": "Chittorgarh",
-    "dynasty": "Sisodia",
-    "reign": "1433 – 1468",
-    "born": "1417",
-    "died": "1468, Kumbhalgarh",
-    "biography": "Maharana Kumbha (Rana Kumbha) inherited the Mewar throne in 1433 and, over a reign of some three-and-a-half decades, made it the most powerful Rajput kingdom of its era. He decisively defeated the combined forces of the Sultans of Malwa and Gujarat at the Battle of Sarangpur around 1437, a victory he commemorated with the towering Vijay Stambha (Tower of Victory) at Chittorgarh. A prolific builder, he is credited with constructing or restoring more than thirty forts across Mewar, most famously the vast hilltop fortress of Kumbhalgarh, and he was also a patron of music and scholarship, reportedly composing treatises on the subject himself. His reign ended violently when he was killed by his own son, Udai Singh I (Uda), around 1468.",
-    "kingdomDescription": "Under Maharana Kumbha, Mewar reached unprecedented military and cultural prominence, its territory ringed by an unmatched network of hill forts and its court home to scholarship, temple building, and monumental architecture that announced Sisodia power across Rajasthan.",
-    "campaigns": [
+    id: "maharana-kumbha",
+    name: "Maharana Kumbha",
+    title: "Great Ruler of Mewar",
+    years: "1417 – 1468",
+    featured: true,
+    kingdomId: "mewar",
+    description:
+      "A legendary ruler of Mewar renowned for military victories, magnificent forts and patronage of art, music and architecture.",
+    image:
+      "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/maharana-kumbha/portrait.jpg",
+    kingdom: "Mewar",
+    capital: "Chittorgarh",
+    dynasty: "Sisodia",
+    reign: "1433 – 1468",
+    born: "1417",
+    died: "1468, Kumbhalgarh",
+    biography:
+      "Maharana Kumbha (Rana Kumbha) inherited the Mewar throne in 1433 and, over a reign of some three-and-a-half decades, made it the most powerful Rajput kingdom of its era. He decisively defeated the combined forces of the Sultans of Malwa and Gujarat at the Battle of Sarangpur around 1437, a victory he commemorated with the towering Vijay Stambha (Tower of Victory) at Chittorgarh. A prolific builder, he is credited with constructing or restoring more than thirty forts across Mewar, most famously the vast hilltop fortress of Kumbhalgarh, and he was also a patron of music and scholarship, reportedly composing treatises on the subject himself. His reign ended violently when he was killed by his own son, Udai Singh I (Uda), around 1468.",
+    kingdomDescription:
+      "Under Maharana Kumbha, Mewar reached unprecedented military and cultural prominence, its territory ringed by an unmatched network of hill forts and its court home to scholarship, temple building, and monumental architecture that announced Sisodia power across Rajasthan.",
+    campaigns: [
       "Wars against the Malwa Sultanate, culminating in victory at Sarangpur",
       "Wars against the Gujarat Sultanate",
       "Territorial expansion of Mewar across southern Rajasthan",
-      "Extensive fort-building programme, including Kumbhalgarh"
+      "Extensive fort-building programme, including Kumbhalgarh",
     ],
-    "battles": [
+    battles: [
       {
-        "id": "battle-of-sarangpur",
-        "name": "Battle of Sarangpur",
-        "year": "1437",
-        "outcome": "Mewar victory"
-      }
+        id: "battle-of-sarangpur",
+        name: "Battle of Sarangpur",
+        year: "1437",
+        outcome: "Mewar victory",
+      },
     ],
-    "forts": [
+    forts: [
       {
-        "name": "Kumbhalgarh",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "Built by Maharana Kumbha in the 15th century, this hilltop fortress is enclosed by one of the longest continuous fortification walls in the world and served as a secure retreat for Mewar's rulers in times of crisis."
+        name: "Kumbhalgarh",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/kumbhalgargh/fort.jpg",
+        description:
+          "Built by Maharana Kumbha in the 15th century, this hilltop fortress is enclosed by one of the longest continuous fortification walls in the world and served as a secure retreat for Mewar's rulers in times of crisis.",
       },
       {
-        "name": "Chittorgarh",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "Mewar's ancient capital, where Kumbha commissioned the towering Vijay Stambha to commemorate his victory over the Malwa and Gujarat Sultanates at Sarangpur."
+        name: "Chittorgarh",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chhitorgargh/fort.jpg",
+        description:
+          "Mewar's ancient capital, where Kumbha commissioned the towering Vijay Stambha to commemorate his victory over the Malwa and Gujarat Sultanates at Sarangpur.",
       },
       {
-        "name": "Achalgarh",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "A hill fort near Mount Abu rebuilt and strengthened by Maharana Kumbha, extending Mewar's defensive network into the Aravalli hills at the kingdom's northwestern edge."
-      }
+        name: "Achalgarh",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        description:
+          "A hill fort near Mount Abu rebuilt and strengthened by Maharana Kumbha, extending Mewar's defensive network into the Aravalli hills at the kingdom's northwestern edge.",
+      },
     ],
-    "timeline": [
+    timeline: [
       {
-        "year": "1433",
-        "event": "Ascended the throne"
+        year: "1433",
+        event: "Ascended the throne",
       },
       {
-        "year": "1448",
-        "event": "Constructed Vijay Stambha"
+        year: "1448",
+        event: "Constructed Vijay Stambha",
       },
       {
-        "year": "1458",
-        "event": "Completed Kumbhalgarh Fort"
+        year: "1458",
+        event: "Completed Kumbhalgarh Fort",
       },
       {
-        "year": "1468",
-        "event": "Death of Maharana Kumbha"
-      }
+        year: "1468",
+        event: "Death of Maharana Kumbha",
+      },
     ],
-    "achievements": [
+    achievements: [
       "Built Kumbhalgarh Fort, one of India's largest fortifications",
       "Constructed the Vijay Stambha to commemorate victory at Sarangpur",
       "Defeated the combined armies of the Malwa and Gujarat Sultanates",
-      "Patron of music and scholarship, reputedly authoring works on the subject"
+      "Patron of music and scholarship, reputedly authoring works on the subject",
     ],
-    "legacy": "Maharana Kumbha is remembered as one of Mewar's greatest rulers and among medieval India's finest military commanders and patrons of architecture. The forts and monuments he built still stand as some of Rajasthan's most striking historical landmarks.",
-    "references": [
+    legacy:
+      "Maharana Kumbha is remembered as one of Mewar's greatest rulers and among medieval India's finest military commanders and patrons of architecture. The forts and monuments he built still stand as some of Rajasthan's most striking historical landmarks.",
+    references: [
       "Kumbhalgarh inscriptions",
       "Rajasthan historical chronicles",
-      "Archaeological Survey of India"
-    ]
+      "Archaeological Survey of India",
+    ],
   },
   {
-    "id": "kdr",
-    "name": "Krishnadevaraya",
-    "title": "Emperor of Vijayanagara",
-    "years": "1471 – 1529",
-    "featured": false,
-    "kingdomId": "vijayanagara",
-    "description": "The most celebrated emperor of Vijayanagara, under whom the empire reached its height in power, wealth, and literature.",
-    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/kdr/portrait.jpg",
-    "kingdom": "Vijayanagara Empire",
-    "capital": "Vijayanagara (Hampi)",
-    "dynasty": "Tuluva",
-    "reign": "1509 – 1529",
-    "born": "1471",
-    "died": "1529",
-    "biography": "Krishnadevaraya became emperor of Vijayanagara in 1509 and, over a reign of roughly two decades, brought the empire to the height of its power. He repeatedly defeated the Deccan Sultanates and the Gajapatis of Odisha, capturing the strategic fortress of Raichur from the Bijapur Sultanate in 1520 after a hard-fought campaign, and extended Vijayanagara's authority deep into the Telugu country and toward the eastern coast. A capable administrator as well as a soldier, he improved irrigation and encouraged trade with Portuguese merchants who had established a presence on the western coast. His court at Hampi was a renowned centre of literature, home to eight celebrated poets known as the Ashtadiggajas, and he himself is credited with composing the Telugu epic Amuktamalyada.",
-    "kingdomDescription": "Vijayanagara was the great Hindu empire of the southern peninsula, ruling from its capital at Hampi on the Tungabhadra river. Its rulers built vast temple complexes, elaborate royal enclosures, and extensive fortifications, and presided over a flourishing trade in spices, textiles, and precious stones that drew merchants from across the Indian Ocean world.",
-    "campaigns": [
+    id: "kdr",
+    name: "Krishnadevaraya",
+    title: "Emperor of Vijayanagara",
+    years: "1471 – 1529",
+    featured: false,
+    kingdomId: "vijayanagara",
+    description:
+      "The most celebrated emperor of Vijayanagara, under whom the empire reached its height in power, wealth, and literature.",
+    image:
+      "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/kdr/portrait.jpg",
+    kingdom: "Vijayanagara Empire",
+    capital: "Vijayanagara (Hampi)",
+    dynasty: "Tuluva",
+    reign: "1509 – 1529",
+    born: "1471",
+    died: "1529",
+    biography:
+      "Krishnadevaraya became emperor of Vijayanagara in 1509 and, over a reign of roughly two decades, brought the empire to the height of its power. He repeatedly defeated the Deccan Sultanates and the Gajapatis of Odisha, capturing the strategic fortress of Raichur from the Bijapur Sultanate in 1520 after a hard-fought campaign, and extended Vijayanagara's authority deep into the Telugu country and toward the eastern coast. A capable administrator as well as a soldier, he improved irrigation and encouraged trade with Portuguese merchants who had established a presence on the western coast. His court at Hampi was a renowned centre of literature, home to eight celebrated poets known as the Ashtadiggajas, and he himself is credited with composing the Telugu epic Amuktamalyada.",
+    kingdomDescription:
+      "Vijayanagara was the great Hindu empire of the southern peninsula, ruling from its capital at Hampi on the Tungabhadra river. Its rulers built vast temple complexes, elaborate royal enclosures, and extensive fortifications, and presided over a flourishing trade in spices, textiles, and precious stones that drew merchants from across the Indian Ocean world.",
+    campaigns: [
       "Campaigns against the Deccan Sultanates along the Raichur Doab",
       "Capture of the fortress of Raichur from Bijapur, 1520",
       "Expeditions into Odisha and the Telugu country against the Gajapatis",
-      "Defense of Vijayanagara's frontiers against repeated Sultanate incursions"
+      "Defense of Vijayanagara's frontiers against repeated Sultanate incursions",
     ],
-    "battles": [
+    battles: [
       {
-        "name": "Battle of Raichur",
-        "year": "1520",
-        "outcome": "Vijayanagara victory"
-      }
+        name: "Battle of Raichur",
+        year: "1520",
+        outcome: "Vijayanagara victory",
+      },
     ],
-    "forts": [
+    forts: [
       {
-        "name": "Hampi",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "The fortified capital of Vijayanagara on the Tungabhadra river, encircled by concentric walls and studded with royal enclosures, temple complexes, and markets that made it one of the largest and richest cities in the world during Krishnadevaraya's reign."
+        name: "Hampi",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        description:
+          "The fortified capital of Vijayanagara on the Tungabhadra river, encircled by concentric walls and studded with royal enclosures, temple complexes, and markets that made it one of the largest and richest cities in the world during Krishnadevaraya's reign.",
       },
       {
-        "name": "Raichur",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "A strategically vital fort in the contested Raichur Doab between the Krishna and Tungabhadra rivers, captured by Krishnadevaraya from the Bijapur Sultanate in 1520 after a fiercely fought siege."
-      }
+        name: "Raichur",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        description:
+          "A strategically vital fort in the contested Raichur Doab between the Krishna and Tungabhadra rivers, captured by Krishnadevaraya from the Bijapur Sultanate in 1520 after a fiercely fought siege.",
+      },
     ],
-    "timeline": [
+    timeline: [
       {
-        "year": "1509",
-        "event": "Crowned emperor of Vijayanagara"
+        year: "1509",
+        event: "Crowned emperor of Vijayanagara",
       },
       {
-        "year": "1520",
-        "event": "Victory at Raichur"
+        year: "1520",
+        event: "Victory at Raichur",
       },
       {
-        "year": "1529",
-        "event": "Passed away"
-      }
+        year: "1529",
+        event: "Passed away",
+      },
     ],
-    "achievements": [
+    achievements: [
       "Brought Vijayanagara to the zenith of its territorial power",
       "Captured the strategic fort of Raichur after a major campaign",
       "Patron of the Ashtadiggajas and Telugu literary culture",
-      "Expanded trade links with Portuguese merchants on the western coast"
+      "Expanded trade links with Portuguese merchants on the western coast",
     ],
-    "legacy": "Krishnadevaraya is remembered as the ideal southern emperor — a warrior-king and a generous patron of letters whose reign is still regarded as Vijayanagara's golden age. The ruins of Hampi remain a lasting monument to the empire he led.",
-    "references": [
+    legacy:
+      "Krishnadevaraya is remembered as the ideal southern emperor — a warrior-king and a generous patron of letters whose reign is still regarded as Vijayanagara's golden age. The ruins of Hampi remain a lasting monument to the empire he led.",
+    references: [
       "Amuktamalyada",
       "Portuguese accounts of Paes and Nuniz",
-      "Vijayanagara inscriptions"
-    ]
+      "Vijayanagara inscriptions",
+    ],
   },
   {
-    "id": "rana-sanga",
-    "name": "Rana Sanga",
-    "title": "Maharana of Mewar",
-    "years": "1482 – 1528",
-    "featured": false,
-    "kingdomId": "mewar",
-    "description": "A formidable Rajput ruler who united Rajput clans and challenged the rising Mughal power in North India.",
-    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/rana-sanga/portrait.jpg",
-    "kingdom": "Mewar",
-    "capital": "Chittorgarh",
-    "dynasty": "Sisodia",
-    "reign": "1509 – 1528",
-    "born": "17 April 1482",
-    "died": "30 January 1528",
-    "biography": "Rana Sanga (Sangram Singh) took the Mewar throne in 1509 despite having lost an eye and the use of an arm and a leg in earlier battles, and went on to become the most powerful Rajput ruler of his generation. He defeated the Sultans of Malwa and Gujarat and extended Mewar's influence over a wide swath of Rajasthan and Malwa, assembling a large confederacy of Rajput chiefs under his leadership. When Babur invaded North India and defeated the Delhi Sultanate at Panipat in 1526, Rana Sanga led this confederacy against the new Mughal power, meeting Babur's army at the Battle of Khanwa in 1527. Despite a large numerical advantage, the Rajput confederacy was defeated by Babur's disciplined use of artillery and tactics, a battle in which Sanga himself was severely wounded; he died the following year.",
-    "kingdomDescription": "Under Rana Sanga, Mewar reached the height of its territorial and political influence among Rajput states, commanding the loyalty of allied chiefs from across Rajasthan and standing as the foremost Hindu power confronting the newly arrived Mughals in North India.",
-    "campaigns": [
+    id: "rana-sanga",
+    name: "Rana Sanga",
+    title: "Maharana of Mewar",
+    years: "1482 – 1528",
+    featured: false,
+    kingdomId: "mewar",
+    description:
+      "A formidable Rajput ruler who united Rajput clans and challenged the rising Mughal power in North India.",
+    image:
+      "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/rana-sanga/portrait.jpg",
+    kingdom: "Mewar",
+    capital: "Chittorgarh",
+    dynasty: "Sisodia",
+    reign: "1509 – 1528",
+    born: "17 April 1482",
+    died: "30 January 1528",
+    biography:
+      "Rana Sanga (Sangram Singh) took the Mewar throne in 1509 despite having lost an eye and the use of an arm and a leg in earlier battles, and went on to become the most powerful Rajput ruler of his generation. He defeated the Sultans of Malwa and Gujarat and extended Mewar's influence over a wide swath of Rajasthan and Malwa, assembling a large confederacy of Rajput chiefs under his leadership. When Babur invaded North India and defeated the Delhi Sultanate at Panipat in 1526, Rana Sanga led this confederacy against the new Mughal power, meeting Babur's army at the Battle of Khanwa in 1527. Despite a large numerical advantage, the Rajput confederacy was defeated by Babur's disciplined use of artillery and tactics, a battle in which Sanga himself was severely wounded; he died the following year.",
+    kingdomDescription:
+      "Under Rana Sanga, Mewar reached the height of its territorial and political influence among Rajput states, commanding the loyalty of allied chiefs from across Rajasthan and standing as the foremost Hindu power confronting the newly arrived Mughals in North India.",
+    campaigns: [
       "Wars of unification bringing rival Rajput kingdoms into a confederacy",
       "Campaigns against Sultanate remnants across Malwa and Gujarat",
       "Assembly of a grand Rajput confederacy to confront Babur",
-      "The Battle of Khanwa against the Mughals, 1527"
+      "The Battle of Khanwa against the Mughals, 1527",
     ],
-    "battles": [
+    battles: [
       {
-        "id": "khanwa",
-        "name": "Battle of Khanwa",
-        "year": "1527",
-        "outcome": "Defeat; Mewar's expansion halted"
-      }
+        id: "khanwa",
+        name: "Battle of Khanwa",
+        year: "1527",
+        outcome: "Defeat; Mewar's expansion halted",
+      },
     ],
-    "forts": [
+    forts: [
       {
-        "name": "Chittorgarh",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "Rana Sanga's capital and the symbolic centre of Mewar's power, from which he governed a confederacy of Rajput chiefs at the height of his influence."
+        name: "Chittorgarh",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chhitorgargh/fort.jpg",
+        description:
+          "Rana Sanga's capital and the symbolic centre of Mewar's power, from which he governed a confederacy of Rajput chiefs at the height of his influence.",
       },
       {
-        "name": "Kumbhalgarh",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "The great fortress built by his ancestor Maharana Kumbha, which continued under Rana Sanga to serve as a secure stronghold within Mewar's defensive network."
-      }
+        name: "Kumbhalgarh",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/kumbhalgargh/fort.jpg",
+        description:
+          "The great fortress built by his ancestor Maharana Kumbha, which continued under Rana Sanga to serve as a secure stronghold within Mewar's defensive network.",
+      },
     ],
-    "timeline": [
+    timeline: [
       {
-        "year": "1509",
-        "event": "Became Maharana of Mewar"
+        year: "1509",
+        event: "Became Maharana of Mewar",
       },
       {
-        "year": "1527",
-        "event": "Battle of Khanwa against Babur"
+        year: "1527",
+        event: "Battle of Khanwa against Babur",
       },
       {
-        "year": "1528",
-        "event": "Passed away"
-      }
+        year: "1528",
+        event: "Passed away",
+      },
     ],
-    "achievements": [
+    achievements: [
       "United rival Rajput clans into a powerful confederacy",
       "Expanded Mewar's territory to its greatest extent",
       "Led the largest Rajput resistance to early Mughal expansion",
-      "Remembered for personal courage despite severe battle injuries"
+      "Remembered for personal courage despite severe battle injuries",
     ],
-    "legacy": "Rana Sanga symbolises Rajput unity and the fierce resistance to foreign domination in early 16th-century India. Though defeated at Khanwa, his confederacy represented the last major coordinated Rajput challenge to Mughal power for a generation.",
-    "references": [
-      "Rajput chronicles",
-      "Mughal historical accounts"
-    ]
+    legacy:
+      "Rana Sanga symbolises Rajput unity and the fierce resistance to foreign domination in early 16th-century India. Though defeated at Khanwa, his confederacy represented the last major coordinated Rajput challenge to Mughal power for a generation.",
+    references: ["Rajput chronicles", "Mughal historical accounts"],
   },
   {
-    "id": "maharana-udai-singh-ii",
-    "name": "Maharana Udai Singh II",
-    "title": "Founder of Udaipur",
-    "years": "1522 – 1572",
-    "featured": true,
-    "kingdomId": "mewar",
-    "description": "The founder of Udaipur and father of Maharana Pratap, remembered for preserving the continuity of the Mewar kingdom during a turbulent period.",
-    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/maharana-udai/portrait.jpg",
-    "kingdom": "Mewar",
-    "capital": "Chittorgarh / Udaipur",
-    "dynasty": "Sisodia",
-    "reign": "1540 – 1572",
-    "born": "4 August 1522, Chittorgarh",
-    "died": "28 February 1572, Gogunda",
-    "biography": "Maharana Udai Singh II survived an assassination attempt as an infant — famously saved, according to tradition, by his nursemaid Panna Dhai, who is said to have sacrificed her own son to protect him — before eventually taking the Mewar throne in 1537. His reign was dominated by the growing pressure of Mughal expansion under Akbar, culminating in the Mughal siege of Chittorgarh in 1567–68. Rather than make a last stand at Chittorgarh, Udai Singh withdrew to the hills and, in 1559, had already founded a new city, Udaipur, on the shores of Lake Pichola, which became Mewar's new capital after Chittorgarh's fall. This decision, criticised by some contemporaries, ultimately preserved the Sisodia line and set the stage for his son Maharana Pratap's later resistance.",
-    "kingdomDescription": "During Udai Singh's reign, Mewar's political centre shifted from the ancient hill fortress of Chittorgarh to the newly founded lakeside city of Udaipur, a transition that reshaped the kingdom's geography while its rulers continued to resist absorption into the expanding Mughal Empire.",
-    "campaigns": [
+    id: "maharana-udai-singh-ii",
+    name: "Maharana Udai Singh II",
+    title: "Founder of Udaipur",
+    years: "1522 – 1572",
+    featured: true,
+    kingdomId: "mewar",
+    description:
+      "The founder of Udaipur and father of Maharana Pratap, remembered for preserving the continuity of the Mewar kingdom during a turbulent period.",
+    image:
+      "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/maharana-udai/portrait.jpg",
+    kingdom: "Mewar",
+    capital: "Chittorgarh / Udaipur",
+    dynasty: "Sisodia",
+    reign: "1540 – 1572",
+    born: "4 August 1522, Chittorgarh",
+    died: "28 February 1572, Gogunda",
+    biography:
+      "Maharana Udai Singh II survived an assassination attempt as an infant — famously saved, according to tradition, by his nursemaid Panna Dhai, who is said to have sacrificed her own son to protect him — before eventually taking the Mewar throne in 1537. His reign was dominated by the growing pressure of Mughal expansion under Akbar, culminating in the Mughal siege of Chittorgarh in 1567–68. Rather than make a last stand at Chittorgarh, Udai Singh withdrew to the hills and, in 1559, had already founded a new city, Udaipur, on the shores of Lake Pichola, which became Mewar's new capital after Chittorgarh's fall. This decision, criticised by some contemporaries, ultimately preserved the Sisodia line and set the stage for his son Maharana Pratap's later resistance.",
+    kingdomDescription:
+      "During Udai Singh's reign, Mewar's political centre shifted from the ancient hill fortress of Chittorgarh to the newly founded lakeside city of Udaipur, a transition that reshaped the kingdom's geography while its rulers continued to resist absorption into the expanding Mughal Empire.",
+    campaigns: [
       "Consolidation of Mewar following a turbulent contested succession",
       "Defense preparations against Mughal expansion under Akbar",
       "Strategic withdrawal from Chittorgarh during the 1567–68 siege",
-      "Foundation and fortification of Udaipur as Mewar's new capital"
+      "Foundation and fortification of Udaipur as Mewar's new capital",
     ],
-    "battles": [
+    battles: [
       {
-        "id": "siege-of-chittorgarh-1567",
-        "name": "Siege of Chittorgarh",
-        "year": "1567–1568",
-        "outcome": "Mughal victory; Mewar capital shifted"
-      }
+        id: "siege-of-chittorgarh-1567",
+        name: "Siege of Chittorgarh",
+        year: "1567–1568",
+        outcome: "Mughal victory; Mewar capital shifted",
+      },
     ],
-    "forts": [
+    forts: [
       {
-        "name": "Chittorgarh",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "The ancestral Mewar capital that Udai Singh withdrew from ahead of Akbar's siege of 1567–68, a decision that preserved the dynasty even as the fort itself fell to the Mughals."
+        name: "Chittorgarh",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chhitorgargh/fort.jpg",
+        description:
+          "The ancestral Mewar capital that Udai Singh withdrew from ahead of Akbar's siege of 1567–68, a decision that preserved the dynasty even as the fort itself fell to the Mughals.",
       },
       {
-        "name": "Gogunda",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "A hill town and refuge in the Aravalli ranges used by Udai Singh and later by his son Maharana Pratap as a base during periods of Mughal pressure on Mewar."
+        name: "Gogunda",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        description:
+          "A hill town and refuge in the Aravalli ranges used by Udai Singh and later by his son Maharana Pratap as a base during periods of Mughal pressure on Mewar.",
       },
       {
-        "name": "Udaipur",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "The lakeside city founded by Udai Singh II in 1559 on the shores of Lake Pichola, which became Mewar's new fortified capital after the fall of Chittorgarh."
-      }
+        name: "Udaipur",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        description:
+          "The lakeside city founded by Udai Singh II in 1559 on the shores of Lake Pichola, which became Mewar's new fortified capital after the fall of Chittorgarh.",
+      },
     ],
-    "timeline": [
+    timeline: [
       {
-        "year": "1522",
-        "event": "Birth of Udai Singh II"
+        year: "1522",
+        event: "Birth of Udai Singh II",
       },
       {
-        "year": "1540",
-        "event": "Became ruler of Mewar"
+        year: "1540",
+        event: "Became ruler of Mewar",
       },
       {
-        "year": "1559",
-        "event": "Founded Udaipur"
+        year: "1559",
+        event: "Founded Udaipur",
       },
       {
-        "year": "1572",
-        "event": "Death at Gogunda"
-      }
+        year: "1572",
+        event: "Death at Gogunda",
+      },
     ],
-    "achievements": [
+    achievements: [
       "Founded the city of Udaipur in 1559",
       "Preserved the Sisodia dynasty through a period of existential threat",
       "Survived a childhood assassination plot to eventually take the throne",
-      "Father of Maharana Pratap, Mewar's most celebrated later ruler"
+      "Father of Maharana Pratap, Mewar's most celebrated later ruler",
     ],
-    "legacy": "Maharana Udai Singh II ensured the continuity of Mewar through one of its most difficult periods and laid the foundation for Maharana Pratap's later resistance. The city he founded, Udaipur, remains Mewar's capital and one of India's most celebrated lake cities to this day.",
-    "references": [
+    legacy:
+      "Maharana Udai Singh II ensured the continuity of Mewar through one of its most difficult periods and laid the foundation for Maharana Pratap's later resistance. The city he founded, Udaipur, remains Mewar's capital and one of India's most celebrated lake cities to this day.",
+    references: [
       "Mewar chronicles",
       "Akbarnama",
-      "Rajasthan historical records"
-    ]
+      "Rajasthan historical records",
+    ],
   },
   {
-    "id": "maharana-pratap",
-    "name": "Maharana Pratap",
-    "title": "Ruler of Mewar",
-    "years": "1540 – 1597",
-    "featured": true,
-    "kingdomId": "mewar",
-    "description": "The legendary ruler of Mewar who became a symbol of courage and resistance against the Mughal Empire.",
-    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/maharana-pratap/portrait.jpg",
-    "kingdom": "Mewar",
-    "capital": "Kumbhalgarh / Chavand",
-    "dynasty": "Sisodia",
-    "reign": "1572 – 1597",
-    "born": "9 May 1540, Kumbhalgarh",
-    "died": "19 January 1597, Chavand",
-    "biography": "Maharana Pratap Singh became the thirteenth Sisodia ruler of Mewar in 1572, inheriting a kingdom already under severe pressure from the expanding Mughal Empire of Akbar. Unlike several neighbouring Rajput rulers who had entered into alliances with the Mughals, Pratap refused to submit, and in 1576 he met a large Mughal force led by Man Singh of Amber at the Battle of Haldighati. Although the battle ended without a decisive Mughal victory in the field, Pratap was forced to retreat into the Aravalli hills, from where he waged a sustained guerrilla campaign — famously aided by his loyal horse, Chetak, who died carrying him to safety after the battle — gradually reclaiming much of Mewar's territory over the following years, including his capital at Chavand. He died in 1597 having never formally submitted to Mughal authority, a fact that made him one of the most enduring symbols of Rajput resistance.",
-    "kingdomDescription": "Mewar was one of the most prominent Rajput kingdoms in northwestern India, protected by a chain of formidable hill forts and defined by a warrior tradition and fierce commitment to independence that, under Maharana Pratap, was tested against the full might of the Mughal Empire.",
-    "campaigns": [
+    id: "maharana-pratap",
+    name: "Maharana Pratap",
+    title: "Ruler of Mewar",
+    years: "1540 – 1597",
+    featured: true,
+    kingdomId: "mewar",
+    description:
+      "The legendary ruler of Mewar who became a symbol of courage and resistance against the Mughal Empire.",
+    image:
+      "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/maharana-pratap/portrait.jpg",
+    kingdom: "Mewar",
+    capital: "Kumbhalgarh / Chavand",
+    dynasty: "Sisodia",
+    reign: "1572 – 1597",
+    born: "9 May 1540, Kumbhalgarh",
+    died: "19 January 1597, Chavand",
+    biography:
+      "Maharana Pratap Singh became the thirteenth Sisodia ruler of Mewar in 1572, inheriting a kingdom already under severe pressure from the expanding Mughal Empire of Akbar. Unlike several neighbouring Rajput rulers who had entered into alliances with the Mughals, Pratap refused to submit, and in 1576 he met a large Mughal force led by Man Singh of Amber at the Battle of Haldighati. Although the battle ended without a decisive Mughal victory in the field, Pratap was forced to retreat into the Aravalli hills, from where he waged a sustained guerrilla campaign — famously aided by his loyal horse, Chetak, who died carrying him to safety after the battle — gradually reclaiming much of Mewar's territory over the following years, including his capital at Chavand. He died in 1597 having never formally submitted to Mughal authority, a fact that made him one of the most enduring symbols of Rajput resistance.",
+    kingdomDescription:
+      "Mewar was one of the most prominent Rajput kingdoms in northwestern India, protected by a chain of formidable hill forts and defined by a warrior tradition and fierce commitment to independence that, under Maharana Pratap, was tested against the full might of the Mughal Empire.",
+    campaigns: [
       "The Battle of Haldighati against Mughal forces under Man Singh, 1576",
       "Sustained guerrilla resistance from bases in the Aravalli hills",
       "Gradual reclamation of Mewar's lost territories through the 1580s",
-      "Defense and fortification of Kumbhalgarh and the new capital at Chavand"
+      "Defense and fortification of Kumbhalgarh and the new capital at Chavand",
     ],
-    "battles": [
+    battles: [
       {
-        "id": "haldighati",
-        "name": "Battle of Haldighati",
-        "year": "1576",
-        "outcome": "Strategic retreat; continued resistance"
+        id: "haldighati",
+        name: "Battle of Haldighati",
+        year: "1576",
+        outcome: "Strategic retreat; continued resistance",
       },
       {
-        "id": "dewair",
-        "name": "Battle of Dewair",
-        "year": "1582",
-        "outcome": "Mewar victory"
-      }
+        id: "dewair",
+        name: "Battle of Dewair",
+        year: "1582",
+        outcome: "Mewar victory",
+      },
     ],
-    "forts": [
+    forts: [
       {
-        "name": "Kumbhalgarh",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "Mewar's great mountain fortress, built by Maharana Kumbha, which served as a place of refuge and mustering point for Pratap's forces during his campaign against the Mughals."
+        name: "Kumbhalgarh",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/kumbhalgargh/fort.jpg",
+        description:
+          "Mewar's great mountain fortress, built by Maharana Kumbha, which served as a place of refuge and mustering point for Pratap's forces during his campaign against the Mughals.",
       },
       {
-        "name": "Chittorgarh",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "The ancestral capital of Mewar, lost to the Mughals before Pratap's reign, whose recovery remained an unfulfilled goal that shaped his lifelong resistance."
+        name: "Chittorgarh",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/chhitorgargh/fort.jpg",
+        description:
+          "The ancestral capital of Mewar, lost to the Mughals before Pratap's reign, whose recovery remained an unfulfilled goal that shaped his lifelong resistance.",
       },
       {
-        "name": "Chavand",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "The modest hill capital Maharana Pratap established after reclaiming much of Mewar's territory in the 1580s, from which he governed during the final years of his reign."
-      }
+        name: "Chavand",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        description:
+          "The modest hill capital Maharana Pratap established after reclaiming much of Mewar's territory in the 1580s, from which he governed during the final years of his reign.",
+      },
     ],
-    "timeline": [
+    timeline: [
       {
-        "year": "1540",
-        "event": "Born at Kumbhalgarh"
+        year: "1540",
+        event: "Born at Kumbhalgarh",
       },
       {
-        "year": "1572",
-        "event": "Ascended the throne of Mewar"
+        year: "1572",
+        event: "Ascended the throne of Mewar",
       },
       {
-        "year": "1576",
-        "event": "Battle of Haldighati"
+        year: "1576",
+        event: "Battle of Haldighati",
       },
       {
-        "year": "1597",
-        "event": "Passed away at Chavand"
-      }
+        year: "1597",
+        event: "Passed away at Chavand",
+      },
     ],
-    "achievements": [
+    achievements: [
       "Symbol of Rajput resistance to Mughal expansion",
       "Never submitted to Mughal sovereignty despite immense pressure",
       "Revived Mewar's military strength through years of guerrilla warfare",
-      "Reclaimed most of Mewar's territory before his death in 1597"
+      "Reclaimed most of Mewar's territory before his death in 1597",
     ],
-    "legacy": "Maharana Pratap remains one of India's most revered warriors — a symbol of honour, sacrifice, and the refusal to bow before oppression. His long resistance, and the loyalty of companions like his horse Chetak, continue to be celebrated in Rajasthani folklore and beyond.",
-    "references": [
+    legacy:
+      "Maharana Pratap remains one of India's most revered warriors — a symbol of honour, sacrifice, and the refusal to bow before oppression. His long resistance, and the loyalty of companions like his horse Chetak, continue to be celebrated in Rajasthani folklore and beyond.",
+    references: [
       "Akbarnama",
       "Rajasthan historical chronicles",
-      "Mewar court records"
-    ]
+      "Mewar court records",
+    ],
   },
   {
-    "id": "shivaji",
-    "name": "Chhatrapati Shivaji Maharaj",
-    "title": "Founder of the Maratha Empire",
-    "years": "1630 – 1680",
-    "featured": true,
-    "kingdomId": "maratha",
-    "description": "Founder of the Maratha Empire and pioneer of a powerful self-governed kingdom built on strategy and swarajya.",
-    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/shivaji/portrait.jpg",
-    "kingdom": "Maratha Empire",
-    "capital": "Raigad",
-    "dynasty": "Bhonsle",
-    "reign": "1674 – 1680",
-    "born": "19 February 1630, Shivneri",
-    "died": "3 April 1680, Raigad",
-    "biography": "Shivaji Bhonsle was born in 1630 at Shivneri Fort and, from his teenage years, began seizing hill forts in the Sahyadri ranges from the declining Bijapur Sultanate, building the nucleus of an independent Maratha state. He famously outmanoeuvred and killed the Bijapuri general Afzal Khan in single combat in 1659, and later staged a daring escape from house arrest at the Mughal court in Agra in 1666 after Aurangzeb attempted to detain him. Over subsequent years he built a network of hill forts, developed a capable navy to guard the Konkan coast, and instituted an administration with a council of eight ministers (Ashtapradhan). In 1674 he had himself formally crowned Chhatrapati at Raigad Fort, giving institutional form to the Maratha kingdom, and he continued to expand and consolidate his territory until his death in 1680.",
-    "kingdomDescription": "The Maratha Empire grew from a cluster of Deccan hill forts into a major Indian power, built around Shivaji's ideal of swarajya, or self-rule, and sustained through a combination of mobile cavalry warfare, an extensive fort network, and a navy that projected power along the western coast.",
-    "campaigns": [
+    id: "shivaji",
+    name: "Chhatrapati Shivaji Maharaj",
+    title: "Founder of the Maratha Empire",
+    years: "1630 – 1680",
+    featured: true,
+    kingdomId: "maratha",
+    description:
+      "Founder of the Maratha Empire and pioneer of a powerful self-governed kingdom built on strategy and swarajya.",
+    image:
+      "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/shivaji/portrait.jpg",
+    kingdom: "Maratha Empire",
+    capital: "Raigad",
+    dynasty: "Bhonsle",
+    reign: "1674 – 1680",
+    born: "19 February 1630, Shivneri",
+    died: "3 April 1680, Raigad",
+    biography:
+      "Shivaji Bhonsle was born in 1630 at Shivneri Fort and, from his teenage years, began seizing hill forts in the Sahyadri ranges from the declining Bijapur Sultanate, building the nucleus of an independent Maratha state. He famously outmanoeuvred and killed the Bijapuri general Afzal Khan in single combat in 1659, and later staged a daring escape from house arrest at the Mughal court in Agra in 1666 after Aurangzeb attempted to detain him. Over subsequent years he built a network of hill forts, developed a capable navy to guard the Konkan coast, and instituted an administration with a council of eight ministers (Ashtapradhan). In 1674 he had himself formally crowned Chhatrapati at Raigad Fort, giving institutional form to the Maratha kingdom, and he continued to expand and consolidate his territory until his death in 1680.",
+    kingdomDescription:
+      "The Maratha Empire grew from a cluster of Deccan hill forts into a major Indian power, built around Shivaji's ideal of swarajya, or self-rule, and sustained through a combination of mobile cavalry warfare, an extensive fort network, and a navy that projected power along the western coast.",
+    campaigns: [
       "Capture of Konkan and Sahyadri hill forts from the Bijapur Sultanate",
       "Defeat and killing of Afzal Khan in single combat, 1659",
       "Escape from Mughal custody at Agra, 1666",
-      "Expansion into southern territories and the Karnataka campaign"
+      "Expansion into southern territories and the Karnataka campaign",
     ],
-    "battles": [
+    battles: [
       {
-        "id": "pratapgad",
-        "name": "Battle of Pratapgad",
-        "year": "1659",
-        "outcome": "Maratha victory"
+        id: "pratapgad",
+        name: "Battle of Pratapgad",
+        year: "1659",
+        outcome: "Maratha victory",
       },
       {
-        "id": "sinhagad",
-        "name": "Battle of Sinhagad",
-        "year": "1670",
-        "outcome": "Maratha victory"
-      }
+        id: "sinhagad",
+        name: "Battle of Sinhagad",
+        year: "1670",
+        outcome: "Maratha victory",
+      },
     ],
-    "forts": [
+    forts: [
       {
-        "name": "Raigad",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "Shivaji's principal capital, a near-impregnable hill fortress where he was formally crowned Chhatrapati in 1674, and where his samadhi (memorial) stands today."
+        name: "Raigad",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/raigargh/images.jpg",
+        description:
+          "Shivaji's principal capital, a near-impregnable hill fortress where he was formally crowned Chhatrapati in 1674, and where his samadhi (memorial) stands today.",
       },
       {
-        "name": "Pratapgad",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "Built on Shivaji's orders in the Sahyadri hills, this fort was the site of his celebrated 1659 encounter with the Bijapuri general Afzal Khan."
+        name: "Pratapgad",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        description:
+          "Built on Shivaji's orders in the Sahyadri hills, this fort was the site of his celebrated 1659 encounter with the Bijapuri general Afzal Khan.",
       },
       {
-        "name": "Sinhagad",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "Originally known as Kondhana, this strategically vital fort near Pune changed hands several times and was the scene of a famous night assault led by Shivaji's general Tanaji Malusare."
+        name: "Sinhagad",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        description:
+          "Originally known as Kondhana, this strategically vital fort near Pune changed hands several times and was the scene of a famous night assault led by Shivaji's general Tanaji Malusare.",
       },
       {
-        "name": "Rajgad",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "Shivaji's early capital before the shift to Raigad, this sprawling hill fort in the Sahyadris served as his base during the formative decades of Maratha expansion."
-      }
+        name: "Rajgad",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        description:
+          "Shivaji's early capital before the shift to Raigad, this sprawling hill fort in the Sahyadris served as his base during the formative decades of Maratha expansion.",
+      },
     ],
-    "timeline": [
+    timeline: [
       {
-        "year": "1630",
-        "event": "Born at Shivneri Fort"
+        year: "1630",
+        event: "Born at Shivneri Fort",
       },
       {
-        "year": "1645",
-        "event": "Captured Torna Fort"
+        year: "1645",
+        event: "Captured Torna Fort",
       },
       {
-        "year": "1674",
-        "event": "Coronation at Raigad"
+        year: "1674",
+        event: "Coronation at Raigad",
       },
       {
-        "year": "1680",
-        "event": "Passed away at Raigad"
-      }
+        year: "1680",
+        event: "Passed away at Raigad",
+      },
     ],
-    "achievements": [
+    achievements: [
       "Founded the Maratha Empire and was crowned Chhatrapati in 1674",
       "Pioneered guerrilla warfare tactics suited to the Deccan terrain",
       "Built a strong naval force to defend the Konkan coast",
-      "Instituted the Ashtapradhan council system of administration"
+      "Instituted the Ashtapradhan council system of administration",
     ],
-    "legacy": "Shivaji Maharaj is remembered as a visionary leader who transformed the political landscape of India and inspired generations with the ideal of swarajya. The fort network and administrative structures he built sustained Maratha power for over a century after his death.",
-    "references": [
+    legacy:
+      "Shivaji Maharaj is remembered as a visionary leader who transformed the political landscape of India and inspired generations with the ideal of swarajya. The fort network and administrative structures he built sustained Maratha power for over a century after his death.",
+    references: [
       "Sabhasad Bakhar",
       "Shivaji's letters (Ajnapatra)",
-      "Maratha chronicles"
-    ]
+      "Maratha chronicles",
+    ],
   },
   {
-    "id": "sambhaji",
-    "name": "Chhatrapati Sambhaji Maharaj",
-    "title": "Second Chhatrapati of the Maratha Empire",
-    "years": "1657 – 1689",
-    "featured": false,
-    "kingdomId": "maratha",
-    "description": "Successor of Shivaji Maharaj who defended the Maratha state against Mughal pressure with fierce resistance.",
-    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/sambhaji/portrait.jpg",
-    "kingdom": "Maratha Empire",
-    "capital": "Raigad",
-    "dynasty": "Bhonsle",
-    "reign": "1681 – 1689",
-    "born": "14 May 1657",
-    "died": "11 March 1689, Tulapur",
-    "biography": "Sambhaji Maharaj succeeded his father Shivaji as Chhatrapati in 1681, at a moment when the Mughal emperor Aurangzeb had personally moved his court south to crush the Marathas once and for all. Over the following years Sambhaji fought a relentless defensive war across the Deccan, defending Maratha forts and territory against a Mughal army far larger than his own, while also fending off pressure from the Portuguese, the Siddis of Janjira, and the Mysore ruler Chikka Deva Raya on other fronts. In 1689 he was captured near Sangameshwar after being betrayed, and, on refusing to convert to Islam or reveal the locations of Maratha forts, he was tortured and executed on Aurangzeb's orders. His death, rather than breaking Maratha resistance, hardened it, and the war for swarajya continued under his successors.",
-    "kingdomDescription": "The Maratha state under Sambhaji faced the full weight of Aurangzeb's Deccan campaign, the longest and costliest war of the Mughal emperor's reign, yet it survived through the resilience of its fort network, the mobility of its forces, and continued popular support in the Sahyadri countryside.",
-    "campaigns": [
+    id: "sambhaji",
+    name: "Chhatrapati Sambhaji Maharaj",
+    title: "Second Chhatrapati of the Maratha Empire",
+    years: "1657 – 1689",
+    featured: false,
+    kingdomId: "maratha",
+    description:
+      "Successor of Shivaji Maharaj who defended the Maratha state against Mughal pressure with fierce resistance.",
+    image:
+      "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/sambhaji/portrait.jpg",
+    kingdom: "Maratha Empire",
+    capital: "Raigad",
+    dynasty: "Bhonsle",
+    reign: "1681 – 1689",
+    born: "14 May 1657",
+    died: "11 March 1689, Tulapur",
+    biography:
+      "Sambhaji Maharaj succeeded his father Shivaji as Chhatrapati in 1681, at a moment when the Mughal emperor Aurangzeb had personally moved his court south to crush the Marathas once and for all. Over the following years Sambhaji fought a relentless defensive war across the Deccan, defending Maratha forts and territory against a Mughal army far larger than his own, while also fending off pressure from the Portuguese, the Siddis of Janjira, and the Mysore ruler Chikka Deva Raya on other fronts. In 1689 he was captured near Sangameshwar after being betrayed, and, on refusing to convert to Islam or reveal the locations of Maratha forts, he was tortured and executed on Aurangzeb's orders. His death, rather than breaking Maratha resistance, hardened it, and the war for swarajya continued under his successors.",
+    kingdomDescription:
+      "The Maratha state under Sambhaji faced the full weight of Aurangzeb's Deccan campaign, the longest and costliest war of the Mughal emperor's reign, yet it survived through the resilience of its fort network, the mobility of its forces, and continued popular support in the Sahyadri countryside.",
+    campaigns: [
       "Defense of Maratha territory against Aurangzeb's Deccan invasion",
       "Operations against Portuguese and Siddi forces on the Konkan coast",
       "Campaigns in the Karnataka region against Mysore",
-      "Resistance following the capture of key forts by Mughal forces"
+      "Resistance following the capture of key forts by Mughal forces",
     ],
-    "battles": [
+    battles: [
       {
-        "name": "Defense of the Maratha Deccan",
-        "year": "1681–1689",
-        "outcome": "Prolonged resistance despite Mughal pressure"
-      }
+        name: "Defense of the Maratha Deccan",
+        year: "1681–1689",
+        outcome: "Prolonged resistance despite Mughal pressure",
+      },
     ],
-    "forts": [
+    forts: [
       {
-        "name": "Raigad",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "The Maratha capital inherited from his father Shivaji, which Sambhaji worked to defend as the symbolic and administrative centre of swarajya during Aurangzeb's invasion."
+        name: "Raigad",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/raigargh/images.jpg",
+        description:
+          "The Maratha capital inherited from his father Shivaji, which Sambhaji worked to defend as the symbolic and administrative centre of swarajya during Aurangzeb's invasion.",
       },
       {
-        "name": "Vishalgad",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "One of several Sahyadri strongholds associated with Sambhaji's Deccan defense, part of the broader network of hill forts that sustained Maratha resistance during the long Mughal war."
-      }
+        name: "Vishalgad",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        description:
+          "One of several Sahyadri strongholds associated with Sambhaji's Deccan defense, part of the broader network of hill forts that sustained Maratha resistance during the long Mughal war.",
+      },
     ],
-    "timeline": [
+    timeline: [
       {
-        "year": "1657",
-        "event": "Born to Shivaji Maharaj"
+        year: "1657",
+        event: "Born to Shivaji Maharaj",
       },
       {
-        "year": "1681",
-        "event": "Became Chhatrapati"
+        year: "1681",
+        event: "Became Chhatrapati",
       },
       {
-        "year": "1689",
-        "event": "Martyrdom at Tulapur"
-      }
+        year: "1689",
+        event: "Martyrdom at Tulapur",
+      },
     ],
-    "achievements": [
+    achievements: [
       "Sustained Maratha independence for eight years against Aurangzeb's full army",
       "Resisted repeated attempts at conversion and surrender after capture",
       "Defended Maratha territory on multiple simultaneous fronts",
-      "Remembered as a martyr of the swarajya movement"
+      "Remembered as a martyr of the swarajya movement",
     ],
-    "legacy": "Sambhaji Maharaj is honoured for unyielding courage in the darkest years of the Maratha struggle. His execution became a rallying point that intensified, rather than ended, Maratha resistance to Mughal rule.",
-    "references": [
-      "Maratha bakhars",
-      "Mughal Deccan records"
-    ]
+    legacy:
+      "Sambhaji Maharaj is honoured for unyielding courage in the darkest years of the Maratha struggle. His execution became a rallying point that intensified, rather than ended, Maratha resistance to Mughal rule.",
+    references: ["Maratha bakhars", "Mughal Deccan records"],
   },
   {
-    "id": "lachit-borphukan",
-    "name": "Lachit Borphukan",
-    "title": "Commander of the Ahom Army",
-    "years": "1622 – 1672",
-    "featured": false,
-    "kingdomId": "ahom",
-    "description": "The Ahom commander who led Assam to victory at Saraighat and became a symbol of northeastern resistance.",
-    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/lachit-borphukan/portrait.jpg",
-    "kingdom": "Ahom Kingdom",
-    "capital": "Garhgaon",
-    "dynasty": "Ahom",
-    "reign": "Commander, 1667 – 1672",
-    "born": "24 November 1622",
-    "died": "25 April 1672",
-    "biography": "Lachit Borphukan was appointed Borphukan, or supreme military commander, of the Ahom kingdom in 1667 at a time when Mughal forces under the Bengal governor had seized Guwahati and were pressing into Assam. He led a determined campaign to recapture the region, retaking Guwahati and, crucially, halting a large Mughal counter-offensive at the Battle of Saraighat in 1671, fought largely on the Brahmaputra river using a fleet of light Ahom boats against the heavier Mughal navy. According to popular tradition, when his own uncle neglected to complete fortifications in time, Lachit had him executed to enforce discipline, and he is said to have personally taken up construction work despite being seriously ill during the final stages of the campaign. Saraighat proved to be the last major Mughal attempt to conquer Assam, and Lachit died shortly afterward in 1672.",
-    "kingdomDescription": "The Ahom kingdom, established in the Brahmaputra valley by the Tai-Ahom leader Sukaphaa in the 13th century, maintained independence for nearly six centuries through a distinctive administrative system, adaptive riverine warfare, and repeated successful resistance to Mughal invasions from the west.",
-    "campaigns": [
+    id: "lachit-borphukan",
+    name: "Lachit Borphukan",
+    title: "Commander of the Ahom Army",
+    years: "1622 – 1672",
+    featured: false,
+    kingdomId: "ahom",
+    description:
+      "The Ahom commander who led Assam to victory at Saraighat and became a symbol of northeastern resistance.",
+    image:
+      "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/lachit-borphukan/portrait.jpg",
+    kingdom: "Ahom Kingdom",
+    capital: "Garhgaon",
+    dynasty: "Ahom",
+    reign: "Commander, 1667 – 1672",
+    born: "24 November 1622",
+    died: "25 April 1672",
+    biography:
+      "Lachit Borphukan was appointed Borphukan, or supreme military commander, of the Ahom kingdom in 1667 at a time when Mughal forces under the Bengal governor had seized Guwahati and were pressing into Assam. He led a determined campaign to recapture the region, retaking Guwahati and, crucially, halting a large Mughal counter-offensive at the Battle of Saraighat in 1671, fought largely on the Brahmaputra river using a fleet of light Ahom boats against the heavier Mughal navy. According to popular tradition, when his own uncle neglected to complete fortifications in time, Lachit had him executed to enforce discipline, and he is said to have personally taken up construction work despite being seriously ill during the final stages of the campaign. Saraighat proved to be the last major Mughal attempt to conquer Assam, and Lachit died shortly afterward in 1672.",
+    kingdomDescription:
+      "The Ahom kingdom, established in the Brahmaputra valley by the Tai-Ahom leader Sukaphaa in the 13th century, maintained independence for nearly six centuries through a distinctive administrative system, adaptive riverine warfare, and repeated successful resistance to Mughal invasions from the west.",
+    campaigns: [
       "Recovery of Guwahati from Mughal occupation",
       "Riverine defense operations along the Brahmaputra",
       "The Battle of Saraighat against a large Mughal fleet and army, 1671",
-      "Fortification works along the Assam frontier"
+      "Fortification works along the Assam frontier",
     ],
-    "battles": [
+    battles: [
       {
-        "id": "saraighat",
-        "name": "Battle of Saraighat",
-        "year": "1671",
-        "outcome": "Decisive Ahom victory"
-      }
+        id: "saraighat",
+        name: "Battle of Saraighat",
+        year: "1671",
+        outcome: "Decisive Ahom victory",
+      },
     ],
-    "forts": [
+    forts: [
       {
-        "name": "Guwahati defenses",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "The fortified river approaches and defensive works around Guwahati that Lachit Borphukan recaptured and strengthened, restoring Ahom control over this strategic gateway to the Brahmaputra valley."
+        name: "Guwahati defenses",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        description:
+          "The fortified river approaches and defensive works around Guwahati that Lachit Borphukan recaptured and strengthened, restoring Ahom control over this strategic gateway to the Brahmaputra valley.",
       },
       {
-        "name": "Saraighat river line",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "The stretch of the Brahmaputra near Guwahati where Lachit's fleet of light, manoeuvrable boats decisively defeated a much larger Mughal naval force in 1671, ending the last serious Mughal attempt to conquer Assam."
-      }
+        name: "Saraighat river line",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        description:
+          "The stretch of the Brahmaputra near Guwahati where Lachit's fleet of light, manoeuvrable boats decisively defeated a much larger Mughal naval force in 1671, ending the last serious Mughal attempt to conquer Assam.",
+      },
     ],
-    "timeline": [
+    timeline: [
       {
-        "year": "1667",
-        "event": "Appointed Borphukan"
+        year: "1667",
+        event: "Appointed Borphukan",
       },
       {
-        "year": "1671",
-        "event": "Victory at Saraighat"
+        year: "1671",
+        event: "Victory at Saraighat",
       },
       {
-        "year": "1672",
-        "event": "Passed away shortly after the war"
-      }
+        year: "1672",
+        event: "Passed away shortly after the war",
+      },
     ],
-    "achievements": [
+    achievements: [
       "Defended Assam from Mughal annexation at the Battle of Saraighat",
       "Mastered riverine warfare tactics suited to the Brahmaputra",
       "Enforced discipline that ensured Ahom fortifications were completed in time",
-      "Became Assam's most honoured military icon"
+      "Became Assam's most honoured military icon",
     ],
-    "legacy": "Lachit Borphukan is remembered as the guardian of the East — a commander who placed duty above all else, even at the cost of his own health and family ties. India's National Defence Academy awards a gold medal named in his honour to this day.",
-    "references": [
-      "Ahom buranjis",
-      "Assam historical chronicles"
-    ]
+    legacy:
+      "Lachit Borphukan is remembered as the guardian of the East — a commander who placed duty above all else, even at the cost of his own health and family ties. India's National Defence Academy awards a gold medal named in his honour to this day.",
+    references: ["Ahom buranjis", "Assam historical chronicles"],
   },
   {
-    "id": "bajirao",
-    "name": "Peshwa Bajirao I",
-    "title": "Peshwa of the Maratha Empire",
-    "years": "1700 – 1740",
-    "featured": false,
-    "kingdomId": "maratha",
-    "description": "The brilliant Peshwa whose cavalry campaigns carried Maratha power from the Deccan deep into North India.",
-    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/bajirao/portrait.jpg",
-    "kingdom": "Maratha Empire",
-    "capital": "Pune / Satara",
-    "dynasty": "Bhat (Peshwa)",
-    "reign": "1720 – 1740",
-    "born": "18 August 1700",
-    "died": "28 April 1740, Raverkhedi",
-    "biography": "Bajirao I was appointed Peshwa, or chief minister, of the Maratha Empire in 1720 at the age of just twenty, and over the following two decades led the Maratha army through more than forty engagements without ever losing a major battle. Relying on fast-moving cavalry columns capable of covering enormous distances, he extended Maratha influence into Malwa and Gujarat, defeated the Nizam of Hyderabad on several occasions, and in 1737 led a daring raid to the very outskirts of Delhi, humbling the Mughal court. He is also remembered for building the Shaniwar Wada palace-fortress in Pune as the Peshwa seat of power. He died in 1740 while on campaign, still undefeated in the field.",
-    "kingdomDescription": "Under the Peshwas, the Maratha confederacy expanded far beyond its Deccan homeland, projecting power across Malwa, Gujarat, Bundelkhand, and toward Delhi itself, transforming what had been a regional Deccan kingdom into a pan-Indian force during the first half of the 18th century.",
-    "campaigns": [
+    id: "bajirao",
+    name: "Peshwa Bajirao I",
+    title: "Peshwa of the Maratha Empire",
+    years: "1700 – 1740",
+    featured: false,
+    kingdomId: "maratha",
+    description:
+      "The brilliant Peshwa whose cavalry campaigns carried Maratha power from the Deccan deep into North India.",
+    image:
+      "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/bajirao/portrait.jpg",
+    kingdom: "Maratha Empire",
+    capital: "Pune / Satara",
+    dynasty: "Bhat (Peshwa)",
+    reign: "1720 – 1740",
+    born: "18 August 1700",
+    died: "28 April 1740, Raverkhedi",
+    biography:
+      "Bajirao I was appointed Peshwa, or chief minister, of the Maratha Empire in 1720 at the age of just twenty, and over the following two decades led the Maratha army through more than forty engagements without ever losing a major battle. Relying on fast-moving cavalry columns capable of covering enormous distances, he extended Maratha influence into Malwa and Gujarat, defeated the Nizam of Hyderabad on several occasions, and in 1737 led a daring raid to the very outskirts of Delhi, humbling the Mughal court. He is also remembered for building the Shaniwar Wada palace-fortress in Pune as the Peshwa seat of power. He died in 1740 while on campaign, still undefeated in the field.",
+    kingdomDescription:
+      "Under the Peshwas, the Maratha confederacy expanded far beyond its Deccan homeland, projecting power across Malwa, Gujarat, Bundelkhand, and toward Delhi itself, transforming what had been a regional Deccan kingdom into a pan-Indian force during the first half of the 18th century.",
+    campaigns: [
       "Rapid cavalry campaigns across Malwa and Gujarat",
       "Repeated campaigns against the Nizam of Hyderabad in the Deccan",
       "The 1737 raid to the outskirts of Mughal Delhi",
-      "Extension of Maratha tribute and influence across central India"
+      "Extension of Maratha tribute and influence across central India",
     ],
-    "battles": [
+    battles: [
       {
-        "name": "Battle of Palkhed",
-        "year": "1728",
-        "outcome": "Maratha victory over the Nizam"
-      }
+        name: "Battle of Palkhed",
+        year: "1728",
+        outcome: "Maratha victory over the Nizam",
+      },
     ],
-    "forts": [
+    forts: [
       {
-        "name": "Shaniwar Wada",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "The fortified palace complex built by Bajirao I in Pune in 1732 as the official residence and seat of the Peshwas, from which Maratha campaigns across India were planned and directed."
+        name: "Shaniwar Wada",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        description:
+          "The fortified palace complex built by Bajirao I in Pune in 1732 as the official residence and seat of the Peshwas, from which Maratha campaigns across India were planned and directed.",
       },
       {
-        "name": "Deccan hill forts",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "The wider network of Sahyadri strongholds inherited from Shivaji's era, which continued under the Peshwas to anchor Maratha power in the Deccan even as their campaigns reached far into North India."
-      }
+        name: "Deccan hill forts",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        description:
+          "The wider network of Sahyadri strongholds inherited from Shivaji's era, which continued under the Peshwas to anchor Maratha power in the Deccan even as their campaigns reached far into North India.",
+      },
     ],
-    "timeline": [
+    timeline: [
       {
-        "year": "1720",
-        "event": "Became Peshwa at a young age"
+        year: "1720",
+        event: "Became Peshwa at a young age",
       },
       {
-        "year": "1728",
-        "event": "Victory at Palkhed"
+        year: "1728",
+        event: "Victory at Palkhed",
       },
       {
-        "year": "1740",
-        "event": "Passed away on campaign"
-      }
+        year: "1740",
+        event: "Passed away on campaign",
+      },
     ],
-    "achievements": [
+    achievements: [
       "Undefeated in over forty major field engagements",
       "Expanded Maratha influence deep into North India",
       "Perfected rapid, long-distance cavalry warfare",
-      "Built Shaniwar Wada as the Peshwa's seat of power in Pune"
+      "Built Shaniwar Wada as the Peshwa's seat of power in Pune",
     ],
-    "legacy": "Bajirao I is remembered as one of India's finest cavalry generals — the Peshwa who made the Maratha shadow fall across the subcontinent and set the stage for Maratha dominance over much of India in the decades that followed.",
-    "references": [
-      "Peshwa daftars",
-      "Maratha chronicles"
-    ]
+    legacy:
+      "Bajirao I is remembered as one of India's finest cavalry generals — the Peshwa who made the Maratha shadow fall across the subcontinent and set the stage for Maratha dominance over much of India in the decades that followed.",
+    references: ["Peshwa daftars", "Maratha chronicles"],
   },
   {
-    "id": "ahilyabai-holkar",
-    "name": "Ahilyabai Holkar",
-    "title": "Queen of the Holkar Kingdom",
-    "years": "1725 – 1795",
-    "featured": true,
-    "kingdomId": "holkar",
-    "description": "One of India's greatest queens, celebrated for her just administration, public welfare and restoration of numerous temples across the Indian subcontinent.",
-    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/ahilyabai/portrait.jpg",
-    "kingdom": "Holkar Kingdom",
-    "capital": "Maheshwar",
-    "dynasty": "Holkar",
-    "reign": "1767 – 1795",
-    "born": "31 May 1725, Chondi",
-    "died": "13 August 1795, Maheshwar",
-    "biography": "Ahilyabai Holkar was married into the Holkar family as a child and, after the deaths in quick succession of her husband Khanderao and, later, her father-in-law Malharrao Holkar and her own son Male Rao, took direct control of the Holkar state in 1767 with the support of the Maratha court. Ruling from Maheshwar on the banks of the Narmada rather than the traditional capital of Indore, she personally led troops when necessary but was better known for just and accessible governance, presiding over disputes in open court and maintaining a standing army primarily for defense. She used state resources to fund an extraordinary programme of temple building, dharamshalas, wells, and roads across India, from Kashi Vishwanath in Varanasi and the rebuilt Somnath temple in Gujarat to sites in Ayodhya, Dwarka, and Rameswaram, alongside significant patronage of trade and craftsmanship in Maheshwar, particularly its famous handloom sarees. She continued to rule until her death in 1795.",
-    "kingdomDescription": "The Holkar Kingdom, one of the leading states of the Maratha confederacy, was centred first at Indore and then, under Ahilyabai, at Maheshwar, and became known for efficient, accessible governance, religious patronage, and a flourishing textile trade during her three-decade reign.",
-    "campaigns": [
+    id: "ahilyabai-holkar",
+    name: "Ahilyabai Holkar",
+    title: "Queen of the Holkar Kingdom",
+    years: "1725 – 1795",
+    featured: true,
+    kingdomId: "holkar",
+    description:
+      "One of India's greatest queens, celebrated for her just administration, public welfare and restoration of numerous temples across the Indian subcontinent.",
+    image:
+      "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/ahilyabai/portrait.jpg",
+    kingdom: "Holkar Kingdom",
+    capital: "Maheshwar",
+    dynasty: "Holkar",
+    reign: "1767 – 1795",
+    born: "31 May 1725, Chondi",
+    died: "13 August 1795, Maheshwar",
+    biography:
+      "Ahilyabai Holkar was married into the Holkar family as a child and, after the deaths in quick succession of her husband Khanderao and, later, her father-in-law Malharrao Holkar and her own son Male Rao, took direct control of the Holkar state in 1767 with the support of the Maratha court. Ruling from Maheshwar on the banks of the Narmada rather than the traditional capital of Indore, she personally led troops when necessary but was better known for just and accessible governance, presiding over disputes in open court and maintaining a standing army primarily for defense. She used state resources to fund an extraordinary programme of temple building, dharamshalas, wells, and roads across India, from Kashi Vishwanath in Varanasi and the rebuilt Somnath temple in Gujarat to sites in Ayodhya, Dwarka, and Rameswaram, alongside significant patronage of trade and craftsmanship in Maheshwar, particularly its famous handloom sarees. She continued to rule until her death in 1795.",
+    kingdomDescription:
+      "The Holkar Kingdom, one of the leading states of the Maratha confederacy, was centred first at Indore and then, under Ahilyabai, at Maheshwar, and became known for efficient, accessible governance, religious patronage, and a flourishing textile trade during her three-decade reign.",
+    campaigns: [
       "Assumption and defense of Holkar rule after a succession crisis",
       "Administration and fortification of Malwa territories",
       "Sponsorship of temple restoration projects across the subcontinent",
-      "Promotion of Maheshwar's handloom weaving and trade"
+      "Promotion of Maheshwar's handloom weaving and trade",
     ],
-    "battles": [],
-    "forts": [
+    battles: [],
+    forts: [
       {
-        "name": "Maheshwar Fort",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "Ahilyabai Holkar's riverside seat of government on the Narmada, combining a fortified palace with ghats and temples, from where she administered the Holkar kingdom and sponsored building projects across India."
-      }
+        name: "Maheshwar Fort",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/fort/ahilya/fort.png",
+        description:
+          "Ahilyabai Holkar's riverside seat of government on the Narmada, combining a fortified palace with ghats and temples, from where she administered the Holkar kingdom and sponsored building projects across India.",
+      },
     ],
-    "timeline": [
+    timeline: [
       {
-        "year": "1725",
-        "event": "Born at Chondi"
+        year: "1725",
+        event: "Born at Chondi",
       },
       {
-        "year": "1767",
-        "event": "Became ruler of the Holkar Kingdom"
+        year: "1767",
+        event: "Became ruler of the Holkar Kingdom",
       },
       {
-        "year": "1780s",
-        "event": "Restored major temples across India"
+        year: "1780s",
+        event: "Restored major temples across India",
       },
       {
-        "year": "1795",
-        "event": "Passed away at Maheshwar"
-      }
+        year: "1795",
+        event: "Passed away at Maheshwar",
+      },
     ],
-    "achievements": [
+    achievements: [
       "Widely regarded as a model administrator and accessible ruler",
       "Patron of temples and educational institutions across India",
       "Promoted trade, infrastructure, and craft industries in Malwa",
-      "Rebuilt and restored major temple sites including Kashi Vishwanath and Somnath"
+      "Rebuilt and restored major temple sites including Kashi Vishwanath and Somnath",
     ],
-    "legacy": "Ahilyabai Holkar is remembered as one of India's greatest rulers, admired for justice, compassion, and architectural patronage that reached far beyond her own kingdom's borders. Maheshwar's handloom tradition, which she fostered, continues to this day.",
-    "references": [
+    legacy:
+      "Ahilyabai Holkar is remembered as one of India's greatest rulers, admired for justice, compassion, and architectural patronage that reached far beyond her own kingdom's borders. Maheshwar's handloom tradition, which she fostered, continues to this day.",
+    references: [
       "Holkar state records",
       "Maratha chronicles",
-      "Historical biographies"
-    ]
+      "Historical biographies",
+    ],
   },
   {
-    "id": "ranjit-singh",
-    "name": "Maharaja Ranjit Singh",
-    "title": "Maharaja of Punjab",
-    "years": "1780 – 1839",
-    "featured": true,
-    "kingdomId": "sikh",
-    "description": "Founder of the Sikh Empire who unified Punjab and established a prosperous, secular kingdom.",
-    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/ranjit-singh/portrait.jpg",
-    "kingdom": "Sikh Empire",
-    "capital": "Lahore",
-    "dynasty": "Sandhawalia / Sukerchakia",
-    "reign": "1801 – 1839",
-    "born": "13 November 1780, Gujranwala",
-    "died": "27 June 1839, Lahore",
-    "biography": "Ranjit Singh inherited leadership of the Sukerchakia misl as a boy and, by his early twenties, had captured Lahore in 1799, using it as the base from which he unified the fractious Sikh misls of Punjab into a single kingdom, formally proclaiming himself Maharaja in 1801. Over the following decades he expanded his territory to include Multan, Kashmir, and Peshawar, while carefully avoiding conflict with the British East India Company through the Treaty of Amritsar in 1809, which fixed the Sutlej as a boundary between their respective spheres. He built a modern, disciplined army — the Fauj-i-Khas — trained in part by European officers and equipped with artillery that rivalled contemporary European forces, while also maintaining a notably plural court that included Hindu, Muslim, and European officials alongside Sikh nobles. He died in 1839, and the kingdom he built was annexed by the British a decade later after the Anglo-Sikh Wars.",
-    "kingdomDescription": "The Sikh Empire under Ranjit Singh stretched across Punjab, Kashmir, and the northwest frontier, known for the modernisation of its army along European lines, an inclusive administration drawing on multiple communities, and careful diplomacy that kept the expanding British East India Company at bay during his lifetime.",
-    "campaigns": [
+    id: "ranjit-singh",
+    name: "Maharaja Ranjit Singh",
+    title: "Maharaja of Punjab",
+    years: "1780 – 1839",
+    featured: true,
+    kingdomId: "sikh",
+    description:
+      "Founder of the Sikh Empire who unified Punjab and established a prosperous, secular kingdom.",
+    image:
+      "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/ranjit-singh/portrait.jpg",
+    kingdom: "Sikh Empire",
+    capital: "Lahore",
+    dynasty: "Sandhawalia / Sukerchakia",
+    reign: "1801 – 1839",
+    born: "13 November 1780, Gujranwala",
+    died: "27 June 1839, Lahore",
+    biography:
+      "Ranjit Singh inherited leadership of the Sukerchakia misl as a boy and, by his early twenties, had captured Lahore in 1799, using it as the base from which he unified the fractious Sikh misls of Punjab into a single kingdom, formally proclaiming himself Maharaja in 1801. Over the following decades he expanded his territory to include Multan, Kashmir, and Peshawar, while carefully avoiding conflict with the British East India Company through the Treaty of Amritsar in 1809, which fixed the Sutlej as a boundary between their respective spheres. He built a modern, disciplined army — the Fauj-i-Khas — trained in part by European officers and equipped with artillery that rivalled contemporary European forces, while also maintaining a notably plural court that included Hindu, Muslim, and European officials alongside Sikh nobles. He died in 1839, and the kingdom he built was annexed by the British a decade later after the Anglo-Sikh Wars.",
+    kingdomDescription:
+      "The Sikh Empire under Ranjit Singh stretched across Punjab, Kashmir, and the northwest frontier, known for the modernisation of its army along European lines, an inclusive administration drawing on multiple communities, and careful diplomacy that kept the expanding British East India Company at bay during his lifetime.",
+    campaigns: [
       "Unification of the Punjab misls under a single ruler",
       "Capture of Lahore in 1799 and its establishment as capital",
       "Expansion into Multan, Kashmir, and Peshawar",
-      "Modernisation of the Khalsa army with European-trained artillery"
+      "Modernisation of the Khalsa army with European-trained artillery",
     ],
-    "battles": [
+    battles: [
       {
-        "id": "attock",
-        "name": "Battle of Attock",
-        "year": "1813",
-        "outcome": "Sikh victory"
-      }
+        id: "attock",
+        name: "Battle of Attock",
+        year: "1813",
+        outcome: "Sikh victory",
+      },
     ],
-    "forts": [
+    forts: [
       {
-        "name": "Lahore Fort",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "The historic citadel that became Ranjit Singh's capital seat after its capture in 1799, extensively renovated during his reign and serving as the political heart of the Sikh Empire."
+        name: "Lahore Fort",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        description:
+          "The historic citadel that became Ranjit Singh's capital seat after its capture in 1799, extensively renovated during his reign and serving as the political heart of the Sikh Empire.",
       },
       {
-        "name": "Gobindgarh Fort",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "A key military fortress at Amritsar, refortified under Ranjit Singh to guard the treasury and serve as a garrison protecting the empire's holiest city."
-      }
+        name: "Gobindgarh Fort",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/sikh/fort.jpg",
+        description:
+          "A key military fortress at Amritsar, refortified under Ranjit Singh to guard the treasury and serve as a garrison protecting the empire's holiest city.",
+      },
     ],
-    "timeline": [
+    timeline: [
       {
-        "year": "1801",
-        "event": "Proclaimed Maharaja of Punjab"
+        year: "1801",
+        event: "Proclaimed Maharaja of Punjab",
       },
       {
-        "year": "1813",
-        "event": "Captured Attock"
+        year: "1813",
+        event: "Captured Attock",
       },
       {
-        "year": "1839",
-        "event": "Passed away in Lahore"
-      }
+        year: "1839",
+        event: "Passed away in Lahore",
+      },
     ],
-    "achievements": [
+    achievements: [
       "Unified Punjab under one rule for the first time in centuries",
       "Modernised military forces to rival contemporary European armies",
       "Preserved and adorned the Golden Temple and Sikh heritage sites",
-      "Maintained peace with the British through the Treaty of Amritsar, 1809"
+      "Maintained peace with the British through the Treaty of Amritsar, 1809",
     ],
-    "legacy": "Maharaja Ranjit Singh is remembered as the Lion of Punjab — a ruler who built a strong, prosperous, and religiously plural empire through vision and valour. The kingdom's fall within a decade of his death is often attributed to the succession struggles that followed his passing.",
-    "references": [
-      "Sikh historical chronicles",
-      "Punjab court records"
-    ]
+    legacy:
+      "Maharaja Ranjit Singh is remembered as the Lion of Punjab — a ruler who built a strong, prosperous, and religiously plural empire through vision and valour. The kingdom's fall within a decade of his death is often attributed to the succession struggles that followed his passing.",
+    references: ["Sikh historical chronicles", "Punjab court records"],
   },
   {
-    "id": "laxmibai",
-    "name": "Rani Lakshmibai",
-    "title": "Queen of Jhansi",
-    "years": "1828 – 1858",
-    "featured": false,
-    "kingdomId": "jhansi",
-    "description": "The warrior queen of Jhansi who led her kingdom with courage during the Revolt of 1857.",
-    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/laxmibai/portrait.jpg",
-    "kingdom": "Jhansi",
-    "capital": "Jhansi",
-    "dynasty": "Newalkar",
-    "reign": "1853 – 1858",
-    "born": "19 November 1828, Varanasi",
-    "died": "18 June 1858, Gwalior",
-    "biography": "Born Manikarnika and later married to the Maharaja of Jhansi, Gangadhar Rao, Rani Lakshmibai was trained from childhood in horsemanship, swordsmanship, and self-defence, unusual accomplishments for a woman of her time. When her husband died in 1853 leaving an adopted heir, the British East India Company invoked the Doctrine of Lapse to annex Jhansi, refusing to recognise the succession — a decision Lakshmibai resisted through both appeals and, ultimately, arms. When the Revolt of 1857 reached Jhansi, she took direct command of its defence, and after British forces under Hugh Rose besieged and captured the city in 1858, she escaped with her son strapped to her back and joined other rebel leaders, including Tatya Tope, in continuing the resistance. She was killed in action near Gwalior in June 1858, reportedly dressed as a soldier and fighting on horseback to the end.",
-    "kingdomDescription": "Jhansi was a princely state in the Bundelkhand region of central India, strategically positioned between Maratha and British spheres of influence, whose 1857–58 defence under Rani Lakshmibai made it one of the most significant flashpoints of the uprising.",
-    "campaigns": [
+    id: "laxmibai",
+    name: "Rani Lakshmibai",
+    title: "Queen of Jhansi",
+    years: "1828 – 1858",
+    featured: false,
+    kingdomId: "jhansi",
+    description:
+      "The warrior queen of Jhansi who led her kingdom with courage during the Revolt of 1857.",
+    image:
+      "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/laxmibai/portrait.jpg",
+    kingdom: "Jhansi",
+    capital: "Jhansi",
+    dynasty: "Newalkar",
+    reign: "1853 – 1858",
+    born: "19 November 1828, Varanasi",
+    died: "18 June 1858, Gwalior",
+    biography:
+      "Born Manikarnika and later married to the Maharaja of Jhansi, Gangadhar Rao, Rani Lakshmibai was trained from childhood in horsemanship, swordsmanship, and self-defence, unusual accomplishments for a woman of her time. When her husband died in 1853 leaving an adopted heir, the British East India Company invoked the Doctrine of Lapse to annex Jhansi, refusing to recognise the succession — a decision Lakshmibai resisted through both appeals and, ultimately, arms. When the Revolt of 1857 reached Jhansi, she took direct command of its defence, and after British forces under Hugh Rose besieged and captured the city in 1858, she escaped with her son strapped to her back and joined other rebel leaders, including Tatya Tope, in continuing the resistance. She was killed in action near Gwalior in June 1858, reportedly dressed as a soldier and fighting on horseback to the end.",
+    kingdomDescription:
+      "Jhansi was a princely state in the Bundelkhand region of central India, strategically positioned between Maratha and British spheres of influence, whose 1857–58 defence under Rani Lakshmibai made it one of the most significant flashpoints of the uprising.",
+    campaigns: [
       "Resistance to the British annexation of Jhansi under the Doctrine of Lapse",
       "Defense of Jhansi Fort against Hugh Rose's siege, 1858",
       "Alliance with other rebel leaders during the Revolt of 1857",
-      "Final campaign and last stand near Gwalior, June 1858"
+      "Final campaign and last stand near Gwalior, June 1858",
     ],
-    "battles": [
+    battles: [
       {
-        "id": "jhansi",
-        "name": "Siege of Jhansi",
-        "year": "1858",
-        "outcome": "Fell after fierce resistance"
+        id: "jhansi",
+        name: "Siege of Jhansi",
+        year: "1858",
+        outcome: "Fell after fierce resistance",
       },
       {
-        "name": "Battle of Gwalior",
-        "year": "1858",
-        "outcome": "Martyrdom in battle"
-      }
+        name: "Battle of Gwalior",
+        year: "1858",
+        outcome: "Martyrdom in battle",
+      },
     ],
-    "forts": [
+    forts: [
       {
-        "name": "Jhansi Fort",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
-        "description": "Built atop a rocky hill, Jhansi Fort became the heart of the kingdom during the Revolt of 1857. Under the leadership of Rani Lakshmibai, its massive walls witnessed one of the fiercest defenses against British forces and remain a lasting symbol of courage and sacrifice."
-      }
+        name: "Jhansi Fort",
+        image:
+          "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/Jhansi/fort.jpeg",
+        description:
+          "Built atop a rocky hill, Jhansi Fort became the heart of the kingdom during the Revolt of 1857. Under the leadership of Rani Lakshmibai, its massive walls witnessed one of the fiercest defenses against British forces and remain a lasting symbol of courage and sacrifice.",
+      },
     ],
-    "timeline": [
+    timeline: [
       {
-        "year": "1842",
-        "event": "Married Maharaja Gangadhar Rao"
+        year: "1842",
+        event: "Married Maharaja Gangadhar Rao",
       },
       {
-        "year": "1857",
-        "event": "Revolt of 1857 begins"
+        year: "1857",
+        event: "Revolt of 1857 begins",
       },
       {
-        "year": "1858",
-        "event": "Martyrdom at Gwalior"
-      }
+        year: "1858",
+        event: "Martyrdom at Gwalior",
+      },
     ],
-    "achievements": [
+    achievements: [
       "Led Jhansi's defense personally, commanding troops in battle",
       "Became one of the foremost symbols of the 1857 Revolt",
       "Escaped a besieged city with her son to continue the resistance",
-      "Remains an enduring inspiration for later Indian freedom movements"
+      "Remains an enduring inspiration for later Indian freedom movements",
     ],
-    "legacy": "Rani Lakshmibai remains one of India's most celebrated freedom fighters — remembered for leading from the front and choosing death over surrender. British officers who fought against her, including Hugh Rose, are recorded as praising her courage and skill as a commander.",
-    "references": [
-      "1857 Revolt historical records",
-      "Jhansi state chronicles"
-    ]
-  }
+    legacy:
+      "Rani Lakshmibai remains one of India's most celebrated freedom fighters — remembered for leading from the front and choosing death over surrender. British officers who fought against her, including Hugh Rose, are recorded as praising her courage and skill as a commander.",
+    references: ["1857 Revolt historical records", "Jhansi state chronicles"],
+  },
 ];
