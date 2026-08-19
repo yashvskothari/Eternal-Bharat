@@ -1,0 +1,741 @@
+/* =========================================================
+   ETERNAL BHARAT
+   BATTLES PAGE
+========================================================= */
+
+
+/* =========================================================
+   BATTLE HERO
+========================================================= */
+
+.small-hero {
+    position: relative;
+
+    min-height: 65vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 150px 20px 90px;
+
+    text-align: center;
+
+    overflow: hidden;
+
+    background:
+        radial-gradient(
+            circle at 50% 45%,
+            rgba(212, 175, 55, 0.10),
+            transparent 35%
+        ),
+        linear-gradient(
+            135deg,
+            #080808,
+            #14110c,
+            #090909
+        );
+}
+
+
+/* Cinematic glow */
+
+.small-hero::before {
+    content: "";
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    width: 700px;
+    height: 400px;
+
+    transform: translate(-50%, -50%);
+
+    background:
+        radial-gradient(
+            ellipse,
+            rgba(212, 175, 55, 0.08),
+            transparent 70%
+        );
+
+    pointer-events: none;
+}
+
+
+/* Bottom golden line */
+
+.small-hero::after {
+    content: "";
+
+    position: absolute;
+
+    bottom: 0;
+    left: 50%;
+
+    width: min(80%, 750px);
+    height: 1px;
+
+    transform: translateX(-50%);
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            var(--gold),
+            transparent
+        );
+}
+
+
+/* =========================================================
+   HERO CONTENT
+========================================================= */
+
+.small-hero .hero-content {
+    position: relative;
+
+    z-index: 2;
+
+    width: min(90%, 900px);
+
+    margin: 0 auto;
+}
+
+
+/* =========================================================
+   HERO TAG
+========================================================= */
+
+.small-hero .hero-tag {
+    display: inline-block;
+
+    margin-bottom: 18px;
+
+    color: var(--gold-light);
+
+    font-family: "Cinzel", serif;
+
+    font-size: 0.8rem;
+
+    font-weight: 600;
+
+    letter-spacing: 3px;
+
+    text-transform: uppercase;
+}
+
+
+/* =========================================================
+   HERO TITLE
+========================================================= */
+
+.small-hero h1 {
+    margin-bottom: 22px;
+
+    font-size:
+        clamp(2.8rem, 6vw, 5rem);
+
+    line-height: 1.1;
+
+    color: var(--gold);
+
+    text-shadow:
+        0 8px 35px rgba(0, 0, 0, 0.55);
+}
+
+
+/* =========================================================
+   HERO DESCRIPTION
+========================================================= */
+
+.small-hero .hero-content p {
+    max-width: 750px;
+
+    margin: 0 auto;
+
+    color: var(--text-light);
+
+    font-size: 1rem;
+
+    line-height: 1.9;
+}
+
+
+/* =========================================================
+   SEARCH
+========================================================= */
+
+.container > .search-box {
+    position: relative;
+
+    max-width: 750px;
+
+    margin:
+        70px auto
+        10px;
+}
+
+
+/* =========================================================
+   BATTLE SEARCH INPUT
+========================================================= */
+
+#battle-search {
+    width: 100%;
+
+    padding:
+        18px
+        25px;
+
+    border: 1px solid var(--border);
+
+    border-radius: 999px;
+
+    outline: none;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 255, 255, 0.055),
+            rgba(255, 255, 255, 0.018)
+        );
+
+    color: var(--white);
+
+    font-family: "Poppins", sans-serif;
+
+    font-size: 0.95rem;
+
+    backdrop-filter: blur(12px);
+
+    transition:
+        border-color 0.3s ease,
+        box-shadow 0.3s ease,
+        background 0.3s ease;
+}
+
+
+#battle-search::placeholder {
+    color: var(--text-muted);
+}
+
+
+#battle-search:focus {
+    border-color: var(--gold);
+
+    background:
+        rgba(212, 175, 55, 0.035);
+
+    box-shadow:
+        0 0 25px rgba(212, 175, 55, 0.12);
+}
+
+
+/* =========================================================
+   MAJOR BATTLES GRID
+========================================================= */
+
+#battle-grid {
+    margin-top: 10px;
+}
+
+
+/* =========================================================
+   BATTLE CARDS
+========================================================= */
+
+#battle-grid .card {
+    position: relative;
+
+    display: flex;
+
+    flex-direction: column;
+
+    min-height: 440px;
+
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 255, 255, 0.06),
+            rgba(255, 255, 255, 0.018)
+        );
+
+    border: 1px solid var(--border);
+
+    border-radius: var(--radius);
+
+    transition:
+        transform 0.4s ease,
+        border-color 0.4s ease,
+        box-shadow 0.4s ease;
+}
+
+
+/* =========================================================
+   BATTLE IMAGE
+========================================================= */
+
+#battle-grid .card > img {
+    width: 100%;
+
+    height: 225px;
+
+    object-fit: cover;
+
+    background:
+        linear-gradient(
+            135deg,
+            #191919,
+            #0b0b0b
+        );
+
+    border-bottom: 1px solid var(--border);
+
+    transition:
+        transform 0.5s ease,
+        filter 0.5s ease;
+}
+
+
+/* =========================================================
+   IMAGE HOVER
+========================================================= */
+
+#battle-grid .card:hover > img {
+    transform: scale(1.05);
+
+    filter:
+        brightness(1.08)
+        contrast(1.05)
+        saturate(1.05);
+}
+
+
+/* =========================================================
+   BATTLE CARD CONTENT
+========================================================= */
+
+#battle-grid .card-content {
+    flex: 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    padding: 25px;
+}
+
+
+/* =========================================================
+   BATTLE TITLE
+========================================================= */
+
+#battle-grid .card-content h3 {
+    margin-bottom: 15px;
+
+    color: var(--gold);
+
+    font-size: 1.3rem;
+
+    line-height: 1.4;
+
+    transition:
+        color 0.3s ease;
+}
+
+
+/* =========================================================
+   BATTLE DETAILS
+========================================================= */
+
+#battle-grid .card-content p {
+    margin-bottom: 6px;
+
+    color: var(--text-muted);
+
+    font-size: 0.82rem;
+
+    line-height: 1.6;
+}
+
+
+/* Strong labels */
+
+#battle-grid .card-content p strong {
+    color: var(--text-light);
+
+    font-weight: 600;
+}
+
+
+/* =========================================================
+   BATTLE CARD LINK
+========================================================= */
+
+#battle-grid .card-content a {
+    margin-top: auto;
+
+    padding-top: 18px;
+
+    color: var(--gold);
+
+    font-size: 0.85rem;
+
+    font-weight: 600;
+
+    transition:
+        color 0.3s ease,
+        transform 0.3s ease;
+}
+
+
+#battle-grid .card-content a:hover {
+    color: var(--gold-light);
+
+    transform: translateX(5px);
+}
+
+
+/* =========================================================
+   BATTLE CARD HOVER
+========================================================= */
+
+#battle-grid .card:hover {
+    transform: translateY(-10px);
+
+    border-color: var(--gold);
+
+    box-shadow:
+        0 20px 45px rgba(0, 0, 0, 0.45),
+        0 0 25px rgba(212, 175, 55, 0.08);
+}
+
+
+#battle-grid .card:hover h3 {
+    color: var(--gold-light);
+}
+
+
+/* =========================================================
+   BATTLE TIMELINE
+========================================================= */
+
+.container > .timeline {
+    margin-top: 60px;
+}
+
+
+/* Timeline year */
+
+.container > .timeline .timeline-item strong {
+    display: block;
+
+    margin-bottom: 10px;
+
+    color: var(--gold-light);
+
+    font-family: "Cinzel", serif;
+
+    font-size: 1rem;
+
+    letter-spacing: 1px;
+}
+
+
+/* Timeline event */
+
+.container > .timeline .timeline-item p {
+    color: var(--text-light);
+
+    font-size: 0.85rem;
+
+    line-height: 1.7;
+}
+
+
+/* =========================================================
+   MILITARY STRATEGIES
+========================================================= */
+
+.container > .cards-grid .card {
+    min-height: 210px;
+
+    display: flex;
+
+    align-items: stretch;
+}
+
+
+/* =========================================================
+   STRATEGY CARD CONTENT
+========================================================= */
+
+.container > .cards-grid .card-content {
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    padding: 28px;
+}
+
+
+/* =========================================================
+   STRATEGY TITLE
+========================================================= */
+
+.container > .cards-grid .card-content h3 {
+    margin-bottom: 12px;
+
+    color: var(--gold);
+
+    font-size: 1.25rem;
+
+    transition:
+        color 0.3s ease;
+}
+
+
+/* =========================================================
+   STRATEGY DESCRIPTION
+========================================================= */
+
+.container > .cards-grid .card-content p {
+    color: var(--text-muted);
+
+    font-size: 0.85rem;
+
+    line-height: 1.7;
+}
+
+
+/* =========================================================
+   STRATEGY CARD HOVER
+========================================================= */
+
+.container > .cards-grid .card:hover {
+    transform: translateY(-8px);
+
+    border-color: var(--gold);
+
+    box-shadow:
+        0 15px 35px rgba(0, 0, 0, 0.4),
+        0 0 20px rgba(212, 175, 55, 0.06);
+}
+
+
+.container > .cards-grid .card:hover h3 {
+    color: var(--gold-light);
+}
+
+
+/* =========================================================
+   EMPTY SEARCH STATE
+========================================================= */
+
+#battle-grid:empty::after {
+    content: "No battles found.";
+
+    display: block;
+
+    grid-column: 1 / -1;
+
+    padding: 60px;
+
+    text-align: center;
+
+    color: var(--text-muted);
+
+    border:
+        1px dashed
+        var(--border);
+
+    border-radius: var(--radius);
+}
+
+
+/* =========================================================
+   TABLET
+   <= 1000px
+========================================================= */
+
+@media (max-width: 1000px) {
+
+    .small-hero {
+        min-height: 55vh;
+
+        padding-top: 140px;
+    }
+
+
+    .small-hero h1 {
+        font-size:
+            clamp(2.5rem, 6vw, 4rem);
+    }
+
+
+    #battle-grid {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+
+
+    .container > .cards-grid {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+}
+
+
+/* =========================================================
+   MOBILE
+   <= 700px
+========================================================= */
+
+@media (max-width: 700px) {
+
+    .small-hero {
+        min-height: 55vh;
+
+        padding:
+            125px 20px
+            70px;
+    }
+
+
+    .small-hero .hero-tag {
+        font-size: 0.68rem;
+
+        letter-spacing: 2px;
+    }
+
+
+    .small-hero h1 {
+        font-size:
+            clamp(2.2rem, 10vw, 3.2rem);
+    }
+
+
+    .small-hero .hero-content p {
+        font-size: 0.85rem;
+
+        line-height: 1.75;
+    }
+
+
+    /* Search */
+
+    .container > .search-box {
+        width: 92%;
+
+        margin:
+            50px auto
+            0;
+    }
+
+
+    #battle-search {
+        padding:
+            16px
+            22px;
+
+        font-size: 0.85rem;
+    }
+
+
+    /* Battle cards */
+
+    #battle-grid {
+        grid-template-columns: 1fr;
+
+        gap: 20px;
+    }
+
+
+    #battle-grid .card {
+        min-height: 410px;
+    }
+
+
+    #battle-grid .card > img {
+        height: 220px;
+    }
+
+
+    /* Strategy cards */
+
+    .container > .cards-grid {
+        grid-template-columns: 1fr;
+
+        gap: 18px;
+    }
+
+
+    /* Timeline */
+
+    .container > .timeline {
+        margin-top: 45px;
+    }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+   <= 450px
+========================================================= */
+
+@media (max-width: 450px) {
+
+    .small-hero {
+        padding:
+            115px 18px
+            60px;
+    }
+
+
+    .small-hero h1 {
+        font-size: 2.1rem;
+    }
+
+
+    .small-hero .hero-content p {
+        font-size: 0.8rem;
+    }
+
+
+    #battle-grid .card-content {
+        padding: 22px;
+    }
+
+
+    #battle-grid .card > img {
+        height: 200px;
+    }
+
+
+    .container > .cards-grid .card-content {
+        padding: 24px 20px;
+    }
+}
+
+
+/* =========================================================
+   REDUCED MOTION
+========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+    #battle-grid .card,
+    #battle-grid .card > img,
+    #battle-grid .card-content a,
+    .container > .cards-grid .card {
+        transition: none;
+    }
+}

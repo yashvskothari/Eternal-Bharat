@@ -1,0 +1,1242 @@
+/* =========================================================
+   ETERNAL BHARAT
+   WARRIOR DETAILS PAGE
+========================================================= */
+
+
+/* =========================================================
+   WARRIOR HERO
+========================================================= */
+
+.warrior-hero {
+    position: relative;
+
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+
+    padding: 150px 0 100px;
+
+    overflow: hidden;
+
+    background:
+        radial-gradient(
+            circle at 75% 45%,
+            rgba(212, 175, 55, 0.10),
+            transparent 30%
+        ),
+        linear-gradient(
+            90deg,
+            #080808 0%,
+            #0d0d0d 55%,
+            #151515 100%
+        );
+}
+
+
+/* =========================================================
+   HERO OVERLAY
+========================================================= */
+
+.warrior-hero .overlay {
+    position: absolute;
+
+    inset: 0;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(5, 5, 5, 0.35),
+            transparent 65%
+        );
+
+    pointer-events: none;
+}
+
+
+/* =========================================================
+   HERO CONTENT
+========================================================= */
+
+.warrior-hero .hero-content {
+    position: relative;
+
+    z-index: 2;
+
+    width: min(92%, 1300px);
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns:
+        1.1fr
+        0.9fr;
+
+    align-items: center;
+
+    gap: 70px;
+}
+
+
+/* =========================================================
+   HERO LEFT
+========================================================= */
+
+.hero-left {
+    max-width: 700px;
+}
+
+
+/* =========================================================
+   WARRIOR BADGE
+========================================================= */
+
+.badge {
+    display: inline-flex;
+
+    align-items: center;
+
+    margin-bottom: 22px;
+
+    padding: 8px 18px;
+
+    border: 1px solid var(--border);
+
+    border-radius: 999px;
+
+    background:
+        rgba(212, 175, 55, 0.08);
+
+    color: var(--gold-light);
+
+    font-family: "Cinzel", serif;
+
+    font-size: 0.75rem;
+
+    font-weight: 600;
+
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+}
+
+
+/* =========================================================
+   WARRIOR NAME
+========================================================= */
+
+#warrior-name {
+    margin-bottom: 12px;
+
+    color: var(--gold);
+
+    font-size:
+        clamp(3rem, 6vw, 5.5rem);
+
+    line-height: 1.05;
+
+    text-shadow:
+        0 5px 30px rgba(0, 0, 0, 0.55);
+}
+
+
+/* =========================================================
+   WARRIOR TITLE
+========================================================= */
+
+#warrior-title {
+    margin-bottom: 8px;
+
+    color: var(--gold-light);
+
+    font-family: "Cinzel", serif;
+
+    font-size: 1.25rem;
+
+    font-weight: 600;
+}
+
+
+/* =========================================================
+   WARRIOR YEARS
+========================================================= */
+
+#warrior-years {
+    margin-bottom: 25px;
+
+    color: var(--text-muted);
+
+    font-size: 0.95rem;
+
+    letter-spacing: 1px;
+}
+
+
+/* =========================================================
+   WARRIOR DESCRIPTION
+========================================================= */
+
+#warrior-description {
+    max-width: 650px;
+
+    margin-bottom: 35px;
+
+    color: var(--text-light);
+
+    font-size: 1rem;
+
+    line-height: 1.9;
+}
+
+
+/* =========================================================
+   HERO BUTTONS
+========================================================= */
+
+.warrior-hero .hero-buttons {
+    display: flex;
+
+    align-items: center;
+
+    gap: 16px;
+
+    flex-wrap: wrap;
+}
+
+
+/* =========================================================
+   HERO PORTRAIT
+========================================================= */
+
+.hero-right {
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+
+/* =========================================================
+   PORTRAIT GLOW
+========================================================= */
+
+.hero-right::before {
+    content: "";
+
+    position: absolute;
+
+    width: 430px;
+    height: 430px;
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(212, 175, 55, 0.16),
+            transparent 70%
+        );
+
+    filter: blur(10px);
+
+    pointer-events: none;
+}
+
+
+/* =========================================================
+   PORTRAIT IMAGE
+========================================================= */
+
+#warrior-portrait {
+    position: relative;
+
+    z-index: 2;
+
+    width: min(100%, 450px);
+
+    max-height: 620px;
+
+    object-fit: cover;
+
+    border-radius: var(--radius-large);
+
+    border: 1px solid var(--border);
+
+    box-shadow:
+        0 25px 70px rgba(0, 0, 0, 0.55),
+        0 0 35px rgba(212, 175, 55, 0.08);
+
+    transition:
+        transform 0.45s ease,
+        box-shadow 0.45s ease;
+}
+
+#warrior-portrait:hover {
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 30px 80px rgba(0, 0, 0, 0.65),
+        0 0 45px rgba(212, 175, 55, 0.15);
+}
+
+
+/* =========================================================
+   GENERAL CONTENT SECTIONS
+========================================================= */
+
+.warrior-hero ~ section {
+    position: relative;
+}
+
+
+/* =========================================================
+   SECTION HEADINGS
+========================================================= */
+
+.warrior-hero ~ section > h2,
+.warrior-hero ~ section .container > h2,
+section.container > h2 {
+    position: relative;
+
+    margin-bottom: 35px;
+
+    padding-bottom: 14px;
+
+    color: var(--gold);
+
+    font-family: "Cinzel", serif;
+
+    font-size: 2.2rem;
+}
+
+
+/* Gold heading line */
+
+section.container > h2::after,
+.quick-facts > h2::after {
+    content: "";
+
+    display: block;
+
+    width: 65px;
+    height: 3px;
+
+    margin-top: 12px;
+
+    background:
+        linear-gradient(
+            90deg,
+            var(--gold),
+            transparent
+        );
+
+    border-radius: 20px;
+}
+
+
+/* =========================================================
+   QUICK FACTS
+========================================================= */
+
+.quick-facts {
+    padding-top: 100px;
+}
+
+
+/* =========================================================
+   FACT GRID
+========================================================= */
+
+.facts-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+
+/* =========================================================
+   FACT CARD
+========================================================= */
+
+.fact-card {
+    position: relative;
+
+    padding: 28px 25px;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 255, 255, 0.055),
+            rgba(255, 255, 255, 0.018)
+        );
+
+    border: 1px solid var(--border);
+
+    border-radius: var(--radius);
+
+    overflow: hidden;
+
+    transition:
+        transform 0.35s ease,
+        border-color 0.35s ease,
+        box-shadow 0.35s ease;
+}
+
+
+/* Decorative glow */
+
+.fact-card::before {
+    content: "";
+
+    position: absolute;
+
+    top: -50px;
+    right: -50px;
+
+    width: 120px;
+    height: 120px;
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(212, 175, 55, 0.12),
+            transparent 70%
+        );
+}
+
+
+/* Fact heading */
+
+.fact-card h3 {
+    margin-bottom: 8px;
+
+    color: var(--gold-light);
+
+    font-size: 1rem;
+}
+
+
+/* Fact value */
+
+.fact-card p {
+    color: var(--text-light);
+
+    font-size: 0.9rem;
+}
+
+
+/* Hover */
+
+.fact-card:hover {
+    transform: translateY(-7px);
+
+    border-color: var(--gold);
+
+    box-shadow:
+        0 15px 35px rgba(0, 0, 0, 0.35);
+}
+
+
+/* =========================================================
+   BIOGRAPHY
+========================================================= */
+
+.biography {
+    max-width: 1000px;
+}
+
+.biography p {
+    color: var(--text-light);
+
+    font-size: 1rem;
+
+    line-height: 2;
+}
+
+
+/* =========================================================
+   TWO COLUMN SECTION
+========================================================= */
+
+.two-column {
+    display: grid;
+
+    grid-template-columns:
+        1fr
+        1fr;
+
+    align-items: center;
+
+    gap: 60px;
+}
+
+
+/* =========================================================
+   KINGDOM DESCRIPTION
+========================================================= */
+
+.two-column p {
+    color: var(--text-light);
+
+    line-height: 1.9;
+}
+
+
+/* =========================================================
+   KINGDOM MAP
+========================================================= */
+
+#kingdom-map {
+    width: 100%;
+
+    max-height: 450px;
+
+    object-fit: contain;
+
+    border-radius: var(--radius);
+
+    border: 1px solid var(--border);
+
+    background:
+        rgba(255, 255, 255, 0.025);
+
+    padding: 10px;
+
+    transition:
+        transform 0.4s ease,
+        border-color 0.4s ease;
+}
+
+#kingdom-map:hover {
+    transform: scale(1.02);
+
+    border-color: var(--gold);
+}
+
+
+/* =========================================================
+   MILITARY CAMPAIGNS
+========================================================= */
+
+#campaign-list {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 15px;
+}
+
+
+/* =========================================================
+   CAMPAIGN ITEM
+========================================================= */
+
+#campaign-list li {
+    position: relative;
+
+    padding: 18px 22px 18px 45px;
+
+    background:
+        rgba(255, 255, 255, 0.035);
+
+    border: 1px solid var(--border);
+
+    border-radius: var(--radius-small);
+
+    color: var(--text-light);
+
+    transition:
+        transform 0.3s ease,
+        border-color 0.3s ease;
+}
+
+
+/* Gold bullet */
+
+#campaign-list li::before {
+    content: "◆";
+
+    position: absolute;
+
+    left: 18px;
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    color: var(--gold);
+
+    font-size: 0.65rem;
+}
+
+
+#campaign-list li:hover {
+    transform: translateX(6px);
+
+    border-color: var(--gold);
+}
+
+
+/* =========================================================
+   BATTLE GRID
+========================================================= */
+
+.battle-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 22px;
+}
+
+
+/* =========================================================
+   BATTLE CARDS
+========================================================= */
+
+.battle-grid > * {
+    min-height: 160px;
+
+    padding: 25px;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 255, 255, 0.055),
+            rgba(255, 255, 255, 0.02)
+        );
+
+    border: 1px solid var(--border);
+
+    border-radius: var(--radius);
+
+    transition:
+        transform 0.35s ease,
+        border-color 0.35s ease,
+        box-shadow 0.35s ease;
+}
+
+.battle-grid > *:hover {
+    transform: translateY(-8px);
+
+    border-color: var(--gold);
+
+    box-shadow:
+        0 15px 35px rgba(0, 0, 0, 0.35);
+}
+
+
+/* =========================================================
+   FORT GRID
+========================================================= */
+
+.fort-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 22px;
+}
+
+
+/* =========================================================
+   FORT CARDS
+========================================================= */
+
+.fort-grid > * {
+    min-height: 150px;
+
+    padding: 25px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    background:
+        rgba(255, 255, 255, 0.035);
+
+    border: 1px solid var(--border);
+
+    border-radius: var(--radius);
+
+    color: var(--gold);
+
+    font-family: "Cinzel", serif;
+
+    transition:
+        transform 0.35s ease,
+        border-color 0.35s ease,
+        background 0.35s ease;
+}
+
+.fort-grid > *:hover {
+    transform: translateY(-7px);
+
+    border-color: var(--gold);
+
+    background:
+        rgba(212, 175, 55, 0.07);
+}
+
+
+/* =========================================================
+   TERRITORY MAP
+========================================================= */
+
+#territory-map {
+    width: 100%;
+
+    max-height: 600px;
+
+    object-fit: contain;
+
+    padding: 15px;
+
+    background:
+        rgba(255, 255, 255, 0.025);
+
+    border: 1px solid var(--border);
+
+    border-radius: var(--radius-large);
+
+    transition:
+        border-color 0.35s ease,
+        box-shadow 0.35s ease;
+}
+
+#territory-map:hover {
+    border-color: var(--gold);
+
+    box-shadow:
+        0 15px 45px rgba(0, 0, 0, 0.4);
+}
+
+
+/* =========================================================
+   WARRIOR TIMELINE
+========================================================= */
+
+#timeline {
+    overflow: hidden;
+}
+
+
+/* =========================================================
+   ACHIEVEMENTS
+========================================================= */
+
+#achievements {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 15px;
+}
+
+
+/* Achievement item */
+
+#achievements li {
+    position: relative;
+
+    padding: 18px 20px 18px 45px;
+
+    background:
+        rgba(255, 255, 255, 0.035);
+
+    border: 1px solid var(--border);
+
+    border-radius: var(--radius-small);
+
+    color: var(--text-light);
+
+    transition:
+        transform 0.3s ease,
+        border-color 0.3s ease;
+}
+
+
+#achievements li::before {
+    content: "★";
+
+    position: absolute;
+
+    left: 18px;
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    color: var(--gold);
+}
+
+
+#achievements li:hover {
+    transform: translateX(6px);
+
+    border-color: var(--gold);
+}
+
+
+/* =========================================================
+   LEGACY
+========================================================= */
+
+#legacy {
+    max-width: 1000px;
+
+    margin: 0 auto;
+
+    padding: 35px;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(212, 175, 55, 0.07),
+            rgba(255, 255, 255, 0.025)
+        );
+
+    border-left: 3px solid var(--gold);
+
+    border-radius: var(--radius);
+
+    color: var(--text-light);
+
+    font-size: 1rem;
+
+    line-height: 2;
+}
+
+
+/* =========================================================
+   GALLERY
+========================================================= */
+
+.gallery-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+
+/* Gallery images */
+
+.gallery-grid img {
+    width: 100%;
+
+    height: 260px;
+
+    object-fit: cover;
+
+    border: 1px solid var(--border);
+
+    border-radius: var(--radius);
+
+    transition:
+        transform 0.4s ease,
+        border-color 0.4s ease,
+        box-shadow 0.4s ease;
+}
+
+
+.gallery-grid img:hover {
+    transform: scale(1.03);
+
+    border-color: var(--gold);
+
+    box-shadow:
+        0 15px 35px rgba(0, 0, 0, 0.4);
+}
+
+
+/* =========================================================
+   REFERENCES
+========================================================= */
+
+#reference-list {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 14px;
+}
+
+
+#reference-list li {
+    padding: 17px 20px;
+
+    background:
+        rgba(255, 255, 255, 0.03);
+
+    border: 1px solid var(--border);
+
+    border-radius: var(--radius-small);
+
+    color: var(--text-muted);
+
+    transition:
+        border-color 0.3s ease,
+        color 0.3s ease;
+}
+
+
+#reference-list li:hover {
+    color: var(--gold-light);
+
+    border-color: var(--gold);
+}
+
+
+/* =========================================================
+   WARRIOR NAVIGATION
+========================================================= */
+
+.warrior-navigation {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 20px;
+
+    padding-top: 40px;
+
+    padding-bottom: 100px;
+}
+
+
+/* Navigation buttons */
+
+.warrior-navigation a {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    min-width: 200px;
+
+    padding: 14px 24px;
+
+    border: 1px solid var(--border);
+
+    border-radius: 999px;
+
+    color: var(--gold);
+
+    background:
+        rgba(255, 255, 255, 0.025);
+
+    font-weight: 600;
+
+    transition:
+        transform 0.3s ease,
+        background 0.3s ease,
+        border-color 0.3s ease,
+        color 0.3s ease;
+}
+
+
+.warrior-navigation a:hover {
+    transform: translateY(-4px);
+
+    background: var(--gold);
+
+    border-color: var(--gold);
+
+    color: #080808;
+}
+
+
+/* =========================================================
+   TABLET
+   <= 1000px
+========================================================= */
+
+@media (max-width: 1000px) {
+
+    .warrior-hero {
+        padding-top: 140px;
+    }
+
+    .warrior-hero .hero-content {
+        grid-template-columns:
+            1fr
+            0.8fr;
+
+        gap: 40px;
+    }
+
+    #warrior-name {
+        font-size: clamp(2.8rem, 6vw, 4.5rem);
+    }
+
+    .facts-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .battle-grid,
+    .fort-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .gallery-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+}
+
+
+/* =========================================================
+   MOBILE
+   <= 700px
+========================================================= */
+
+@media (max-width: 700px) {
+
+    .warrior-hero {
+        min-height: auto;
+
+        padding:
+            130px 0 70px;
+    }
+
+
+    /* Hero */
+
+    .warrior-hero .hero-content {
+        width: 92%;
+
+        grid-template-columns: 1fr;
+
+        gap: 45px;
+
+        text-align: center;
+    }
+
+
+    .hero-left {
+        max-width: none;
+    }
+
+
+    .badge {
+        font-size: 0.68rem;
+    }
+
+
+    #warrior-name {
+        font-size:
+            clamp(2.4rem, 10vw, 3.5rem);
+    }
+
+
+    #warrior-title {
+        font-size: 1rem;
+    }
+
+
+    #warrior-description {
+        font-size: 0.88rem;
+
+        line-height: 1.75;
+    }
+
+
+    .warrior-hero .hero-buttons {
+        justify-content: center;
+    }
+
+
+    /* Portrait */
+
+    .hero-right {
+        order: 2;
+    }
+
+
+    #warrior-portrait {
+        width: min(85%, 380px);
+    }
+
+
+    /* Facts */
+
+    .facts-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* Two column */
+
+    .two-column {
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+    }
+
+
+    /* Campaigns */
+
+    #campaign-list {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* Battles */
+
+    .battle-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* Forts */
+
+    .fort-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* Achievements */
+
+    #achievements {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* Gallery */
+
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    .gallery-grid img {
+        height: 250px;
+    }
+
+
+    /* References */
+
+    #reference-list {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* Navigation */
+
+    .warrior-navigation {
+        flex-direction: column;
+
+        padding-bottom: 70px;
+    }
+
+
+    .warrior-navigation a {
+        width: 100%;
+
+        min-width: 0;
+    }
+
+
+    /* Headings */
+
+    section.container > h2,
+    .quick-facts > h2 {
+        font-size: 1.8rem;
+    }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+   <= 450px
+========================================================= */
+
+@media (max-width: 450px) {
+
+    .warrior-hero {
+        padding-top: 115px;
+    }
+
+
+    .warrior-hero .hero-content {
+        width: 90%;
+    }
+
+
+    #warrior-name {
+        font-size: 2.2rem;
+    }
+
+
+    #warrior-description {
+        font-size: 0.82rem;
+    }
+
+
+    .hero-right::before {
+        width: 280px;
+        height: 280px;
+    }
+
+
+    #warrior-portrait {
+        width: 90%;
+
+        border-radius: var(--radius);
+    }
+
+
+    .fact-card {
+        padding: 22px 20px;
+    }
+
+
+    #legacy {
+        padding: 25px 20px;
+
+        font-size: 0.88rem;
+
+        line-height: 1.8;
+    }
+
+
+    .gallery-grid img {
+        height: 220px;
+    }
+}
+
+
+/* =========================================================
+   REDUCED MOTION
+========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .warrior-hero *,
+    .fact-card,
+    .battle-grid > *,
+    .fort-grid > *,
+    .gallery-grid img,
+    .warrior-navigation a {
+        transition: none;
+    }
+}

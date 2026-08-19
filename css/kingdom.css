@@ -1,0 +1,762 @@
+/* =========================================================
+   ETERNAL BHARAT
+   KINGDOMS PAGE
+========================================================= */
+
+
+/* =========================================================
+   KINGDOM HERO
+========================================================= */
+
+.small-hero {
+    position: relative;
+
+    min-height: 65vh;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 150px 20px 90px;
+
+    text-align: center;
+
+    overflow: hidden;
+
+    background:
+        radial-gradient(
+            circle at 50% 40%,
+            rgba(212, 175, 55, 0.10),
+            transparent 35%
+        ),
+        linear-gradient(
+            135deg,
+            #080808,
+            #121212,
+            #090909
+        );
+}
+
+
+/* Decorative glow */
+
+.small-hero::before {
+    content: "";
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    width: 650px;
+    height: 350px;
+
+    background:
+        radial-gradient(
+            ellipse,
+            rgba(212, 175, 55, 0.08),
+            transparent 70%
+        );
+
+    transform: translate(-50%, -50%);
+
+    pointer-events: none;
+}
+
+
+/* Bottom border */
+
+.small-hero::after {
+    content: "";
+
+    position: absolute;
+
+    bottom: 0;
+    left: 50%;
+
+    width: min(80%, 700px);
+    height: 1px;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            var(--gold),
+            transparent
+        );
+
+    transform: translateX(-50%);
+}
+
+
+/* =========================================================
+   HERO CONTENT
+========================================================= */
+
+.small-hero .hero-content {
+    position: relative;
+
+    z-index: 2;
+
+    width: min(90%, 850px);
+
+    margin: 0 auto;
+}
+
+
+/* =========================================================
+   HERO TAG
+========================================================= */
+
+.small-hero .hero-tag {
+    display: inline-block;
+
+    margin-bottom: 18px;
+
+    color: var(--gold-light);
+
+    font-family: "Cinzel", serif;
+
+    font-size: 0.8rem;
+
+    font-weight: 600;
+
+    letter-spacing: 3px;
+
+    text-transform: uppercase;
+}
+
+
+/* =========================================================
+   HERO TITLE
+========================================================= */
+
+.small-hero h1 {
+    margin-bottom: 22px;
+
+    font-size:
+        clamp(2.8rem, 6vw, 5rem);
+
+    line-height: 1.1;
+
+    color: var(--gold);
+
+    text-shadow:
+        0 8px 35px rgba(0, 0, 0, 0.5);
+}
+
+
+/* =========================================================
+   HERO DESCRIPTION
+========================================================= */
+
+.small-hero .hero-content p {
+    max-width: 720px;
+
+    margin: 0 auto;
+
+    color: var(--text-light);
+
+    font-size: 1rem;
+
+    line-height: 1.9;
+}
+
+
+/* =========================================================
+   SEARCH SECTION
+========================================================= */
+
+.kingdom-search-section {
+    padding-top: 70px;
+}
+
+
+/* Your current HTML uses .search-box directly */
+
+.container > .search-box {
+    position: relative;
+
+    max-width: 750px;
+
+    margin:
+        70px auto
+        10px;
+}
+
+
+/* =========================================================
+   SEARCH INPUT
+========================================================= */
+
+#kingdom-search {
+    width: 100%;
+
+    padding:
+        18px
+        55px
+        18px
+        25px;
+
+    border: 1px solid var(--border);
+
+    border-radius: 999px;
+
+    outline: none;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 255, 255, 0.055),
+            rgba(255, 255, 255, 0.02)
+        );
+
+    color: var(--white);
+
+    font-family: "Poppins", sans-serif;
+
+    font-size: 0.95rem;
+
+    backdrop-filter: blur(12px);
+
+    transition:
+        border-color 0.3s ease,
+        box-shadow 0.3s ease,
+        background 0.3s ease;
+}
+
+
+#kingdom-search::placeholder {
+    color: var(--text-muted);
+}
+
+
+#kingdom-search:focus {
+    border-color: var(--gold);
+
+    background:
+        rgba(212, 175, 55, 0.035);
+
+    box-shadow:
+        0 0 25px rgba(212, 175, 55, 0.12);
+}
+
+
+/* =========================================================
+   KINGDOM GRID
+========================================================= */
+
+#kingdom-grid {
+    margin-top: 10px;
+}
+
+
+/* =========================================================
+   KINGDOM CARDS
+========================================================= */
+
+/*
+   We use #kingdom-grid .card instead of .card
+   so that cards.css remains reusable on other pages.
+*/
+
+#kingdom-grid .card {
+    position: relative;
+
+    display: flex;
+
+    flex-direction: column;
+
+    min-height: 430px;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 255, 255, 0.06),
+            rgba(255, 255, 255, 0.018)
+        );
+
+    border: 1px solid var(--border);
+
+    border-radius: var(--radius);
+
+    overflow: hidden;
+
+    transition:
+        transform 0.4s ease,
+        border-color 0.4s ease,
+        box-shadow 0.4s ease;
+}
+
+
+/* =========================================================
+   KINGDOM CARD IMAGE
+========================================================= */
+
+#kingdom-grid .card > img {
+    width: 100%;
+
+    height: 220px;
+
+    object-fit: cover;
+
+    background:
+        linear-gradient(
+            135deg,
+            #181818,
+            #0d0d0d
+        );
+
+    border-bottom: 1px solid var(--border);
+
+    transition:
+        transform 0.5s ease,
+        filter 0.5s ease;
+}
+
+
+/* =========================================================
+   CARD IMAGE HOVER
+========================================================= */
+
+#kingdom-grid .card:hover > img {
+    transform: scale(1.05);
+
+    filter:
+        brightness(1.08)
+        saturate(1.08);
+}
+
+
+/* =========================================================
+   CARD CONTENT
+========================================================= */
+
+#kingdom-grid .card-content {
+    position: relative;
+
+    z-index: 2;
+
+    flex: 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    padding: 25px;
+}
+
+
+/* =========================================================
+   CARD TITLE
+========================================================= */
+
+#kingdom-grid .card-content h3 {
+    margin-bottom: 15px;
+
+    color: var(--gold);
+
+    font-size: 1.35rem;
+
+    transition:
+        color 0.3s ease;
+}
+
+
+/* =========================================================
+   CARD INFORMATION
+========================================================= */
+
+#kingdom-grid .card-content p {
+    margin-bottom: 6px;
+
+    color: var(--text-muted);
+
+    font-size: 0.82rem;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   CARD LINK
+========================================================= */
+
+#kingdom-grid .card-content a {
+    margin-top: auto;
+
+    padding-top: 18px;
+
+    color: var(--gold);
+
+    font-size: 0.85rem;
+
+    font-weight: 600;
+
+    transition:
+        color 0.3s ease,
+        transform 0.3s ease;
+}
+
+
+#kingdom-grid .card-content a:hover {
+    color: var(--gold-light);
+
+    transform: translateX(5px);
+}
+
+
+/* =========================================================
+   KINGDOM CARD HOVER
+========================================================= */
+
+#kingdom-grid .card:hover {
+    transform: translateY(-10px);
+
+    border-color: var(--gold);
+
+    box-shadow:
+        0 20px 45px rgba(0, 0, 0, 0.45),
+        0 0 25px rgba(212, 175, 55, 0.08);
+}
+
+
+#kingdom-grid .card:hover h3 {
+    color: var(--gold-light);
+}
+
+
+/* =========================================================
+   EMPTY SEARCH STATE
+========================================================= */
+
+/*
+   Useful when kingdoms.js hides all cards.
+*/
+
+#kingdom-grid:empty::after {
+    content: "No kingdoms found.";
+
+    display: block;
+
+    grid-column: 1 / -1;
+
+    padding: 60px;
+
+    text-align: center;
+
+    color: var(--text-muted);
+
+    border: 1px dashed var(--border);
+
+    border-radius: var(--radius);
+}
+
+
+/* =========================================================
+   EMPIRE TIMELINE
+========================================================= */
+
+.container > .timeline {
+    margin-top: 65px;
+}
+
+
+/*
+   Your timeline.css already controls the main
+   timeline structure.
+
+   These rules only improve its appearance
+   specifically on the Kingdom page.
+*/
+
+.container > .timeline .timeline-item strong {
+    display: block;
+
+    margin-bottom: 10px;
+
+    color: var(--gold-light);
+
+    font-family: "Cinzel", serif;
+
+    font-size: 0.95rem;
+
+    letter-spacing: 1px;
+}
+
+
+.container > .timeline .timeline-item p {
+    color: var(--text-light);
+
+    font-size: 0.82rem;
+}
+
+
+/* =========================================================
+   ARCHITECTURE & CULTURE
+========================================================= */
+
+/*
+   The second .cards-grid contains:
+   Forts
+   Temples
+   Literature
+   Trade
+*/
+
+.container > .cards-grid .card {
+    min-height: 200px;
+
+    display: flex;
+
+    align-items: stretch;
+}
+
+
+/* =========================================================
+   CULTURE CARD CONTENT
+========================================================= */
+
+.container > .cards-grid .card-content {
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    padding: 28px;
+}
+
+
+/* =========================================================
+   CULTURE CARD TITLE
+========================================================= */
+
+.container > .cards-grid .card-content h3 {
+    margin-bottom: 12px;
+
+    color: var(--gold);
+
+    font-size: 1.25rem;
+}
+
+
+/* =========================================================
+   CULTURE CARD DESCRIPTION
+========================================================= */
+
+.container > .cards-grid .card-content p {
+    color: var(--text-muted);
+
+    font-size: 0.85rem;
+
+    line-height: 1.7;
+}
+
+
+/* =========================================================
+   CULTURE CARD HOVER
+========================================================= */
+
+.container > .cards-grid .card:hover {
+    transform: translateY(-8px);
+
+    border-color: var(--gold);
+
+    box-shadow:
+        0 15px 35px rgba(0, 0, 0, 0.4);
+}
+
+
+/* =========================================================
+   SECTION SPACING
+========================================================= */
+
+#kingdom-grid,
+.container > .timeline,
+.container > .cards-grid {
+    margin-bottom: 20px;
+}
+
+
+/* =========================================================
+   TABLET
+   <= 1000px
+========================================================= */
+
+@media (max-width: 1000px) {
+
+    .small-hero {
+        min-height: 55vh;
+
+        padding-top: 140px;
+    }
+
+
+    .small-hero h1 {
+        font-size:
+            clamp(2.5rem, 6vw, 4rem);
+    }
+
+
+    #kingdom-grid {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+
+
+    .container > .cards-grid {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+}
+
+
+/* =========================================================
+   MOBILE
+   <= 700px
+========================================================= */
+
+@media (max-width: 700px) {
+
+    .small-hero {
+        min-height: 55vh;
+
+        padding:
+            125px 20px
+            70px;
+    }
+
+
+    .small-hero .hero-tag {
+        font-size: 0.68rem;
+
+        letter-spacing: 2px;
+    }
+
+
+    .small-hero h1 {
+        font-size:
+            clamp(2.2rem, 10vw, 3.2rem);
+    }
+
+
+    .small-hero .hero-content p {
+        font-size: 0.85rem;
+
+        line-height: 1.75;
+    }
+
+
+    /* Search */
+
+    .container > .search-box {
+        width: 92%;
+
+        margin:
+            50px auto
+            0;
+    }
+
+
+    #kingdom-search {
+        padding:
+            16px
+            22px;
+
+        font-size: 0.85rem;
+    }
+
+
+    /* Kingdom cards */
+
+    #kingdom-grid {
+        grid-template-columns: 1fr;
+
+        gap: 20px;
+    }
+
+
+    #kingdom-grid .card {
+        min-height: 410px;
+    }
+
+
+    #kingdom-grid .card > img {
+        height: 220px;
+    }
+
+
+    /* Culture cards */
+
+    .container > .cards-grid {
+        grid-template-columns: 1fr;
+
+        gap: 18px;
+    }
+
+
+    /* Timeline */
+
+    .container > .timeline {
+        margin-top: 45px;
+    }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+   <= 450px
+========================================================= */
+
+@media (max-width: 450px) {
+
+    .small-hero {
+        padding:
+            115px 18px
+            60px;
+    }
+
+
+    .small-hero h1 {
+        font-size: 2.1rem;
+    }
+
+
+    .small-hero .hero-content p {
+        font-size: 0.8rem;
+    }
+
+
+    #kingdom-grid .card-content {
+        padding: 22px;
+    }
+
+
+    #kingdom-grid .card > img {
+        height: 200px;
+    }
+
+
+    .container > .cards-grid .card-content {
+        padding: 24px 20px;
+    }
+}
+
+
+/* =========================================================
+   REDUCED MOTION
+========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+    #kingdom-grid .card,
+    #kingdom-grid .card > img,
+    #kingdom-grid .card-content a,
+    .container > .cards-grid .card {
+        transition: none;
+    }
+}

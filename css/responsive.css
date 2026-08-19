@@ -1,0 +1,749 @@
+/* =========================================================
+   ETERNAL BHARAT
+   RESPONSIVE STYLESHEET
+   ---------------------------------------------------------
+   This file contains shared responsive rules for:
+   - Home
+   - Warriors
+   - Warrior Details
+   - Kingdoms
+   - Battles
+   - Timeline
+   - About
+   - Shared components
+========================================================= */
+
+
+/* =========================================================
+   LARGE TABLETS / SMALL LAPTOPS
+   <= 1100px
+========================================================= */
+
+@media (max-width: 1100px) {
+
+    /* ---------- Global ---------- */
+
+    :root {
+        --container: 1100px;
+    }
+
+    section {
+        padding: 75px 0;
+    }
+
+    h1 {
+        font-size: 3.3rem;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+    }
+
+
+    /* ---------- Navbar ---------- */
+
+    .navbar {
+        width: min(94%, 1100px);
+        padding: 15px 25px;
+    }
+
+    .nav-links {
+        gap: 24px;
+    }
+
+
+    /* ---------- Hero ---------- */
+
+    .hero {
+        min-height: 90vh;
+    }
+
+    .hero-content {
+        max-width: 750px;
+    }
+
+
+    /* ---------- Cards ---------- */
+
+    .cards-grid,
+    .kingdom-grid {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+
+        gap: 25px;
+    }
+
+
+    /* ---------- Containers ---------- */
+
+    .container {
+        width: min(92%, 1050px);
+    }
+}
+
+
+/* =========================================================
+   TABLETS
+   <= 900px
+========================================================= */
+
+@media (max-width: 900px) {
+
+    /* ---------- Global ---------- */
+
+    section {
+        padding: 65px 0;
+    }
+
+    h1 {
+        font-size: 2.9rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+
+    /* ---------- Navbar ---------- */
+
+    /*
+       Mobile navigation itself is handled in navbar.css.
+       These rules only make sure the shared header remains
+       properly sized on tablets.
+    */
+
+    header {
+        padding-inline: 0;
+    }
+
+
+    /* ---------- Hero ---------- */
+
+    .hero {
+        min-height: 85vh;
+        padding: 140px 0 80px;
+    }
+
+    .hero-content {
+        width: min(90%, 750px);
+        margin-inline: auto;
+        text-align: center;
+    }
+
+    .hero-description {
+        max-width: 650px;
+        margin-inline: auto;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    /* ---------- Search ---------- */
+
+    .search-section {
+        padding-inline: 20px;
+    }
+
+    .search-section input {
+        width: min(92%, 650px);
+    }
+
+
+    /* ---------- Sections ---------- */
+
+    .section-heading {
+        width: min(90%, 750px);
+        margin-inline: auto;
+        margin-bottom: 45px;
+    }
+
+
+    /* ---------- Cards ---------- */
+
+    .cards-grid,
+    .kingdom-grid {
+        width: min(92%, 750px);
+        margin-inline: auto;
+
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+
+        gap: 22px;
+    }
+
+
+    /* ---------- Timeline ---------- */
+
+    .timeline {
+        width: min(92%, 750px);
+        margin-inline: auto;
+    }
+
+    .timeline-item {
+        margin-bottom: 35px;
+    }
+
+
+    /* ---------- Quote ---------- */
+
+    .quote-section {
+        padding-inline: 25px;
+    }
+
+    .quote-section blockquote {
+        font-size: 1.6rem;
+    }
+
+
+    /* ---------- About ---------- */
+
+    .about-preview {
+        padding-inline: 25px;
+    }
+
+    .about-preview > p {
+        width: min(92%, 750px);
+        margin-inline: auto;
+        text-align: center;
+    }
+}
+
+
+/* =========================================================
+   MOBILE
+   <= 700px
+========================================================= */
+
+@media (max-width: 700px) {
+
+    /* ---------- Global ---------- */
+
+    section {
+        padding: 55px 0;
+    }
+
+    h1 {
+        font-size: 2.35rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.15rem;
+    }
+
+    body {
+        line-height: 1.6;
+    }
+
+
+    /* ---------- Hero ---------- */
+
+    .hero {
+        min-height: 100vh;
+        padding: 125px 0 70px;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .hero-content {
+        width: min(92%, 600px);
+    }
+
+    .hero-tag {
+        font-size: 0.85rem;
+    }
+
+    .hero-description {
+        font-size: 0.92rem;
+    }
+
+    .hero-buttons {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 14px;
+    }
+
+    .primary-btn,
+    .secondary-btn {
+        width: min(90%, 300px);
+        padding: 13px 25px;
+    }
+
+
+    /* ---------- Search ---------- */
+
+    .search-section {
+        padding-inline: 15px;
+    }
+
+    .search-section h2 {
+        margin-bottom: 20px;
+    }
+
+    .search-section input {
+        width: 92%;
+        padding: 15px 18px;
+        font-size: 0.9rem;
+    }
+
+
+    /* ---------- Section Heading ---------- */
+
+    .section-heading {
+        width: 92%;
+        margin-bottom: 35px;
+    }
+
+    .section-heading p {
+        font-size: 0.9rem;
+    }
+
+    .section-heading::after {
+        width: 65px;
+        height: 3px;
+    }
+
+
+    /* ---------- Cards ---------- */
+
+    .cards-grid,
+    .kingdom-grid {
+        width: 92%;
+
+        grid-template-columns: 1fr;
+
+        gap: 18px;
+    }
+
+    .card {
+        border-radius: var(--radius-small);
+    }
+
+
+    /* ---------- Kingdom Cards ---------- */
+
+    .kingdom-card {
+        min-height: 180px;
+    }
+
+
+    /* ---------- Timeline ---------- */
+
+    .timeline {
+        width: 92%;
+    }
+
+    .timeline-item {
+        padding-left: 25px;
+        margin-bottom: 30px;
+    }
+
+    .timeline-item span {
+        font-size: 0.9rem;
+    }
+
+    .timeline-item p {
+        font-size: 0.9rem;
+    }
+
+
+    /* ---------- Quote ---------- */
+
+    .quote-section {
+        padding: 60px 20px;
+    }
+
+    .quote-section blockquote {
+        font-size: 1.3rem;
+        line-height: 1.6;
+        text-align: center;
+    }
+
+
+    /* ---------- About ---------- */
+
+    .about-preview {
+        padding-inline: 20px;
+    }
+
+    .about-preview > p {
+        font-size: 0.92rem;
+    }
+
+
+    /* ---------- Footer ---------- */
+
+    footer {
+        padding: 30px 20px;
+    }
+
+    footer p {
+        font-size: 0.85rem;
+    }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+   <= 500px
+========================================================= */
+
+@media (max-width: 500px) {
+
+    /* ---------- Global ---------- */
+
+    section {
+        padding: 45px 0;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+
+    /* ---------- Hero ---------- */
+
+    .hero {
+        padding-top: 115px;
+    }
+
+    .hero-tag {
+        font-size: 0.75rem;
+        letter-spacing: 0.5px;
+    }
+
+    .hero-description {
+        font-size: 0.85rem;
+    }
+
+
+    /* ---------- Buttons ---------- */
+
+    .primary-btn,
+    .secondary-btn {
+        width: 90%;
+        max-width: 280px;
+
+        padding: 12px 20px;
+
+        font-size: 0.9rem;
+    }
+
+
+    /* ---------- Cards ---------- */
+
+    .cards-grid,
+    .kingdom-grid {
+        width: 90%;
+        gap: 15px;
+    }
+
+
+    /* ---------- Search ---------- */
+
+    .search-section input {
+        width: 90%;
+    }
+
+
+    /* ---------- Quote ---------- */
+
+    .quote-section blockquote {
+        font-size: 1.1rem;
+    }
+
+
+    /* ---------- Timeline ---------- */
+
+    .timeline-item {
+        padding-left: 20px;
+    }
+}
+
+
+/* =========================================================
+   EXTRA SMALL PHONES
+   <= 360px
+========================================================= */
+
+@media (max-width: 360px) {
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    h2 {
+        font-size: 1.45rem;
+    }
+
+    h3 {
+        font-size: 1.05rem;
+    }
+
+    .hero-description {
+        font-size: 0.8rem;
+    }
+
+    .hero-buttons {
+        gap: 10px;
+    }
+
+    .primary-btn,
+    .secondary-btn {
+        width: 92%;
+        padding: 11px 18px;
+        font-size: 0.85rem;
+    }
+
+    .section-heading {
+        margin-bottom: 30px;
+    }
+}
+
+
+/* =========================================================
+   RESPONSIVE IMAGES
+========================================================= */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* =========================================================
+   RESPONSIVE TABLES
+========================================================= */
+
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+table {
+    min-width: 600px;
+}
+
+
+/* =========================================================
+   RESPONSIVE DETAILS / CONTENT
+========================================================= */
+
+.details-container,
+.warrior-details,
+.battle-details,
+.kingdom-details {
+    width: min(92%, 1000px);
+    margin-inline: auto;
+}
+
+
+/* =========================================================
+   DETAIL PAGE IMAGES
+========================================================= */
+
+.warrior-image,
+.battle-image,
+.kingdom-image,
+.detail-image {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+/* =========================================================
+   RESPONSIVE FLEX LAYOUTS
+========================================================= */
+
+.flex-container,
+.details-grid,
+.info-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 700px) {
+
+    .flex-container,
+    .details-grid,
+    .info-grid {
+        flex-direction: column;
+    }
+}
+
+
+/* =========================================================
+   RESPONSIVE TWO-COLUMN CONTENT
+========================================================= */
+
+.content-grid,
+.detail-grid,
+.battle-grid,
+.kingdom-content {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, minmax(0, 1fr));
+
+    gap: 35px;
+}
+
+@media (max-width: 700px) {
+
+    .content-grid,
+    .detail-grid,
+    .battle-grid,
+    .kingdom-content {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+}
+
+
+/* =========================================================
+   RESPONSIVE HERO / DETAIL BANNER
+========================================================= */
+
+.page-hero,
+.detail-hero {
+    min-height: 55vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 130px 20px 70px;
+}
+
+@media (max-width: 700px) {
+
+    .page-hero,
+    .detail-hero {
+        min-height: 45vh;
+        padding: 120px 18px 55px;
+    }
+}
+
+
+/* =========================================================
+   RESPONSIVE FORM ELEMENTS
+========================================================= */
+
+input,
+textarea,
+select {
+    max-width: 100%;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+/* =========================================================
+   PREVENT HORIZONTAL OVERFLOW
+========================================================= */
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+/* =========================================================
+   REDUCED MOTION
+========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+
+@media (max-width: 800px) {
+
+    .about-content {
+        grid-template-columns: 1fr;
+
+        gap: 45px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+
+        align-items: flex-start;
+    }
+
+    .footer-links {
+        justify-content: flex-start;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+
+        text-align: center;
+
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    .about-content {
+        grid-template-columns: 1fr;
+
+        gap: 45px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+
+        align-items: flex-start;
+    }
+
+    .footer-links {
+        justify-content: flex-start;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+
+        text-align: center;
+
+        align-items: center;
+    }
+
+}

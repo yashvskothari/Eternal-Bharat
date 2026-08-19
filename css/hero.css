@@ -1,0 +1,545 @@
+/* =========================================================
+   ETERNAL BHARAT
+   HERO SECTION
+========================================================= */
+
+
+/* =========================================================
+   HERO CONTAINER
+========================================================= */
+
+.hero {
+    position: relative;
+
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+
+    padding: 140px 0 100px;
+
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(5, 5, 5, 0.92) 0%,
+            rgba(5, 5, 5, 0.78) 35%,
+            rgba(5, 5, 5, 0.42) 65%,
+            rgba(5, 5, 5, 0.68) 100%
+        ),
+        linear-gradient(
+            180deg,
+            rgba(5, 5, 5, 0.25) 0%,
+            rgba(5, 5, 5, 0.15) 55%,
+            rgba(5, 5, 5, 0.85) 100%
+        ),
+        url("../assets/images/hero/hero-bg.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* =========================================================
+   CINEMATIC OVERLAY
+========================================================= */
+
+.hero::before {
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    background:
+        radial-gradient(
+            circle at 72% 45%,
+            rgba(212, 175, 55, 0.12),
+            transparent 32%
+        );
+
+    pointer-events: none;
+}
+
+
+/* =========================================================
+   BOTTOM FADE
+========================================================= */
+
+.hero::after {
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    height: 180px;
+
+    background:
+        linear-gradient(
+            to bottom,
+            transparent,
+            var(--bg-primary)
+        );
+
+    pointer-events: none;
+}
+
+
+/* =========================================================
+   HERO CONTENT
+========================================================= */
+
+.hero-content {
+    position: relative;
+
+    z-index: 2;
+
+    width: min(92%, 1300px);
+
+    margin-inline: auto;
+
+    max-width: 850px;
+
+    padding-left: 2%;
+}
+
+
+/* =========================================================
+   HERO TAG
+========================================================= */
+
+.hero-tag {
+    position: relative;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    margin-bottom: 22px;
+    padding-left: 55px;
+
+    color: var(--gold-light);
+
+    font-family: "Cinzel", serif;
+
+    font-size: 0.95rem;
+    font-weight: 600;
+
+    letter-spacing: 3px;
+
+    text-transform: uppercase;
+}
+
+
+/* Decorative line */
+
+.hero-tag::before {
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    top: 50%;
+
+    width: 40px;
+    height: 2px;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            var(--gold)
+        );
+
+    transform: translateY(-50%);
+}
+
+
+/* =========================================================
+   HERO TITLE
+========================================================= */
+
+.hero h1 {
+    max-width: 850px;
+
+    margin-bottom: 25px;
+
+    color: var(--white);
+
+    font-family: "Cinzel", serif;
+
+    font-size: clamp(3rem, 6vw, 5.8rem);
+
+    font-weight: 700;
+
+    line-height: 1.08;
+
+    letter-spacing: -1px;
+
+    text-shadow:
+        0 4px 25px rgba(0, 0, 0, 0.65);
+}
+
+
+/* Golden emphasis */
+
+.hero h1::first-line {
+    color: var(--white);
+}
+
+
+/* =========================================================
+   HERO DESCRIPTION
+========================================================= */
+
+.hero-description {
+    max-width: 650px;
+
+    margin-bottom: 38px;
+
+    color: rgba(255, 255, 255, 0.78);
+
+    font-size: 1.05rem;
+
+    line-height: 1.9;
+
+    text-shadow:
+        0 2px 12px rgba(0, 0, 0, 0.7);
+        
+        
+}
+
+
+/* =========================================================
+   HERO BUTTONS
+========================================================= */
+
+.hero-buttons {
+    display: flex;
+
+    align-items: center;
+
+    gap: 18px;
+
+    flex-wrap: wrap;
+}
+
+
+/* =========================================================
+   PRIMARY HERO BUTTON
+========================================================= */
+
+.hero .primary-btn {
+    min-width: 190px;
+
+    padding: 15px 30px;
+
+    border: 1px solid var(--gold);
+
+    background:
+        linear-gradient(
+            135deg,
+            var(--gold-light),
+            var(--gold)
+        );
+
+    color: #090909;
+
+    box-shadow:
+        0 8px 25px rgba(212, 175, 55, 0.12);
+}
+
+.hero .primary-btn:hover {
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 12px 35px rgba(212, 175, 55, 0.25);
+}
+
+
+/* =========================================================
+   SECONDARY HERO BUTTON
+========================================================= */
+
+.hero .secondary-btn {
+    min-width: 160px;
+
+    padding: 14px 30px;
+
+    background: rgba(0, 0, 0, 0.25);
+
+    backdrop-filter: blur(6px);
+}
+
+.hero .secondary-btn:hover {
+    transform: translateY(-4px);
+
+    background: var(--gold);
+
+    color: #080808;
+}
+
+
+/* =========================================================
+   HERO CONTENT ANIMATION
+========================================================= */
+
+.hero-tag {
+    animation:
+        heroFadeUp 0.8s ease 0.15s both;
+}
+
+.hero h1 {
+    animation:
+        heroFadeUp 0.9s ease 0.3s both;
+}
+
+.hero-description {
+    animation:
+        heroFadeUp 0.9s ease 0.45s both;
+}
+
+.hero-buttons {
+    animation:
+        heroFadeUp 0.9s ease 0.6s both;
+}
+
+
+@keyframes heroFadeUp {
+
+    from {
+        opacity: 0;
+
+        transform:
+            translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+
+        transform:
+            translateY(0);
+    }
+}
+
+
+/* =========================================================
+   HERO DECORATIVE GLOW
+========================================================= */
+
+.hero-content::before {
+    content: "";
+
+    position: absolute;
+
+    top: 15%;
+    left: -80px;
+
+    width: 300px;
+    height: 300px;
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(212, 175, 55, 0.09),
+            transparent 70%
+        );
+
+    filter: blur(20px);
+
+    pointer-events: none;
+
+    z-index: -1;
+}
+
+
+/* =========================================================
+   TABLET
+   <= 900px
+========================================================= */
+
+@media (max-width: 900px) {
+
+    .hero {
+        min-height: 90vh;
+
+        padding-top: 140px;
+
+        background-position:
+            center center;
+    }
+
+    .hero-content {
+        max-width: 750px;
+
+        padding-left: 0;
+    }
+
+    .hero h1 {
+        font-size: clamp(2.8rem, 7vw, 4.5rem);
+    }
+
+    .hero-description {
+        max-width: 600px;
+
+        font-size: 1rem;
+    }
+}
+
+
+/* =========================================================
+   MOBILE
+   <= 700px
+========================================================= */
+
+@media (max-width: 700px) {
+
+    .hero {
+        min-height: 100vh;
+
+        align-items: flex-end;
+
+        padding:
+            130px 0 75px;
+
+        background-position:
+            58% center;
+
+        background-image:
+            linear-gradient(
+                90deg,
+                rgba(5, 5, 5, 0.88),
+                rgba(5, 5, 5, 0.55)
+            ),
+            linear-gradient(
+                180deg,
+                rgba(5, 5, 5, 0.2),
+                rgba(5, 5, 5, 0.9)
+            ),
+            url("../assets/images/hero/hero-bg.jpg");
+    }
+
+    .hero-content {
+        width: 92%;
+
+        margin-inline: auto;
+
+        text-align: center;
+    }
+
+    .hero-tag {
+        justify-content: center;
+
+        padding-left: 0;
+
+        font-size: 0.75rem;
+
+        letter-spacing: 2px;
+    }
+
+    .hero-tag::before {
+        display: none;
+    }
+
+    .hero h1 {
+        margin-bottom: 20px;
+
+        font-size:
+            clamp(2.15rem, 10vw, 3.2rem);
+
+        line-height: 1.12;
+
+        letter-spacing: -0.5px;
+    }
+
+    .hero-description {
+        max-width: 520px;
+
+        margin-inline: auto;
+
+        margin-bottom: 30px;
+
+        font-size: 0.9rem;
+
+        line-height: 1.7;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+
+        gap: 12px;
+    }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+   <= 500px
+========================================================= */
+
+@media (max-width: 500px) {
+
+    .hero {
+        padding:
+            120px 0 60px;
+
+        background-position:
+            62% center;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero-description {
+        font-size: 0.84rem;
+    }
+
+    .hero .primary-btn,
+    .hero .secondary-btn {
+        width: 90%;
+
+        max-width: 280px;
+    }
+}
+
+
+/* =========================================================
+   EXTRA SMALL DEVICES
+   <= 360px
+========================================================= */
+
+@media (max-width: 360px) {
+
+    .hero h1 {
+        font-size: 1.75rem;
+    }
+
+    .hero-tag {
+        font-size: 0.68rem;
+    }
+
+    .hero-description {
+        font-size: 0.8rem;
+    }
+}
+
+
+/* =========================================================
+   REDUCED MOTION
+========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .hero-tag,
+    .hero h1,
+    .hero-description,
+    .hero-buttons {
+        animation: none;
+    }
+}
