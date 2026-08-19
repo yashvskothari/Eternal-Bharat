@@ -6,6 +6,16 @@ const EB = {
     CDN: "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images",
 
     async fetchJSON(path) {
+        // If this page already loaded the matching data/*.js file
+        // (window.EB_DATA), use it directly. This makes the site work
+        // even when opened straight from disk (file://), where the
+        // browser blocks fetch() of local JSON for security reasons.
+        const key = path.split("/").pop().replace(".json", "");
+
+        if (window.EB_DATA && window.EB_DATA[key]) {
+            return window.EB_DATA[key];
+        }
+
         const response = await fetch(path);
 
         if (!response.ok) {

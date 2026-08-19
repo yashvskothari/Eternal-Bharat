@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/cards.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
-<body>
+<body class="timeline-page">
 
     <div id="page-loader">
         <div class="loader-circle"></div>
@@ -62,9 +62,21 @@
             </div>
         </section>
 
+        <section class="container era-filter-bar">
+            <div class="era-filters" id="era-filters">
+                <button type="button" class="era-chip is-active" data-era="all">All Eras</button>
+                <button type="button" class="era-chip" data-era="ancient">Ancient</button>
+                <button type="button" class="era-chip" data-era="early-medieval">Early Medieval</button>
+                <button type="button" class="era-chip" data-era="medieval">Medieval</button>
+                <button type="button" class="era-chip" data-era="early-modern">Early Modern</button>
+                <button type="button" class="era-chip" data-era="modern">Modern</button>
+            </div>
+            <p id="timeline-count" class="timeline-count"></p>
+        </section>
+
         <section class="container">
             <h2 class="section-title">Chronological Timeline</h2>
-            <div id="timeline-container" class="timeline"></div>
+            <div id="history-timeline" class="chronicle"></div>
         </section>
 
         <section class="container">
@@ -107,6 +119,13 @@
             <p>Built to remember. Designed to inspire.</p>
         </div>
     </footer>
+
+    <!-- Preloaded data (lets pages work even when opened via file://,
+         where fetch() of local JSON is blocked by the browser) -->
+    <script src="data/warriors.js"></script>
+    <script src="data/kingdoms.js"></script>
+    <script src="data/battles.js"></script>
+    <script src="data/timeline.js"></script>
 
     <script src="js/utils.js"></script>
     <script src="js/timeline.js"></script>

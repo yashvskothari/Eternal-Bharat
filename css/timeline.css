@@ -231,6 +231,79 @@ body.timeline-page .search-box {
 
 
 /* =========================================================
+   ERA FILTER BAR
+========================================================= */
+
+.era-filter-bar {
+    max-width: 900px;
+
+    margin: 0 auto 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+
+.era-filters {
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.era-chip {
+    appearance: none;
+    cursor: pointer;
+
+    padding: 10px 22px;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 255, 255, 0.05),
+            rgba(255, 255, 255, 0.015)
+        );
+
+    border: 1px solid var(--border);
+    border-radius: 999px;
+
+    color: var(--text-light);
+
+    font-family: "Poppins", sans-serif;
+    font-size: 0.82rem;
+    letter-spacing: 0.4px;
+
+    transition:
+        border-color 0.3s ease,
+        color 0.3s ease,
+        background 0.3s ease,
+        transform 0.3s ease;
+}
+
+.era-chip:hover {
+    border-color: rgba(212, 175, 55, 0.5);
+    color: var(--gold-light);
+    transform: translateY(-2px);
+}
+
+.era-chip.is-active {
+    background: rgba(212, 175, 55, 0.12);
+    border-color: var(--gold);
+    color: var(--gold-light);
+    box-shadow: 0 0 18px rgba(212, 175, 55, 0.15);
+}
+
+.timeline-count {
+    color: var(--text-muted);
+    font-size: 0.82rem;
+    letter-spacing: 0.3px;
+}
+
+
+/* =========================================================
    MAIN TIMELINE
 ========================================================= */
 
@@ -474,6 +547,170 @@ body.timeline-page .search-box {
     box-shadow:
         0 18px 40px rgba(0, 0, 0, 0.35),
         0 0 25px rgba(212, 175, 55, 0.08);
+}
+
+
+/* =========================================================
+   ERA SECTION HEADER
+   (inserted before each group of events on the chronicle)
+========================================================= */
+
+.chronicle .era-header {
+    position: relative;
+
+    width: 100%;
+
+    margin: 55px 0 35px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+
+    text-align: center;
+}
+
+.chronicle .era-header:first-child {
+    margin-top: 0;
+}
+
+.chronicle .era-header span {
+    padding: 8px 26px;
+
+    background: var(--bg-primary);
+    border: 1px solid var(--gold);
+    border-radius: 999px;
+
+    color: var(--gold-light);
+
+    font-family: "Cinzel", serif;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.18);
+
+    z-index: 2;
+}
+
+.chronicle .era-header small {
+    color: var(--text-muted);
+    font-size: 0.78rem;
+    letter-spacing: 0.5px;
+    z-index: 2;
+}
+
+
+/* =========================================================
+   TIMELINE ITEM META (category tag + placeholder flag)
+========================================================= */
+
+.chronicle .timeline-item .tl-meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    margin-bottom: 10px;
+}
+
+.chronicle .timeline-item.is-left .tl-meta {
+    justify-content: flex-end;
+}
+
+.chronicle .timeline-item.is-right .tl-meta {
+    justify-content: flex-start;
+}
+
+.chronicle .timeline-item .tl-cat {
+    padding: 4px 14px;
+
+    border-radius: 999px;
+    border: 1px solid var(--border);
+
+    background: rgba(212, 175, 55, 0.08);
+
+    color: var(--gold-light);
+
+    font-family: "Poppins", sans-serif;
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+}
+
+.chronicle .timeline-item .tl-cat-rulers {
+    background: rgba(212, 175, 55, 0.1);
+    border-color: rgba(212, 175, 55, 0.4);
+    color: var(--gold-light);
+}
+
+.chronicle .timeline-item .tl-cat-battles {
+    background: rgba(255, 77, 77, 0.08);
+    border-color: rgba(255, 77, 77, 0.35);
+    color: #ff8a8a;
+}
+
+.chronicle .timeline-item .tl-cat-kingdoms {
+    background: rgba(76, 175, 80, 0.08);
+    border-color: rgba(76, 175, 80, 0.35);
+    color: #8fd493;
+}
+
+.chronicle .timeline-item .tl-cat-milestones {
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(255, 255, 255, 0.25);
+    color: var(--text-light);
+}
+
+.chronicle .timeline-item .tl-placeholder {
+    padding: 4px 12px;
+
+    border-radius: 999px;
+    border: 1px dashed rgba(255, 255, 255, 0.3);
+
+    color: var(--text-muted);
+
+    font-size: 0.65rem;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+
+/* =========================================================
+   TIMELINE ITEM LINKS
+========================================================= */
+
+.chronicle .timeline-item .tl-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    margin-top: 14px;
+}
+
+.chronicle .timeline-item.is-left .tl-links {
+    justify-content: flex-end;
+}
+
+.chronicle .timeline-item .tl-links a {
+    padding: 6px 16px;
+
+    border: 1px solid var(--border);
+    border-radius: 999px;
+
+    color: var(--gold-light);
+
+    font-size: 0.75rem;
+    letter-spacing: 0.4px;
+
+    transition:
+        border-color 0.3s ease,
+        background 0.3s ease;
+}
+
+.chronicle .timeline-item .tl-links a:hover {
+    border-color: var(--gold);
+    background: rgba(212, 175, 55, 0.1);
 }
 
 
@@ -734,6 +971,25 @@ body.timeline-page .cards-grid .card:hover h3 {
         grid-template-columns: 1fr;
 
         gap: 18px;
+    }
+
+
+    /* Meta / links align left on full-width mobile cards */
+
+    .chronicle .timeline-item.is-left .tl-meta,
+    .chronicle .timeline-item.is-left .tl-links {
+        justify-content: flex-start;
+    }
+
+
+    .era-filters {
+        gap: 8px;
+    }
+
+    .era-chip {
+        padding: 8px 16px;
+
+        font-size: 0.76rem;
     }
 }
 

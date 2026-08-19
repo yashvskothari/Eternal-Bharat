@@ -1,0 +1,855 @@
+// Auto-generated from warriors.json so pages work even when opened directly (file://) without a local server.
+window.EB_DATA = window.EB_DATA || {};
+window.EB_DATA.warriors = [
+  {
+    "id": "chandragupt",
+    "name": "Chandragupta Maurya",
+    "title": "Founder of the Maurya Empire",
+    "years": "c. 340 – 297 BCE",
+    "featured": false,
+    "kingdomId": "maurya",
+    "description": "The founder of the Maurya Empire who united much of the Indian subcontinent after the decline of the Nanda dynasty.",
+    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+    "kingdom": "Maurya Empire",
+    "capital": "Pataliputra",
+    "dynasty": "Maurya",
+    "reign": "c. 322 – 297 BCE",
+    "born": "c. 340 BCE",
+    "died": "c. 297 BCE",
+    "biography": "Guided by Chanakya, Chandragupta overthrew the Nandas and built one of ancient India's largest empires. His administration, army, and diplomacy laid foundations later expanded by Bindusara and Ashoka.",
+    "kingdomDescription": "The Maurya Empire stretched across much of the subcontinent, with a centralized administration based at Pataliputra.",
+    "campaigns": [
+      "Overthrow of the Nanda dynasty",
+      "Unification of Magadha and neighbouring regions",
+      "Northwest campaigns after Alexander's retreat"
+    ],
+    "battles": [
+      {
+        "name": "Conquest of Magadha",
+        "year": "c. 322 BCE",
+        "outcome": "Maurya victory; Nanda rule ended"
+      }
+    ],
+    "forts": [
+      "Pataliputra"
+    ],
+    "timeline": [
+      {
+        "year": "c. 322 BCE",
+        "event": "Founded the Maurya Empire"
+      },
+      {
+        "year": "c. 305 BCE",
+        "event": "Treaty with Seleucus Nicator"
+      },
+      {
+        "year": "c. 297 BCE",
+        "event": "Abdicated and later passed away"
+      }
+    ],
+    "achievements": [
+      "Founded the Maurya Empire",
+      "Unified large parts of ancient India",
+      "Established a lasting imperial administration"
+    ],
+    "legacy": "Chandragupta is remembered as the architect of India's first great pan-subcontinental empire.",
+    "references": [
+      "Arthashastra tradition",
+      "Greek accounts of Megasthenes",
+      "Buddhist and Jain chronicles"
+    ]
+  },
+  {
+    "id": "samudragupt",
+    "name": "Samudragupta",
+    "title": "Emperor of the Gupta Dynasty",
+    "years": "c. 335 – 380 CE",
+    "featured": false,
+    "kingdomId": "gupta",
+    "description": "A Gupta emperor celebrated for military campaigns, patronage of the arts, and the expansion of a classical golden age.",
+    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/samudragupt/portrait.jpg",
+    "kingdom": "Gupta Empire",
+    "capital": "Pataliputra",
+    "dynasty": "Gupta",
+    "reign": "c. 335 – 380 CE",
+    "born": "c. 315 CE",
+    "died": "c. 380 CE",
+    "biography": "Samudragupta extended Gupta power through a mix of conquest and diplomacy. Court poetry and coinage remember him as both a warrior and a cultured ruler of a flourishing age.",
+    "kingdomDescription": "The Gupta Empire is often associated with classical Sanskrit literature, science, and temple culture across northern India.",
+    "campaigns": [
+      "Northern campaigns of annexation",
+      "Southern expedition of the Allahabad Pillar tradition",
+      "Diplomatic relations with frontier kingdoms"
+    ],
+    "battles": [
+      {
+        "name": "Northern annexation campaigns",
+        "year": "c. 350 CE",
+        "outcome": "Gupta supremacy in the Gangetic plains"
+      }
+    ],
+    "forts": [
+      "Pataliputra"
+    ],
+    "timeline": [
+      {
+        "year": "c. 335 CE",
+        "event": "Ascended the Gupta throne"
+      },
+      {
+        "year": "c. 350 CE",
+        "event": "Major expansion recorded in inscriptions"
+      },
+      {
+        "year": "c. 380 CE",
+        "event": "Passed away; Chandragupta II succeeded"
+      }
+    ],
+    "achievements": [
+      "Expanded Gupta power across North India",
+      "Patron of music and learning",
+      "Remembered in the Allahabad Pillar inscription"
+    ],
+    "legacy": "Samudragupta stands as a symbol of the Gupta age — martial strength paired with cultural brilliance.",
+    "references": [
+      "Allahabad Pillar inscription",
+      "Gupta coinage",
+      "Classical Sanskrit sources"
+    ]
+  },
+  {
+    "id": "chalukya",
+    "name": "Pulakeshin II",
+    "title": "Chalukya Emperor of Vatapi",
+    "years": "c. 610 – 642 CE",
+    "featured": false,
+    "kingdomId": "chalukya",
+    "description": "The greatest ruler of the Badami Chalukyas, who checked Harsha's southward advance and raised Deccan power to imperial height.",
+    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chalukya/portrait.jpg",
+    "kingdom": "Chalukya Empire",
+    "capital": "Vatapi (Badami)",
+    "dynasty": "Chalukya of Badami",
+    "reign": "c. 610 – 642 CE",
+    "born": "c. 580 CE",
+    "died": "642 CE",
+    "biography": "Pulakeshin II transformed the Chalukyas into a Deccan empire. His victory over Harsha on the Narmada became a landmark of southern resistance to northern expansion.",
+    "kingdomDescription": "The Badami Chalukyas ruled from the western Deccan, famed for rock-cut temples at Badami, Aihole, and Pattadakal.",
+    "campaigns": [
+      "Consolidation of the western Deccan",
+      "Campaign against Harsha of Kannauj",
+      "Conflicts with the Pallavas of Kanchi"
+    ],
+    "battles": [
+      {
+        "name": "Battle of the Narmada",
+        "year": "c. 618 CE",
+        "outcome": "Chalukya victory; Harsha halted"
+      }
+    ],
+    "forts": [
+      "Badami",
+      "Aihole"
+    ],
+    "timeline": [
+      {
+        "year": "c. 610 CE",
+        "event": "Became Chalukya emperor"
+      },
+      {
+        "year": "c. 618 CE",
+        "event": "Defeated Harsha on the Narmada"
+      },
+      {
+        "year": "642 CE",
+        "event": "Died during Pallava invasion of Vatapi"
+      }
+    ],
+    "achievements": [
+      "Checked Harsha's southern expansion",
+      "Raised Chalukya prestige across the Deccan",
+      "Patron of early Deccan temple architecture"
+    ],
+    "legacy": "Pulakeshin II is remembered as the emperor who proved the Deccan could stand as an equal imperial power.",
+    "references": [
+      "Aihole inscription of Ravikirti",
+      "Chalukya records",
+      "Pallava chronicles"
+    ]
+  },
+  {
+    "id": "chola",
+    "name": "Raja Raja Chola I",
+    "title": "Emperor of the Chola Dynasty",
+    "years": "985 – 1014 CE",
+    "featured": true,
+    "kingdomId": "chola",
+    "description": "The mighty Chola ruler who expanded the empire and built the magnificent Brihadisvara Temple.",
+    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chola/portrait.jpg",
+    "kingdom": "Chola Empire",
+    "capital": "Thanjavur",
+    "dynasty": "Chola",
+    "reign": "985 – 1014 CE",
+    "born": "c. 947 CE",
+    "died": "1014 CE",
+    "biography": "Raja Raja Chola I transformed the Chola kingdom into a maritime empire, extending influence across South India, Sri Lanka, and Southeast Asia.",
+    "kingdomDescription": "The Chola Empire was a dominant power in South India, renowned for naval strength, temple architecture, and administrative excellence.",
+    "campaigns": [
+      "Southern India expansion",
+      "Sri Lankan campaigns",
+      "Naval expeditions to Southeast Asia"
+    ],
+    "battles": [
+      {
+        "name": "Conquest of Sri Lanka",
+        "year": "993 CE",
+        "outcome": "Chola victory"
+      }
+    ],
+    "forts": [
+      "Gangaikonda Cholapuram",
+      "Thanjavur"
+    ],
+    "timeline": [
+      {
+        "year": "985 CE",
+        "event": "Ascended the Chola throne"
+      },
+      {
+        "year": "1010 CE",
+        "event": "Consecrated Brihadisvara Temple"
+      },
+      {
+        "year": "1014 CE",
+        "event": "Passed away"
+      }
+    ],
+    "achievements": [
+      "Built Brihadisvara Temple",
+      "Established Chola naval dominance",
+      "Reformed revenue administration"
+    ],
+    "legacy": "Raja Raja Chola I represents the golden age of Tamil civilization — a period of architectural grandeur and imperial reach.",
+    "references": [
+      "Chola inscriptions",
+      "Tamil historical texts"
+    ]
+  },
+  {
+    "id": "prithviraj-chauhan",
+    "name": "Prithviraj Chauhan",
+    "title": "Chauhan King of Ajmer and Delhi",
+    "years": "c. 1166 – 1192",
+    "featured": false,
+    "kingdomId": "chauhan",
+    "description": "The last great Hindu king of Delhi and Ajmer, remembered for the Battles of Tarain and the end of an era in North India.",
+    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/prithviraj-chauhan/portrait.jpg",
+    "kingdom": "Chauhan Kingdom",
+    "capital": "Ajmer / Delhi",
+    "dynasty": "Chahamana (Chauhan)",
+    "reign": "c. 1178 – 1192",
+    "born": "c. 1166, Gujarat",
+    "died": "1192",
+    "biography": "Prithviraj Chauhan ruled from Ajmer and Delhi at a turning point in North Indian history. After an initial victory at Tarain, he fell in the second battle, opening the path for the Delhi Sultanate.",
+    "kingdomDescription": "The Chahamanas of Shakambhari held Ajmer and, under Prithviraj, influence over Delhi — a key Rajput power of the 12th century.",
+    "campaigns": [
+      "Expansion around Ajmer and Delhi",
+      "First Battle of Tarain",
+      "Second Battle of Tarain"
+    ],
+    "battles": [
+      {
+        "id": "tarain-2",
+        "name": "Second Battle of Tarain",
+        "year": "1192",
+        "outcome": "Defeat; Chauhan power collapsed"
+      }
+    ],
+    "forts": [
+      "Ajmer",
+      "Qila Rai Pithora"
+    ],
+    "timeline": [
+      {
+        "year": "c. 1178",
+        "event": "Became Chauhan king"
+      },
+      {
+        "year": "1191",
+        "event": "Victory in the First Battle of Tarain"
+      },
+      {
+        "year": "1192",
+        "event": "Defeated in the Second Battle of Tarain"
+      }
+    ],
+    "achievements": [
+      "United Ajmer and Delhi under Chauhan rule",
+      "Won the First Battle of Tarain",
+      "Became a lasting figure of Rajput memory"
+    ],
+    "legacy": "Prithviraj Chauhan remains a symbol of Rajput valour at the threshold of a new political age in North India.",
+    "references": [
+      "Prithviraj Raso tradition",
+      "Persian chronicles of the Ghurids",
+      "Chauhan inscriptions"
+    ]
+  },
+  {
+    "id": "kdr",
+    "name": "Krishnadevaraya",
+    "title": "Emperor of Vijayanagara",
+    "years": "1471 – 1529",
+    "featured": false,
+    "kingdomId": "vijayanagara",
+    "description": "The most celebrated emperor of Vijayanagara, under whom the empire reached its height in power, wealth, and literature.",
+    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/kdr/portrait.jpg",
+    "kingdom": "Vijayanagara Empire",
+    "capital": "Vijayanagara (Hampi)",
+    "dynasty": "Tuluva",
+    "reign": "1509 – 1529",
+    "born": "1471",
+    "died": "1529",
+    "biography": "Krishnadevaraya led Vijayanagara through successful campaigns in the Deccan and Telugu country, while his court became a centre of Telugu, Kannada, and Sanskrit literature.",
+    "kingdomDescription": "Vijayanagara was the great Hindu empire of the southern peninsula, with a capital at Hampi famed for temples, bazaars, and fortifications.",
+    "campaigns": [
+      "Raichur Doab campaigns",
+      "Odisha and Telangana expeditions",
+      "Defense against the Deccan Sultanates"
+    ],
+    "battles": [
+      {
+        "name": "Battle of Raichur",
+        "year": "1520",
+        "outcome": "Vijayanagara victory"
+      }
+    ],
+    "forts": [
+      "Hampi",
+      "Raichur"
+    ],
+    "timeline": [
+      {
+        "year": "1509",
+        "event": "Crowned emperor of Vijayanagara"
+      },
+      {
+        "year": "1520",
+        "event": "Victory at Raichur"
+      },
+      {
+        "year": "1529",
+        "event": "Passed away"
+      }
+    ],
+    "achievements": [
+      "Brought Vijayanagara to its zenith",
+      "Patron of the Ashtadiggajas",
+      "Strengthened southern imperial administration"
+    ],
+    "legacy": "Krishnadevaraya is remembered as the ideal southern emperor — a warrior-king and a generous patron of letters.",
+    "references": [
+      "Amuktamalyada",
+      "Portuguese accounts of Paes and Nuniz",
+      "Vijayanagara inscriptions"
+    ]
+  },
+  {
+    "id": "rana-sanga",
+    "name": "Rana Sanga",
+    "title": "Maharana of Mewar",
+    "years": "1482 – 1528",
+    "featured": false,
+    "kingdomId": "mewar",
+    "description": "A formidable Rajput ruler who united Rajput clans and challenged the rising Mughal power in North India.",
+    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/rana-sanga/portrait.jpg",
+    "kingdom": "Mewar",
+    "capital": "Chittorgarh",
+    "dynasty": "Sisodia",
+    "reign": "1509 – 1528",
+    "born": "17 April 1482",
+    "died": "30 January 1528",
+    "biography": "Rana Sanga was among the most powerful Rajput rulers of his era, known for expanding Mewar's influence and leading a grand Rajput confederacy against Babur.",
+    "kingdomDescription": "Under Rana Sanga, Mewar reached the height of its territorial and political influence among Rajput states.",
+    "campaigns": [
+      "Unification of Rajput kingdoms",
+      "Campaigns against Delhi Sultanate remnants",
+      "Confederacy against Babur"
+    ],
+    "battles": [
+      {
+        "id": "khanwa",
+        "name": "Battle of Khanwa",
+        "year": "1527",
+        "outcome": "Defeat; Mewar's expansion halted"
+      }
+    ],
+    "forts": [
+      "Chittorgarh",
+      "Kumbhalgarh"
+    ],
+    "timeline": [
+      {
+        "year": "1509",
+        "event": "Became Maharana of Mewar"
+      },
+      {
+        "year": "1527",
+        "event": "Battle of Khanwa against Babur"
+      },
+      {
+        "year": "1528",
+        "event": "Passed away"
+      }
+    ],
+    "achievements": [
+      "United Rajput clans",
+      "Expanded Mewar's territory significantly",
+      "Challenged Mughal expansion early"
+    ],
+    "legacy": "Rana Sanga symbolizes Rajput unity and the fierce resistance to foreign domination in early 16th-century India.",
+    "references": [
+      "Rajput chronicles",
+      "Mughal historical accounts"
+    ]
+  },
+  {
+    "id": "maharana-pratap",
+    "name": "Maharana Pratap",
+    "title": "Ruler of Mewar",
+    "years": "1540 – 1597",
+    "featured": true,
+    "kingdomId": "mewar",
+    "description": "The legendary ruler of Mewar who became a symbol of courage and resistance against the Mughal Empire.",
+    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/maharana-pratap/portrait.jpg",
+    "kingdom": "Mewar",
+    "capital": "Kumbhalgarh / Chavand",
+    "dynasty": "Sisodia",
+    "reign": "1572 – 1597",
+    "born": "9 May 1540, Kumbhalgarh",
+    "died": "19 January 1597, Chavand",
+    "biography": "Maharana Pratap Singh was the 13th Rajput ruler of Mewar. Known for his unwavering resistance to Mughal dominance, he fought the Battle of Haldighati and continued guerrilla warfare to protect Mewar's sovereignty.",
+    "kingdomDescription": "Mewar was one of the most prominent Rajput kingdoms in northwestern India, known for its hill forts, warrior traditions, and fierce independence.",
+    "campaigns": [
+      "Guerrilla resistance against Mughal forces",
+      "Reclamation of Mewar territories",
+      "Defense of Kumbhalgarh and Chavand"
+    ],
+    "battles": [
+      {
+        "id": "haldighati",
+        "name": "Battle of Haldighati",
+        "year": "1576",
+        "outcome": "Strategic retreat; continued resistance"
+      },
+      {
+        "id": "dewair",
+        "name": "Battle of Dewair",
+        "year": "1582",
+        "outcome": "Mewar victory"
+      }
+    ],
+    "forts": [
+      "Kumbhalgarh",
+      "Chittorgarh",
+      "Chavand"
+    ],
+    "timeline": [
+      {
+        "year": "1540",
+        "event": "Born at Kumbhalgarh"
+      },
+      {
+        "year": "1572",
+        "event": "Ascended the throne of Mewar"
+      },
+      {
+        "year": "1576",
+        "event": "Battle of Haldighati"
+      },
+      {
+        "year": "1597",
+        "event": "Passed away at Chavand"
+      }
+    ],
+    "achievements": [
+      "Symbol of Rajput resistance",
+      "Never surrendered Mewar's sovereignty",
+      "Revived Mewar's military strength"
+    ],
+    "legacy": "Maharana Pratap remains one of India's most revered warriors — a symbol of honour, sacrifice, and the refusal to bow before oppression.",
+    "references": [
+      "Akbarnama",
+      "Rajasthan historical chronicles",
+      "Mewar court records"
+    ]
+  },
+  {
+    "id": "shivaji",
+    "name": "Chhatrapati Shivaji Maharaj",
+    "title": "Founder of the Maratha Empire",
+    "years": "1630 – 1680",
+    "featured": true,
+    "kingdomId": "maratha",
+    "description": "Founder of the Maratha Empire and pioneer of a powerful self-governed kingdom built on strategy and swarajya.",
+    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/shivaji/portrait.jpg",
+    "kingdom": "Maratha Empire",
+    "capital": "Raigad",
+    "dynasty": "Bhonsle",
+    "reign": "1674 – 1680",
+    "born": "19 February 1630, Shivneri",
+    "died": "3 April 1680, Raigad",
+    "biography": "Shivaji Maharaj established the Maratha Empire through brilliant military strategy, fort architecture, and naval power. His coronation in 1674 marked the formal birth of an independent Maratha kingdom.",
+    "kingdomDescription": "The Maratha Empire grew from the Deccan into a major power, uniting diverse communities under the ideal of swarajya — self-rule.",
+    "campaigns": [
+      "Conquest of Konkan forts",
+      "Expansion into southern territories",
+      "Establishment of naval defense"
+    ],
+    "battles": [
+      {
+        "id": "pratapgad",
+        "name": "Battle of Pratapgad",
+        "year": "1659",
+        "outcome": "Maratha victory"
+      },
+      {
+        "id": "sinhagad",
+        "name": "Battle of Sinhagad",
+        "year": "1670",
+        "outcome": "Maratha victory"
+      }
+    ],
+    "forts": [
+      "Raigad",
+      "Pratapgad",
+      "Sinhagad",
+      "Rajgad"
+    ],
+    "timeline": [
+      {
+        "year": "1630",
+        "event": "Born at Shivneri Fort"
+      },
+      {
+        "year": "1645",
+        "event": "Captured Torna Fort"
+      },
+      {
+        "year": "1674",
+        "event": "Coronation at Raigad"
+      },
+      {
+        "year": "1680",
+        "event": "Passed away at Raigad"
+      }
+    ],
+    "achievements": [
+      "Founded the Maratha Empire",
+      "Pioneered guerrilla warfare tactics",
+      "Built a strong naval force"
+    ],
+    "legacy": "Shivaji Maharaj is remembered as a visionary leader who transformed the political landscape of India and inspired generations with the ideal of swarajya.",
+    "references": [
+      "Sabhasad Bakhar",
+      "Shivaji's letters (Ajnapatra)",
+      "Maratha chronicles"
+    ]
+  },
+  {
+    "id": "sambhaji",
+    "name": "Chhatrapati Sambhaji Maharaj",
+    "title": "Second Chhatrapati of the Maratha Empire",
+    "years": "1657 – 1689",
+    "featured": false,
+    "kingdomId": "maratha",
+    "description": "Successor of Shivaji Maharaj who defended the Maratha state against Mughal pressure with fierce resistance.",
+    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/sambhaji/portrait.jpg",
+    "kingdom": "Maratha Empire",
+    "capital": "Raigad",
+    "dynasty": "Bhonsle",
+    "reign": "1681 – 1689",
+    "born": "14 May 1657",
+    "died": "11 March 1689, Tulapur",
+    "biography": "Sambhaji Maharaj inherited a kingdom under intense Mughal assault. He continued the struggle for swarajya until his capture and martyrdom, which further steeled Maratha resistance.",
+    "kingdomDescription": "The Maratha state after Shivaji faced Aurangzeb's Deccan campaign, yet survived through forts, mobility, and popular support.",
+    "campaigns": [
+      "Defense of the Deccan against Mughal armies",
+      "Konkan and Karnataka operations",
+      "Resistance after capture of key forts"
+    ],
+    "battles": [
+      {
+        "name": "Defense of the Maratha Deccan",
+        "year": "1681–1689",
+        "outcome": "Prolonged resistance despite Mughal pressure"
+      }
+    ],
+    "forts": [
+      "Raigad",
+      "Sambhaji's strongholds in the Sahyadris"
+    ],
+    "timeline": [
+      {
+        "year": "1657",
+        "event": "Born to Shivaji Maharaj"
+      },
+      {
+        "year": "1681",
+        "event": "Became Chhatrapati"
+      },
+      {
+        "year": "1689",
+        "event": "Martyrdom at Tulapur"
+      }
+    ],
+    "achievements": [
+      "Sustained Maratha independence after Shivaji",
+      "Resisted Aurangzeb's Deccan war",
+      "Remembered as a martyr of swarajya"
+    ],
+    "legacy": "Sambhaji Maharaj is honoured for unyielding courage in the darkest years of the Maratha struggle.",
+    "references": [
+      "Maratha bakhars",
+      "Mughal Deccan records"
+    ]
+  },
+  {
+    "id": "lachit-borphukan",
+    "name": "Lachit Borphukan",
+    "title": "Commander of the Ahom Army",
+    "years": "1622 – 1672",
+    "featured": false,
+    "kingdomId": "ahom",
+    "description": "The Ahom commander who led Assam to victory at Saraighat and became a symbol of northeastern resistance.",
+    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/lachit-borphukan/portrait.jpg",
+    "kingdom": "Ahom Kingdom",
+    "capital": "Garhgaon",
+    "dynasty": "Ahom",
+    "reign": "Commander, 1667 – 1672",
+    "born": "24 November 1622",
+    "died": "25 April 1672",
+    "biography": "Lachit Borphukan was appointed commander of Ahom forces during a critical Mughal invasion. Despite illness, he led a riverine defense that turned Saraighat into a defining victory for Assam.",
+    "kingdomDescription": "The Ahom kingdom of the Brahmaputra valley maintained independence for centuries through adaptive warfare and a strong local administration.",
+    "campaigns": [
+      "Recovery of Guwahati",
+      "Riverine defense of the Brahmaputra",
+      "Battle of Saraighat"
+    ],
+    "battles": [
+      {
+        "id": "saraighat",
+        "name": "Battle of Saraighat",
+        "year": "1671",
+        "outcome": "Decisive Ahom victory"
+      }
+    ],
+    "forts": [
+      "Guwahati defenses",
+      "Saraighat river line"
+    ],
+    "timeline": [
+      {
+        "year": "1667",
+        "event": "Appointed Borphukan"
+      },
+      {
+        "year": "1671",
+        "event": "Victory at Saraighat"
+      },
+      {
+        "year": "1672",
+        "event": "Passed away shortly after the war"
+      }
+    ],
+    "achievements": [
+      "Defended Assam from Mughal annexation",
+      "Mastered river warfare on the Brahmaputra",
+      "Became Assam's most honoured military icon"
+    ],
+    "legacy": "Lachit Borphukan is remembered as the guardian of the East — a commander who placed duty above all else.",
+    "references": [
+      "Ahom buranjis",
+      "Assam historical chronicles"
+    ]
+  },
+  {
+    "id": "bajirao",
+    "name": "Peshwa Bajirao I",
+    "title": "Peshwa of the Maratha Empire",
+    "years": "1700 – 1740",
+    "featured": false,
+    "kingdomId": "maratha",
+    "description": "The brilliant Peshwa whose cavalry campaigns carried Maratha power from the Deccan deep into North India.",
+    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/bajirao/portrait.jpg",
+    "kingdom": "Maratha Empire",
+    "capital": "Pune / Satara",
+    "dynasty": "Bhat (Peshwa)",
+    "reign": "1720 – 1740",
+    "born": "18 August 1700",
+    "died": "28 April 1740, Raverkhedi",
+    "biography": "Bajirao I never lost a major battle in two decades of campaigning. His swift cavalry transformed the Marathas from a Deccan power into a pan-Indian force.",
+    "kingdomDescription": "Under the Peshwas, Maratha confederacy power expanded across Malwa, Gujarat, Bundelkhand, and toward Delhi.",
+    "campaigns": [
+      "Malwa and Gujarat expansions",
+      "Campaigns toward Delhi",
+      "Nizam conflicts in the Deccan"
+    ],
+    "battles": [
+      {
+        "name": "Battle of Palkhed",
+        "year": "1728",
+        "outcome": "Maratha victory over the Nizam"
+      }
+    ],
+    "forts": [
+      "Shaniwar Wada",
+      "Deccan hill forts"
+    ],
+    "timeline": [
+      {
+        "year": "1720",
+        "event": "Became Peshwa at a young age"
+      },
+      {
+        "year": "1728",
+        "event": "Victory at Palkhed"
+      },
+      {
+        "year": "1740",
+        "event": "Passed away on campaign"
+      }
+    ],
+    "achievements": [
+      "Undefeated in major field battles",
+      "Expanded Maratha influence into North India",
+      "Perfected rapid cavalry warfare"
+    ],
+    "legacy": "Bajirao I is remembered as one of India's finest cavalry generals — the Peshwa who made the Maratha shadow fall across the subcontinent.",
+    "references": [
+      "Peshwa daftars",
+      "Maratha chronicles"
+    ]
+  },
+  {
+    "id": "ranjit-singh",
+    "name": "Maharaja Ranjit Singh",
+    "title": "Maharaja of Punjab",
+    "years": "1780 – 1839",
+    "featured": true,
+    "kingdomId": "sikh",
+    "description": "Founder of the Sikh Empire who unified Punjab and established a prosperous, secular kingdom.",
+    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/ranjit-singh/portrait.jpg",
+    "kingdom": "Sikh Empire",
+    "capital": "Lahore",
+    "dynasty": "Sandhawalia / Sukerchakia",
+    "reign": "1801 – 1839",
+    "born": "13 November 1780, Gujranwala",
+    "died": "27 June 1839, Lahore",
+    "biography": "Ranjit Singh forged the Sikh Empire through military brilliance and diplomatic skill, creating one of the most powerful states in 19th-century India.",
+    "kingdomDescription": "The Sikh Empire under Ranjit Singh stretched across Punjab and beyond, known for modernization of the army and inclusive governance.",
+    "campaigns": [
+      "Unification of Punjab misls",
+      "Expansion toward Afghanistan and Kashmir",
+      "Modernization of the Khalsa army"
+    ],
+    "battles": [
+      {
+        "id": "attock",
+        "name": "Battle of Attock",
+        "year": "1813",
+        "outcome": "Sikh victory"
+      }
+    ],
+    "forts": [
+      "Lahore Fort",
+      "Gobindgarh Fort"
+    ],
+    "timeline": [
+      {
+        "year": "1801",
+        "event": "Proclaimed Maharaja of Punjab"
+      },
+      {
+        "year": "1813",
+        "event": "Captured Attock"
+      },
+      {
+        "year": "1839",
+        "event": "Passed away in Lahore"
+      }
+    ],
+    "achievements": [
+      "Unified Punjab under one rule",
+      "Modernized military forces",
+      "Preserved Golden Temple and Sikh heritage"
+    ],
+    "legacy": "Maharaja Ranjit Singh is remembered as the Lion of Punjab — a ruler who built a strong, prosperous empire through vision and valour.",
+    "references": [
+      "Sikh historical chronicles",
+      "Punjab court records"
+    ]
+  },
+  {
+    "id": "laxmibai",
+    "name": "Rani Lakshmibai",
+    "title": "Queen of Jhansi",
+    "years": "1828 – 1858",
+    "featured": false,
+    "kingdomId": "jhansi",
+    "description": "The warrior queen of Jhansi who led her kingdom with courage during the Revolt of 1857.",
+    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/laxmibai/portrait.jpg",
+    "kingdom": "Jhansi",
+    "capital": "Jhansi",
+    "dynasty": "Newalkar",
+    "reign": "1853 – 1858",
+    "born": "19 November 1828, Varanasi",
+    "died": "18 June 1858, Gwalior",
+    "biography": "Rani Lakshmibai was trained in warfare and administration. When Jhansi was threatened during the 1857 uprising, she led her forces personally into battle, becoming an enduring icon of resistance.",
+    "kingdomDescription": "Jhansi was a princely state in the Bundelkhand region, strategically important in central India.",
+    "campaigns": [
+      "Defense of Jhansi Fort",
+      "Alliance during the 1857 Revolt",
+      "Final stand at Gwalior"
+    ],
+    "battles": [
+      {
+        "id": "jhansi",
+        "name": "Siege of Jhansi",
+        "year": "1858",
+        "outcome": "Fell after fierce resistance"
+      },
+      {
+        "name": "Battle of Gwalior",
+        "year": "1858",
+        "outcome": "Martyrdom in battle"
+      }
+    ],
+    "forts": [
+      "Jhansi Fort"
+    ],
+    "timeline": [
+      {
+        "year": "1842",
+        "event": "Married Maharaja Gangadhar Rao"
+      },
+      {
+        "year": "1857",
+        "event": "Revolt of 1857 begins"
+      },
+      {
+        "year": "1858",
+        "event": "Martyrdom at Gwalior"
+      }
+    ],
+    "achievements": [
+      "Led Jhansi's defense personally",
+      "Symbol of the 1857 Revolt",
+      "Inspiration for future freedom movements"
+    ],
+    "legacy": "Rani Lakshmibai remains one of India's most celebrated freedom fighters — remembered for leading from the front and choosing death over surrender.",
+    "references": [
+      "1857 Revolt historical records",
+      "Jhansi state chronicles"
+    ]
+  }
+];
