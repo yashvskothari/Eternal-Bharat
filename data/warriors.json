@@ -92,6 +92,71 @@
     "legacy": "Pulakeshin II is remembered as the emperor who proved the Deccan could stand as an equal imperial power.",
     "references": ["Aihole inscription of Ravikirti", "Chalukya records", "Pallava chronicles"]
   },
+
+  {
+  "id": "bappa-rawal",
+  "name": "Bappa Rawal",
+  "title": "Founder of the Guhila Rule in Mewar",
+  "years": "c. 713 – c. 810",
+  "featured": true,
+  "kingdomId": "mewar",
+  "description": "The legendary founder of the Mewar kingdom, remembered for establishing Rajput power in the region and resisting early Arab invasions.",
+  "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/bappa-rawal/portrait.jpg",
+  "kingdom": "Mewar",
+  "capital": "Chittorgarh",
+  "dynasty": "Guhila (Guhilot)",
+  "reign": "c. 734 – c. 753",
+  "born": "c. 713, Nagda (traditionally believed)",
+  "died": "c. 810",
+  "biography": "Bappa Rawal is regarded as the founder of the Guhila dynasty's rule over Mewar. Historical traditions credit him with capturing Chittorgarh and consolidating Rajput authority in the region. He is also associated with resistance against Arab incursions into northwestern India.",
+  "kingdomDescription": "Mewar emerged as one of the oldest and most resilient Rajput kingdoms, renowned for its warrior traditions, hill forts and commitment to sovereignty.",
+  "campaigns": [
+    "Capture of Chittorgarh",
+    "Expansion of Mewar",
+    "Resistance against Arab invasions"
+  ],
+  "battles": [
+    {
+      "id": "arab-rajput-conflicts",
+      "name": "Rajput-Arab Conflicts",
+      "year": "8th Century",
+      "outcome": "Rajput victory"
+    }
+  ],
+  "forts": [
+    "Chittorgarh",
+    "Nagda"
+  ],
+  "timeline": [
+    {
+      "year": "c.713",
+      "event": "Birth of Bappa Rawal"
+    },
+    {
+      "year": "c.734",
+      "event": "Captured Chittorgarh"
+    },
+    {
+      "year": "c.753",
+      "event": "Established Mewar's dominance"
+    },
+    {
+      "year": "c.810",
+      "event": "Death of Bappa Rawal"
+    }
+  ],
+  "achievements": [
+    "Founder of Mewar's royal legacy",
+    "Established Rajput rule in Chittorgarh",
+    "Associated with resistance against Arab invasions"
+  ],
+  "legacy": "Bappa Rawal is remembered as the founding hero of Mewar and one of the earliest Rajput rulers to establish a lasting kingdom.",
+  "references": [
+    "Eklinga Mahatmya",
+    "Guhila inscriptions",
+    "Rajasthan historical chronicles"
+  ]
+},
   {
     "id": "chola",
     "name": "Raja Raja Chola I",
@@ -154,6 +219,128 @@
     "legacy": "Prithviraj Chauhan remains a symbol of Rajput valour at the threshold of a new political age in North India.",
     "references": ["Prithviraj Raso tradition", "Persian chronicles of the Ghurids", "Chauhan inscriptions"]
   },
+
+  {
+  "id": "rawal-ratan-singh",
+  "name": "Rawal Ratan Singh",
+  "title": "Last Rawal of Chittor",
+  "years": "13th Century – 1303",
+  "featured": true,
+  "kingdomId": "mewar",
+  "description": "The ruler of Mewar during Alauddin Khalji's siege of Chittorgarh, remembered for his courage and the historic defense of the fort.",
+  "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/rawal-ratan-singh/portrait.jpg",
+  "kingdom": "Mewar",
+  "capital": "Chittorgarh",
+  "dynasty": "Guhila",
+  "reign": "1302 – 1303",
+  "born": "13th Century",
+  "died": "1303, Chittorgarh",
+  "biography": "Rawal Ratan Singh ruled Mewar during the siege of Chittorgarh by Alauddin Khalji in 1303. Though historical accounts differ on several details, he is traditionally remembered for defending the kingdom until the fall of the fort.",
+  "kingdomDescription": "Chittorgarh was the heart of Mewar and one of the strongest Rajput fortresses in medieval India.",
+  "campaigns": [
+    "Defense of Chittorgarh"
+  ],
+  "battles": [
+    {
+      "id": "siege-of-chittor-1303",
+      "name": "Siege of Chittorgarh",
+      "year": "1303",
+      "outcome": "Delhi Sultanate victory after prolonged siege"
+    }
+  ],
+  "forts": [
+    "Chittorgarh"
+  ],
+  "timeline": [
+    {
+      "year": "1302",
+      "event": "Ascended the throne"
+    },
+    {
+      "year": "1303",
+      "event": "Siege of Chittorgarh"
+    },
+    {
+      "year": "1303",
+      "event": "Death during the defense of Chittorgarh"
+    }
+  ],
+  "achievements": [
+    "Defended Chittorgarh against invasion",
+    "Remembered for Rajput valor"
+  ],
+  "legacy": "Rawal Ratan Singh symbolizes the courage and sacrifice associated with the defense of Chittorgarh.",
+  "references": [
+    "Amir Khusrau",
+    "Rajput chronicles",
+    "Historical studies on Chittorgarh"
+  ]
+},
+{
+  "id": "maharana-kumbha",
+  "name": "Maharana Kumbha",
+  "title": "Great Ruler of Mewar",
+  "years": "1417 – 1468",
+  "featured": true,
+  "kingdomId": "mewar",
+  "description": "A legendary ruler of Mewar renowned for military victories, magnificent forts and patronage of art, music and architecture.",
+  "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/maharana-kumbha/portrait.jpg",
+  "kingdom": "Mewar",
+  "capital": "Chittorgarh",
+  "dynasty": "Sisodia",
+  "reign": "1433 – 1468",
+  "born": "1417",
+  "died": "1468, Kumbhalgarh",
+  "biography": "Maharana Kumbha transformed Mewar into one of the strongest kingdoms of medieval India. He constructed Kumbhalgarh Fort, commissioned the Vijay Stambha and successfully defended Mewar against repeated invasions.",
+  "kingdomDescription": "Under Maharana Kumbha, Mewar reached unprecedented military and cultural prominence.",
+  "campaigns": [
+    "Wars against Malwa Sultanate",
+    "Wars against Gujarat Sultanate",
+    "Expansion of Mewar"
+  ],
+  "battles": [
+    {
+      "id": "battle-of-sarangpur",
+      "name": "Battle of Sarangpur",
+      "year": "1437",
+      "outcome": "Mewar victory"
+    }
+  ],
+  "forts": [
+    "Kumbhalgarh",
+    "Chittorgarh",
+    "Achalgarh"
+  ],
+  "timeline": [
+    {
+      "year": "1433",
+      "event": "Ascended the throne"
+    },
+    {
+      "year": "1448",
+      "event": "Constructed Vijay Stambha"
+    },
+    {
+      "year": "1458",
+      "event": "Completed Kumbhalgarh Fort"
+    },
+    {
+      "year": "1468",
+      "event": "Death of Maharana Kumbha"
+    }
+  ],
+  "achievements": [
+    "Built Kumbhalgarh Fort",
+    "Constructed Vijay Stambha",
+    "Defeated Malwa Sultanate"
+  ],
+  "legacy": "Maharana Kumbha is remembered as one of Mewar's greatest rulers and among medieval India's finest military leaders and patrons of architecture.",
+  "references": [
+    "Kumbhalgarh inscriptions",
+    "Rajasthan historical chronicles",
+    "Archaeological Survey of India"
+  ]
+},
   {
     "id": "kdr",
     "name": "Krishnadevaraya",
@@ -216,6 +403,71 @@
     "legacy": "Rana Sanga symbolizes Rajput unity and the fierce resistance to foreign domination in early 16th-century India.",
     "references": ["Rajput chronicles", "Mughal historical accounts"]
   },
+  {
+  "id": "maharana-udai-singh-ii",
+  "name": "Maharana Udai Singh II",
+  "title": "Founder of Udaipur",
+  "years": "1522 – 1572",
+  "featured": true,
+  "kingdomId": "mewar",
+  "description": "The founder of Udaipur and father of Maharana Pratap, remembered for preserving the continuity of the Mewar kingdom during a turbulent period.",
+  "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/maharana-udai/portrait.jpg",
+  "kingdom": "Mewar",
+  "capital": "Chittorgarh / Udaipur",
+  "dynasty": "Sisodia",
+  "reign": "1540 – 1572",
+  "born": "4 August 1522, Chittorgarh",
+  "died": "28 February 1572, Gogunda",
+  "biography": "Maharana Udai Singh II succeeded the throne of Mewar after surviving assassination attempts during his childhood. Following the Mughal siege of Chittorgarh, he established the city of Udaipur, ensuring the survival of the Sisodia kingdom.",
+  "kingdomDescription": "During Udai Singh's reign, Mewar shifted its political center from Chittorgarh to the newly founded city of Udaipur.",
+  "campaigns": [
+    "Defense of Mewar",
+    "Foundation of Udaipur",
+    "Reorganization of Sisodia administration"
+  ],
+  "battles": [
+    {
+      "id": "siege-of-chittorgarh-1567",
+      "name": "Siege of Chittorgarh",
+      "year": "1567–1568",
+      "outcome": "Mughal victory; Mewar capital shifted"
+    }
+  ],
+  "forts": [
+    "Chittorgarh",
+    "Gogunda",
+    "Udaipur"
+  ],
+  "timeline": [
+    {
+      "year": "1522",
+      "event": "Birth of Udai Singh II"
+    },
+    {
+      "year": "1540",
+      "event": "Became ruler of Mewar"
+    },
+    {
+      "year": "1559",
+      "event": "Founded Udaipur"
+    },
+    {
+      "year": "1572",
+      "event": "Death at Gogunda"
+    }
+  ],
+  "achievements": [
+    "Founded Udaipur",
+    "Preserved the Sisodia dynasty",
+    "Father of Maharana Pratap"
+  ],
+  "legacy": "Maharana Udai Singh II ensured the continuity of Mewar through one of its most difficult periods and laid the foundation for Maharana Pratap's later resistance.",
+  "references": [
+    "Mewar chronicles",
+    "Akbarnama",
+    "Rajasthan historical records"
+  ]
+},
   {
     "id": "maharana-pratap",
     "name": "Maharana Pratap",
@@ -375,6 +627,62 @@
     "legacy": "Bajirao I is remembered as one of India's finest cavalry generals — the Peshwa who made the Maratha shadow fall across the subcontinent.",
     "references": ["Peshwa daftars", "Maratha chronicles"]
   },
+  {
+  "id": "ahilyabai-holkar",
+  "name": "Ahilyabai Holkar",
+  "title": "Queen of the Holkar Kingdom",
+  "years": "1725 – 1795",
+  "featured": true,
+  "kingdomId": "holkar",
+  "description": "One of India's greatest queens, celebrated for her just administration, public welfare and restoration of numerous temples across the Indian subcontinent.",
+  "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/ahilyabai/portrait.jpg",
+  "kingdom": "Holkar Kingdom",
+  "capital": "Maheshwar",
+  "dynasty": "Holkar",
+  "reign": "1767 – 1795",
+  "born": "31 May 1725, Chondi",
+  "died": "13 August 1795, Maheshwar",
+  "biography": "Ahilyabai Holkar became ruler after the deaths of her husband and son. She transformed Maheshwar into a prosperous capital, promoted trade, ensured justice and sponsored the restoration of temples including Kashi Vishwanath and Somnath.",
+  "kingdomDescription": "The Holkar Kingdom was one of the leading Maratha states, known for efficient governance and economic prosperity.",
+  "campaigns": [
+    "Administration of Malwa",
+    "Defense of Holkar territories",
+    "Temple restoration across India"
+  ],
+  "battles": [],
+  "forts": [
+    "Maheshwar Fort"
+  ],
+  "timeline": [
+    {
+      "year": "1725",
+      "event": "Born at Chondi"
+    },
+    {
+      "year": "1767",
+      "event": "Became ruler of the Holkar Kingdom"
+    },
+    {
+      "year": "1780s",
+      "event": "Restored major temples across India"
+    },
+    {
+      "year": "1795",
+      "event": "Passed away at Maheshwar"
+    }
+  ],
+  "achievements": [
+    "Model administrator",
+    "Patron of temples and education",
+    "Promoted trade and infrastructure"
+  ],
+  "legacy": "Ahilyabai Holkar is remembered as one of India's greatest rulers, admired for justice, compassion and architectural patronage.",
+  "references": [
+    "Holkar state records",
+    "Maratha chronicles",
+    "Historical biographies"
+  ]
+},
   {
     "id": "ranjit-singh",
     "name": "Maharaja Ranjit Singh",
