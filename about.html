@@ -1,189 +1,892 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="About Eternal Bharat — an immersive digital journey through the warriors, kingdoms, battles and cultural legacy of Bharat.">
+
     <link rel="icon"
           href="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/ui/favicon.png">
-<title>About | Eternal Bharat</title>
 
-<link rel="stylesheet" href="css/global.css">
-<link rel="stylesheet" href="css/navbar.css">
-<link rel="stylesheet" href="css/cards.css">
-<link rel="stylesheet" href="css/responsive.css">
+    <title>About | Eternal Bharat</title>
+
+    <!-- Existing project styles -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- About-page visual layer -->
+    <style>
+        /* =========================================================
+           ABOUT PAGE — GOLDEN BHARAT
+        ========================================================= */
+
+        .about-page {
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Subtle gold atmosphere */
+        .about-page::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            z-index: -1;
+            background:
+                radial-gradient(circle at 15% 12%,
+                    rgba(212, 175, 55, 0.10),
+                    transparent 28%),
+                radial-gradient(circle at 85% 42%,
+                    rgba(212, 175, 55, 0.055),
+                    transparent 30%),
+                radial-gradient(circle at 50% 100%,
+                    rgba(143, 107, 0, 0.08),
+                    transparent 35%);
+        }
+
+        /* ---------- Page Hero ---------- */
+
+        .about-hero {
+            min-height: 72vh;
+            display: grid;
+            place-items: center;
+            position: relative;
+            padding: 130px 20px 110px;
+            text-align: center;
+            isolation: isolate;
+            border-bottom: 1px solid var(--border);
+            background:
+                linear-gradient(
+                    180deg,
+                    rgba(0, 0, 0, 0.20),
+                    rgba(0, 0, 0, 0.72)
+                ),
+                radial-gradient(
+                    circle at center,
+                    rgba(212, 175, 55, 0.12),
+                    transparent 48%
+                );
+        }
+
+        .about-hero::before {
+            content: "✦";
+            position: absolute;
+            top: 17%;
+            left: 50%;
+            transform: translateX(-50%);
+            color: rgba(246, 211, 101, 0.20);
+            font-size: 7rem;
+            line-height: 1;
+            z-index: -1;
+        }
+
+        .about-hero-content {
+            width: min(900px, 92%);
+            animation: aboutFadeUp 0.9s ease both;
+        }
+
+        .heritage-label {
+            display: inline-flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 25px;
+            color: var(--gold-light);
+            font-size: 0.78rem;
+            font-weight: 600;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+        }
+
+        .heritage-label::before,
+        .heritage-label::after {
+            content: "";
+            width: 45px;
+            height: 1px;
+            background: var(--gold);
+        }
+
+        .about-hero h1 {
+            margin-bottom: 18px;
+            font-size: clamp(3.1rem, 8vw, 6.5rem);
+            letter-spacing: 2px;
+            text-shadow: 0 0 35px rgba(212, 175, 55, 0.14);
+        }
+
+        .about-hero .hero-motto {
+            margin: 0 auto 28px;
+            max-width: 760px;
+            font-family: "Cinzel", serif;
+            color: var(--white);
+            font-size: clamp(1.15rem, 2.4vw, 1.65rem);
+            line-height: 1.7;
+        }
+
+        .about-hero .hero-subtext {
+            max-width: 700px;
+            margin: auto;
+            color: var(--text-muted);
+        }
+
+        .scroll-cue {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            margin-top: 45px;
+            color: var(--gold);
+            font-size: 0.72rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+
+        .scroll-cue span {
+            width: 1px;
+            height: 45px;
+            background: linear-gradient(var(--gold), transparent);
+        }
+
+        /* ---------- Shared ---------- */
+
+        .about-section {
+            width: min(1150px, 92%);
+            margin-inline: auto;
+            padding: 100px 0;
+        }
+
+        .about-section + .about-section {
+            border-top: 1px solid rgba(212, 175, 55, 0.10);
+        }
+
+        .eyebrow {
+            display: block;
+            margin-bottom: 12px;
+            color: var(--gold);
+            font-size: 0.72rem;
+            font-weight: 600;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+        }
+
+        .about-heading {
+            max-width: 760px;
+            margin-bottom: 55px;
+        }
+
+        .about-heading h2 {
+            margin-bottom: 16px;
+        }
+
+        .about-heading p {
+            color: var(--text-muted);
+            max-width: 720px;
+        }
+
+        /* ---------- Manifesto ---------- */
+
+        .manifesto {
+            display: grid;
+            grid-template-columns: 1.25fr 0.75fr;
+            gap: 70px;
+            align-items: center;
+        }
+
+        .manifesto-copy {
+            position: relative;
+        }
+
+        .manifesto-copy::before {
+            content: "“";
+            position: absolute;
+            top: -70px;
+            left: -25px;
+            font-family: "Cinzel", serif;
+            font-size: 9rem;
+            color: rgba(212, 175, 55, 0.08);
+            pointer-events: none;
+        }
+
+        .manifesto-copy p {
+            position: relative;
+            margin-bottom: 22px;
+            color: var(--text-light);
+            font-size: 1.03rem;
+            line-height: 1.95;
+        }
+
+        .manifesto-quote {
+            padding: 34px;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            background:
+                linear-gradient(
+                    145deg,
+                    rgba(212, 175, 55, 0.08),
+                    rgba(255, 255, 255, 0.025)
+                );
+            box-shadow: var(--shadow-gold);
+        }
+
+        .manifesto-quote strong {
+            display: block;
+            margin-bottom: 12px;
+            font-family: "Cinzel", serif;
+            color: var(--gold-light);
+            font-size: 1.35rem;
+        }
+
+        .manifesto-quote p {
+            margin: 0;
+            color: var(--text-muted);
+        }
+
+        /* ---------- Golden Pillars ---------- */
+
+        .pillars {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .pillar {
+            position: relative;
+            min-height: 250px;
+            padding: 32px;
+            overflow: hidden;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            background: var(--bg-card);
+            backdrop-filter: blur(12px);
+            transition: var(--transition);
+        }
+
+        .pillar::after {
+            content: "";
+            position: absolute;
+            width: 110px;
+            height: 110px;
+            right: -45px;
+            bottom: -45px;
+            border: 1px solid rgba(212, 175, 55, 0.18);
+            border-radius: 50%;
+        }
+
+        .pillar:hover {
+            transform: translateY(-8px);
+            border-color: var(--gold);
+            box-shadow: var(--shadow-gold);
+        }
+
+        .pillar-number {
+            display: block;
+            margin-bottom: 28px;
+            font-family: "Cinzel", serif;
+            color: var(--gold);
+            font-size: 1rem;
+            letter-spacing: 2px;
+        }
+
+        .pillar h3 {
+            margin-bottom: 12px;
+        }
+
+        .pillar p {
+            color: var(--text-muted);
+            line-height: 1.8;
+        }
+
+        /* ---------- Explore Cards ---------- */
+
+        .explore-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .explore-card {
+            position: relative;
+            min-height: 235px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 26px;
+            overflow: hidden;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            background:
+                linear-gradient(
+                    180deg,
+                    rgba(255, 255, 255, 0.025),
+                    rgba(0, 0, 0, 0.45)
+                );
+            transition: var(--transition);
+        }
+
+        .explore-card::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                radial-gradient(
+                    circle at 80% 15%,
+                    rgba(212, 175, 55, 0.15),
+                    transparent 35%
+                );
+            transition: var(--transition);
+        }
+
+        .explore-card:hover {
+            transform: translateY(-8px);
+            border-color: var(--gold);
+            box-shadow: var(--shadow-gold);
+        }
+
+        .explore-card:hover::before {
+            transform: scale(1.15);
+        }
+
+        .explore-icon,
+        .explore-card h3,
+        .explore-card p {
+            position: relative;
+            z-index: 1;
+        }
+
+        .explore-icon {
+            margin-bottom: auto;
+            color: var(--gold);
+            font-family: "Cinzel", serif;
+            font-size: 1.8rem;
+        }
+
+        .explore-card h3 {
+            margin-bottom: 8px;
+            font-size: 1.2rem;
+        }
+
+        .explore-card p {
+            margin: 0;
+            color: var(--text-muted);
+            font-size: 0.88rem;
+            line-height: 1.7;
+        }
+
+        /* ---------- Technology ---------- */
+
+        .technology {
+            display: grid;
+            grid-template-columns: 0.8fr 1.2fr;
+            gap: 70px;
+            align-items: start;
+        }
+
+        .tech-intro p {
+            color: var(--text-muted);
+            line-height: 1.9;
+        }
+
+        .tech-list {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 14px;
+        }
+
+        .tech-item {
+            padding: 20px 22px;
+            border-left: 2px solid var(--gold-dark);
+            background: rgba(255, 255, 255, 0.025);
+            transition: var(--transition);
+        }
+
+        .tech-item:hover {
+            border-left-color: var(--gold-light);
+            background: rgba(212, 175, 55, 0.055);
+            transform: translateX(5px);
+        }
+
+        .tech-item strong {
+            display: block;
+            margin-bottom: 5px;
+            font-family: "Cinzel", serif;
+            color: var(--gold);
+        }
+
+        .tech-item span {
+            color: var(--text-muted);
+            font-size: 0.86rem;
+        }
+
+        /* ---------- Future / Closing ---------- */
+
+        .closing {
+            text-align: center;
+            padding-bottom: 120px;
+        }
+
+        .closing-inner {
+            position: relative;
+            padding: 75px 35px;
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+            background:
+                radial-gradient(
+                    circle,
+                    rgba(212, 175, 55, 0.08),
+                    transparent 58%
+                );
+        }
+
+        .closing-inner h2 {
+            max-width: 800px;
+            margin: 0 auto 18px;
+        }
+
+        .closing-inner p {
+            max-width: 720px;
+            margin: 0 auto 30px;
+            color: var(--text-muted);
+        }
+
+        .closing-motto {
+            display: block;
+            margin-top: 30px;
+            color: var(--gold);
+            font-family: "Cinzel", serif;
+            letter-spacing: 2px;
+        }
+
+        @keyframes aboutFadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(28px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* ---------- Responsive ---------- */
+
+        @media (max-width: 900px) {
+            .manifesto,
+            .technology {
+                grid-template-columns: 1fr;
+                gap: 45px;
+            }
+
+            .pillars {
+                grid-template-columns: 1fr;
+            }
+
+            .explore-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .about-hero {
+                min-height: 65vh;
+                padding: 110px 16px 80px;
+            }
+
+            .heritage-label {
+                letter-spacing: 3px;
+            }
+
+            .heritage-label::before,
+            .heritage-label::after {
+                width: 25px;
+            }
+
+            .about-section {
+                padding: 75px 0;
+            }
+
+            .explore-grid,
+            .tech-list {
+                grid-template-columns: 1fr;
+            }
+
+            .manifesto-quote {
+                padding: 26px;
+            }
+
+            .closing-inner {
+                padding: 55px 20px;
+            }
+        }
+    </style>
 </head>
-<body>
 
-<header>
-<nav class="navbar">
-<a href="index.html" class="logo">Eternal Bharat</a>
+<body class="about-page">
 
-<ul class="nav-links">
-<li><a href="index.html">Home</a></li>
-<li><a href="warriors.html">Warriors</a></li>
-<li><a href="kingdoms.html">Kingdoms</a></li>
-<li><a href="battles.html">Battles</a></li>
-<li><a href="timeline.html">Timeline</a></li>
-<li><a href="about.html" class="active">About</a></li>
-</ul>
-</nav>
-<div class="menu-toggle">
+    <!-- ==================================================
+         NAVBAR
+    ================================================== -->
 
-    <span></span>
+    <header>
+        <nav class="navbar">
 
-    <span></span>
+            <a href="index.html" class="logo">
+                Eternal Bharat
+            </a>
 
-    <span></span>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="warrior.html">Warriors</a></li>
+                <li><a href="kingdoms.html">Kingdoms</a></li>
+                <li><a href="battles.html">Battles</a></li>
+                <li><a href="timeline.html">Timeline</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+            </ul>
 
-</div>
-</header>
+            <div class="menu-toggle" aria-label="Open navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
 
-<main>
+        </nav>
+    </header>
 
-<section class="hero small-hero">
-<div class="hero-content">
 
-<span class="hero-tag">About the Project</span>
+    <main>
 
-<h1>Eternal Bharat</h1>
+        <!-- ==================================================
+             HERO
+        ================================================== -->
 
-<p>
-A digital initiative dedicated to preserving and presenting the
-history of India's greatest warriors, kingdoms and defining battles
-through a modern, elegant and interactive experience.
-</p>
+        <section class="about-hero">
 
-</div>
-</section>
+            <div class="about-hero-content">
 
-<section class="container">
+                <span class="heritage-label">
+                    The Golden Legacy of Bharat
+                </span>
 
-<h2 class="section-title">Our Vision</h2>
+                <h1>Eternal Bharat</h1>
 
-<p>
-Eternal Bharat aims to make Indian history more accessible,
-engaging and visually appealing for students, researchers and
-history enthusiasts. Rather than presenting long blocks of text,
-the website focuses on structured information, interactive
-navigation and immersive storytelling.
-</p>
+                <p class="hero-motto">
+                    A journey through the courage, kingdoms,
+                    battles and civilizations that shaped Bharat.
+                </p>
 
-</section>
+                <p class="hero-subtext">
+                    We believe history should not feel like a list of dates.
+                    It should feel like a living legacy — one that can be
+                    explored, understood and remembered.
+                </p>
 
-<section class="container">
+                <div class="scroll-cue">
+                    Discover the story
+                    <span></span>
+                </div>
 
-<h2 class="section-title">What You Can Explore</h2>
+            </div>
 
-<div class="cards-grid">
+        </section>
 
-<div class="card">
-<div class="card-content">
-<h3>⚔ Legendary Warriors</h3>
-<p>Discover biographies, achievements, timelines, forts and battles of India's greatest rulers and commanders.</p>
-</div>
-</div>
 
-<div class="card">
-<div class="card-content">
-<h3>🏰 Historic Kingdoms</h3>
-<p>Learn about powerful empires, their capitals, administration, architecture and cultural heritage.</p>
-</div>
-</div>
+        <!-- ==================================================
+             OUR VISION
+        ================================================== -->
 
-<div class="card">
-<div class="card-content">
-<h3>📜 Major Battles</h3>
-<p>Explore decisive battles, military strategies and historical outcomes that shaped the subcontinent.</p>
-</div>
-</div>
+        <section class="about-section">
 
-<div class="card">
-<div class="card-content">
-<h3>📅 Interactive Timeline</h3>
-<p>Travel through centuries with a chronological timeline connecting rulers, kingdoms and important events.</p>
-</div>
-</div>
+            <div class="about-heading">
+                <span class="eyebrow">Our Vision</span>
+                <h2>Remembering a Civilization, Not Just a Timeline</h2>
+                <p>
+                    Eternal Bharat presents Indian history as an interconnected
+                    story of people, places, ideas, victories, struggles and
+                    enduring cultural memory.
+                </p>
+            </div>
 
-</div>
+            <div class="manifesto">
 
-</section>
+                <div class="manifesto-copy">
 
-<section class="container">
+                    <p>
+                        Bharat's history stretches across centuries of kingdoms,
+                        empires, warriors, scholars, builders and communities.
+                        Eternal Bharat is designed to make that enormous legacy
+                        easier to explore through structured information,
+                        visual storytelling and connected historical journeys.
+                    </p>
 
-<h2 class="section-title">Project Features</h2>
+                    <p>
+                        From legendary rulers and decisive battles to the
+                        kingdoms and civilizations that shaped their world,
+                        every section is intended to help visitors understand
+                        not only <em>what happened</em>, but why it mattered.
+                    </p>
 
-<ul class="feature-list">
-<li>Modern Dark & Gold Theme</li>
-<li>Responsive Design</li>
-<li>Smooth Scrolling</li>
-<li>Interactive Cards</li>
-<li>Search Functionality</li>
-<li>Dynamic JSON-based Content</li>
-<li>Image CDN Support</li>
-<li>Lightweight HTML, CSS & JavaScript</li>
-</ul>
+                </div>
 
-</section>
+                <div class="manifesto-quote">
+                    <strong>“Sone ki Chidiya”</strong>
+                    <p>
+                        The visual identity of Eternal Bharat draws inspiration
+                        from the idea of a prosperous and culturally rich
+                        Bharat — represented through a restrained golden-black
+                        palette rather than excessive ornamentation.
+                    </p>
+                </div>
 
-<section class="container">
+            </div>
 
-<h2 class="section-title">Technology Stack</h2>
+        </section>
 
-<div class="cards-grid">
 
-<div class="card">
-<div class="card-content">
-<h3>HTML5</h3>
-<p>Semantic page structure.</p>
-</div>
-</div>
+        <!-- ==================================================
+             THREE PILLARS
+        ================================================== -->
 
-<div class="card">
-<div class="card-content">
-<h3>CSS3</h3>
-<p>Modern responsive styling and animations.</p>
-</div>
-</div>
+        <section class="about-section">
 
-<div class="card">
-<div class="card-content">
-<h3>JavaScript (ES6)</h3>
-<p>Dynamic rendering, search and interactions.</p>
-</div>
-</div>
+            <div class="about-heading">
+                <span class="eyebrow">The Philosophy</span>
+                <h2>Three Pillars of Eternal Bharat</h2>
+                <p>
+                    The experience is built around three simple ideas:
+                    discover the past, understand its context and carry its
+                    legacy forward.
+                </p>
+            </div>
 
-<div class="card">
-<div class="card-content">
-<h3>JSON</h3>
-<p>Structured historical datasets powering every page.</p>
-</div>
-</div>
+            <div class="pillars">
 
-</div>
+                <article class="pillar">
+                    <span class="pillar-number">01 / DISCOVER</span>
+                    <h3>Stories Before Statistics</h3>
+                    <p>
+                        Explore warriors, kingdoms and battles through
+                        meaningful stories instead of disconnected facts.
+                    </p>
+                </article>
 
-</section>
+                <article class="pillar">
+                    <span class="pillar-number">02 / UNDERSTAND</span>
+                    <h3>Context Creates Meaning</h3>
+                    <p>
+                        Connect rulers, places, conflicts and historical
+                        periods to understand how one event influenced another.
+                    </p>
+                </article>
 
-<section class="container">
+                <article class="pillar">
+                    <span class="pillar-number">03 / REMEMBER</span>
+                    <h3>Legacy Beyond the Past</h3>
+                    <p>
+                        Discover the ideas, courage, architecture and cultural
+                        memory that continue to shape how Bharat is remembered.
+                    </p>
+                </article>
 
-<h2 class="section-title">Future Scope</h2>
+            </div>
 
-<p>
-The project is designed with a scalable architecture, making it easy
-to expand with additional warriors, kingdoms, battles, forts,
-historical maps, timelines and educational resources without changing
-the core codebase.
-</p>
+        </section>
 
-</section>
 
-<footer>
+        <!-- ==================================================
+             WHAT TO EXPLORE
+        ================================================== -->
 
-<p>© 2026 Eternal Bharat. All Rights Reserved.</p>
+        <section class="about-section">
 
-</footer>
+            <div class="about-heading">
+                <span class="eyebrow">Explore Bharat</span>
+                <h2>Four Ways to Enter the Story</h2>
+                <p>
+                    Move between people, powers, conflicts and time to build
+                    a broader picture of India's historical legacy.
+                </p>
+            </div>
 
-<script src="js/main.js"></script>
+            <div class="explore-grid">
 
-</main>
+                <article class="explore-card">
+                    <span class="explore-icon">⚔</span>
+                    <h3>Warriors</h3>
+                    <p>
+                        Discover rulers and commanders, their achievements,
+                        struggles and enduring legacy.
+                    </p>
+                </article>
+
+                <article class="explore-card">
+                    <span class="explore-icon">♜</span>
+                    <h3>Kingdoms</h3>
+                    <p>
+                        Explore empires, dynasties, capitals, administration
+                        and cultural heritage.
+                    </p>
+                </article>
+
+                <article class="explore-card">
+                    <span class="explore-icon">✦</span>
+                    <h3>Battles</h3>
+                    <p>
+                        Understand decisive conflicts, military strategy and
+                        their historical consequences.
+                    </p>
+                </article>
+
+                <article class="explore-card">
+                    <span class="explore-icon">⌛</span>
+                    <h3>Timeline</h3>
+                    <p>
+                        Travel across centuries and connect major rulers,
+                        kingdoms and events chronologically.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             TECHNOLOGY
+        ================================================== -->
+
+        <section class="about-section">
+
+            <div class="technology">
+
+                <div class="tech-intro">
+                    <span class="eyebrow">Behind the Experience</span>
+                    <h2>Simple Technology. Immersive Presentation.</h2>
+                    <p>
+                        The project keeps its architecture lightweight so the
+                        focus remains on the historical content and the
+                        experience of exploring it.
+                    </p>
+                </div>
+
+                <div class="tech-list">
+
+                    <div class="tech-item">
+                        <strong>HTML5</strong>
+                        <span>Semantic structure and accessible page layouts.</span>
+                    </div>
+
+                    <div class="tech-item">
+                        <strong>CSS3</strong>
+                        <span>Responsive design, visual effects and animations.</span>
+                    </div>
+
+                    <div class="tech-item">
+                        <strong>JavaScript ES6</strong>
+                        <span>Dynamic rendering, search and interactive behaviour.</span>
+                    </div>
+
+                    <div class="tech-item">
+                        <strong>JSON</strong>
+                        <span>Structured historical data for scalable content.</span>
+                    </div>
+
+                    <div class="tech-item">
+                        <strong>CDN Assets</strong>
+                        <span>Fast delivery of visual assets and interface resources.</span>
+                    </div>
+
+                    <div class="tech-item">
+                        <strong>Responsive UI</strong>
+                        <span>Designed to remain immersive across screen sizes.</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             FUTURE
+        ================================================== -->
+
+        <section class="about-section closing">
+
+            <div class="closing-inner">
+
+                <span class="eyebrow">The Journey Continues</span>
+
+                <h2>
+                    From a Digital Archive to a Living Experience
+                </h2>
+
+                <p>
+                    Eternal Bharat can continue to grow with more warriors,
+                    kingdoms, battles, forts, maps, historical periods and
+                    educational resources while retaining the same core
+                    architecture.
+                </p>
+
+                <a href="timeline.html" class="secondary-btn">
+                    Begin the Journey →
+                </a>
+
+                <span class="closing-motto">
+                    Remember the past. Understand the legacy. Inspire the future.
+                </span>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==================================================
+         FOOTER
+    ================================================== -->
+
+    <footer class="site-footer">
+
+        <div class="footer-container">
+
+            <div class="footer-brand">
+                <a href="index.html" class="footer-logo">
+                    Eternal Bharat
+                </a>
+
+                <p>
+                    Preserving the stories of Bharat,
+                    one legacy at a time.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="warrior.html">Warriors</a>
+                <a href="kingdoms.html">Kingdoms</a>
+                <a href="battles.html">Battles</a>
+                <a href="timeline.html">Timeline</a>
+                <a href="about.html">About</a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Eternal Bharat</p>
+            <p>Built to remember. Designed to inspire.</p>
+        </div>
+
+    </footer>
+
+
+    <!-- Existing project JavaScript -->
+    <script src="js/main.js"></script>
+
 </body>
 </html>
