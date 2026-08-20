@@ -16,7 +16,7 @@
 ###  Home Page
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/readme-images/home.png" width="100%">
+  <img src="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/readme-Images/home.png" width="100%">
 </p>
 
 ---
@@ -24,7 +24,7 @@
 ###  Warriors
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/readme-images/warriors.png" width="100%">
+  <img src="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/readme-Images/warriors.png" width="100%">
 </p>
 
 ---
@@ -40,7 +40,7 @@
 ###  Battles
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/readme-images/battle.png" width="100%">
+  <img src="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/readme-Images/battle.png" width="100%">
 </p>
 
 ---
@@ -48,7 +48,7 @@
 ###  Timeline
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/readme-images/timeline.png" width="100%">
+  <img src="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/readme-Images/timeline.png" width="100%">
 </p>
 
 ---
@@ -56,7 +56,7 @@
 ###  About
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/readme-images/about.png" width="100%">
+  <img src="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/readme-Images/about.png" width="100%">
 </p>
 
 ---
