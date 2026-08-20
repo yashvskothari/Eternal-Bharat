@@ -13,7 +13,7 @@
 
 ## 📸 Website Preview
 
-### 🏠 Home Page
+###  Home Page
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/readme-images/home.png" width="100%">
@@ -21,7 +21,7 @@
 
 ---
 
-### ⚔️ Warriors
+###  Warriors
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/readme-images/warriors.png" width="100%">
@@ -29,7 +29,7 @@
 
 ---
 
-### 🗺️ Kingdom Maps
+###  Kingdom Maps
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/readme-images/maps.png" width="100%">
@@ -37,7 +37,7 @@
 
 ---
 
-### 🛡️ Battles
+###  Battles
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/readme-images/battle.png" width="100%">
@@ -45,7 +45,7 @@
 
 ---
 
-### 📜 Timeline
+###  Timeline
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/readme-images/timeline.png" width="100%">
@@ -53,7 +53,7 @@
 
 ---
 
-### ℹ️ About
+###  About
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/readme-images/about.png" width="100%">
