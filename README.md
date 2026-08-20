@@ -1,206 +1,177 @@
 # 🇮🇳 Eternal Bharat
 
-> **A digital museum dedicated to preserving the legacy of India's greatest warriors, kingdoms, and civilizations through an immersive historical experience.**
+> **An interactive website exploring the lives, kingdoms, battles, forts, and legacies of notable warriors from Bharatiya history.**
 
-![Status](https://img.shields.io/badge/Status-In%20Development-gold?style=for-the-badge)
+[![Live Website](https://img.shields.io/badge/🌐_Live_Website-Eternal_Bharat-gold?style=for-the-badge)](https://eternal-bharat.vercel.app/)
+
+![Status](https://img.shields.io/badge/Status-Live-success?style=for-the-badge)
 ![HTML](https://img.shields.io/badge/HTML-5-E34F26?style=for-the-badge&logo=html5)
 ![CSS](https://img.shields.io/badge/CSS-3-1572B6?style=for-the-badge&logo=css3)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ---
 
-##  About
+## 📸 Website Preview
 
-**Eternal Bharat** is a modern historical website that celebrates the courage, sacrifice, leadership, and legacy of India's greatest rulers.
+### 🏠 Home Page
 
-Instead of presenting history as plain text, the website combines **historical storytelling, interactive UI, maps, timelines, battle records, and visually rich layouts** to create an engaging learning experience for visitors.
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/readme-images/home.png" width="100%">
+</p>
 
-Every warrior has a dedicated page that explores their kingdom, victories, military campaigns, timeline, and contribution to Indian history.
+---
+
+### ⚔️ Warriors
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/readme-images/warriors.png" width="100%">
+</p>
+
+---
+
+### 🗺️ Kingdom Maps
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/readme-images/maps.png" width="100%">
+</p>
+
+---
+
+### 🛡️ Battles
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/readme-images/battle.png" width="100%">
+</p>
+
+---
+
+### 📜 Timeline
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/readme-images/timeline.png" width="100%">
+</p>
+
+---
+
+### ℹ️ About
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/readme-images/about.png" width="100%">
+</p>
+
+---
+
+#  Live Demo
+
+**Website:** https://eternal-bharat.vercel.app/
+
+---
+
+#  About
+
+**Eternal Bharat** is an educational web project dedicated to showcasing the lives, kingdoms, battles, and legacies of some of the most renowned warriors in Bharatiya history.
+
+The website combines historical information with an elegant user interface, interactive timelines, detailed warrior pages, and visual assets to provide an engaging learning experience for history enthusiasts.
 
 ---
 
 #  Features
 
-##  Historical Landing Page
+##  Home
 
 - Cinematic Hero Section
-- Dark Royal Theme
-- Historical Background Artwork
-- Smooth Scroll Animations
-- Responsive Layout
-- Historical Typography
+- Smooth Scrolling
+- Responsive Design
+- Royal Dark Theme
 - Interactive Navigation
 
 ---
 
-##  Warriors Gallery
+##  Warriors
 
-Interactive cards featuring India's legendary rulers.
-
-Each card includes:
-
-- Portrait
-- Name
-- Lifespan
-- Short Historical Description
-- Dedicated Information Page
-
-Featured warriors include:
+Explore dedicated profiles of renowned warriors including:
 
 - Maharana Pratap
-- Rana Sanga
-- Maharana Kumbha
 - Bappa Rawal
 - Rawal Ratan Singh
+- Rana Sanga
+- Maharana Kumbha
+- Maharana Udai Singh II
 - Rani Lakshmibai
+- Chhatrapati Shivaji Maharaj
 - Chhatrapati Sambhaji Maharaj
+- Maharaja Ranjit Singh
+- Ahilyabai Holkar
+- Lachit Borphukan
+- Raja Raja Chola I
 - and more...
 
+Each warrior page includes:
+
+- Biography
+- Kingdom
+- Dynasty
+- Timeline
+- Battles
+- Campaigns
+- Forts
+- Achievements
+- Legacy
+- Historical References
+
 ---
 
-##  Dedicated Warrior Pages
+##  Kingdoms
 
-Each warrior has a fully dedicated page containing:
+Every kingdom includes:
 
-- Hero Banner
-- Biography
-- Early Life
-- Rise to Power
-- Kingdom Overview
-- Dynasty Information
+- Historical Overview
 - Capital
-- Historical Maps
+- Dynasty
+- Region
+- Historical Map
+- Important Forts
 - Major Battles
-- Military Campaigns
-- Important Victories
 - Timeline
 - Legacy
-- References
 
 ---
 
-##  Kingdom Exploration
+## ⚔️ Battles
 
-Explore every kingdom through:
+Learn about important battles through:
 
-- Historical Territory
-- Kingdom Maps
-- Capitals
-- Strategic Regions
-- Expansion History
-- Political Importance
-
----
-
-##  Battles & Military Campaigns
-
-Every warrior page documents:
-
-- Major Battles
-- Battle Outcomes
-- Enemy Kingdoms
-- Military Strategies
-- Campaign Details
-- Historical Impact
+- Historical Background
+- Year & Location
+- Commanders
+- Outcomes
+- Historical Significance
+- Related Warriors
 
 ---
 
-##  Interactive Historical Maps
+##  Timeline
 
-Visual maps showcasing:
+Chronological historical events featuring:
 
-- Kingdom Boundaries
-- Expansion of Empires
-- Battle Locations
-- Capitals
-- Important Forts
-- Strategic Regions
-
----
-
-##  Historical Timeline
-
-Chronological events including:
-
-- Birth
-- Coronation
-- Important Campaigns
+- Births
+- Coronations
 - Battles
-- Victories
-- Political Events
-- Final Years
-- Legacy
-
----
-
-##  Historical References
-
-Every page is designed to present structured historical information gathered from trusted historical sources.
-
-Information includes:
-
-- Historical Events
-- Dynasties
-- Kingdoms
-- Battles
+- Kingdom Events
 - Military Campaigns
-- Historical Chronology
-- Cultural Contributions
+- Historical Milestones
 
 ---
 
-##  Interactive Experience
+##  User Experience
 
-- Sticky Navigation
-- Scroll Progress Bar
-- Floating Home Button
+- Responsive Layout
+- Animated Cards
+- Hero Sections
+- Scroll Progress Indicator
 - Back-to-Top Button
-- Smooth Scrolling
 - Hover Animations
-- Responsive Cards
 - Mobile Friendly Design
-
----
-
-#  Project Structure
-
-```text
-Eternal-Bharat/
-
-│
-├── index.html
-├── css/
-├── js/
-├── assets/
-│
-├── warriors/
-│   ├── maharana-pratap.html
-│   ├── rana-sanga.html
-│   ├── maharana-kumbha.html
-│   ├── bappa-rawal.html
-│   ├── rawal-ratan-singh.html
-│   ├── rani-lakshmibai.html
-│   ├── sambhaji-maharaj.html
-│   └── ...
-│
-├── images/
-│   ├── warriors/
-│   ├── kingdoms/
-│   ├── maps/
-│   └── backgrounds/
-│
-└── README.md
-```
-
----
-
-#  Project Goals
-
-- Preserve India's rich historical legacy.
-- Present history in an engaging digital format.
-- Promote authentic historical knowledge.
-- Inspire curiosity about Indian civilizations.
-- Build a visually immersive educational platform.
 
 ---
 
@@ -212,35 +183,72 @@ Eternal-Bharat/
 
 ---
 
-#  Future Vision
+#  Project Structure
 
-**Eternal Bharat** is envisioned as a comprehensive digital museum featuring:
+```text
+Eternal-Bharat/
 
-- Legendary Warriors
-- Great Kingdoms
-- Historical Battles
-- Dynasties
-- Ancient Forts
-- Interactive Maps
-- Timelines
-- Historical Documents
-- Royal Genealogy
-- Cultural Heritage
+│
+├── index.html
+├── warriors.html
+├── warrior.html
+├── kingdoms.html
+├── kingdom.html
+├── battles.html
+├── battle.html
+├── timeline.html
+├── about.html
+│
+├── css/
+├── js/
+├── data/
+└── README.md
+```
 
 ---
 
-##  Contributing
+#  Project Goals
 
-Suggestions, historical corrections, and improvements are always welcome.
+- Present Bharatiya history in an engaging format.
+- Highlight the lives and contributions of notable historical figures.
+- Encourage interest in historical learning.
+- Combine historical content with modern web design.
 
-If you'd like to contribute, feel free to fork the repository and open a pull request.
+---
+
+#  Future Improvements
+
+- More Warriors
+- Additional Kingdoms
+- Expanded Battle Database
+- More Historical Timelines
+- Dedicated Fort Pages
+- Search Improvements
+- Historical Image Gallery
+- Interactive Maps
+
+---
+
+#  Contributing
+
+Historical corrections, suggestions, and improvements are always welcome.
+
+Feel free to fork the repository, improve it, and submit a pull request.
+
+---
+
+#  Support
+
+If you found this project interesting, consider giving it a ⭐ on GitHub.
 
 ---
 
 <div align="center">
 
-### **"A nation that remembers its history builds its future with pride."**
+### **"Preserving the past. Inspiring the future."**
 
-**Made with ❤️ for Bharat 🇮🇳**
+Made with ❤️ for Bharat 🇮🇳
+
+**🌐 https://eternal-bharat.vercel.app/**
 
 </div>
