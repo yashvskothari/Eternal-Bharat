@@ -1,47 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- ==================== META ==================== -->
 
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Eternal Bharat</title>
 
-    <meta name="description"
-          content="Discover the legacy of India's greatest warriors, kingdoms, battles and history.">
-
+    <meta
+      name="description"
+      content="Discover the legacy of India's greatest warriors, kingdoms, battles and history."
+    />
 
     <!-- ==================== FAVICON ==================== -->
 
-    <link rel="icon"
-          href="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/ui/favicon.png">
-
+    <link
+      rel="icon"
+      href="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/ui/favicon.png"
+    />
 
     <!-- ==================== STYLESHEETS ==================== -->
 
-    <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/hero.css">
-    <link rel="stylesheet" href="css/cards.css">
-    <link rel="stylesheet" href="css/timeline.css">
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/kingdom.css">
-    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/cards.css" />
+    <link rel="stylesheet" href="css/timeline.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/kingdom.css" />
+    <link rel="stylesheet" href="css/about.css" />
+  </head>
 
-</head>
-
-
-<body>
-
+  <body>
     <!-- Page UI -->
     <div id="page-loader">
-        <div class="loader-circle"></div>
-        <h2>Eternal Bharat</h2>
+      <div class="loader-circle"></div>
+      <h2>Eternal Bharat</h2>
     </div>
     <div id="progress-bar"></div>
     <div class="cursor-glow"></div>
@@ -52,384 +49,252 @@
     ================================================== -->
 
     <header>
-        <nav class="navbar">
+      <nav class="navbar">
+        <!-- Logo -->
+        <a href="index.html" class="logo"> Eternal Bharat </a>
 
-            <!-- Logo -->
-            <a href="index.html" class="logo">
-                Eternal Bharat
-            </a>
+        <!-- Navigation Links -->
+        <ul class="nav-links">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
 
-            <!-- Navigation Links -->
-            <ul class="nav-links">
+          <li>
+            <a href="warriors.html">Warriors</a>
+          </li>
 
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
+          <li>
+            <a href="kingdoms.html">Kingdoms</a>
+          </li>
 
-                <li>
-                    <a href="warriors.html">Warriors</a>
-                </li>
+          <li>
+            <a href="battles.html">Battles</a>
+          </li>
 
-                <li>
-                    <a href="kingdoms.html">Kingdoms</a>
-                </li>
+          <li>
+            <a href="timeline.html">Timeline</a>
+          </li>
 
-                <li>
-                    <a href="battles.html">Battles</a>
-                </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+        </ul>
 
-                <li>
-                    <a href="timeline.html">Timeline</a>
-                </li>
-
-                <li>
-                    <a href="about.html">About</a>
-                </li>
-
-            </ul>
-
-            <!-- Mobile Menu Button -->
-            <div class="menu-toggle">
-
-                <span></span>
-                <span></span>
-                <span></span>
-
-            </div>
-
-        </nav>
+        <!-- Mobile Menu Button -->
+        <div class="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
     </header>
-
 
     <!-- ==================================================
          HERO SECTION
     ================================================== -->
 
     <section class="hero">
+      <div class="hero-content">
+        <p class="hero-tag">The Golden Legacy of Bharat</p>
 
-        <div class="hero-content">
+        <h1>Warriors Who Forged History</h1>
 
-            <p class="hero-tag">
-                The Golden Legacy of Bharat
-            </p>
+        <p class="hero-description">
+          Explore the lives, kingdoms, victories and legacy of India's greatest
+          rulers who defended civilization through courage, sacrifice and
+          vision.
+        </p>
 
-            <h1>
-                Warriors Who Forged History
-            </h1>
+        <!-- Hero Buttons -->
+        <div class="hero-buttons">
+          <a href="#warriors" class="primary-btn"> Explore Warriors </a>
 
-            <p class="hero-description">
-                Explore the lives, kingdoms, victories and
-                legacy of India's greatest rulers who defended
-                civilization through courage, sacrifice and vision.
-            </p>
-
-            <!-- Hero Buttons -->
-            <div class="hero-buttons">
-
-                <a href="#warriors" class="primary-btn">
-                    Explore Warriors
-                </a>
-
-                <a href="timeline.html" class="secondary-btn">
-                    View Timeline
-                </a>
-
-            </div>
-
+          <a href="timeline.html" class="secondary-btn"> View Timeline </a>
         </div>
-
+      </div>
     </section>
-
 
     <!-- ==================================================
          SEARCH SECTION
     ================================================== -->
 
     <section class="search-section">
+      <h2>Find Your Warrior</h2>
 
-        <h2>
-            Find Your Warrior
-        </h2>
-
-        <input
-            id="search"
-            type="text"
-            placeholder="Search Maharana Pratap, Shivaji Maharaj..."
-        >
-
+      <input
+        id="search"
+        type="text"
+        placeholder="Search Maharana Pratap, Shivaji Maharaj..."
+      />
     </section>
-
 
     <!-- ==================================================
          FEATURED WARRIORS
     ================================================== -->
 
-        <section id="warriors" class="kings-preview">
-
-    <div class="section-heading">
-
-        <h2>
-            Greatest Warriors
-        </h2>
+    <section id="warriors" class="kings-preview">
+      <div class="section-heading">
+        <h2>Greatest Warriors</h2>
 
         <p>
-            Explore legendary rulers, commanders and
-                defenders who shaped Bharat.
+          Explore legendary rulers, commanders and defenders who shaped Bharat.
         </p>
+      </div>
 
-    </div>
-
-
-    <div class="kings-grid"></div>
-
-</section>
-
+      <div class="kings-grid"></div>
+    </section>
 
     <!-- ==================================================
          ALL WARRIORS GRID
     ================================================== -->
 
     <section class="warriors-grid-section">
+      <div class="section-heading">
+        <h2>Explore All Warriors</h2>
 
-        <div class="section-heading">
+        <p>
+          Browse the gallery of legendary rulers and commanders from across
+          Bharat's history.
+        </p>
+      </div>
 
-            <h2>Explore All Warriors</h2>
-
-            <p>
-                Browse the gallery of legendary rulers and
-                commanders from across Bharat's history.
-            </p>
-
-        </div>
-
-        <div id="cards" class="cards-grid"></div>
-
+      <div id="cards" class="cards-grid"></div>
     </section>
-
 
     <!-- ==================================================
          KINGDOM PREVIEW
     ================================================== -->
 
     <section class="kingdom-preview">
+      <div class="section-heading">
+        <h2>Powerful Kingdoms</h2>
 
-        <div class="section-heading">
+        <p>
+          Learn about the empires ruled by these legendary kings and queens.
+        </p>
+      </div>
 
-            <h2>
-                Powerful Kingdoms
-            </h2>
+      <!-- Kingdom Cards -->
 
-            <p>
-                Learn about the empires ruled by these
-                legendary kings and queens.
-            </p>
-
-        </div>
-
-
-        <!-- Kingdom Cards -->
-
-        <div class="kingdom-grid"></div>
-
+      <div class="kingdom-grid"></div>
     </section>
-
 
     <!-- ==================================================
-         TIMELINE PREVIEW
-    ================================================== -->
-
-    <section class="home-timeline">
-
-        <div class="section-heading">
-
-            <h2>
-                Journey Through Time
-            </h2>
-
-        </div>
-
-
-        <div class="timeline"></div>
-
-    </section>
-
-
-   <!-- ==================================================
      INSPIRATIONAL QUOTE
 ================================================== -->
 
-<section class="quote-section">
-
-    <div class="quote-container">
-
-        <span class="quote-label">
-            A Legacy That Lives On
-        </span>
+    <section class="quote-section">
+      <div class="quote-container">
+        <span class="quote-label"> A Legacy That Lives On </span>
 
         <blockquote>
-            "The legacy of great warriors lives not in
-            monuments, but in the courage they inspire."
+          "The legacy of great warriors lives not in monuments, but in the
+          courage they inspire."
         </blockquote>
 
         <span class="quote-line"></span>
 
-        <p class="quote-author">
-            — Eternal Bharat
-        </p>
+        <p class="quote-author">— Eternal Bharat</p>
+      </div>
+    </section>
 
-    </div>
-
-</section>
-
-
-<!-- ==================================================
+    <!-- ==================================================
      ABOUT PREVIEW
 ================================================== -->
 
-<section class="about-preview">
-
-    <div class="about-container">
-
+    <section class="about-preview">
+      <div class="about-container">
         <div class="section-heading">
+          <span class="about-label"> OUR PURPOSE </span>
 
-            <span class="about-label">
-                OUR PURPOSE
-            </span>
+          <h2>Why Eternal Bharat?</h2>
 
-            <h2>
-                Why Eternal Bharat?
-            </h2>
-
-            <p>
-                Remembering the people, kingdoms and
-                stories that shaped Bharat.
-            </p>
-
+          <p>
+            Remembering the people, kingdoms and stories that shaped Bharat.
+          </p>
         </div>
-
 
         <div class="about-content">
+          <div class="about-text">
+            <p>
+              Eternal Bharat is a tribute to the greatest warriors and rulers in
+              Bharatiya history. It brings together their kingdoms, battles,
+              forts, and remarkable journeys, preserving the stories of those
+              who shaped the course of the nation through courage and
+              leadership.
+            </p>
 
-            <div class="about-text">
+            <p>
+              From legendary kings and queens to iconic victories and historic
+              strongholds, discover the people and places that defined different
+              eras of Bharat and continue to inspire pride across generations.
+            </p>
 
-                <p>
-                    Eternal Bharat is an educational initiative
-                    dedicated to exploring India's rich historical
-                    legacy through the stories of its warriors,
-                    kingdoms, battles and civilizations.
-                </p>
+            <a href="about.html" class="secondary-btn">
+              Discover Our Purpose →
+            </a>
+          </div>
 
-                <p>
-                    From ancient empires to legendary defenders,
-                    discover the courage, strategy, culture and
-                    vision that shaped generations.
-                </p>
+          <div class="about-highlights">
+            <div class="about-highlight">
+              <span class="highlight-number">01</span>
 
-                <a href="about.html" class="secondary-btn">
-                    Discover Our Purpose →
-                </a>
-
+              <div>
+                <h3>Warriors</h3>
+                <p>Discover legendary rulers and commanders.</p>
+              </div>
             </div>
 
+            <div class="about-highlight">
+              <span class="highlight-number">02</span>
 
-            <div class="about-highlights">
-
-                <div class="about-highlight">
-                    <span class="highlight-number">01</span>
-
-                    <div>
-                        <h3>Warriors</h3>
-                        <p>
-                            Discover legendary rulers and
-                            commanders.
-                        </p>
-                    </div>
-                </div>
-
-
-                <div class="about-highlight">
-                    <span class="highlight-number">02</span>
-
-                    <div>
-                        <h3>Kingdoms</h3>
-                        <p>
-                            Explore the empires and dynasties
-                            they built.
-                        </p>
-                    </div>
-                </div>
-
-
-                <div class="about-highlight">
-                    <span class="highlight-number">03</span>
-
-                    <div>
-                        <h3>Legacy</h3>
-                        <p>
-                            Understand the impact that
-                            remains today.
-                        </p>
-                    </div>
-                </div>
-
+              <div>
+                <h3>Kingdoms</h3>
+                <p>Explore the empires and dynasties they built.</p>
+              </div>
             </div>
 
+            <div class="about-highlight">
+              <span class="highlight-number">03</span>
+
+              <div>
+                <h3>Legacy</h3>
+                <p>Understand the impact that remains today.</p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
 
-    </div>
-
-</section>
-
-
-<!-- ==================================================
+    <!-- ==================================================
      FOOTER
 ================================================== -->
 
-<footer class="site-footer">
-
-    <div class="footer-container">
-
+    <footer class="site-footer">
+      <div class="footer-container">
         <div class="footer-brand">
+          <a href="index.html" class="footer-logo"> Eternal Bharat </a>
 
-            <a href="index.html" class="footer-logo">
-                Eternal Bharat
-            </a>
-
-            <p>
-                Preserving the stories of Bharat,
-                one legacy at a time.
-            </p>
-
+          <p>Preserving the stories of Bharat, one legacy at a time.</p>
         </div>
-
 
         <div class="footer-links">
-
-            <a href="index.html">Home</a>
-            <a href="warriors.html">Warriors</a>
-            <a href="kingdoms.html">Kingdoms</a>
-            <a href="battles.html">Battles</a>
-            <a href="timeline.html">Timeline</a>
-            <a href="about.html">About</a>
-
+          <a href="index.html">Home</a>
+          <a href="warriors.html">Warriors</a>
+          <a href="kingdoms.html">Kingdoms</a>
+          <a href="battles.html">Battles</a>
+          <a href="timeline.html">Timeline</a>
+          <a href="about.html">About</a>
         </div>
+      </div>
 
-    </div>
+      <div class="footer-bottom">
+        <p>© 2026 Eternal Bharat</p>
 
-
-    <div class="footer-bottom">
-
-        <p>
-            © 2026 Eternal Bharat
-        </p>
-
-        <p>
-            Built to remember. Designed to inspire.
-        </p>
-
-    </div>
-
-</footer>
+        <p>Built to remember. Designed to inspire.</p>
+      </div>
+    </footer>
 
     <!-- ==================================================
          JAVASCRIPT
@@ -451,7 +316,5 @@
     <script src="js/cursor.js"></script>
     <script src="js/loader.js"></script>
     <script src="js/main.js"></script>
-
-</body>
-
+  </body>
 </html>
