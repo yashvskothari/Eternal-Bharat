@@ -38,16 +38,29 @@
     ],
     "timeline": [
       {
+        "year": "c. 340 BCE",
+        "event": "Born into obscurity",
+        "description": "Chandragupta rose from humble origins under the mentorship of the strategist Chanakya (Kautilya), whose Arthashastra is traditionally linked to his court."
+      },
+      {
         "year": "c. 322 BCE",
-        "event": "Founded the Maurya Empire"
+        "event": "Founded the Maurya Empire",
+        "description": "Overthrew the unpopular Nanda dynasty of Magadha, founding the Maurya line and beginning the first pan-Indian imperial state."
       },
       {
         "year": "c. 305 BCE",
-        "event": "Treaty with Seleucus Nicator"
+        "event": "Treaty with Seleucus Nicator",
+        "description": "Victory over Alexander's successor in Asia secured the northwest frontier and brought war elephants and Hellenistic diplomatic ties to the young Maurya dynasty."
       },
       {
         "year": "c. 297 BCE",
-        "event": "Abdicated and later passed away"
+        "event": "Abdicated and later passed away",
+        "description": "Abdicated in favour of his son Bindusara, continuing the Maurya dynasty, and embraced Jain asceticism, reportedly ending his life at Shravanabelagola."
+      },
+      {
+        "year": "c. 268 BCE",
+        "event": "Dynasty reaches its height under Ashoka",
+        "description": "His grandson Ashoka, inheriting the empire through Bindusara, would carry the Maurya dynasty to its greatest territorial extent."
       }
     ],
     "achievements": [
@@ -103,15 +116,18 @@
     "timeline": [
       {
         "year": "c. 335 CE",
-        "event": "Ascended the Gupta throne"
+        "event": "Ascended the Gupta throne",
+        "description": "Succeeded his father Chandragupta I, transforming a regional Gupta principality into a dominant North Indian power."
       },
       {
         "year": "c. 350 CE",
-        "event": "Major expansion recorded in inscriptions"
+        "event": "Major expansion recorded in inscriptions",
+        "description": "The Prayaga Prashasti on the Allahabad Pillar, composed by his court poet Harishena, lists the many kings he defeated or brought to tributary submission across northern, eastern, and southern India."
       },
       {
         "year": "c. 380 CE",
-        "event": "Passed away; Chandragupta II succeeded"
+        "event": "Passed away; Chandragupta II succeeded",
+        "description": "His son Chandragupta II inherited and expanded the Gupta Empire, carrying the dynasty into what is remembered as India's classical golden age."
       }
     ],
     "achievements": [
@@ -172,15 +188,23 @@
     "timeline": [
       {
         "year": "c. 610 CE",
-        "event": "Became Chalukya emperor"
+        "event": "Became Chalukya emperor",
+        "description": "Ascended the throne after a contested succession and rapidly rebuilt the Chalukya kingdom his family had founded in the western Deccan."
       },
       {
         "year": "c. 618 CE",
-        "event": "Defeated Harsha on the Narmada"
+        "event": "Defeated Harsha on the Narmada",
+        "description": "Halted the southward advance of the powerful North Indian emperor Harshavardhana, a victory recorded by the Chinese monk Xuanzang."
+      },
+      {
+        "year": "c. 624 CE",
+        "event": "Installed the Eastern Chalukya branch",
+        "description": "Placed his brother Vishnuvardhana on a new Eastern Chalukya throne in the Andhra region, extending the dynasty's reach across the Deccan."
       },
       {
         "year": "642 CE",
-        "event": "Died during Pallava invasion of Vatapi"
+        "event": "Died during Pallava invasion of Vatapi",
+        "description": "His capital fell to a Pallava counter-attack under Narasimhavarman I; the Badami Chalukya dynasty would later be restored by his successors."
       }
     ],
     "achievements": [
@@ -241,20 +265,24 @@
     ],
     "timeline": [
       {
-        "year": "c.713",
-        "event": "Birth of Bappa Rawal"
+        "year": "c. 713",
+        "event": "Birth of Bappa Rawal",
+        "description": "Born a prince of the Guhila line who, after the killing of his father, was raised in hiding before reclaiming his ancestral homeland, according to Mewari tradition."
       },
       {
-        "year": "c.734",
-        "event": "Captured Chittorgarh"
+        "year": "c. 734",
+        "event": "Captured Chittorgarh",
+        "description": "Wrested Chittorgarh from local rulers and made it the seat of Guhila power, the founding act of the Mewar dynasty."
       },
       {
-        "year": "c.753",
-        "event": "Established Mewar's dominance"
+        "year": "c. 753",
+        "event": "Established Mewar's dominance",
+        "description": "Bardic accounts connect this period with resistance to Arab incursions advancing from Sindh into western India."
       },
       {
-        "year": "c.810",
-        "event": "Death of Bappa Rawal"
+        "year": "c. 810",
+        "event": "Death of Bappa Rawal",
+        "description": "Became the foundational figure from whom later Guhila and Sisodia rulers of Mewar, including Rana Sanga and Maharana Pratap, traced their line."
       }
     ],
     "achievements": [
@@ -315,15 +343,23 @@
     "timeline": [
       {
         "year": "985 CE",
-        "event": "Ascended the Chola throne"
+        "event": "Ascended the Chola throne",
+        "description": "Came to power and, over nearly three decades, turned a regional Tamil kingdom into the dominant power of South India and the Indian Ocean."
+      },
+      {
+        "year": "c. 1000 CE",
+        "event": "Conquered the Cheras, Pandyas, and northern Sri Lanka",
+        "description": "Extended Chola authority to the Maldive islands, building one of the earliest large-scale navies in Indian history."
       },
       {
         "year": "1010 CE",
-        "event": "Consecrated Brihadisvara Temple"
+        "event": "Consecrated Brihadisvara Temple",
+        "description": "Commissioned the towering temple at Thanjavur as both a religious and political statement of Chola dynastic power."
       },
       {
         "year": "1014 CE",
-        "event": "Passed away"
+        "event": "Passed away",
+        "description": "Succeeded by his son Rajendra I, who carried Chola naval campaigns as far as Southeast Asia, continuing the dynasty's imperial expansion."
       }
     ],
     "achievements": [
@@ -333,7 +369,10 @@
       "Laid the groundwork for his son Rajendra I's Southeast Asian campaigns"
     ],
     "legacy": "Raja Raja Chola I represents the golden age of Tamil civilisation — a period of architectural grandeur, administrative sophistication, and imperial reach across the Indian Ocean. The Brihadisvara Temple still stands as a testament to the scale of his ambition.",
-    "references": ["Chola inscriptions", "Tamil historical texts"]
+    "references": [
+      "Chola inscriptions",
+      "Tamil historical texts"
+    ]
   },
   {
     "id": "prithviraj-chauhan",
@@ -381,15 +420,23 @@
     "timeline": [
       {
         "year": "c. 1178",
-        "event": "Became Chauhan king"
+        "event": "Became Chauhan king",
+        "description": "Inherited the Chahamana throne of Ajmer as a boy and, on reaching adulthood, extended his authority over Delhi, recently absorbed by the dynasty."
       },
       {
         "year": "1191",
-        "event": "Victory in the First Battle of Tarain"
+        "event": "Victory in the First Battle of Tarain",
+        "description": "Defeated the Ghurid ruler Muhammad of Ghor, defending the Chahamana frontier against invasion from Central Asia."
       },
       {
         "year": "1192",
-        "event": "Defeated in the Second Battle of Tarain"
+        "event": "Defeated in the Second Battle of Tarain",
+        "description": "Muhammad of Ghor returned with a larger force; the Chahamana army was defeated and Prithviraj was captured, later accounts differing on the manner of his death."
+      },
+      {
+        "year": "12th–13th c.",
+        "event": "Legacy shaped by the Prithviraj Raso",
+        "description": "His court poet Chand Bardai's epic, composed and expanded over later centuries, cemented his image in Rajput memory even as the Chahamana dynasty's power in Delhi ended."
       }
     ],
     "achievements": [
@@ -444,15 +491,18 @@
     "timeline": [
       {
         "year": "1302",
-        "event": "Ascended the throne"
+        "event": "Ascended the throne",
+        "description": "Ruled Mewar from Chittorgarh as the Guhila dynasty's seat, at a time when the Delhi Sultanate under Alauddin Khalji was aggressively expanding."
       },
       {
         "year": "1303",
-        "event": "Siege of Chittorgarh"
+        "event": "Siege of Chittorgarh",
+        "description": "Alauddin Khalji laid siege to the Mewar capital; after months of resistance, the fort fell to the Sultanate."
       },
       {
         "year": "1303",
-        "event": "Death during the defense of Chittorgarh"
+        "event": "Death during the defense of Chittorgarh",
+        "description": "The fall of Chittorgarh marked a major setback for the Guhila dynasty, which would take decades to recover its former standing in Mewar."
       }
     ],
     "achievements": [
@@ -517,19 +567,28 @@
     "timeline": [
       {
         "year": "1433",
-        "event": "Ascended the throne"
+        "event": "Ascended the throne",
+        "description": "Inherited the Mewar throne as a Sisodia ruler and, over three-and-a-half decades, made it the most powerful Rajput kingdom of its era."
+      },
+      {
+        "year": "c. 1437",
+        "event": "Victory at the Battle of Sarangpur",
+        "description": "Decisively defeated the combined forces of the Sultans of Malwa and Gujarat, a triumph he commemorated with the Vijay Stambha."
       },
       {
         "year": "1448",
-        "event": "Constructed Vijay Stambha"
+        "event": "Constructed Vijay Stambha",
+        "description": "Built the Tower of Victory at Chittorgarh to mark his triumph over the Malwa and Gujarat Sultanates."
       },
       {
         "year": "1458",
-        "event": "Completed Kumbhalgarh Fort"
+        "event": "Completed Kumbhalgarh Fort",
+        "description": "Credited with constructing or restoring more than thirty forts across Mewar, most famously the vast hilltop fortress of Kumbhalgarh."
       },
       {
         "year": "1468",
-        "event": "Death of Maharana Kumbha"
+        "event": "Death of Maharana Kumbha",
+        "description": "Killed by his own son, Udai Singh I (Uda); the Sisodia line he had strengthened would continue through his descendants, including Rana Sanga."
       }
     ],
     "achievements": [
@@ -590,15 +649,23 @@
     "timeline": [
       {
         "year": "1509",
-        "event": "Crowned emperor of Vijayanagara"
+        "event": "Crowned emperor of Vijayanagara",
+        "description": "Became emperor of the Tuluva dynasty and, over roughly two decades, brought the Vijayanagara Empire to the height of its power."
       },
       {
         "year": "1520",
-        "event": "Victory at Raichur"
+        "event": "Victory at Raichur",
+        "description": "Captured the strategic fortress of Raichur from the Bijapur Sultanate after a hard-fought campaign, extending Vijayanagara authority toward the eastern coast."
+      },
+      {
+        "year": "1520s",
+        "event": "Patron of Hampi's golden age",
+        "description": "His court at Hampi became a renowned centre of literature, home to the eight celebrated poets known as the Ashtadiggajas."
       },
       {
         "year": "1529",
-        "event": "Passed away"
+        "event": "Passed away",
+        "description": "His death marked the end of the Tuluva dynasty's most celebrated reign, though Vijayanagara continued under his successors for decades afterward."
       }
     ],
     "achievements": [
@@ -660,15 +727,23 @@
     "timeline": [
       {
         "year": "1509",
-        "event": "Became Maharana of Mewar"
+        "event": "Became Maharana of Mewar",
+        "description": "Took the Sisodia throne despite earlier battle injuries and went on to become the most powerful Rajput ruler of his generation."
+      },
+      {
+        "year": "c. 1518–1519",
+        "event": "Defeated the Sultans of Malwa and Gujarat",
+        "description": "Extended Mewar's influence over a wide swath of Rajasthan and Malwa, assembling a large confederacy of Rajput chiefs under Sisodia leadership."
       },
       {
         "year": "1527",
-        "event": "Battle of Khanwa against Babur"
+        "event": "Battle of Khanwa against Babur",
+        "description": "Led the Rajput confederacy against the newly arrived Mughal power; despite a numerical advantage, Babur's artillery and tactics prevailed, and Sanga was severely wounded."
       },
       {
         "year": "1528",
-        "event": "Passed away"
+        "event": "Passed away",
+        "description": "His death left the Sisodia dynasty of Mewar to carry forward Rajput resistance under his descendants, including his grandson Maharana Pratap."
       }
     ],
     "achievements": [
@@ -678,7 +753,10 @@
       "Remembered for personal courage despite severe battle injuries"
     ],
     "legacy": "Rana Sanga symbolises Rajput unity and the fierce resistance to foreign domination in early 16th-century India. Though defeated at Khanwa, his confederacy represented the last major coordinated Rajput challenge to Mughal power for a generation.",
-    "references": ["Rajput chronicles", "Mughal historical accounts"]
+    "references": [
+      "Rajput chronicles",
+      "Mughal historical accounts"
+    ]
   },
   {
     "id": "maharana-udai-singh-ii",
@@ -731,19 +809,28 @@
     "timeline": [
       {
         "year": "1522",
-        "event": "Birth of Udai Singh II"
+        "event": "Birth of Udai Singh II",
+        "description": "Survived an assassination attempt as an infant, saved according to tradition by his nursemaid Panna Dhai, before eventually taking the Sisodia throne."
       },
       {
         "year": "1540",
-        "event": "Became ruler of Mewar"
+        "event": "Became ruler of Mewar",
+        "description": "Took the throne of Mewar as growing Mughal expansion under Akbar placed increasing pressure on the Sisodia dynasty."
       },
       {
         "year": "1559",
-        "event": "Founded Udaipur"
+        "event": "Founded Udaipur",
+        "description": "Founded a new city on the shores of Lake Pichola, which would become Mewar's capital after the fall of Chittorgarh."
+      },
+      {
+        "year": "1567–1568",
+        "event": "Mughal siege of Chittorgarh",
+        "description": "Withdrew to the hills rather than making a last stand, a decision that preserved the Sisodia line to fight another day."
       },
       {
         "year": "1572",
-        "event": "Death at Gogunda"
+        "event": "Death at Gogunda",
+        "description": "His son Maharana Pratap succeeded him, carrying on the Sisodia dynasty's resistance to Mughal authority."
       }
     ],
     "achievements": [
@@ -816,19 +903,28 @@
     "timeline": [
       {
         "year": "1540",
-        "event": "Born at Kumbhalgarh"
+        "event": "Born at Kumbhalgarh",
+        "description": "Born into the Sisodia dynasty of Mewar, son of Maharana Udai Singh II, founder of Udaipur."
       },
       {
         "year": "1572",
-        "event": "Ascended the throne of Mewar"
+        "event": "Ascended the throne of Mewar",
+        "description": "Became the thirteenth Sisodia ruler of Mewar, inheriting a kingdom already under severe pressure from Akbar's Mughal Empire."
       },
       {
         "year": "1576",
-        "event": "Battle of Haldighati"
+        "event": "Battle of Haldighati",
+        "description": "Met a large Mughal force led by Man Singh of Amber; though the battle was not a decisive Mughal victory, Pratap was forced to retreat into the Aravalli hills."
+      },
+      {
+        "year": "1576–1585",
+        "event": "Guerrilla campaign in the Aravallis",
+        "description": "Waged a sustained resistance, aided famously by his horse Chetak, gradually reclaiming much of Mewar's territory, including his capital at Chavand."
       },
       {
         "year": "1597",
-        "event": "Passed away at Chavand"
+        "event": "Passed away at Chavand",
+        "description": "Died having never formally submitted to Mughal authority, passing the Sisodia throne on with Mewar's independence intact."
       }
     ],
     "achievements": [
@@ -906,19 +1002,28 @@
     "timeline": [
       {
         "year": "1630",
-        "event": "Born at Shivneri Fort"
+        "event": "Born at Shivneri Fort",
+        "description": "Born into the Bhonsle family and, from his teenage years, began seizing hill forts from the declining Bijapur Sultanate, laying the foundation of the Maratha dynasty."
       },
       {
         "year": "1645",
-        "event": "Captured Torna Fort"
+        "event": "Captured Torna Fort",
+        "description": "An early conquest that marked the beginning of an independent Maratha state built around a network of Sahyadri hill forts."
+      },
+      {
+        "year": "1659",
+        "event": "Defeated Afzal Khan",
+        "description": "Outmanoeuvred and killed the Bijapuri general in single combat, a turning point that established Shivaji as a major regional power."
       },
       {
         "year": "1674",
-        "event": "Coronation at Raigad"
+        "event": "Coronation at Raigad",
+        "description": "Formally crowned Chhatrapati, founding the Bhonsle royal dynasty and giving institutional form to the Maratha kingdom."
       },
       {
         "year": "1680",
-        "event": "Passed away at Raigad"
+        "event": "Passed away at Raigad",
+        "description": "Succeeded by his son Sambhaji, continuing the Bhonsle dynasty's pursuit of swarajya."
       }
     ],
     "achievements": [
@@ -979,15 +1084,23 @@
     "timeline": [
       {
         "year": "1657",
-        "event": "Born to Shivaji Maharaj"
+        "event": "Born to Shivaji Maharaj",
+        "description": "Born into the Bhonsle dynasty as heir to the Maratha kingdom his father had founded."
       },
       {
         "year": "1681",
-        "event": "Became Chhatrapati"
+        "event": "Became Chhatrapati",
+        "description": "Succeeded Shivaji as Chhatrapati just as the Mughal emperor Aurangzeb personally moved his court south to crush the Marathas."
+      },
+      {
+        "year": "1681–1689",
+        "event": "Sustained defensive war across the Deccan",
+        "description": "Defended Maratha forts and territory against a far larger Mughal army while also facing the Portuguese, the Siddis of Janjira, and Mysore."
       },
       {
         "year": "1689",
-        "event": "Martyrdom at Tulapur"
+        "event": "Martyrdom at Tulapur",
+        "description": "Captured near Sangameshwar and executed on Aurangzeb's orders after refusing to convert or betray Maratha forts; his death hardened rather than broke the Bhonsle dynasty's resistance."
       }
     ],
     "achievements": [
@@ -997,7 +1110,10 @@
       "Remembered as a martyr of the swarajya movement"
     ],
     "legacy": "Sambhaji Maharaj is honoured for unyielding courage in the darkest years of the Maratha struggle. His execution became a rallying point that intensified, rather than ended, Maratha resistance to Mughal rule.",
-    "references": ["Maratha bakhars", "Mughal Deccan records"]
+    "references": [
+      "Maratha bakhars",
+      "Mughal Deccan records"
+    ]
   },
   {
     "id": "lachit-borphukan",
@@ -1045,15 +1161,23 @@
     "timeline": [
       {
         "year": "1667",
-        "event": "Appointed Borphukan"
+        "event": "Appointed Borphukan",
+        "description": "Made supreme military commander of the Ahom kingdom, founded centuries earlier by the Tai-Ahom leader Sukaphaa, as Mughal forces pressed into Assam."
+      },
+      {
+        "year": "1667–1671",
+        "event": "Recaptured Guwahati",
+        "description": "Led a determined campaign to retake territory seized by Mughal forces under the Bengal governor."
       },
       {
         "year": "1671",
-        "event": "Victory at Saraighat"
+        "event": "Victory at Saraighat",
+        "description": "Halted a large Mughal counter-offensive on the Brahmaputra using a fleet of light Ahom boats, the last major Mughal attempt to conquer Assam."
       },
       {
         "year": "1672",
-        "event": "Passed away shortly after the war"
+        "event": "Passed away shortly after the war",
+        "description": "Died having secured the independence of the Ahom kingdom, which continued under Sukaphaa's dynasty for over a century more."
       }
     ],
     "achievements": [
@@ -1063,7 +1187,10 @@
       "Became Assam's most honoured military icon"
     ],
     "legacy": "Lachit Borphukan is remembered as the guardian of the East — a commander who placed duty above all else, even at the cost of his own health and family ties. India's National Defence Academy awards a gold medal named in his honour to this day.",
-    "references": ["Ahom buranjis", "Assam historical chronicles"]
+    "references": [
+      "Ahom buranjis",
+      "Assam historical chronicles"
+    ]
   },
   {
     "id": "bajirao",
@@ -1110,15 +1237,23 @@
     "timeline": [
       {
         "year": "1720",
-        "event": "Became Peshwa at a young age"
+        "event": "Became Peshwa at a young age",
+        "description": "Appointed chief minister of the Maratha Empire, founded by Shivaji's Bhonsle dynasty, at just twenty years old, beginning the rise of the Bhat Peshwa line."
       },
       {
         "year": "1728",
-        "event": "Victory at Palkhed"
+        "event": "Victory at Palkhed",
+        "description": "Defeated the Nizam of Hyderabad using rapid cavalry manoeuvres, part of a career of more than forty engagements without a major defeat."
+      },
+      {
+        "year": "1737",
+        "event": "Raid to the outskirts of Delhi",
+        "description": "Led a daring campaign that reached the Mughal capital itself, humbling the court and extending Maratha influence deep into North India."
       },
       {
         "year": "1740",
-        "event": "Passed away on campaign"
+        "event": "Passed away on campaign",
+        "description": "Died still undefeated in the field; the Peshwa office he had elevated continued under his descendants as the effective head of the Maratha confederacy."
       }
     ],
     "achievements": [
@@ -1128,7 +1263,10 @@
       "Built Shaniwar Wada as the Peshwa's seat of power in Pune"
     ],
     "legacy": "Bajirao I is remembered as one of India's finest cavalry generals — the Peshwa who made the Maratha shadow fall across the subcontinent and set the stage for Maratha dominance over much of India in the decades that followed.",
-    "references": ["Peshwa daftars", "Maratha chronicles"]
+    "references": [
+      "Peshwa daftars",
+      "Maratha chronicles"
+    ]
   },
   {
     "id": "ahilyabai-holkar",
@@ -1164,19 +1302,23 @@
     "timeline": [
       {
         "year": "1725",
-        "event": "Born at Chondi"
+        "event": "Born at Chondi",
+        "description": "Married into the Holkar family as a child, later taking direct control of the state after the deaths of her husband, father-in-law Malharrao Holkar, and son."
       },
       {
         "year": "1767",
-        "event": "Became ruler of the Holkar Kingdom"
+        "event": "Became ruler of the Holkar Kingdom",
+        "description": "Took charge of the Holkar dynasty's territory with the support of the Maratha court, ruling from Maheshwar rather than the traditional capital of Indore."
       },
       {
         "year": "1780s",
-        "event": "Restored major temples across India"
+        "event": "Restored major temples across India",
+        "description": "Used state resources to fund temple building, dharamshalas, wells, and roads from Kashi Vishwanath and Somnath to Ayodhya, Dwarka, and Rameswaram."
       },
       {
         "year": "1795",
-        "event": "Passed away at Maheshwar"
+        "event": "Passed away at Maheshwar",
+        "description": "Left behind a Holkar state renowned for just governance and religious patronage that outlasted her own reign."
       }
     ],
     "achievements": [
@@ -1237,16 +1379,34 @@
     ],
     "timeline": [
       {
+        "year": "1780s",
+        "event": "Inherited leadership of the Sukerchakia misl",
+        "description": "Took charge of his family's Sikh misl as a boy, the foundation from which he would later unify Punjab's fractious misls."
+      },
+      {
+        "year": "1799",
+        "event": "Captured Lahore",
+        "description": "Used the city as the base from which he unified the Sikh misls of Punjab into a single kingdom."
+      },
+      {
         "year": "1801",
-        "event": "Proclaimed Maharaja of Punjab"
+        "event": "Proclaimed Maharaja of Punjab",
+        "description": "Formally founded the Sikh Empire, drawing Hindu, Muslim, Sikh, and European officials into a notably plural court and administration."
+      },
+      {
+        "year": "1809",
+        "event": "Treaty of Amritsar",
+        "description": "Fixed the Sutlej as a boundary with the British East India Company, preserving peace during his lifetime."
       },
       {
         "year": "1813",
-        "event": "Captured Attock"
+        "event": "Captured Attock",
+        "description": "Expanded the Sikh Empire toward Kashmir and Peshawar as part of decades of territorial growth."
       },
       {
         "year": "1839",
-        "event": "Passed away in Lahore"
+        "event": "Passed away in Lahore",
+        "description": "The kingdom he built was annexed by the British a decade later, after succession struggles weakened the dynasty he had founded."
       }
     ],
     "achievements": [
@@ -1256,7 +1416,10 @@
       "Maintained peace with the British through the Treaty of Amritsar, 1809"
     ],
     "legacy": "Maharaja Ranjit Singh is remembered as the Lion of Punjab — a ruler who built a strong, prosperous, and religiously plural empire through vision and valour. The kingdom's fall within a decade of his death is often attributed to the succession struggles that followed his passing.",
-    "references": ["Sikh historical chronicles", "Punjab court records"]
+    "references": [
+      "Sikh historical chronicles",
+      "Punjab court records"
+    ]
   },
   {
     "id": "laxmibai",
@@ -1304,15 +1467,23 @@
     "timeline": [
       {
         "year": "1842",
-        "event": "Married Maharaja Gangadhar Rao"
+        "event": "Married Maharaja Gangadhar Rao",
+        "description": "Married into the Newalkar dynasty of Jhansi, having been trained from childhood in horsemanship, swordsmanship, and self-defence."
+      },
+      {
+        "year": "1853",
+        "event": "Husband's death and British annexation",
+        "description": "When Gangadhar Rao died leaving an adopted heir, the British East India Company invoked the Doctrine of Lapse to annex Jhansi, a decision Lakshmibai resisted."
       },
       {
         "year": "1857",
-        "event": "Revolt of 1857 begins"
+        "event": "Revolt of 1857 begins",
+        "description": "Took direct command of Jhansi's defence as the uprising against British rule reached the state."
       },
       {
         "year": "1858",
-        "event": "Martyrdom at Gwalior"
+        "event": "Martyrdom at Gwalior",
+        "description": "Escaped the besieged city with her son after Hugh Rose's forces captured it, and was killed in action near Gwalior fighting alongside other rebel leaders."
       }
     ],
     "achievements": [
@@ -1322,6 +1493,9 @@
       "Remains an enduring inspiration for later Indian freedom movements"
     ],
     "legacy": "Rani Lakshmibai remains one of India's most celebrated freedom fighters — remembered for leading from the front and choosing death over surrender. British officers who fought against her, including Hugh Rose, are recorded as praising her courage and skill as a commander.",
-    "references": ["1857 Revolt historical records", "Jhansi state chronicles"]
+    "references": [
+      "1857 Revolt historical records",
+      "Jhansi state chronicles"
+    ]
   }
 ]

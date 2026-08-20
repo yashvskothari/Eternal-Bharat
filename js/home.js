@@ -43,9 +43,14 @@ document.addEventListener("DOMContentLoaded", async () => {
             kingdomGrid.innerHTML = preview
                 .map(
                     (k) => `
-                <div class="kingdom-card">
-                    <h3><a href="kingdom.html?id=${k.id}">${k.name}</a></h3>
-                </div>
+                <a class="kingdom-card" href="kingdom.html?id=${k.id}">
+                    <div class="kingdom-card-image">
+                        <img src="${k.mapImage || k.image}" alt="${k.name} map" loading="lazy">
+                    </div>
+                    <div class="kingdom-card-content">
+                        <h3>${k.name}</h3>
+                    </div>
+                </a>
             `
                 )
                 .join("");

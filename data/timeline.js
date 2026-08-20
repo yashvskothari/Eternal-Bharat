@@ -8,7 +8,7 @@ window.EB_DATA.timeline = [
     "era": "ancient",
     "category": "kingdoms",
     "title": "Rise of Magadha",
-    "description": "Magadha emerges as a dominant mahajanapada in the Gangetic plains.",
+    "description": "Placeholder — Magadha emerges as a dominant mahajanapada in the Gangetic plains.",
     "placeholder": true
   },
   {
@@ -29,7 +29,7 @@ window.EB_DATA.timeline = [
     "era": "ancient",
     "category": "rulers",
     "title": "Ashoka's reign begins",
-    "description": "Ashoka inherits the Maurya throne; later edicts spread the idea of dhamma.",
+    "description": "Placeholder — Ashoka inherits the Maurya throne; later edicts spread the idea of dhamma.",
     "placeholder": true,
     "kingdomId": "maurya"
   },
@@ -83,7 +83,7 @@ window.EB_DATA.timeline = [
     "era": "early-medieval",
     "category": "milestones",
     "title": "Brihadisvara Temple consecrated",
-    "description": "Raja Raja I consecrates the great temple at Thanjavur.",
+    "description": "Placeholder — Raja Raja I consecrates the great temple at Thanjavur.",
     "placeholder": true,
     "warriorId": "chola",
     "kingdomId": "chola"
@@ -95,8 +95,20 @@ window.EB_DATA.timeline = [
     "era": "early-medieval",
     "category": "battles",
     "title": "First Battle of Tarain",
-    "description": "Prithviraj Chauhan defeats Muhammad of Ghor in the first encounter.",
+    "description": "Placeholder — Prithviraj Chauhan defeats Muhammad of Ghor in the first encounter.",
     "placeholder": true,
+    "warriorId": "prithviraj-chauhan",
+    "kingdomId": "chauhan"
+  },
+  {
+    "id": "tarain-2",
+    "year": "1192 CE",
+    "sort": 1192,
+    "era": "early-medieval",
+    "category": "battles",
+    "title": "Second Battle of Tarain",
+    "description": "Prithviraj Chauhan is defeated, opening North India to the Delhi Sultanate.",
+    "battleId": "tarain-2",
     "warriorId": "prithviraj-chauhan",
     "kingdomId": "chauhan"
   },
@@ -138,7 +150,7 @@ window.EB_DATA.timeline = [
     "era": "medieval",
     "category": "battles",
     "title": "Battle of Raichur",
-    "description": "Krishnadevaraya wins a major victory in the Raichur Doab.",
+    "description": "Placeholder — Krishnadevaraya wins a major victory in the Raichur Doab.",
     "placeholder": true,
     "warriorId": "kdr",
     "kingdomId": "vijayanagara"
@@ -150,7 +162,7 @@ window.EB_DATA.timeline = [
     "era": "early-modern",
     "category": "battles",
     "title": "Battle of Khanwa",
-    "description": "The Battle of Khanwa in 1527, a critical moment when a grand alliance under Rana Sanga fought bravely to restore native rule and protect the sacred identity of the land.",
+    "description": "Rana Sanga's Rajput confederacy meets Babur in a battle that confirms early Mughal power.",
     "battleId": "khanwa",
     "warriorId": "rana-sanga",
     "kingdomId": "mewar"
@@ -162,7 +174,7 @@ window.EB_DATA.timeline = [
     "era": "early-modern",
     "category": "rulers",
     "title": "Birth of Maharana Pratap",
-    "description": "The mighty fort of Kumbhalgarh witnessed a truly great day—the birth of Mewar's bravest hero and protector. Maharana Pratap was born.",
+    "description": "The future ruler of Mewar is born at Kumbhalgarh.",
     "warriorId": "maharana-pratap",
     "kingdomId": "mewar"
   },
@@ -173,7 +185,7 @@ window.EB_DATA.timeline = [
     "era": "early-modern",
     "category": "battles",
     "title": "Second Battle of Panipat",
-    "description": "Samrat Hemchandra Vikramaditya brought indigenous sovereignty to the brink of restoration at Panipat, holding a record of 22 consecutive victories. Despite dominating the battlefield during the conflict, his forces faced defeat at the end, which led to the restoration of Mughal power.",
+    "description": "Mughal restoration is secured after the challenge of Hemu.",
     "battleId": "panipat-2"
   },
   {
@@ -183,7 +195,7 @@ window.EB_DATA.timeline = [
     "era": "early-modern",
     "category": "battles",
     "title": "Battle of Talikota",
-    "description": "The Battle of Talikota witnessed a tragic onslaught against Sanatan civilization, as the magnificent city of Hampi—the jewel of the Vijayanagara Empire—was subjected to months of savage destruction by the Deccan Sultanates.",
+    "description": "Placeholder — the Deccan Sultanates sack Vijayanagara; Hampi never recovers its imperial splendour.",
     "placeholder": true,
     "kingdomId": "vijayanagara"
   },
@@ -194,7 +206,7 @@ window.EB_DATA.timeline = [
     "era": "early-modern",
     "category": "battles",
     "title": "Battle of Haldighati",
-    "description": "A legendary confrontation between Maharana Pratap and Mughal forces. Though wounded, his strategic retreat into the Aravalli hills—saved by the ultimate sacrifice of his legendary horse, Chetak—laid the groundwork for a brilliant lifelong guerrilla resistance. The Mughals gained an empty mountain pass, failing to capture the Maharana.",
+    "description": "A legendary confrontation between Maharana Pratap and Mughal forces.",
     "battleId": "haldighati",
     "warriorId": "maharana-pratap",
     "kingdomId": "mewar"
@@ -206,7 +218,7 @@ window.EB_DATA.timeline = [
     "era": "early-modern",
     "category": "battles",
     "title": "Battle of Dewair",
-    "description": "Through years of brilliant guerrilla warfare, Maharana Pratap struck relentless blows against the occupying Mughal forces to stop their savage looting of his homeland.",
+    "description": "Maharana Pratap recovers large parts of Mewar after years of guerrilla war.",
     "battleId": "dewair",
     "warriorId": "maharana-pratap",
     "kingdomId": "mewar"
@@ -218,7 +230,7 @@ window.EB_DATA.timeline = [
     "era": "early-modern",
     "category": "battles",
     "title": "Battle of Pratapgad",
-    "description": "Chhatrapati Shivaji Maharaj completely outmanoeuvred the massive Adilshahi army and personally struck down Afzal Khan.",
+    "description": "Shivaji Maharaj defeats Afzal Khan and secures a founding Maratha victory.",
     "battleId": "pratapgad",
     "warriorId": "shivaji",
     "kingdomId": "maratha"
@@ -230,7 +242,7 @@ window.EB_DATA.timeline = [
     "era": "early-modern",
     "category": "battles",
     "title": "Battle of Sinhagad",
-    "description": "Tanaji Malusare led a daring night assault to recapture the Kondhana fort from control of Mughal forces.",
+    "description": "Kondhana is recaptured in a night assault remembered for Tanaji Malusare.",
     "battleId": "sinhagad",
     "warriorId": "shivaji",
     "kingdomId": "maratha"
@@ -242,7 +254,7 @@ window.EB_DATA.timeline = [
     "era": "early-modern",
     "category": "battles",
     "title": "Battle of Saraighat",
-    "description": "Commander Lachit Borphukan led the Ahom naval forces to a major victory against the invading Mughal army on the Brahmaputra River. ",
+    "description": "Lachit Borphukan leads the Ahoms to a riverine victory on the Brahmaputra.",
     "battleId": "saraighat",
     "warriorId": "lachit-borphukan",
     "kingdomId": "ahom"
@@ -254,7 +266,7 @@ window.EB_DATA.timeline = [
     "era": "early-modern",
     "category": "rulers",
     "title": "Coronation of Chhatrapati Shivaji Maharaj",
-    "description": "The grand coronation at Raigad Fort marked the formal establishment of the Maratha Empire under indigenous sovereignty.",
+    "description": "The Maratha Empire is formally established at Raigad.",
     "warriorId": "shivaji",
     "kingdomId": "maratha"
   },
@@ -276,7 +288,7 @@ window.EB_DATA.timeline = [
     "era": "early-modern",
     "category": "battles",
     "title": "Battle of Palkhed",
-    "description": "Peshwa Bajirao I utilized swift cavalry movements and strategic isolation tactics to completely outmanoeuvre the large army of the Nizam of Hyderabad.",
+    "description": "Placeholder — Peshwa Bajirao I outmanoeuvres the Nizam in a classic cavalry campaign.",
     "placeholder": true,
     "warriorId": "bajirao",
     "kingdomId": "maratha"
@@ -288,7 +300,7 @@ window.EB_DATA.timeline = [
     "era": "modern",
     "category": "kingdoms",
     "title": "Sikh Empire proclaimed",
-    "description": "Maharaja Ranjit Singh successfully consolidated various independent regional factions across Punjab to establish a centralized sovereign kingdom. His unified administration put an end to periodic foreign invasions, creating a stable political structure for the local population.",
+    "description": "Maharaja Ranjit Singh unifies Punjab and lays the foundation of the Sikh Empire.",
     "warriorId": "ranjit-singh",
     "kingdomId": "sikh"
   },
@@ -299,7 +311,7 @@ window.EB_DATA.timeline = [
     "era": "modern",
     "category": "battles",
     "title": "Battle of Attock",
-    "description": "The military forces of the Sikh Empire launched a successful campaign to capture the strategic gateway of Attock along the Indus River. ",
+    "description": "The Sikh Empire takes the Indus gateway of Attock.",
     "battleId": "attock",
     "warriorId": "ranjit-singh",
     "kingdomId": "sikh"
@@ -311,7 +323,7 @@ window.EB_DATA.timeline = [
     "era": "modern",
     "category": "milestones",
     "title": "The Revolt of 1857",
-    "description": "Rani Lakshmibai stood as a key native leader during the widespread uprising against the expanding authority of the British East India Company. She actively mobilized local resources to protect regional autonomy and defend her territories from annexation.",
+    "description": "Placeholder — a widespread uprising that turns princely resistance into a national memory.",
     "placeholder": true,
     "warriorId": "laxmibai",
     "kingdomId": "jhansi"
@@ -323,7 +335,7 @@ window.EB_DATA.timeline = [
     "era": "modern",
     "category": "battles",
     "title": "Siege of Jhansi",
-    "description": "Rani Lakshmibai actively defended the Jhansi fort during a prolonged assault by colonial forces, leading her troops directly on the battlefield.",
+    "description": "Rani Lakshmibai defends her fort during the revolt, becoming a lasting symbol of resistance.",
     "battleId": "jhansi",
     "warriorId": "laxmibai",
     "kingdomId": "jhansi"

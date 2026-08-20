@@ -32,15 +32,28 @@ window.EB_DATA.kingdoms = [
     "timeline": [
       {
         "year": "322 BCE",
-        "event": "Chandragupta founds the empire"
+        "event": "Chandragupta founds the empire",
+        "description": "Chandragupta Maurya overthrew the Nanda dynasty of Magadha with the counsel of Chanakya, founding the Maurya dynasty and the first pan-Indian imperial state."
+      },
+      {
+        "year": "c. 305 BCE",
+        "event": "Treaty with Seleucus Nicator",
+        "description": "Victory over Alexander's successor secured the northwest frontier and opened diplomatic ties to the Hellenistic world."
+      },
+      {
+        "year": "c. 297 BCE",
+        "event": "Bindusara succeeds Chandragupta",
+        "description": "Chandragupta abdicated in favour of his son, continuing the Maurya dynasty's rule from Pataliputra."
       },
       {
         "year": "c. 268 BCE",
-        "event": "Ashoka's reign begins"
+        "event": "Ashoka's reign begins",
+        "description": "Chandragupta's grandson brought the Maurya dynasty to its greatest territorial extent before turning to the promotion of dhamma after the Kalinga war."
       },
       {
         "year": "185 BCE",
-        "event": "Maurya rule ends"
+        "event": "Maurya rule ends",
+        "description": "The dynasty's decline closed the first great chapter of pan-Indian imperial statecraft, though its administrative model influenced Indian statecraft for centuries."
       }
     ],
     "achievements": [
@@ -54,7 +67,8 @@ window.EB_DATA.kingdoms = [
       "Arthashastra tradition",
       "Ashokan edicts",
       "Greek accounts"
-    ]
+    ],
+    "mapImage": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/maurya/map.png"
   },
   {
     "id": "gupta",
@@ -86,15 +100,23 @@ window.EB_DATA.kingdoms = [
     "timeline": [
       {
         "year": "c. 320 CE",
-        "event": "Chandragupta I consolidates Gupta power"
+        "event": "Chandragupta I consolidates Gupta power",
+        "description": "Founded the Gupta dynasty from a Magadhan base, laying the groundwork for a classical age of Indian civilisation."
       },
       {
         "year": "c. 335 CE",
-        "event": "Samudragupta's expansion"
+        "event": "Samudragupta's expansion",
+        "description": "Samudragupta succeeded his father and, through conquest and tributary alliances recorded on the Allahabad Pillar, extended Gupta power across most of North India."
+      },
+      {
+        "year": "c. 380 CE",
+        "event": "Chandragupta II succeeds",
+        "description": "Samudragupta's son extended the dynasty's rule further and is credited with presiding over the Gupta age's cultural high point, home to Kalidasa and Aryabhata."
       },
       {
         "year": "c. 550 CE",
-        "event": "Imperial Gupta power fades"
+        "event": "Imperial Gupta power fades",
+        "description": "Later Gupta rulers were unable to maintain the dynasty's unity, ending the classical age their predecessors had built."
       }
     ],
     "achievements": [
@@ -108,7 +130,8 @@ window.EB_DATA.kingdoms = [
       "Allahabad Pillar inscription",
       "Gupta coinage",
       "Classical Sanskrit literature"
-    ]
+    ],
+    "mapImage": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/gupta/map.png"
   },
   {
     "id": "chalukya",
@@ -145,15 +168,28 @@ window.EB_DATA.kingdoms = [
     "timeline": [
       {
         "year": "c. 543 CE",
-        "event": "Pulakeshin I establishes Chalukya power"
+        "event": "Pulakeshin I establishes Chalukya power",
+        "description": "Founded the Chalukya dynasty of Badami, making Vatapi its royal centre and beginning the family's Deccan temple-building tradition."
       },
       {
         "year": "c. 610 CE",
-        "event": "Pulakeshin II's reign"
+        "event": "Pulakeshin II's reign",
+        "description": "Brought the dynasty to its military peak, checking Harsha's southward advance at the Narmada and contesting supremacy with the Pallavas."
+      },
+      {
+        "year": "c. 624 CE",
+        "event": "Eastern Chalukya branch founded",
+        "description": "Pulakeshin II installed his brother Vishnuvardhana as ruler of a new Chalukya line in the Andhra region, extending the dynasty's reach."
+      },
+      {
+        "year": "642 CE",
+        "event": "Vatapi falls to the Pallavas",
+        "description": "A Pallava counter-invasion under Narasimhavarman I overran the Badami Chalukya capital, and Pulakeshin II is believed to have died defending it."
       },
       {
         "year": "753 CE",
-        "event": "Chalukya of Badami overthrown by the Rashtrakutas"
+        "event": "Chalukya of Badami overthrown by the Rashtrakutas",
+        "description": "The restored Badami Chalukya dynasty was finally supplanted, closing out over two centuries of Chalukya rule in the western Deccan."
       }
     ],
     "achievements": [
@@ -166,7 +202,8 @@ window.EB_DATA.kingdoms = [
     "references": [
       "Aihole inscription",
       "Pattadakal monuments"
-    ]
+    ],
+    "mapImage": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/chalukya/map.png"
   },
   {
     "id": "chola",
@@ -203,15 +240,28 @@ window.EB_DATA.kingdoms = [
     "timeline": [
       {
         "year": "848 CE",
-        "event": "Vijayalaya captures Thanjavur"
+        "event": "Vijayalaya captures Thanjavur",
+        "description": "Founded the Later Chola dynasty by seizing the city that would become the empire's heartland in the Kaveri delta."
       },
       {
         "year": "985 CE",
-        "event": "Raja Raja Chola I ascends"
+        "event": "Raja Raja Chola I ascends",
+        "description": "Turned a regional Tamil kingdom into the dominant naval and military power of South India and the Indian Ocean."
+      },
+      {
+        "year": "1010 CE",
+        "event": "Brihadisvara Temple consecrated",
+        "description": "Raja Raja I's temple at Thanjavur stood as a monument to Chola dynastic and religious power."
+      },
+      {
+        "year": "1014 CE",
+        "event": "Rajendra I succeeds",
+        "description": "Raja Raja's son carried Chola naval campaigns across the Bay of Bengal to Sri Lanka and the Srivijaya kingdom of Southeast Asia."
       },
       {
         "year": "1279",
-        "event": "Later Chola power ends"
+        "event": "Later Chola power ends",
+        "description": "Chola rule closed after more than four centuries, leaving behind temple architecture and administrative traditions regarded as a high watermark of Tamil statecraft."
       }
     ],
     "achievements": [
@@ -224,7 +274,8 @@ window.EB_DATA.kingdoms = [
     "references": [
       "Chola inscriptions",
       "Temple records of Thanjavur"
-    ]
+    ],
+    "mapImage": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/chola/map.png"
   },
   {
     "id": "chauhan",
@@ -261,16 +312,24 @@ window.EB_DATA.kingdoms = [
     ],
     "timeline": [
       {
+        "year": "7th century",
+        "event": "Chahamana dynasty established at Shakambhari",
+        "description": "The Chahamanas (Chauhans) rose to prominence around Ajmer in present-day Rajasthan."
+      },
+      {
         "year": "12th century",
-        "event": "Chauhan power peaks at Ajmer and Delhi"
+        "event": "Chauhan power peaks at Ajmer and Delhi",
+        "description": "Under Prithviraj Chauhan (Prithviraj III) the dynasty controlled both Ajmer and Delhi, positioning it at the frontier facing invasions from Central Asia."
       },
       {
         "year": "1191",
-        "event": "First Battle of Tarain"
+        "event": "First Battle of Tarain",
+        "description": "Prithviraj Chauhan defeated the Ghurid ruler Muhammad of Ghor, defending the dynasty's northern frontier."
       },
       {
         "year": "1192",
-        "event": "Second Battle of Tarain"
+        "event": "Second Battle of Tarain",
+        "description": "Muhammad of Ghor returned with a larger force and defeated the Chahamana army, a decisive turning point that opened the way for the Delhi Sultanate."
       }
     ],
     "achievements": [
@@ -283,7 +342,8 @@ window.EB_DATA.kingdoms = [
     "references": [
       "Prithviraj Raso tradition",
       "Ghurid chronicles"
-    ]
+    ],
+    "mapImage": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/chauhan/map.png"
   },
   {
     "id": "vijayanagara",
@@ -320,15 +380,28 @@ window.EB_DATA.kingdoms = [
     "timeline": [
       {
         "year": "1336",
-        "event": "Empire founded"
+        "event": "Empire founded",
+        "description": "Brothers Harihara and Bukka of the Sangama dynasty founded Vijayanagara as a bulwark against Sultanate expansion into the south."
+      },
+      {
+        "year": "1485",
+        "event": "Saluva dynasty takes power",
+        "description": "A change of ruling house preceded the rise of the Tuluva dynasty that would bring the empire to its zenith."
       },
       {
         "year": "1509",
-        "event": "Krishnadevaraya crowned"
+        "event": "Krishnadevaraya crowned",
+        "description": "The Tuluva emperor brought Vijayanagara to a height of wealth, military success, and literary patronage, with Hampi becoming one of the richest cities in the world."
       },
       {
         "year": "1565",
-        "event": "Battle of Talikota; capital sacked"
+        "event": "Battle of Talikota; capital sacked",
+        "description": "A coalition of Deccan Sultanates defeated Vijayanagara and sacked Hampi, breaking the empire's imperial power."
+      },
+      {
+        "year": "1646",
+        "event": "Aravidu dynasty's rule ends",
+        "description": "The last ruling Vijayanagara line lost its remaining territory, closing over three centuries of the empire's history."
       }
     ],
     "achievements": [
@@ -341,7 +414,8 @@ window.EB_DATA.kingdoms = [
     "references": [
       "Portuguese travel accounts",
       "Hampi inscriptions"
-    ]
+    ],
+    "mapImage": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/vijayanagara/map.png"
   },
   {
     "id": "mewar",
@@ -395,15 +469,33 @@ window.EB_DATA.kingdoms = [
     "timeline": [
       {
         "year": "8th century",
-        "event": "Guhila rule takes root in Mewar"
+        "event": "Guhila rule takes root in Mewar",
+        "description": "Bappa Rawal captured Chittorgarh and founded the Guhila line from which all later Mewar rulers, including the Sisodia branch, traced their descent."
+      },
+      {
+        "year": "1303",
+        "event": "Fall of Chittorgarh under Rawal Ratan Singh",
+        "description": "Alauddin Khalji's siege overran the Guhila capital, a major setback the dynasty took decades to recover from."
+      },
+      {
+        "year": "1433",
+        "event": "Maharana Kumbha's reign begins",
+        "description": "The Sisodia ruler made Mewar the most powerful Rajput kingdom of its era, building Kumbhalgarh and the Vijay Stambha."
       },
       {
         "year": "1509",
-        "event": "Rana Sanga's reign begins"
+        "event": "Rana Sanga's reign begins",
+        "description": "United rival Rajput clans into a confederacy and led the largest coordinated Rajput resistance to early Mughal expansion at Khanwa."
+      },
+      {
+        "year": "1559",
+        "event": "Udai Singh II founds Udaipur",
+        "description": "Shifted Mewar's capital to a new lakeside city, preserving the Sisodia dynasty after the fall of Chittorgarh to Akbar."
       },
       {
         "year": "1572",
-        "event": "Maharana Pratap ascends"
+        "event": "Maharana Pratap ascends",
+        "description": "Refused to submit to Mughal authority, waging decades of resistance from the Aravalli hills after the Battle of Haldighati."
       }
     ],
     "achievements": [
@@ -416,7 +508,8 @@ window.EB_DATA.kingdoms = [
     "references": [
       "Mewar court chronicles",
       "Rajasthan historical records"
-    ]
+    ],
+    "mapImage": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/mewar/map.png"
   },
   {
     "id": "ahom",
@@ -454,15 +547,23 @@ window.EB_DATA.kingdoms = [
     "timeline": [
       {
         "year": "1228",
-        "event": "Sukaphaa founds the Ahom kingdom"
+        "event": "Sukaphaa founds the Ahom kingdom",
+        "description": "The Tai-Ahom leader established a dynasty in the Brahmaputra valley that would rule for nearly six centuries."
+      },
+      {
+        "year": "1667",
+        "event": "Mughal forces seize Guwahati",
+        "description": "Renewed Mughal pressure on the kingdom's western frontier led to the appointment of Lachit Borphukan as supreme military commander."
       },
       {
         "year": "1671",
-        "event": "Battle of Saraighat"
+        "event": "Battle of Saraighat",
+        "description": "Lachit Borphukan's riverine campaign halted a major Mughal counter-offensive, securing Assam's independence for another century."
       },
       {
         "year": "1826",
-        "event": "Ahom power ends after the Treaty of Yandabo era"
+        "event": "Ahom power ends after the Treaty of Yandabo era",
+        "description": "The dynasty founded by Sukaphaa gave way to British colonial control, closing nearly six centuries of Ahom rule."
       }
     ],
     "achievements": [
@@ -474,7 +575,8 @@ window.EB_DATA.kingdoms = [
     "legacy": "The Ahoms remain central to Assam's historical identity, and the defence of the eastern frontier under commanders like Lachit Borphukan is still commemorated as one of the region's proudest historical achievements.",
     "references": [
       "Ahom buranjis"
-    ]
+    ],
+    "mapImage": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/ahom/map.png"
   },
   {
     "id": "maratha",
@@ -528,16 +630,34 @@ window.EB_DATA.kingdoms = [
     ],
     "timeline": [
       {
+        "year": "1645",
+        "event": "Shivaji begins seizing Sahyadri forts",
+        "description": "The young Bhonsle chief began building the nucleus of an independent Maratha state around a network of hill forts."
+      },
+      {
         "year": "1674",
-        "event": "Coronation of Shivaji Maharaj"
+        "event": "Coronation of Shivaji Maharaj",
+        "description": "Formally crowned Chhatrapati at Raigad, founding the Bhonsle dynasty and giving institutional form to Maratha swarajya."
       },
       {
         "year": "1681",
-        "event": "Sambhaji Maharaj becomes Chhatrapati"
+        "event": "Sambhaji Maharaj becomes Chhatrapati",
+        "description": "Succeeded his father and sustained an eight-year defensive war against Aurangzeb's full Mughal army."
       },
       {
         "year": "1720",
-        "event": "Bajirao I becomes Peshwa"
+        "event": "Bajirao I becomes Peshwa",
+        "description": "The Bhat Peshwa line rose to prominence, with Bajirao's rapid cavalry campaigns extending Maratha power to the outskirts of Delhi."
+      },
+      {
+        "year": "1761",
+        "event": "Third Battle of Panipat",
+        "description": "A major defeat checked the confederacy's northward expansion, though Maratha power continued under regional chieftains for decades more."
+      },
+      {
+        "year": "1818",
+        "event": "Maratha Empire dismantled by the British",
+        "description": "The confederate structure built by the Bhonsles and Peshwas was finally broken up after the Anglo-Maratha Wars."
       }
     ],
     "achievements": [
@@ -550,7 +670,8 @@ window.EB_DATA.kingdoms = [
     "references": [
       "Maratha bakhars",
       "Peshwa records"
-    ]
+    ],
+    "mapImage": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/maratha/map.png"
   },
   {
     "id": "sikh",
@@ -587,16 +708,34 @@ window.EB_DATA.kingdoms = [
     ],
     "timeline": [
       {
+        "year": "1799",
+        "event": "Ranjit Singh captures Lahore",
+        "description": "Used the city as a base to begin unifying Punjab's fractious Sikh misls under Sukerchakia leadership."
+      },
+      {
         "year": "1801",
-        "event": "Ranjit Singh proclaimed Maharaja"
+        "event": "Ranjit Singh proclaimed Maharaja",
+        "description": "Formally founded the Sikh Empire, building a modern army and a religiously plural administration."
+      },
+      {
+        "year": "1809",
+        "event": "Treaty of Amritsar",
+        "description": "Fixed the Sutlej as a boundary with the British East India Company, securing peace for four decades."
       },
       {
         "year": "1813",
-        "event": "Capture of Attock"
+        "event": "Capture of Attock",
+        "description": "Extended the empire's territory toward Kashmir and the approaches to Afghanistan."
+      },
+      {
+        "year": "1839",
+        "event": "Death of Ranjit Singh",
+        "description": "His death triggered succession struggles among his heirs that weakened the kingdom he had built."
       },
       {
         "year": "1849",
-        "event": "Empire annexed after the Anglo-Sikh wars"
+        "event": "Empire annexed after the Anglo-Sikh wars",
+        "description": "The last independent kingdom of the northwest fell to British annexation a decade after its founder's death."
       }
     ],
     "achievements": [
@@ -609,7 +748,8 @@ window.EB_DATA.kingdoms = [
     "references": [
       "Sikh chronicles",
       "Lahore court records"
-    ]
+    ],
+    "mapImage": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/sikh/map.png"
   },
   {
     "id": "jhansi",
@@ -641,16 +781,24 @@ window.EB_DATA.kingdoms = [
     ],
     "timeline": [
       {
+        "year": "1842",
+        "event": "Lakshmibai marries Gangadhar Rao",
+        "description": "Married into the Newalkar dynasty that ruled the princely state of Jhansi in the Bundelkhand region."
+      },
+      {
         "year": "1853",
-        "event": "Gangadhar Rao dies; Lakshmibai governs"
+        "event": "Gangadhar Rao dies; Lakshmibai governs",
+        "description": "The British East India Company invoked the Doctrine of Lapse to annex Jhansi, refusing to recognise the adopted heir."
       },
       {
         "year": "1857",
-        "event": "Revolt reaches Bundelkhand"
+        "event": "Revolt reaches Bundelkhand",
+        "description": "Rani Lakshmibai took direct command of Jhansi's defence as the uprising against British rule spread across the region."
       },
       {
         "year": "1858",
-        "event": "Siege of Jhansi and fall of the fort"
+        "event": "Siege of Jhansi and fall of the fort",
+        "description": "British forces under Hugh Rose captured the city; Lakshmibai escaped with her son and continued the resistance until her death near Gwalior."
       }
     ],
     "achievements": [
@@ -663,7 +811,8 @@ window.EB_DATA.kingdoms = [
     "references": [
       "1857 records",
       "Jhansi state papers"
-    ]
+    ],
+    "mapImage": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/jhansi/map.png"
   },
   {
     "id": "holkar",
@@ -690,15 +839,23 @@ window.EB_DATA.kingdoms = [
     "timeline": [
       {
         "year": "1731",
-        "event": "Malharrao Holkar establishes the Holkar state within the Maratha confederacy"
+        "event": "Malharrao Holkar establishes the Holkar state",
+        "description": "Founded one of the leading houses of the Maratha confederacy, governing the strategically important Malwa region."
       },
       {
         "year": "1767",
-        "event": "Ahilyabai Holkar assumes direct rule from Maheshwar"
+        "event": "Ahilyabai Holkar assumes direct rule from Maheshwar",
+        "description": "Took charge of the Holkar dynasty's territory after the deaths of her husband, father-in-law, and son, ruling from Maheshwar rather than Indore."
+      },
+      {
+        "year": "1780s",
+        "event": "Temple and infrastructure patronage across India",
+        "description": "Funded the restoration of major temples, including Kashi Vishwanath and Somnath, along with roads, wells, and dharamshalas nationwide."
       },
       {
         "year": "1795",
-        "event": "Death of Ahilyabai Holkar after nearly three decades of celebrated rule"
+        "event": "Death of Ahilyabai Holkar",
+        "description": "Closed nearly three decades of celebrated rule; the Holkar dynasty continued to govern Malwa as a leading Maratha state for over a century afterward."
       }
     ],
     "achievements": [
@@ -711,6 +868,7 @@ window.EB_DATA.kingdoms = [
     "references": [
       "Maratha court records",
       "Holkar state chronicles"
-    ]
+    ],
+    "mapImage": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/holkar/map.png"
   }
 ];

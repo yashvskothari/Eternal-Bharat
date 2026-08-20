@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         renderLinkedBattles(kingdom.battles);
         renderForts(kingdom.forts);
         renderRulers(kingdom.rulers, warriors);
-        EB.renderTimeline("timeline-container", kingdom.timeline);
+        renderKingdomChronicle("timeline-container", kingdom);
         EB.renderList("achievements", kingdom.achievements);
         EB.renderList("reference-list", kingdom.references);
 
@@ -58,6 +58,52 @@ document.addEventListener("DOMContentLoaded", async () => {
         EB.setText("warrior-name", "Unable to load kingdom");
     }
 });
+
+/* =========================================================
+   Kingdom Timeline — rendered in the same rich "chronicle"
+   style used on the main Timeline page (timeline.html), but
+   scoped to this kingdom's own events.
+========================================================= */
+
+function renderKingdomChronicle(id, kingdom) {
+    const el = document.getElementById(id);
+    if (!el || !kingdom.timeline || !kingdom.timeline.length) return;
+
+    el.classList.remove("story-timeline");
+    el.classList.add("chronicle");
+
+    const header = document.createElement("header");
+    header.className = "era-header";
+    header.innerHTML = `
+        <span>${kingdom.dynasty || kingdom.name}</span>
+        <small>${kingdom.period || ""}</small>
+    `;
+
+    const items = kingdom.timeline
+        .map((event, index) => {
+            const side = index % 2 === 0 ? "is-left" : "is-right";
+            return `
+                <article class="timeline-item ${side}">
+                    <div class="timeline-card">
+                        <div class="tl-meta">
+                            <span class="tl-cat tl-cat-kingdoms">Kingdom</span>
+                        </div>
+                        <h3>${event.year}</h3>
+                        <h4>${event.event || event.title || ""}</h4>
+                        ${event.description ? `<p>${event.description}</p>` : ""}
+                        <div class="tl-bottom"><span></span></div>
+                    </div>
+                </article>
+            `;
+        })
+        .join("");
+
+    el.innerHTML = "";
+    el.appendChild(header);
+    el.insertAdjacentHTML("beforeend", items);
+
+    EB.initScrollReveal("#timeline-container .timeline-item");
+}
 
 function renderRulers(ids, warriors) {
     const el = document.getElementById("ruler-grid");
