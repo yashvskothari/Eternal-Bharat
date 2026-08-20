@@ -10,9 +10,7 @@
     "description": "One of ancient India's largest empires, spanning much of the subcontinent under Chandragupta and Ashoka.",
     "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
     "overview": "Founded by Chandragupta Maurya with the counsel of Chanakya, the Maurya state built a centralised administration, a standing army, and far-reaching diplomacy that connected it to the Hellenistic world through the treaty with Seleucus Nicator. Under Ashoka, Chandragupta's grandson, the empire reached its greatest territorial extent before turning toward the promotion of dhamma and Buddhist patronage following the Kalinga war. Detailed governance principles from the period survive in the Arthashastra, and Greek accounts by the envoy Megasthenes describe a sophisticated bureaucracy overseeing trade, taxation, and justice.",
-    "rulers": [
-      "chandragupt"
-    ],
+    "rulers": ["chandragupt"],
     "forts": [
       {
         "name": "Pataliputra",
@@ -79,9 +77,7 @@
     "description": "A classical empire associated with Sanskrit literature, science, and a flowering of temple culture.",
     "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/samudragupt/portrait.jpg",
     "overview": "From a Magadhan base the Guptas expanded through conquest under Samudragupta and marriage alliances under his successors. Their age is remembered for the poet-dramatist Kalidasa, major advances in mathematics and astronomy associated with scholars such as Aryabhata, and a refined gold coinage that financed a prosperous, stable economy. Chandragupta II, Samudragupta's son, extended the empire further and is often credited with presiding over its cultural high point.",
-    "rulers": [
-      "samudragupt"
-    ],
+    "rulers": ["samudragupt"],
     "forts": [
       {
         "name": "Pataliputra",
@@ -142,9 +138,7 @@
     "description": "A Deccan imperial house famed for checking northern expansion and pioneering temple architecture in stone.",
     "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chalukya/portrait.jpg",
     "overview": "The Badami Chalukyas made Vatapi a royal centre and left an architectural trail at Aihole, Badami, and Pattadakal that traces the early development of Deccan temple design. Pulakeshin II brought the dynasty to its military peak, checking the southward advance of the North Indian emperor Harsha at the Narmada and contesting supremacy with the Pallavas of Kanchipuram. The dynasty briefly fell to a Pallava counter-invasion in the mid-7th century before being restored under later Chalukya rulers.",
-    "rulers": [
-      "chalukya"
-    ],
+    "rulers": ["chalukya"],
     "forts": [
       {
         "name": "Badami",
@@ -197,10 +191,7 @@
       "Founded the Eastern Chalukya line in Andhra"
     ],
     "legacy": "The Chalukyas showed that the Deccan could host an empire equal to the great kingdoms of the north, and their architectural experiments at Aihole and Pattadakal shaped South Indian temple design for centuries.",
-    "references": [
-      "Aihole inscription",
-      "Pattadakal monuments"
-    ],
+    "references": ["Aihole inscription", "Pattadakal monuments"],
     "mapImage": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/chalukya/map.png"
   },
   {
@@ -214,9 +205,7 @@
     "description": "A South Indian maritime empire celebrated for temple architecture, trade, and naval power.",
     "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chola/portrait.jpg",
     "overview": "From the Kaveri delta the Cholas built one of early medieval India's most capable navies, a meticulous land-revenue administration organised into local assemblies, and monumental temple architecture. Raja Raja I and his son Rajendra I carried Chola arms to Sri Lanka and, in Rajendra's case, across the Bay of Bengal in a celebrated naval campaign against the Srivijaya kingdom of Southeast Asia. Village-level self-governing assemblies, documented in detailed temple inscriptions, gave the Chola state an unusually sophisticated administrative depth for its time.",
-    "rulers": [
-      "chola"
-    ],
+    "rulers": ["chola"],
     "forts": [
       {
         "name": "Thanjavur",
@@ -269,10 +258,7 @@
       "Patronage of Chola bronze sculpture, among the finest in Indian art"
     ],
     "legacy": "Chola rule remains a high watermark of Tamil statecraft, art, and maritime ambition, its temples and bronzes still regarded as among the great achievements of Indian civilisation.",
-    "references": [
-      "Chola inscriptions",
-      "Temple records of Thanjavur"
-    ],
+    "references": ["Chola inscriptions", "Temple records of Thanjavur"],
     "mapImage": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/chola/map.png"
   },
   {
@@ -286,9 +272,7 @@
     "description": "A major Rajput power of Ajmer and Delhi, ending with Prithviraj Chauhan's fall at Tarain.",
     "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/prithviraj-chauhan/portrait.jpg",
     "overview": "The Chahamanas of Shakambhari rose to prominence around Ajmer and, by Prithviraj III's reign, controlled Delhi as well, positioning them at the very frontier facing invasions from Central Asia. Their defeat at the Second Battle of Tarain in 1192, after an earlier victory the previous year, marked a decisive political turning point that opened the way for the establishment of the Delhi Sultanate in North India.",
-    "rulers": [
-      "prithviraj-chauhan"
-    ],
+    "rulers": ["prithviraj-chauhan"],
     "forts": [
       {
         "name": "Ajmer",
@@ -337,10 +321,7 @@
       "Subject of the epic Prithviraj Raso"
     ],
     "legacy": "The Chauhan kingdom is remembered as the last great Rajput polity of Delhi before the Sultanate age, and its fall is traditionally treated as a watershed moment in medieval Indian history.",
-    "references": [
-      "Prithviraj Raso tradition",
-      "Ghurid chronicles"
-    ],
+    "references": ["Prithviraj Raso tradition", "Ghurid chronicles"],
     "mapImage": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/chauhan/map.png"
   },
   {
@@ -354,9 +335,7 @@
     "description": "The great southern empire whose capital at Hampi became one of the most magnificent cities of its age.",
     "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/kdr/portrait.jpg",
     "overview": "Founded in the 14th century by the brothers Harihara and Bukka as a bulwark against Sultanate expansion into the south, Vijayanagara gathered the kingdoms of the southern peninsula into a single imperial frame. Under Krishnadevaraya in the early 16th century it reached a height of wealth, military success, and literary patronage, its capital at Hampi becoming one of the largest and richest cities in the world, described with astonishment by visiting Portuguese and Persian travellers.",
-    "rulers": [
-      "kdr"
-    ],
+    "rulers": ["kdr"],
     "forts": [
       {
         "name": "Hampi",
@@ -409,10 +388,7 @@
       "Extensive trade links across the Indian Ocean world"
     ],
     "legacy": "Vijayanagara is remembered as a citadel of southern civilisation whose ruins at Hampi, now a UNESCO World Heritage Site, still speak to the empire's imperial scale and cosmopolitan wealth.",
-    "references": [
-      "Portuguese travel accounts",
-      "Hampi inscriptions"
-    ],
+    "references": ["Portuguese travel accounts", "Hampi inscriptions"],
     "mapImage": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/vijayanagara/map.png"
   },
   {
@@ -426,10 +402,7 @@
     "description": "One of the oldest and most respected Rajput kingdoms, known for its forts, lakes, and unbroken spirit of independence.",
     "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/maharana-pratap/portrait.jpg",
     "overview": "Mewar, ruled first by the Guhilas and later by the Sisodia branch, made resistance to outside domination a defining political identity across nearly a millennium. From Bappa Rawal's founding of power at Chittorgarh, through Maharana Kumbha's fort-building and Rana Sanga's Rajput confederacy, to Maharana Pratap's long guerrilla resistance and Udai Singh II's founding of Udaipur, Mewar's rulers repeatedly rebuilt their kingdom after defeat rather than accept permanent submission.",
-    "rulers": [
-      "rana-sanga",
-      "maharana-pratap"
-    ],
+    "rulers": ["rana-sanga", "maharana-pratap"],
     "forts": [
       {
         "name": "Chittorgarh",
@@ -503,10 +476,7 @@
       "Foundation of Udaipur as a new capital after Chittorgarh's fall"
     ],
     "legacy": "Mewar became a byword for Rajput independence and the refusal to surrender sovereignty, a reputation cemented above all by Maharana Pratap's decades of resistance to Mughal authority.",
-    "references": [
-      "Mewar court chronicles",
-      "Rajasthan historical records"
-    ],
+    "references": ["Mewar court chronicles", "Rajasthan historical records"],
     "mapImage": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/mewar/map.png"
   },
   {
@@ -520,9 +490,7 @@
     "description": "A long-lived kingdom of Assam that defended the northeast through adaptive warfare and a distinct administrative system.",
     "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/lachit-borphukan/portrait.jpg",
     "overview": "Founded by the Tai-Ahom leader Sukaphaa in the 13th century, the Ahom state absorbed and blended with local Assamese cultures over the centuries and developed a distinctive paik system of administration, which organised the population into labour and military service units. The kingdom resisted repeated invasion attempts from the Bengal Sultanate and later the Mughal Empire, with Lachit Borphukan's victory at Saraighat in 1671 standing as the decisive chapter that secured Assam's independence for another century.",
-    "rulers": [
-      "lachit-borphukan"
-    ],
+    "rulers": ["lachit-borphukan"],
     "forts": [
       {
         "name": "Garhgaon",
@@ -571,9 +539,7 @@
       "Preservation of a distinct Assamese cultural and political identity"
     ],
     "legacy": "The Ahoms remain central to Assam's historical identity, and the defence of the eastern frontier under commanders like Lachit Borphukan is still commemorated as one of the region's proudest historical achievements.",
-    "references": [
-      "Ahom buranjis"
-    ],
+    "references": ["Ahom buranjis"],
     "mapImage": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/ahom/map.png"
   },
   {
@@ -587,11 +553,7 @@
     "description": "A Deccan-based empire that grew into a major power, built on swarajya and innovative military tactics.",
     "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/shivaji/portrait.jpg",
     "overview": "Shivaji's coronation in 1674 gave institutional form to Maratha swarajya, built on a network of hill forts, mobile cavalry, and a navy guarding the Konkan coast. Under later Chhatrapatis — including Sambhaji, who sustained an eight-year war against Aurangzeb's full army — and Peshwas such as Bajirao I, whose rapid campaigns reached the outskirts of Delhi, Maratha power expanded from the Sahyadris to cover much of the Indian subcontinent by the mid-18th century, before its confederate structure was eventually checked at Panipat in 1761 and later dismantled by the British.",
-    "rulers": [
-      "shivaji",
-      "sambhaji",
-      "bajirao"
-    ],
+    "rulers": ["shivaji", "sambhaji", "bajirao"],
     "forts": [
       {
         "name": "Raigad",
@@ -665,10 +627,7 @@
       "A durable confederate structure sustaining power across generations of leaders"
     ],
     "legacy": "The Maratha Empire reshaped late medieval and early modern India, and remains a cornerstone of Deccan historical memory — a state built from hill forts into a power that, for a time, eclipsed the Mughals themselves.",
-    "references": [
-      "Maratha bakhars",
-      "Peshwa records"
-    ],
+    "references": ["Maratha bakhars", "Peshwa records"],
     "mapImage": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/maratha/map.png"
   },
   {
@@ -682,9 +641,7 @@
     "description": "A powerful Punjabi empire founded by Maharaja Ranjit Singh, known for military modernization and inclusive rule.",
     "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/ranjit-singh/portrait.jpg",
     "overview": "Ranjit Singh unified the fractious Sikh misls into a kingdom with a modern, European-trained army, a composite court drawing on Hindu, Muslim, and Sikh officials alike, and control extending across the Punjab heartland, Kashmir, and the approaches to Afghanistan. Careful diplomacy, most notably the Treaty of Amritsar with the British in 1809, allowed the kingdom to flourish for four decades before internal succession struggles after his death in 1839 opened the way to British annexation following the Anglo-Sikh Wars of the 1840s.",
-    "rulers": [
-      "ranjit-singh"
-    ],
+    "rulers": ["ranjit-singh"],
     "forts": [
       {
         "name": "Lahore Fort",
@@ -743,10 +700,7 @@
       "Peaceful coexistence with the British East India Company through treaty diplomacy"
     ],
     "legacy": "The Sikh Empire is remembered as the last great indigenous kingdom of the northwest before colonial annexation, admired for the strength and inclusiveness Ranjit Singh built into its institutions.",
-    "references": [
-      "Sikh chronicles",
-      "Lahore court records"
-    ],
+    "references": ["Sikh chronicles", "Lahore court records"],
     "mapImage": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/sikh/map.png"
   },
   {
@@ -760,9 +714,7 @@
     "description": "A Bundelkhand princely state whose defense in 1857–58 made Rani Lakshmibai a national symbol of resistance.",
     "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/laxmibai/portrait.jpg",
     "overview": "Jhansi stood at a crossroads of central India in the Bundelkhand region, a princely state whose autonomy was threatened when the British East India Company invoked the Doctrine of Lapse after the death of Maharaja Gangadhar Rao in 1853. When the Revolt of 1857 reached the region, Rani Lakshmibai's defence of the fort against the besieging forces of Hugh Rose, and her subsequent escape and final stand near Gwalior, turned Jhansi into one of the uprising's most significant flashpoints.",
-    "rulers": [
-      "laxmibai"
-    ],
+    "rulers": ["laxmibai"],
     "forts": [
       {
         "name": "Jhansi Fort",
@@ -806,10 +758,7 @@
       "Continued commemoration of Rani Lakshmibai's leadership and courage"
     ],
     "legacy": "Jhansi is inseparable from the story of 1857 and the image of a queen who led from the front, choosing to fight rather than surrender her kingdom.",
-    "references": [
-      "1857 records",
-      "Jhansi state papers"
-    ],
+    "references": ["1857 records", "Jhansi state papers"],
     "mapImage": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/jhansi/map.png"
   },
   {
@@ -823,13 +772,11 @@
     "description": "A leading Maratha state in Malwa, remembered above all for the just and enlightened rule of Ahilyabai Holkar.",
     "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
     "overview": "Founded by Malharrao Holkar as one of the leading houses of the Maratha confederacy, the Holkar Kingdom governed the strategically important Malwa region of central India. It reached its most celebrated period under Ahilyabai Holkar, who ruled from Maheshwar on the Narmada rather than the traditional capital of Indore, presiding over a reign remembered for accessible justice, extensive temple patronage across India, and the flourishing of Maheshwar's handloom textile trade.",
-    "rulers": [
-      "ahilyabai-holkar"
-    ],
+    "rulers": ["ahilyabai-holkar"],
     "forts": [
       {
         "name": "Maheshwar Fort",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/chandragupt/portrait.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/ahilya/fort.png",
         "description": "Ahilyabai Holkar's riverside seat of government on the Narmada, combining a fortified palace with ghats and temples, from where she administered the Holkar kingdom and sponsored building projects across India."
       }
     ],
@@ -863,10 +810,7 @@
       "Maintained stability and prosperity in Malwa for decades"
     ],
     "legacy": "The Holkar Kingdom is remembered above all through Ahilyabai's reign — a rare example in Indian history of a ruler celebrated as much for compassion and public works as for military strength. Maheshwar's handloom tradition, which she fostered, continues to this day.",
-    "references": [
-      "Maratha court records",
-      "Holkar state chronicles"
-    ],
+    "references": ["Maratha court records", "Holkar state chronicles"],
     "mapImage": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/holkar/map.png"
   }
 ]
