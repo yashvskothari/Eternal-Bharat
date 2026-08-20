@@ -8,8 +8,7 @@ window.EB_DATA.timeline = [
     "era": "ancient",
     "category": "kingdoms",
     "title": "Rise of Magadha",
-    "description": "Placeholder — Magadha emerges as a dominant mahajanapada in the Gangetic plains.",
-    "placeholder": true
+    "description": "Magadha emerges as a dominant mahajanapada in the Gangetic plains."
   },
   {
     "id": "maurya-rise",
@@ -29,8 +28,7 @@ window.EB_DATA.timeline = [
     "era": "ancient",
     "category": "rulers",
     "title": "Ashoka's reign begins",
-    "description": "Placeholder — Ashoka inherits the Maurya throne; later edicts spread the idea of dhamma.",
-    "placeholder": true,
+    "description": "Ashoka inherits the Maurya throne; later edicts spread the idea of dhamma.",
     "kingdomId": "maurya"
   },
   {
@@ -83,8 +81,7 @@ window.EB_DATA.timeline = [
     "era": "early-medieval",
     "category": "milestones",
     "title": "Brihadisvara Temple consecrated",
-    "description": "Placeholder — Raja Raja I consecrates the great temple at Thanjavur.",
-    "placeholder": true,
+    "description": "Raja Raja I consecrates the great temple at Thanjavur.",
     "warriorId": "chola",
     "kingdomId": "chola"
   },
@@ -95,8 +92,7 @@ window.EB_DATA.timeline = [
     "era": "early-medieval",
     "category": "battles",
     "title": "First Battle of Tarain",
-    "description": "Placeholder — Prithviraj Chauhan defeats Muhammad of Ghor in the first encounter.",
-    "placeholder": true,
+    "description": "Prithviraj Chauhan defeats Muhammad of Ghor in the first encounter.",
     "warriorId": "prithviraj-chauhan",
     "kingdomId": "chauhan"
   },
@@ -150,8 +146,7 @@ window.EB_DATA.timeline = [
     "era": "medieval",
     "category": "battles",
     "title": "Battle of Raichur",
-    "description": "Placeholder — Krishnadevaraya wins a major victory in the Raichur Doab.",
-    "placeholder": true,
+    "description": "Krishnadevaraya wins a major victory in the Raichur Doab.",
     "warriorId": "kdr",
     "kingdomId": "vijayanagara"
   },
@@ -195,7 +190,7 @@ window.EB_DATA.timeline = [
     "era": "early-modern",
     "category": "battles",
     "title": "Battle of Talikota",
-    "description": "Placeholder — the Deccan Sultanates sack Vijayanagara; Hampi never recovers its imperial splendour.",
+    "description": "The Deccan Sultanates sack Vijayanagara; Hampi never recovers its imperial splendour.",
     "placeholder": true,
     "kingdomId": "vijayanagara"
   },
@@ -288,8 +283,7 @@ window.EB_DATA.timeline = [
     "era": "early-modern",
     "category": "battles",
     "title": "Battle of Palkhed",
-    "description": "Placeholder — Peshwa Bajirao I outmanoeuvres the Nizam in a classic cavalry campaign.",
-    "placeholder": true,
+    "description": "Peshwa Bajirao I outmanoeuvres the Nizam in a classic cavalry campaign.",
     "warriorId": "bajirao",
     "kingdomId": "maratha"
   },
@@ -323,8 +317,7 @@ window.EB_DATA.timeline = [
     "era": "modern",
     "category": "milestones",
     "title": "The Revolt of 1857",
-    "description": "Placeholder — a widespread uprising that turns princely resistance into a national memory.",
-    "placeholder": true,
+    "description": "A widespread uprising that turns princely resistance into a national memory.",
     "warriorId": "laxmibai",
     "kingdomId": "jhansi"
   },
