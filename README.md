@@ -32,7 +32,7 @@
 ###  Kingdom Maps
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/readme-images/maps.png" width="100%">
+  <img src="https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/readme-Images/maps.png" width="100%">
 </p>
 
 ---
