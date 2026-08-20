@@ -1033,6 +1033,6 @@ window.EB_DATA.kingdoms = [
       "Holkar state chronicles",
     ],
     mapImage:
-      "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/holkar/map.png",
+      "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/maps/holker/map.png",
   },
 ];

@@ -5,24 +5,64 @@
 const EB = {
     CDN: "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images",
 
+    // Cache of in-flight/loaded data/*.js fallback scripts, keyed by
+    // dataset name (e.g. "warriors"), so we only inject each once.
+    _fallbackScriptPromises: {},
+
+    // Dynamically injects data/<key>.js (which sets window.EB_DATA.<key>).
+    // Script tags aren't subject to the same CORS restriction fetch() is,
+    // so this works even when the page is opened directly via file://.
+    _loadFallbackScript(key) {
+        if (window.EB_DATA && window.EB_DATA[key]) {
+            return Promise.resolve(window.EB_DATA[key]);
+        }
+
+        if (this._fallbackScriptPromises[key]) {
+            return this._fallbackScriptPromises[key];
+        }
+
+        const promise = new Promise((resolve, reject) => {
+            const script = document.createElement("script");
+            script.src = `data/${key}.js`;
+            script.onload = () => {
+                if (window.EB_DATA && window.EB_DATA[key]) {
+                    resolve(window.EB_DATA[key]);
+                } else {
+                    reject(new Error(`data/${key}.js did not provide EB_DATA.${key}`));
+                }
+            };
+            script.onerror = () => reject(new Error(`Could not load data/${key}.js`));
+            document.head.appendChild(script);
+        });
+
+        this._fallbackScriptPromises[key] = promise;
+        return promise;
+    },
+
     async fetchJSON(path) {
-        // If this page already loaded the matching data/*.js file
-        // (window.EB_DATA), use it directly. This makes the site work
-        // even when opened straight from disk (file://), where the
-        // browser blocks fetch() of local JSON for security reasons.
+        // If this page already preloaded the matching data/*.js file
+        // (window.EB_DATA), use it directly.
         const key = path.split("/").pop().replace(".json", "");
 
         if (window.EB_DATA && window.EB_DATA[key]) {
             return window.EB_DATA[key];
         }
 
-        const response = await fetch(path);
+        try {
+            const response = await fetch(path);
 
-        if (!response.ok) {
-            throw new Error(`Failed to load ${path}`);
+            if (!response.ok) {
+                throw new Error(`Failed to load ${path}`);
+            }
+
+            return await response.json();
+        } catch (error) {
+            // fetch() of local files is blocked by the browser when a
+            // page is opened directly (file://) instead of through a
+            // server. Fall back to the pre-built data/<key>.js file,
+            // which loads fine via a plain <script> tag either way.
+            return this._loadFallbackScript(key);
         }
-
-        return response.json();
     },
 
     getPageName() {

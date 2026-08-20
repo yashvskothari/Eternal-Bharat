@@ -31,7 +31,7 @@ window.EB_DATA.battles = [
     "kingdom": "Mewar",
     "kingdomId": "mewar",
     "description": "A prolonged siege in which the forces of Alauddin Khalji attacked the fortified city of Chittorgarh defended by Rawal Ratan Singh and his warriors.",
-    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/rawal-ratan-singh/portrait.jpg",
+    "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/warriors/rawal-ratan-singh/portrait.png",
     "significance": "The siege became one of the defining episodes of Rajput history, remembered for extraordinary courage and sacrifice.",
     "warriors": [
       "rawal-ratan-singh"

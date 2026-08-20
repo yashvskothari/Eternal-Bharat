@@ -43,8 +43,8 @@ function renderKingdoms(container, kingdoms) {
         const card = document.createElement("article");
         card.className = "card";
 
-        const imageHTML = kingdom.image
-            ? `<img src="${kingdom.image}" alt="${kingdom.name}">`
+        const imageHTML = kingdom.mapImage
+            ? `<img src="${kingdom.mapImage}" alt="${kingdom.name} map">`
             : "";
 
         card.innerHTML = `

@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         EB.setText("warrior-title", kingdom.dynasty);
         EB.setText("warrior-years", kingdom.period);
         EB.setText("warrior-description", kingdom.description);
-        EB.setPortrait(kingdom.image, kingdom.name);
+        EB.setPortrait(kingdom.mapImage, kingdom.name);
 
         EB.setText("capital", kingdom.capital);
         EB.setText("dynasty", kingdom.dynasty);
