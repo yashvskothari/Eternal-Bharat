@@ -369,7 +369,10 @@
       "Laid the groundwork for his son Rajendra I's Southeast Asian campaigns"
     ],
     "legacy": "Raja Raja Chola I represents the golden age of Tamil civilisation — a period of architectural grandeur, administrative sophistication, and imperial reach across the Indian Ocean. The Brihadisvara Temple still stands as a testament to the scale of his ambition.",
-    "references": ["Chola inscriptions", "Tamil historical texts"]
+    "references": [
+      "Chola inscriptions",
+      "Tamil historical texts"
+    ]
   },
   {
     "id": "prithviraj-chauhan",
@@ -750,7 +753,10 @@
       "Remembered for personal courage despite severe battle injuries"
     ],
     "legacy": "Rana Sanga symbolises Rajput unity and the fierce resistance to foreign domination in early 16th-century India. Though defeated at Khanwa, his confederacy represented the last major coordinated Rajput challenge to Mughal power for a generation.",
-    "references": ["Rajput chronicles", "Mughal historical accounts"]
+    "references": [
+      "Rajput chronicles",
+      "Mughal historical accounts"
+    ]
   },
   {
     "id": "maharana-udai-singh-ii",
@@ -1099,7 +1105,10 @@
       "Remembered as a martyr of the swarajya movement"
     ],
     "legacy": "Sambhaji Maharaj is honoured for unyielding courage in the darkest years of the Maratha struggle. His execution became a rallying point that intensified, rather than ended, Maratha resistance to Mughal rule.",
-    "references": ["Maratha bakhars", "Mughal Deccan records"]
+    "references": [
+      "Maratha bakhars",
+      "Mughal Deccan records"
+    ]
   },
   {
     "id": "lachit-borphukan",
@@ -1173,7 +1182,10 @@
       "Became Assam's most honoured military icon"
     ],
     "legacy": "Lachit Borphukan is remembered as the guardian of the East — a commander who placed duty above all else, even at the cost of his own health and family ties. India's National Defence Academy awards a gold medal named in his honour to this day.",
-    "references": ["Ahom buranjis", "Assam historical chronicles"]
+    "references": [
+      "Ahom buranjis",
+      "Assam historical chronicles"
+    ]
   },
   {
     "id": "bajirao",
@@ -1208,7 +1220,7 @@
     "forts": [
       {
         "name": "Shaniwar Wada",
-        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/ch/maratha/shaniwarwada.jpg",
+        "image": "https://cdn.jsdelivr.net/gh/yashvskothari/Eternal-Bharat-assets@main/assets/images/forts/maratha/shaniwarwada.jpg",
         "description": "The fortified palace complex built by Bajirao I in Pune in 1732 as the official residence and seat of the Peshwas, from which Maratha campaigns across India were planned and directed."
       },
       {
@@ -1246,7 +1258,10 @@
       "Built Shaniwar Wada as the Peshwa's seat of power in Pune"
     ],
     "legacy": "Bajirao I is remembered as one of India's finest cavalry generals — the Peshwa who made the Maratha shadow fall across the subcontinent and set the stage for Maratha dominance over much of India in the decades that followed.",
-    "references": ["Peshwa daftars", "Maratha chronicles"]
+    "references": [
+      "Peshwa daftars",
+      "Maratha chronicles"
+    ]
   },
   {
     "id": "ahilyabai-holkar",
@@ -1396,7 +1411,10 @@
       "Maintained peace with the British through the Treaty of Amritsar, 1809"
     ],
     "legacy": "Maharaja Ranjit Singh is remembered as the Lion of Punjab — a ruler who built a strong, prosperous, and religiously plural empire through vision and valour. The kingdom's fall within a decade of his death is often attributed to the succession struggles that followed his passing.",
-    "references": ["Sikh historical chronicles", "Punjab court records"]
+    "references": [
+      "Sikh historical chronicles",
+      "Punjab court records"
+    ]
   },
   {
     "id": "laxmibai",
@@ -1470,6 +1488,9 @@
       "Remains an enduring inspiration for later Indian freedom movements"
     ],
     "legacy": "Rani Lakshmibai remains one of India's most celebrated freedom fighters — remembered for leading from the front and choosing death over surrender. British officers who fought against her, including Hugh Rose, are recorded as praising her courage and skill as a commander.",
-    "references": ["1857 Revolt historical records", "Jhansi state chronicles"]
+    "references": [
+      "1857 Revolt historical records",
+      "Jhansi state chronicles"
+    ]
   }
 ]
