@@ -162,34 +162,57 @@ Information includes:
 
 ---
 
+#  Getting Started
+
+Requires **Node.js 20.19+** (or 22+).
+
+```bash
+npm install        # once, to install dependencies
+npm run dev        # start the dev server at http://localhost:5173
+```
+
+Other commands:
+
+| Command | What it does |
+| --- | --- |
+| `npm run build` | Type-checks and creates the production site in `dist/` |
+| `npm run preview` | Serves the production build locally |
+| `npm test` | Renders every page (all warriors, kingdoms, battles) to catch crashes |
+| `npm run validate:data` | Checks that every id referenced in the content files exists |
+| `npm run typecheck` | TypeScript check only |
+
+## Deploying
+
+`dist/` is a static site, so any static host works. Deep links (e.g. `/warriors/shivaji`) are handled for you on
+**Netlify** (`public/_redirects`), **Vercel** (`vercel.json`) and **GitHub Pages** (`404.html` is generated on build).
+For a GitHub Pages *project* site served from `/Eternal-Bharat/`, build with:
+
+```bash
+VITE_BASE=/Eternal-Bharat/ npm run build      # Windows PowerShell: $env:VITE_BASE="/Eternal-Bharat/"; npm run build
+```
+
+## Adding content
+
+All content lives in `src/data/*.json` (warriors, kingdoms, battles, timeline). Add an entry, run
+`npm run validate:data`, and the new page, cards, search results and timeline links appear automatically.
+
+---
+
 #  Project Structure
 
 ```text
 Eternal-Bharat/
-
-│
 ├── index.html
-├── css/
-├── js/
-├── assets/
-│
-├── warriors/
-│   ├── maharana-pratap.html
-│   ├── rana-sanga.html
-│   ├── maharana-kumbha.html
-│   ├── bappa-rawal.html
-│   ├── rawal-ratan-singh.html
-│   ├── rani-lakshmibai.html
-│   ├── sambhaji-maharaj.html
-│   └── ...
-│
-├── images/
-│   ├── warriors/
-│   ├── kingdoms/
-│   ├── maps/
-│   └── backgrounds/
-│
-└── README.md
+├── public/                  # static files copied as-is (_redirects)
+├── scripts/                 # validate-data, postbuild
+└── src/
+    ├── main.tsx, App.tsx    # entry point and routes (one lazy-loaded chunk per page)
+    ├── index.css            # design tokens (colours, fonts) + shared styles
+    ├── types.ts             # Warrior / Kingdom / Battle / TimelineEvent types
+    ├── data/                # content as JSON + typed access (index.ts)
+    ├── components/          # Navbar, Footer, cards, Detail layout, Timeline, ...
+    ├── pages/               # Home, Warriors, WarriorDetail, Kingdoms, ...
+    └── lib/hooks.ts         # search/URL state, page meta, scroll-spy
 ```
 
 ---
@@ -206,9 +229,12 @@ Eternal-Bharat/
 
 #  Tech Stack
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
+- React 19 + TypeScript
+- Vite
+- React Router
+- Tailwind CSS 4
+- Self-hosted fonts (Cinzel, Poppins)
+- Vitest
 
 ---
 
