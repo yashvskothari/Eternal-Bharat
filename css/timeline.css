@@ -1351,3 +1351,16 @@ background:var(--gold);
 color:#111;
 
 }
+
+/* =========================================================
+   STORY TIMELINE (warrior / kingdom / battle detail pages)
+========================================================= */
+.story-timeline { position: relative; display: grid; gap: 26px; padding-left: 34px; }
+.story-timeline::before { content: ""; position: absolute; left: 7px; top: 8px; bottom: 8px; width: 1px; background: linear-gradient(var(--gold), rgba(212, 175, 55, 0.1)); }
+.story-node { position: relative; display: grid; grid-template-columns: 110px 1fr; gap: 22px; padding: 22px 26px; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); transition: var(--transition); }
+.story-node::before { content: ""; position: absolute; left: -33px; top: 30px; width: 15px; height: 15px; border-radius: 50%; background: var(--bg-primary); border: 2px solid var(--gold); box-shadow: 0 0 0 4px rgba(212, 175, 55, 0.12); }
+.story-node:hover { border-color: var(--border-strong); transform: translateX(6px); }
+.story-year { font-family: var(--font-display); color: var(--gold); font-weight: 600; }
+.story-body h3 { font-size: 1.1rem; margin-bottom: 6px; }
+.story-body p { color: var(--text-muted); font-size: 0.96rem; }
+@media (max-width: 640px) { .story-node { grid-template-columns: 1fr; gap: 6px; } }

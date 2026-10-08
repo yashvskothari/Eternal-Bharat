@@ -1,0 +1,47 @@
+/* =========================================================
+   HOME — featured warriors, kingdom preview, about preview
+========================================================= */
+.kings-preview, .kingdom-preview, .warriors-grid-section.container, .about-preview { width: min(92%, var(--container)); margin-inline: auto; }
+.warriors-grid-section:not(.container) { width: min(92%, var(--container)); margin-inline: auto; }
+
+.kings-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; }
+.king-card {
+  position: relative; display: flex; min-height: 340px; padding: 34px 28px; overflow: hidden;
+  background: linear-gradient(160deg, var(--bg-raised), var(--bg-card) 70%);
+  border: 1px solid var(--border); border-radius: var(--radius-large);
+  transition: var(--transition);
+}
+.king-card::before { content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 3px; background: var(--gold-gradient); transform: scaleX(0); transform-origin: left; transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1); }
+.king-card:hover { transform: translateY(-8px); border-color: var(--border-strong); box-shadow: var(--shadow-gold); }
+.king-card:hover::before { transform: scaleX(1); }
+.king-card-content { display: flex; flex-direction: column; gap: 14px; width: 100%; }
+.king-era { color: var(--gold); font-size: 0.85rem; letter-spacing: 0.1em; }
+.king-card h3 { font-size: 1.5rem; }
+.king-card p { color: var(--text-muted); font-size: 0.97rem; display: -webkit-box; -webkit-line-clamp: 5; line-clamp: 5; -webkit-box-orient: vertical; overflow: hidden; }
+.king-link { margin-top: auto; padding-top: 12px; color: var(--gold-light); font-weight: 600; }
+.king-link:hover { color: var(--white); }
+
+/* Kingdom preview tiles */
+.kingdom-preview .kingdom-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 22px; }
+.kingdom-card { position: relative; display: block; overflow: hidden; border: 1px solid var(--border); border-radius: var(--radius-large); background: var(--bg-card); transition: var(--transition); }
+.kingdom-card-image { aspect-ratio: 1 / 1; overflow: hidden; background: #0c0a06; }
+.kingdom-card-image img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.9s cubic-bezier(0.22, 1, 0.36, 1); }
+.kingdom-card-content { position: absolute; inset: auto 0 0 0; padding: 40px 20px 20px; background: linear-gradient(180deg, transparent, rgba(5, 4, 3, 0.95)); }
+.kingdom-card-content h3 { font-size: 1.15rem; color: var(--gold-light); }
+.kingdom-card:hover { transform: translateY(-6px); border-color: var(--border-strong); box-shadow: var(--shadow-gold); }
+.kingdom-card:hover img { transform: scale(1.08); }
+
+/* About preview */
+.about-preview { padding-bottom: 60px; }
+.about-label, .about-hero .heritage-label { color: var(--gold); letter-spacing: 0.25em; font-size: 0.8rem; display: block; margin-bottom: 14px; }
+.about-content { display: grid; grid-template-columns: 1.15fr 1fr; gap: 56px; align-items: center; }
+.about-text p { margin-bottom: 20px; font-size: 1.08rem; color: var(--text-light); }
+.about-text .secondary-btn { margin-top: 12px; }
+.about-highlights { display: grid; gap: 16px; }
+.about-highlight { display: flex; gap: 22px; align-items: center; padding: 24px 26px; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); transition: var(--transition); }
+.about-highlight:hover { border-color: var(--border-strong); transform: translateX(8px); }
+.highlight-number { font-family: var(--font-display); font-size: 2rem; color: var(--gold); min-width: 52px; }
+.about-highlight h3 { font-size: 1.15rem; margin-bottom: 4px; }
+.about-highlight p { color: var(--text-muted); font-size: 0.95rem; line-height: 1.55; }
+
+@media (max-width: 900px) { .about-content { grid-template-columns: 1fr; gap: 36px; } }

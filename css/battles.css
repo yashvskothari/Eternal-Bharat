@@ -1,0 +1,6 @@
+/* =========================================================
+   BATTLES — listing page extras
+========================================================= */
+#battle-grid .card-content h3 { font-size: 1.25rem; }
+#battle-grid .card-btn { white-space: nowrap; }
+#battle-timeline { margin-top: 20px; }
